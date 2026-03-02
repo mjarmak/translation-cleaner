@@ -5,7 +5,7 @@
 ### 1. flatten:
 `python ./scripts/flatten_i18n.py ./files/en.json ./output/en.flat.json`
 
-### 2. usage report:
+### 2. usage report (in project):
 #### case sensitive
 `python ./scripts/usage_report.py ./output/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage.report.csv`
 
@@ -13,7 +13,7 @@
 `python ./scripts/usage_report.py ./output/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage-ignore-case.report.csv --ignore-case`
 
 ### 3. deduplicate:
-`python ./scripts/deduplicate_keys.py ./output/en.flat.json  --duplicates-out ./output/en_duplicates.report.txt --mapping-out ./output/en_deduplicated-keys.txt`
+`python ./scripts/deduplicate_keys.py ./output/en.flat.json  --duplicates-out ./output/en_duplicates.report.txt --mapping-out ./output/en_deduplicated-mapping.txt`
 
 ### 4. rename everywhere:
 `python ./scripts/rename_keys.py en.flat.json hashmap.txt`
