@@ -1,6 +1,5 @@
 import json
 import argparse
-from pathlib import Path
 
 
 def flatten_dict(d, parent_key="", sep="."):
