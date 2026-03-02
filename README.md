@@ -3,7 +3,7 @@
 ### Order of operations:
 
 #### 1. flatten:
-`python ./scripts/flatten_i18n.py ./in/en.json ./out/en.flat.json`
+`python ./scripts/flatten_i18n.py ./files/en.json ./output/en.flat.json`
 
 #### 2. usage report:
 `python ./scripts/usage_report.py en.flat.json`
