@@ -15,69 +15,42 @@ def is_all_uppercase(value: str) -> bool:
     return letters_only == letters_only.upper()
 
 
-def separate_file(data, underscore_keys, uppercase_keys):
-    """Separate a JSON file based on underscore and uppercase key sets."""
-    underscore_data = {}
-    uppercase_data = {}
-    filtered_data = {}
-
-    for key, value in data.items():
-        has_underscore = key in underscore_keys
-        is_uppercase = key in uppercase_keys
-
-        if has_underscore:
-            underscore_data[key] = value
-
-        if is_uppercase:
-            uppercase_data[key] = value
-
-        if not has_underscore and not is_uppercase:
-            filtered_data[key] = value
-
-    return underscore_data, uppercase_data, filtered_data
-
-
 def main():
     parser = argparse.ArgumentParser(
-        description="Separate flattened JSON into underscore keys, uppercase values, and filtered versions"
+        description="Separate English flat JSON into underscore, uppercase, and filtered versions. Generate only filtered versions for other languages."
     )
-    parser.add_argument("flat_json", help="Primary flattened JSON file (used to determine categories)")
+    parser.add_argument("flat_json", help="Primary English flattened JSON file")
+    parser.add_argument(
+        "--output-dir",
+        required=True,
+        help="Output directory for all separated files",
+    )
     parser.add_argument(
         "--language-files",
         default="",
         help="Comma-separated list of additional language files to filter (e.g., './output/flat/fr.flat.json,./output/flat/nl.flat.json')",
     )
-    parser.add_argument(
-        "--underscore-out",
-        default="flat_underscore.json",
-        help="Output file for keys containing underscore (suffix for language files)",
-    )
-    parser.add_argument(
-        "--uppercase-out",
-        default="flat_uppercase.json",
-        help="Output file for all-uppercase values (suffix for language files)",
-    )
-    parser.add_argument(
-        "--filtered-out",
-        default="flat_filtered.json",
-        help="Output file without underscore and uppercase (suffix for language files)",
-    )
 
     args = parser.parse_args()
 
     flat_path = Path(args.flat_json)
+    output_dir = Path(args.output_dir)
 
     if not flat_path.exists():
         parser.error(f"Flat JSON file not found: {flat_path}")
 
-    log(f"Loading primary flattened JSON: {flat_path}")
+    # Create output directory if it doesn't exist
+    output_dir.mkdir(parents=True, exist_ok=True)
+    log(f"Output directory: {output_dir}")
+
+    log(f"Loading English flattened JSON: {flat_path}")
     with open(flat_path, encoding="utf-8") as f:
         data = json.load(f)
 
     original_count = len(data)
     log(f"Loaded {original_count} keys")
 
-    # Determine underscore and uppercase key sets from primary file
+    # Determine underscore and uppercase key sets from English file
     underscore_keys = set()
     uppercase_keys = set()
 
@@ -91,13 +64,26 @@ def main():
     log(f"Found {len(underscore_keys)} keys with underscore")
     log(f"Found {len(uppercase_keys)} keys with uppercase values")
 
-    # Process primary file
-    underscore_data, uppercase_data, filtered_data = separate_file(data, underscore_keys, uppercase_keys)
+    # Separate English file into three categories
+    underscore_data = {}
+    uppercase_data = {}
+    filtered_data = {}
 
-    # Write primary file outputs
-    underscore_out = Path(args.underscore_out)
-    uppercase_out = Path(args.uppercase_out)
-    filtered_out = Path(args.filtered_out)
+    for key, value in data.items():
+        if key in underscore_keys:
+            underscore_data[key] = value
+
+        if key in uppercase_keys:
+            uppercase_data[key] = value
+
+        if key not in underscore_keys and key not in uppercase_keys:
+            filtered_data[key] = value
+
+    # Generate English output paths
+    en_stem = flat_path.stem  # e.g., "en.flat"
+    underscore_out = output_dir / f"{en_stem}.underscore.json"
+    uppercase_out = output_dir / f"{en_stem}.uppercase.json"
+    filtered_out = output_dir / f"{en_stem}.filtered.json"
 
     log(f"Writing underscore keys to: {underscore_out}")
     with open(underscore_out, "w", encoding="utf-8") as f:
@@ -114,10 +100,10 @@ def main():
         json.dump(filtered_data, f, ensure_ascii=False, indent=2)
     log(f"Wrote {len(filtered_data)} filtered keys")
 
-    # Process additional language files if provided
+    # Process additional language files - generate all 3 files
     if args.language_files:
         lang_files = [p.strip() for p in args.language_files.split(",")]
-        log(f"\nProcessing {len(lang_files)} additional language file(s)...")
+        log(f"\nProcessing {len(lang_files)} additional language file(s) - generating all 3 files...")
 
         for lang_file in lang_files:
             lang_path = Path(lang_file)
@@ -125,40 +111,40 @@ def main():
                 log(f"⚠️  Language file not found: {lang_path}")
                 continue
 
-            log(f"\nLoading language file: {lang_path}")
+            log(f"\nLoading: {lang_path}")
             with open(lang_path, encoding="utf-8") as f:
                 lang_data = json.load(f)
 
             lang_count = len(lang_data)
             log(f"Loaded {lang_count} keys")
 
-            # Separate using the same categories from primary file
-            lang_underscore, lang_uppercase, lang_filtered = separate_file(lang_data, underscore_keys, uppercase_keys)
+            # Create all three separated categories (use same categories as English)
+            lang_underscore = {k: v for k, v in lang_data.items() if k in underscore_keys}
+            lang_uppercase = {k: v for k, v in lang_data.items() if k in uppercase_keys}
+            lang_filtered = {k: v for k, v in lang_data.items() if k not in underscore_keys and k not in uppercase_keys}
 
-            # Generate output paths based on input file name
-            stem = lang_path.stem  # e.g., "fr.flat"
-            parent = lang_path.parent
+            # Generate output paths
+            lang_stem = lang_path.stem  # e.g., "fr.flat"
+            lang_underscore_out = output_dir / f"{lang_stem}.underscore.json"
+            lang_uppercase_out = output_dir / f"{lang_stem}.uppercase.json"
+            lang_filtered_out = output_dir / f"{lang_stem}.filtered.json"
 
-            lang_underscore_out = parent / f"{stem}.underscore.json"
-            lang_uppercase_out = parent / f"{stem}.uppercase.json"
-            lang_filtered_out = parent / f"{stem}.filtered.json"
-
-            log(f"Writing to: {lang_underscore_out}")
+            log(f"Writing underscore keys to: {lang_underscore_out}")
             with open(lang_underscore_out, "w", encoding="utf-8") as f:
                 json.dump(lang_underscore, f, ensure_ascii=False, indent=2)
             log(f"Wrote {len(lang_underscore)} underscore keys")
 
-            log(f"Writing to: {lang_uppercase_out}")
+            log(f"Writing uppercase values to: {lang_uppercase_out}")
             with open(lang_uppercase_out, "w", encoding="utf-8") as f:
                 json.dump(lang_uppercase, f, ensure_ascii=False, indent=2)
             log(f"Wrote {len(lang_uppercase)} uppercase keys")
 
-            log(f"Writing to: {lang_filtered_out}")
+            log(f"Writing filtered keys to: {lang_filtered_out}")
             with open(lang_filtered_out, "w", encoding="utf-8") as f:
                 json.dump(lang_filtered, f, ensure_ascii=False, indent=2)
             log(f"Wrote {len(lang_filtered)} filtered keys")
 
-            # Validate counts
+            # Validate
             overlap = len([k for k in lang_underscore if k in lang_uppercase])
             total = len(lang_underscore) + len(lang_uppercase) + len(lang_filtered) - overlap
             if total == lang_count:
@@ -166,16 +152,14 @@ def main():
             else:
                 log(f"✗ Validation FAILED for {lang_path.name}: expected {lang_count}, got {total}")
 
-    # Validation for primary file: Check total counts
+    # Validation for English file: Check total counts
     total_separated = len(underscore_data) + len(uppercase_data) + len(filtered_data)
-
-    # Account for keys that might be in multiple categories (underscore + uppercase)
     overlap_count = len([k for k in underscore_data if k in uppercase_data])
     adjusted_total = total_separated - overlap_count
 
     log("")
     log("=" * 60)
-    log("PRIMARY FILE SUMMARY:")
+    log("ENGLISH FILE SUMMARY:")
     log("=" * 60)
     log(f"Original keys: {original_count}")
     log(f"Keys with underscore: {len(underscore_data)}")

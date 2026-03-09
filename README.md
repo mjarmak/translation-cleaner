@@ -23,30 +23,28 @@ PROJECT_SRC = C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src
 
 ## Order of operations:
 
-### 1. flatten:
+### 1.1. flatten:
 
 Flatten all language files at once:
 `python ./scripts/flatten_json.py ./files/en.json ./output/flat/en.flat.json ./files/fr.json ./output/flat/fr.flat.json ./files/nl.json ./output/flat/nl.flat.json ./files/de.json ./output/flat/de.flat.json`
 
-Or flatten them individually:
-
-`python ./scripts/flatten_json.py ./files/en.json ./output/flat/en.flat.json`
-
-`python ./scripts/flatten_json.py ./files/fr.json ./output/flat/fr.flat.json`
-
-`python ./scripts/flatten_json.py ./files/nl.json ./output/flat/nl.flat.json`
-
-`python ./scripts/flatten_json.py ./files/de.json ./output/flat/de.flat.json`
-
-### 1.2  separate keys that contain '_' and all uppercase values
+### 1.2 . separate keys that contain '_' and all uppercase values
 **Files:** `FLAT_JSON` → `FLAT_JSON_UNDERSCORE` + `FLAT_JSON_UPPERCASE` + `FLAT_JSON_FILTERED`
 
 Use the outputs to manually prepare keys in the projects for hashing replacement in the next steps:
 
 -  Manually add an 'uppercase' css style to the html of the all uppercase values, then merge the keys in the next steps.
--  Manully review the underscore 
+-  Manually review the underscore keys before applying transformations.
 
-`python ./scripts/separate_flat_uppercase_keys.py ./output/flat/en.flat.json --underscore-out ./output/flat/en.flat.underscore.json --uppercase-out ./output/flat/en.flat.uppercase.json --filtered-out ./output/flat/en.flat.filtered.json`
+**Separate all languages using English as the reference for categories (generates all 3 files for each language):**
+
+`python ./scripts/separate_flat_uppercase_keys.py ./output/flat/en.flat.json --output-dir ./output/flat_separated --language-files "./output/flat/fr.flat.json,./output/flat/nl.flat.json,./output/flat/de.flat.json"`
+
+**Output files generated in the specified output directory (all 3 files for each language):**
+- `en.flat.underscore.json`, `en.flat.uppercase.json`, `en.flat.filtered.json`
+- `fr.flat.underscore.json`, `fr.flat.uppercase.json`, `fr.flat.filtered.json`
+- `nl.flat.underscore.json`, `nl.flat.uppercase.json`, `nl.flat.filtered.json`
+- `de.flat.underscore.json`, `de.flat.uppercase.json`, `de.flat.filtered.json`
 
 ### 2. usage report (in project):
 **Files:** `FLAT_JSON` → `USAGE_REPORT` or `USAGE_REPORT_IGNORE_CASE`
