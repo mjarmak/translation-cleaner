@@ -24,75 +24,86 @@ PROJECT_SRC = C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src
 ## Order of operations:
 
 ### 1. flatten:
-**Files:** `INPUT_FILE` → `FLAT_JSON`
-`python ./scripts/flatten_json.py ./files/en.json ./output/en.flat.json`
+**Files:** `INPUT_FILE` + `FLAT_JSON_FR` + `FLAT_JSON_NL` + `FLAT_JSON_DE` → All flattened outputs
 
-`python ./scripts/flatten_json.py ./files/fr.json ./output/fr.flat.json`
+Flatten all language files at once:
+```bash
+python ./scripts/flatten_json.py ./files/en.json $FLAT_JSON ./files/fr.json $FLAT_JSON_FR ./files/nl.json $FLAT_JSON_NL ./files/de.json $FLAT_JSON_DE
+```
 
-`python ./scripts/flatten_json.py ./files/nl.json ./output/nl.flat.json`
-
-`python ./scripts/flatten_json.py ./files/de.json ./output/de.flat.json`
+Or flatten them individually:
+```bash
+python ./scripts/flatten_json.py ./files/en.json $FLAT_JSON
+python ./scripts/flatten_json.py ./files/fr.json $FLAT_JSON_FR
+python ./scripts/flatten_json.py ./files/nl.json $FLAT_JSON_NL
+python ./scripts/flatten_json.py ./files/de.json $FLAT_JSON_DE
+```
 
 ### 2. usage report (in project):
 **Files:** `FLAT_JSON` → `USAGE_REPORT` or `USAGE_REPORT_IGNORE_CASE`
 
 #### case sensitive, case insensitive:
-`python ./scripts/usage_report.py ./output/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage.report.csv`,
-
-`python ./scripts/usage_report.py ./output/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage-ignore-case.report.csv --ignore-case`
+```bash
+python ./scripts/usage_report.py $FLAT_JSON --src $PROJECT_SRC --out $USAGE_REPORT
+python ./scripts/usage_report.py $FLAT_JSON --src $PROJECT_SRC --out $USAGE_REPORT_IGNORE_CASE --ignore-case
+```
 
 #### case sensitive with language values, case insensitive with language values:
-`python ./scripts/usage_report.py ./output/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage.report.csv --languages "./output/fr.flat.json,./output/nl.flat.json,./output/de.flat.json"`,
-
-`python ./scripts/usage_report.py ./output/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage-ignore-case.report.csv --ignore-case --languages "./output/fr.flat.json,./output/nl.flat.json,./output/de.flat.json"`
+```bash
+python ./scripts/usage_report.py $FLAT_JSON --src $PROJECT_SRC --out $USAGE_REPORT --languages "$FLAT_JSON_FR,$FLAT_JSON_NL,$FLAT_JSON_DE"
+python ./scripts/usage_report.py $FLAT_JSON --src $PROJECT_SRC --out $USAGE_REPORT_IGNORE_CASE --ignore-case --languages "$FLAT_JSON_FR,$FLAT_JSON_NL,$FLAT_JSON_DE"
+```
 
 ### 3. create mapping of duplicate keys to their canonical key:
 **Files:** `FLAT_JSON` → `CANONICAL_MAPPING` + `DUPLICATES_REPORT`
 
-#### case sensitive
-
-`python ./scripts/canonical_map.py ./output/en.flat.json --duplicates-out ./output/en_duplicates.report.txt --mapping-out ./output/en_canonical-mapping.txt --prefix hash_`
-
-#### case insensitive
-`python ./scripts/canonical_map.py ./output/en.flat.json --duplicates-out ./output/en_duplicates.report.txt --mapping-out ./output/en_canonical-mapping.txt --prefix hash_ --ignore-case`
+#### case sensitive, case insensitive:
+```bash
+python ./scripts/canonical_map.py $FLAT_JSON --duplicates-out $DUPLICATES_REPORT --mapping-out $CANONICAL_MAPPING --prefix hash_
+python ./scripts/canonical_map.py $FLAT_JSON --duplicates-out $DUPLICATES_REPORT --mapping-out $CANONICAL_MAPPING --prefix hash_ --ignore-case
+```
 
 ### 4. rename keys (in project and translation files):
+**Files:** `FLAT_JSON*` + `CANONICAL_MAPPING`
+
 Renames keys in the project and translations, then delete duplicates in the translation files.
 
-# REPLACE `FLAT_JSON` with real file in project
 #### Apply on i18n json files
-
-`python ./scripts/apply_mapping_flat_json.py ./output/en.flat.json ./output/en_canonical-mapping.txt`
-
-`python ./scripts/apply_mapping_flat_json.py ./output/fr.flat.json ./output/en_canonical-mapping.txt`
-
-`python ./scripts/apply_mapping_flat_json.py ./output/nl.flat.json ./output/en_canonical-mapping.txt`
-
-`python ./scripts/apply_mapping_flat_json.py ./output/de.flat.json ./output/en_canonical-mapping.txt`
+```bash
+python ./scripts/apply_mapping_flat_json.py $FLAT_JSON $CANONICAL_MAPPING
+python ./scripts/apply_mapping_flat_json.py $FLAT_JSON_FR $CANONICAL_MAPPING
+python ./scripts/apply_mapping_flat_json.py $FLAT_JSON_NL $CANONICAL_MAPPING
+python ./scripts/apply_mapping_flat_json.py $FLAT_JSON_DE $CANONICAL_MAPPING
+```
 
 #### Apply on project files
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/en_canonical-mapping.txt`
+```bash
+python ./scripts/apply_mapping_project.py $PROJECT_SRC $CANONICAL_MAPPING
+```
 
 ### 5. rename hashed keys (in project and translation files):
 **Files:** `CANONICAL_MAPPING_JSON` → `HASH_RENAME_MAPPING` → `FLAT_JSON*`
 
 Run the following scripts to create a mapping file for the hashed keys in the 'common.<key>' format. The hashed keys are identified by looking at the 'hash_' prefix in the key names.
 
-`python ./scripts/rename_hashed_keys.py ./output/en_canonical-mapping.json ./output/hash_rename-mapping.txt --prefix hash_`
+```bash
+python ./scripts/rename_hashed_keys.py $CANONICAL_MAPPING_JSON $HASH_RENAME_MAPPING --prefix hash_
+```
 
 #### Apply on i18n json files
 Then run the rename script below again to update the project and translation files.
 
-`python ./scripts/apply_mapping_flat_json.py ./output/en.flat.json ./output/hash_rename-mapping.txt`
-
-`python ./scripts/apply_mapping_flat_json.py ./output/fr.flat.json ./output/hash_rename-mapping.txt`
-
-`python ./scripts/apply_mapping_flat_json.py ./output/nl.flat.json ./output/hash_rename-mapping.txt`
-
-`python ./scripts/apply_mapping_flat_json.py ./output/de.flat.json ./output/hash_rename-mapping.txt`
+```bash
+python ./scripts/apply_mapping_flat_json.py $FLAT_JSON $HASH_RENAME_MAPPING
+python ./scripts/apply_mapping_flat_json.py $FLAT_JSON_FR $HASH_RENAME_MAPPING
+python ./scripts/apply_mapping_flat_json.py $FLAT_JSON_NL $HASH_RENAME_MAPPING
+python ./scripts/apply_mapping_flat_json.py $FLAT_JSON_DE $HASH_RENAME_MAPPING
+```
 
 #### Apply on project files
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/hash_rename-mapping.txt`
+```bash
+python ./scripts/apply_mapping_project.py $PROJECT_SRC $HASH_RENAME_MAPPING
+```
 
 ### 6. delete unused keys:
 **Files:** `FLAT_JSON` + `REMOVE_LIST` → `FLAT_JSON_CLEAN`
@@ -110,9 +121,21 @@ Keep in mind that some keys are concatenated in the .ts files, such as statuses 
 `python ./scripts/delete_translations.py ./output/en.flat.json ./files/remove.txt --out ./output/en.flat.clean.json`
 
 ### 7. unflatten:
-**Files:** `FLAT_JSON` → `UNFLAT_JSON`
+**Files:** `FLAT_JSON` + `FLAT_JSON_FR` + `FLAT_JSON_NL` + `FLAT_JSON_DE` → All unflattened outputs
 
-`python ./scripts/unflatten_json.py ./output/en.flat.json --out ./output/en.unflat.json`
+Unflatten all language files at once:
+
+`python ./scripts/unflatten_json.py ./output/en.flat.json ./output/en.unflat.json ./output/fr.flat.json ./output/fr.unflat.json ./output/nl.flat.json ./output/nl.unflat.json ./output/de.flat.json ./output/de.unflat.json`
+
+Or unflatten them individually:
+
+`python ./scripts/unflatten_json.py ./output/en.flat.json ./output/en.unflat.json`
+
+`python ./scripts/unflatten_json.py ./output/fr.flat.json ./output/fr.unflat.json`
+
+`python ./scripts/unflatten_json.py ./output/nl.flat.json ./output/nl.unflat.json`
+
+`python ./scripts/unflatten_json.py ./output/de.flat.json ./output/de.unflat.json`
 
 ## Extras:
 

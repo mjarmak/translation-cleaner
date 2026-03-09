@@ -21,33 +21,50 @@ def unflatten(flat_dict: dict[str, str]) -> dict:
     return nested
 
 def main():
-    parser = argparse.ArgumentParser(description="Unflatten a flattened i18n JSON file")
-    parser.add_argument("flat_json", help="Flattened JSON input file")
+    parser = argparse.ArgumentParser(
+        description="Unflatten JSON file(s) - supports single or multiple input-output pairs"
+    )
     parser.add_argument(
-        "--out",
-        default="unflattened.json",
-        help="Output file for nested JSON",
+        "files",
+        nargs="+",
+        help="Input and output files (input1 output1 [input2 output2 ...])"
     )
     args = parser.parse_args()
 
-    flat_path = Path(args.flat_json)
-    out_path = Path(args.out)
+    # Check if we have pairs of files
+    if len(args.files) % 2 != 0:
+        parser.error("Please provide pairs of input and output files (input1 output1 input2 output2 ...)")
 
-    if not flat_path.exists():
-        raise FileNotFoundError(f"Flattened file not found: {flat_path}")
+    # Process each pair
+    total_pairs = len(args.files) // 2
+    for i in range(total_pairs):
+        input_file = args.files[i * 2]
+        output_file = args.files[i * 2 + 1]
 
-    log(f"Loading flattened file: {flat_path}")
-    with open(flat_path, encoding="utf-8") as f:
-        flat_data = json.load(f)
+        flat_path = Path(input_file)
+        out_path = Path(output_file)
 
-    log(f"Unflattening {len(flat_data)} keys")
-    nested_data = unflatten(flat_data)
+        if not flat_path.exists():
+            log(f"Error: File not found: {flat_path}")
+            continue
 
-    log(f"Writing nested JSON to: {out_path}")
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(nested_data, f, ensure_ascii=False, indent=2)
+        try:
+            log(f"Loading flattened file: {flat_path}")
+            with open(flat_path, encoding="utf-8") as f:
+                flat_data = json.load(f)
 
-    log(f"✅ Done, {len(flat_data)} keys unflattened")
+            log(f"Unflattening {len(flat_data)} keys")
+            nested_data = unflatten(flat_data)
+
+            log(f"Writing nested JSON to: {out_path}")
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(nested_data, f, ensure_ascii=False, indent=2)
+
+            log(f"Done, {len(flat_data)} keys unflattened: {flat_path} -> {out_path}")
+        except json.JSONDecodeError:
+            log(f"Error: Invalid JSON in {flat_path}")
+        except Exception as e:
+            log(f"Error processing {flat_path}: {e}")
 
 if __name__ == "__main__":
     main()
