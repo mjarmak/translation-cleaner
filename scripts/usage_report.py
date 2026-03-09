@@ -12,7 +12,7 @@ def log(msg: str):
     print(f"[i18n-usage] {msg}")
 
 
-def load_flat_keys(flat_path: Path) -> list[str]:
+def load_flat_keys(flat_path: Path) -> tuple[list[str], dict]:
     log(f"Loading flattened keys from: {flat_path}")
     start = time.time()
 
@@ -22,7 +22,20 @@ def load_flat_keys(flat_path: Path) -> list[str]:
     keys = list(data.keys())
 
     log(f"Loaded {len(keys)} keys in {time.time() - start:.2f}s")
-    return keys
+    return keys, data
+
+
+def load_language_file(flat_path: Path) -> dict:
+    """Load a language file and return key-value mapping."""
+    if not flat_path.exists():
+        return {}
+
+    try:
+        with open(flat_path, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        log(f"⚠️ Could not load language file {flat_path}: {e}")
+        return {}
 
 
 def scan_project(src_path: Path, keys: list[str], ignore_case: bool, verbose: bool) -> Counter:
@@ -88,16 +101,34 @@ def scan_project(src_path: Path, keys: list[str], ignore_case: bool, verbose: bo
     return counter
 
 
-def write_csv(output_path: Path, all_keys: list[str], counter: Counter):
+def write_csv(output_path: Path, all_keys: list[str], counter: Counter, en_data: dict, language_data: dict):
     log(f"Writing CSV report to: {output_path}")
     start = time.time()
 
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["key", "usage_count"])
+
+        # Build header
+        header = ["key", "en_value", "usage_count"]
+        # Add language-specific columns if we have data
+        if language_data:
+            for lang_code in sorted(language_data.keys()):
+                header.append(f"{lang_code}_value")
+
+        writer.writerow(header)
 
         for key in sorted(all_keys):
-            writer.writerow([key, counter.get(key, 0)])
+            row = [
+                key,
+                en_data.get(key, ""),
+                counter.get(key, 0)
+            ]
+            # Add language values if available
+            if language_data:
+                for lang_code in sorted(language_data.keys()):
+                    row.append(language_data[lang_code].get(key, ""))
+
+            writer.writerow(row)
 
     log(f"CSV written in {time.time() - start:.2f}s")
 
@@ -106,19 +137,19 @@ def print_summary(keys: list[str], counter: Counter):
     used = sum(1 for k in keys if counter.get(k, 0) > 0)
     unused = len(keys) - used
 
-    log("📊 Summary")
+    log("Summary")
     log(f"Used keys:   {used}")
     log(f"Unused keys: {unused}")
 
     top_used = counter.most_common(10)
     if top_used:
-        log("🔥 Top used keys:")
+        log("Top used keys:")
         for key, count in top_used:
             log(f"   {key}: {count}")
 
     unused_keys = [k for k in keys if counter.get(k, 0) == 0][:10]
     if unused_keys:
-        log("🧹 Sample unused keys:")
+        log("Sample unused keys:")
         for k in unused_keys:
             log(f"   {k}")
 
@@ -127,7 +158,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Count translation key usage in Angular project"
     )
-    parser.add_argument("flat_json", help="Flattened i18n JSON file")
+    parser.add_argument("flat_json", help="Flattened i18n JSON file (English)")
     parser.add_argument("--src", default="src", help="Source directory")
     parser.add_argument("--out", default="usage_report.csv", help="Output CSV")
     parser.add_argument("--verbose", action="store_true")
@@ -136,11 +167,16 @@ def main():
         action="store_true",
         help="Case-insensitive key matching",
     )
+    parser.add_argument(
+        "--languages",
+        default="",
+        help="Comma-separated list of language file paths (e.g., './output/fr.flat.json,./output/nl.flat.json')",
+    )
 
     args = parser.parse_args()
 
     overall_start = time.time()
-    log("🚀 Starting i18n usage analysis")
+    log("Starting i18n usage analysis")
 
     flat_path = Path(args.flat_json)
     src_path = Path(args.src)
@@ -152,8 +188,19 @@ def main():
     if not src_path.exists():
         raise FileNotFoundError(f"Source folder not found: {src_path}")
 
-    # Load keys
-    keys = load_flat_keys(flat_path)
+    # Load English keys and values
+    keys, en_data = load_flat_keys(flat_path)
+
+    # Load other language files if provided
+    language_data = {}
+    if args.languages:
+        lang_files = [p.strip() for p in args.languages.split(",")]
+        for lang_file in lang_files:
+            lang_path = Path(lang_file)
+            # Extract language code from filename (e.g., 'fr.flat.json' -> 'fr')
+            lang_code = lang_path.stem.split(".")[0]
+            log(f"Loading language file: {lang_path} (code: {lang_code})")
+            language_data[lang_code] = load_language_file(lang_path)
 
     # Scan project
     counter = scan_project(
@@ -164,12 +211,12 @@ def main():
     )
 
     # Write CSV
-    write_csv(out_path, keys, counter)
+    write_csv(out_path, keys, counter, en_data, language_data)
 
     # Summary
     print_summary(keys, counter)
 
-    log(f"✅ Done in {time.time() - overall_start:.2f}s")
+    log(f"Done in {time.time() - overall_start:.2f}s")
 
 
 if __name__ == "__main__":

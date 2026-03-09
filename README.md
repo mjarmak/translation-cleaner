@@ -27,13 +27,24 @@ PROJECT_SRC = C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src
 **Files:** `INPUT_FILE` → `FLAT_JSON`
 `python ./scripts/flatten_json.py ./files/en.json ./output/en.flat.json`
 
+`python ./scripts/flatten_json.py ./files/fr.json ./output/fr.flat.json`
+
+`python ./scripts/flatten_json.py ./files/nl.json ./output/nl.flat.json`
+
+`python ./scripts/flatten_json.py ./files/de.json ./output/de.flat.json`
+
 ### 2. usage report (in project):
 **Files:** `FLAT_JSON` → `USAGE_REPORT` or `USAGE_REPORT_IGNORE_CASE`
 
-`python ./scripts/usage_report.py ./output/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage.report.csv`
+#### case sensitive, case insensitive:
+`python ./scripts/usage_report.py ./output/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage.report.csv`,
 
-#### case insensitive
 `python ./scripts/usage_report.py ./output/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage-ignore-case.report.csv --ignore-case`
+
+#### case sensitive with language values, case insensitive with language values:
+`python ./scripts/usage_report.py ./output/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage.report.csv --languages "./output/fr.flat.json,./output/nl.flat.json,./output/de.flat.json"`,
+
+`python ./scripts/usage_report.py ./output/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage-ignore-case.report.csv --ignore-case --languages "./output/fr.flat.json,./output/nl.flat.json,./output/de.flat.json"`
 
 ### 3. create mapping of duplicate keys to their canonical key:
 **Files:** `FLAT_JSON` → `CANONICAL_MAPPING` + `DUPLICATES_REPORT`
