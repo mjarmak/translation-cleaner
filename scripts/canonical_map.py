@@ -72,7 +72,21 @@ def main():
     # Write duplicates listing
     # -------------------------------------------------
     log(f"Writing duplicates list to: {duplicates_out}")
+
+    # Calculate statistics
+    total_duplicate_keys = sum(len(keys) for keys in duplicates.values())
+    total_unique_values = len(duplicates)
+
     with open(duplicates_out, "w", encoding="utf-8") as f:
+        # Write summary header
+        f.write("=" * 60 + "\n")
+        f.write("DUPLICATES REPORT SUMMARY\n")
+        f.write("=" * 60 + "\n")
+        f.write(f"Total duplicate values found: {total_unique_values}\n")
+        f.write(f"Total duplicate keys found: {total_duplicate_keys}\n")
+        f.write(f"Unique values with 2+ keys: {total_unique_values}\n")
+        f.write("=" * 60 + "\n\n")
+
         for value_key, key_list in duplicates.items():
             # Extract original value from first tuple
             original_value = key_list[0][0]

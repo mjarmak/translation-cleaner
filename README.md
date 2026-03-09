@@ -50,7 +50,11 @@ Only en is needed to create the mapping, then it can be applied to all languages
 
 The mapping file will contain the canonical key for each duplicate key, and the duplicates report will list all the duplicate keys and their corresponding canonical key.
 
-Case-insensitive finds more duplicates, but it may also create false positives if there are keys that differ only by case but have different meanings. Case sensitive will be more strict and only find exact duplicates, but it may miss some duplicates that differ only by case.
+Case-insensitive finds more duplicates, but it may also create false positives if there are keys that differ only by case but have different meanings.
+
+Case-sensitive will be more strict and only find exact duplicates, but it may miss some duplicates that differ only by case.
+
+A prefix 'hash_' is added to the canonical keys to more easily identify them as the keys that should be renamed to the hashed keys in the project files.
 
 #### case insensitive
 
@@ -65,23 +69,25 @@ Renames keys in the project and translations, then delete duplicates in the tran
 
 #### Apply on i18n json files
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/en.flat.json ./output/en_canonical-mapping.txt --out ./output/replaced/en.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/en.flat.json ./output/canonical/en_canonical-mapping.txt --out ./output/replaced/en.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/fr.flat.json ./output/replaced/en_canonical-mapping.txt --out ./output/replaced/fr.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/fr.flat.json ./output/canonical/en_canonical-mapping.txt --out ./output/replaced/fr.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/nl.flat.json ./output/replaced/en_canonical-mapping.txt --out ./output/replaced/nl.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/nl.flat.json ./output/canonical/en_canonical-mapping.txt --out ./output/replaced/nl.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/de.flat.json ./output/replaced/en_canonical-mapping.txt --out ./output/replaced/de.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/de.flat.json ./output/canonical/replaced/en_canonical-mapping.txt --out ./output/replaced/de.flat.mapped.json`
 
 #### Apply on project files
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/en_canonical-mapping.txt`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/canonical/en_canonical-mapping.txt`
 
-### 5. rename hashed keys (in project and translation files):
-**Files:** `CANONICAL_MAPPING_JSON` → `HASH_RENAME_MAPPING` → `FLAT_JSON*`
+### 5. rename hashed keys to meaning translation keys (in project and translation files):
+**Files:** `CANONICAL_MAPPING_JSON` + `HASH_RENAME_MAPPING` → `FLAT_JSON*`
 
-Run the following scripts to create a mapping file for the hashed keys in the 'common.<key>' format. The hashed keys are identified by looking at the 'hash_' prefix in the key names.
+Run the following scripts to create a mapping file for the hashed keys in the 'common.<key>' format.
 
-`python ./scripts/rename_hashed_keys.py ./output/en_canonical-mapping.json ./output/hash_rename-mapping.txt --prefix hash_`
+The hashed keys are identified by looking at the 'hash_' prefix in the key names.
+
+`python ./scripts/rename_hashed_keys.py ./output/en_canonical-mapping.json ./output/hash_rename-mapping.txt --prefix hash_ --out ./output/hash_rename-mapping.txt`
 
 #### Apply on i18n json files
 Then run the rename script below again to update the project and translation files.
