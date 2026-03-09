@@ -114,14 +114,10 @@ def main():
 
         # Check if files exist
         if not orig_path.exists():
-            log(f"Error: Original file not found: {orig_path}")
-            all_valid = False
-            continue
+            parser.error(f"Original file not found: {orig_path}")
 
         if not unflat_path.exists():
-            log(f"Error: Unflattened file not found: {unflat_path}")
-            all_valid = False
-            continue
+            parser.error(f"Unflattened file not found: {unflat_path}")
 
         try:
             # Load both files

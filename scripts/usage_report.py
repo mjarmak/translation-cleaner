@@ -111,9 +111,9 @@ def write_csv(output_path: Path, all_keys: list[str], counter: Counter, en_data:
         # Build header
         header = ["key", "en_value", "usage_count"]
         # Add language-specific columns if we have data
-        if language_data:
-            for lang_code in sorted(language_data.keys()):
-                header.append(f"{lang_code}_value")
+        language_codes = sorted(language_data.keys()) if language_data else []
+        for lang_code in language_codes:
+            header.append(f"{lang_code}_value")
 
         writer.writerow(header)
 
@@ -124,9 +124,9 @@ def write_csv(output_path: Path, all_keys: list[str], counter: Counter, en_data:
                 counter.get(key, 0)
             ]
             # Add language values if available
-            if language_data:
-                for lang_code in sorted(language_data.keys()):
-                    row.append(language_data[lang_code].get(key, ""))
+            for lang_code in language_codes:
+                lang_dict = language_data.get(lang_code, {})
+                row.append(lang_dict.get(key, ""))
 
             writer.writerow(row)
 
@@ -183,10 +183,10 @@ def main():
     out_path = Path(args.out)
 
     if not flat_path.exists():
-        raise FileNotFoundError(f"Flatten file not found: {flat_path}")
+        parser.error(f"Flatten file not found: {flat_path}")
 
     if not src_path.exists():
-        raise FileNotFoundError(f"Source folder not found: {src_path}")
+        parser.error(f"Source folder not found: {src_path}")
 
     # Load English keys and values
     keys, en_data = load_flat_keys(flat_path)
@@ -197,6 +197,8 @@ def main():
         lang_files = [p.strip() for p in args.languages.split(",")]
         for lang_file in lang_files:
             lang_path = Path(lang_file)
+            if not lang_path.exists():
+                parser.error(f"Language file not found: {lang_path}")
             # Extract language code from filename (e.g., 'fr.flat.json' -> 'fr')
             lang_code = lang_path.stem.split(".")[0]
             log(f"Loading language file: {lang_path} (code: {lang_code})")
