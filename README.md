@@ -75,5 +75,5 @@ Keep in mind that some keys are concatenated in the .ts files, such as statuses 
 
 ### convert flat to csv:
 
-`python ./scripts/flatten_to_csv.py ./output/en.flat.json --out ./output/en.flat.csv`
+`python ./scripts/flat_to_csv.py ./output/en.flat.json --out ./output/en.flat.csv`
 
