@@ -77,8 +77,8 @@ def main():
             # Extract original value from first tuple
             original_value = key_list[0][0]
             f.write(f"VALUE: {original_value}\n")
-            for _, k in key_list:
-                f.write(f"  - {k}\n")
+            for value, k in key_list:
+                f.write(f"  - {k} = {value}\n")
             f.write("\n")
 
     # -------------------------------------------------

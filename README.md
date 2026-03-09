@@ -46,25 +46,32 @@ Or flatten them individually:
 ### 3. create mapping of duplicate keys to their canonical key:
 **Files:** `FLAT_JSON` → `CANONICAL_MAPPING` + `DUPLICATES_REPORT`
 
-#### case sensitive
+Only en is needed to create the mapping, then it can be applied to all languages.
 
-`python ./scripts/canonical_map.py ./output/flat/en.flat.json --duplicates-out ./output/en_duplicates.report.txt --mapping-out ./output/en_canonical-mapping.txt --prefix hash_`
+The mapping file will contain the canonical key for each duplicate key, and the duplicates report will list all the duplicate keys and their corresponding canonical key.
+
+Case-insensitive finds more duplicates, but it may also create false positives if there are keys that differ only by case but have different meanings. Case sensitive will be more strict and only find exact duplicates, but it may miss some duplicates that differ only by case.
 
 #### case insensitive
-`python ./scripts/canonical_map.py ./output/flat/en.flat.json --duplicates-out ./output/en_duplicates.report.txt --mapping-out ./output/en_canonical-mapping.txt --prefix hash_ --ignore-case`
+
+`python ./scripts/canonical_map.py ./output/flat/en.flat.json --duplicates-out ./output/hash/en_duplicates.report.txt --mapping-out ./output/hash/en_canonical-mapping.txt --prefix hash_ --ignore-case`
+
+#### case sensitive
+
+`python ./scripts/canonical_map.py ./output/flat/en.flat.json --duplicates-out ./output/hash/en_duplicates-case_sensititve.report.txt --mapping-out ./output/hash/en_canonical-mapping-case_sensititve.txt --prefix hash_`
 
 ### 4. rename keys (in project and translation files):
 Renames keys in the project and translations, then delete duplicates in the translation files.
 
 #### Apply on i18n json files
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/en.flat.json ./output/en_canonical-mapping.txt`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/en.flat.json ./output/en_canonical-mapping.txt --out ./output/replaced/en.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/fr.flat.json ./output/en_canonical-mapping.txt`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/fr.flat.json ./output/replaced/en_canonical-mapping.txt --out ./output/replaced/fr.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/nl.flat.json ./output/en_canonical-mapping.txt`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/nl.flat.json ./output/replaced/en_canonical-mapping.txt --out ./output/replaced/nl.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/de.flat.json ./output/en_canonical-mapping.txt`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/de.flat.json ./output/replaced/en_canonical-mapping.txt --out ./output/replaced/de.flat.mapped.json`
 
 #### Apply on project files
 `python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/en_canonical-mapping.txt`
