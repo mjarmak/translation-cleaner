@@ -45,10 +45,8 @@ Or flatten them individually:
 
 `python ./scripts/usage_report.py ./output/flat/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage-ignore-case.report.csv --ignore-case`
 
-#### case sensitive with language values, case insensitive with language values:
-`python ./scripts/usage_report.py ./output/flat/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage.report.csv --languages "./output/fr.flat.json,./output/nl.flat.json,./output/de.flat.json"`,
-
-`python ./scripts/usage_report.py ./output/flat/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage-ignore-case.report.csv --ignore-case --languages "./output/fr.flat.json,./output/nl.flat.json,./output/de.flat.json"`
+#### case insensitive with language values:
+`python ./scripts/usage_report.py ./output/flat/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage-ignore-case.report.csv --ignore-case --languages "./output/flat/fr.flat.json,./output/flat/nl.flat.json,./output/flat/de.flat.json"`
 
 ### 3. create mapping of duplicate keys to their canonical key:
 **Files:** `FLAT_JSON` → `CANONICAL_MAPPING` + `DUPLICATES_REPORT`
@@ -63,7 +61,6 @@ Or flatten them individually:
 ### 4. rename keys (in project and translation files):
 Renames keys in the project and translations, then delete duplicates in the translation files.
 
-# REPLACE `FLAT_JSON` with real file in project
 #### Apply on i18n json files
 
 `python ./scripts/apply_mapping_flat_json.py ./output/flat/en.flat.json ./output/en_canonical-mapping.txt`
@@ -129,6 +126,25 @@ Or unflatten them individually:
 `python ./scripts/unflatten_json.py ./output/flat/nl.flat.json ./output/unflat/nl.unflat.json`
 
 `python ./scripts/unflatten_json.py ./output/flat/de.flat.json ./output/unflat/de.unflat.json`
+
+### 8. validate flatten ↔ unflatten:
+**Files:** Original JSON + Unflattened → Validation
+
+Validate that the original JSON file is the same as the unflattened file (ensuring no data loss during the flatten/unflatten process):
+
+Validate all language files at once:
+
+`python ./scripts/validate_flatten_unflatten.py ./files/en.json ./output/unflat/en.unflat.json ./files/fr.json ./output/unflat/fr.unflat.json ./files/nl.json ./output/unflat/nl.unflat.json ./files/de.json ./output/unflat/de.unflat.json`
+
+Or validate them individually:
+
+`python ./scripts/validate_flatten_unflatten.py ./files/en.json ./output/unflat/en.unflat.json --verbose`
+
+`python ./scripts/validate_flatten_unflatten.py ./files/fr.json ./output/unflat/fr.unflat.json --verbose`
+
+`python ./scripts/validate_flatten_unflatten.py ./files/nl.json ./output/unflat/nl.unflat.json --verbose`
+
+`python ./scripts/validate_flatten_unflatten.py ./files/de.json ./output/unflat/de.unflat.json --verbose`
 
 ## Extras:
 
