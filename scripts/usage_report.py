@@ -101,7 +101,7 @@ def scan_project(src_path: Path, keys: list[str], ignore_case: bool, verbose: bo
     return counter
 
 
-def write_csv(output_path: Path, all_keys: list[str], counter: Counter, en_data: dict, language_data: dict):
+def write_csv(output_path: Path, all_keys: list[str], counter: Counter, en_data: dict, language_data: dict, ignore_case: bool = False):
     log(f"Writing CSV report to: {output_path}")
     start = time.time()
 
@@ -120,13 +120,39 @@ def write_csv(output_path: Path, all_keys: list[str], counter: Counter, en_data:
         for key in sorted(all_keys):
             row = [
                 key,
-                en_data.get(key, ""),
-                counter.get(key, 0)
             ]
+
+            # Add English value(s)
+            if ignore_case:
+                # For case-insensitive mode, collect all matching English values
+                key_lower = key.lower()
+                matching_en_values = []
+                for k, v in en_data.items():
+                    if k.lower() == key_lower and v:  # Only add non-empty values
+                        matching_en_values.append(v)
+                # Join all unique values with |
+                en_value = "|".join(dict.fromkeys(matching_en_values)) if matching_en_values else ""
+                row.append(en_value)
+            else:
+                row.append(en_data.get(key, ""))
+
+            row.append(counter.get(key, 0))
+
             # Add language values if available
             for lang_code in language_codes:
                 lang_dict = language_data.get(lang_code, {})
-                row.append(lang_dict.get(key, ""))
+                if ignore_case:
+                    # For case-insensitive mode, collect all matching values
+                    key_lower = key.lower()
+                    matching_values = []
+                    for k, v in lang_dict.items():
+                        if k.lower() == key_lower and v:  # Only add non-empty values
+                            matching_values.append(v)
+                    # Join all unique values with |
+                    value = "|".join(dict.fromkeys(matching_values)) if matching_values else ""
+                    row.append(value)
+                else:
+                    row.append(lang_dict.get(key, ""))
 
             writer.writerow(row)
 
@@ -214,6 +240,7 @@ def main():
 
     # Write CSV
     write_csv(out_path, keys, counter, en_data, language_data)
+    write_csv(out_path, keys, counter, en_data, language_data, ignore_case=args.ignore_case)
 
     # Summary
     print_summary(keys, counter)
