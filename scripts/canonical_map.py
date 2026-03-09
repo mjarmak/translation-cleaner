@@ -32,6 +32,11 @@ def main():
         default="",
         help="Optional prefix to prepend to each base64 hash in the mapping file",
     )
+    parser.add_argument(
+        "--ignore-case",
+        action="store_true",
+        help="Case-insensitive duplicate detection",
+    )
 
     args = parser.parse_args()
 
@@ -39,11 +44,13 @@ def main():
     duplicates_out = Path(args.duplicates_out)
     mapping_out = Path(args.mapping_out)
     prefix = args.prefix
+    ignore_case = args.ignore_case
 
     if not flat_path.exists():
         raise FileNotFoundError(f"Flatten file not found: {flat_path}")
 
     log(f"Loading flattened file: {flat_path}")
+    log(f"Case insensitive mode: {'ON' if ignore_case else 'OFF'}")
     with open(flat_path, encoding="utf-8") as f:
         data = json.load(f)
 
@@ -52,7 +59,10 @@ def main():
     # Group keys by value
     value_to_keys = defaultdict(list)
     for key, value in data.items():
-        value_to_keys[str(value)].append(key)
+        str_value = str(value)
+        # Use lowercase value as the grouping key if ignore_case is True
+        group_key = str_value.lower() if ignore_case else str_value
+        value_to_keys[group_key].append((str_value, key))
 
     # Filter duplicates only
     duplicates = {value: keys for value, keys in value_to_keys.items() if len(keys) > 1}
@@ -63,9 +73,11 @@ def main():
     # -------------------------------------------------
     log(f"Writing duplicates list to: {duplicates_out}")
     with open(duplicates_out, "w", encoding="utf-8") as f:
-        for value, keys in duplicates.items():
-            f.write(f"VALUE: {value}\n")
-            for k in keys:
+        for value_key, key_list in duplicates.items():
+            # Extract original value from first tuple
+            original_value = key_list[0][0]
+            f.write(f"VALUE: {original_value}\n")
+            for _, k in key_list:
                 f.write(f"  - {k}\n")
             f.write("\n")
 
@@ -75,9 +87,11 @@ def main():
     log(f"Writing base64 mapping to: {mapping_out}")
     total_mapped = 0
     with open(mapping_out, "w", encoding="utf-8") as f:
-        for value, keys in duplicates.items():
-            hash_key = prefix + to_base64(value)
-            for k in keys:
+        for value_key, key_list in duplicates.items():
+            # Use original value for hash generation
+            original_value = key_list[0][0]
+            hash_key = prefix + to_base64(original_value)
+            for _, k in key_list:
                 f.write(f"{hash_key}: {k}\n")
                 total_mapped += 1
 

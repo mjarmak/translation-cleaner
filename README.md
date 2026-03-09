@@ -36,8 +36,14 @@ PROJECT_SRC = C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src
 `python ./scripts/usage_report.py ./output/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage-ignore-case.report.csv --ignore-case`
 
 ### 3. create mapping of duplicate keys to their canonical key:
+**Files:** `FLAT_JSON` → `CANONICAL_MAPPING` + `DUPLICATES_REPORT`
+
+#### case sensitive
 
 `python ./scripts/canonical_map.py ./output/en.flat.json --duplicates-out ./output/en_duplicates.report.txt --mapping-out ./output/en_canonical-mapping.txt --prefix hash_`
+
+#### case insensitive
+`python ./scripts/canonical_map.py ./output/en.flat.json --duplicates-out ./output/en_duplicates.report.txt --mapping-out ./output/en_canonical-mapping.txt --prefix hash_ --ignore-case`
 
 ### 4. rename keys (in project and translation files):
 Renames keys in the project and translations, then delete duplicates in the translation files.
