@@ -38,6 +38,16 @@ Or flatten them individually:
 
 `python ./scripts/flatten_json.py ./files/de.json ./output/flat/de.flat.json`
 
+### 1.2  separate keys that contain '_' and all uppercase values
+**Files:** `FLAT_JSON` → `FLAT_JSON_UNDERSCORE` + `FLAT_JSON_UPPERCASE` + `FLAT_JSON_FILTERED`
+
+Use the outputs to manually prepare keys in the projects for hashing replacement in the next steps:
+
+-  Manually add an 'uppercase' css style to the html of the all uppercase values, then merge the keys in the next steps.
+-  Manully review the underscore 
+
+`python ./scripts/separate_flat_uppercase_keys.py ./output/flat/en.flat.json --underscore-out ./output/flat/en.flat.underscore.json --uppercase-out ./output/flat/en.flat.uppercase.json --filtered-out ./output/flat/en.flat.filtered.json`
+
 ### 2. usage report (in project):
 **Files:** `FLAT_JSON` → `USAGE_REPORT` or `USAGE_REPORT_IGNORE_CASE`
 
@@ -63,24 +73,6 @@ A prefix 'hash_' is added to the canonical keys to more easily identify them as 
 #### case sensitive
 
 `python ./scripts/canonical_map.py ./output/flat/en.flat.json --duplicates-out ./output/hash/en_duplicates-case_sensititve.report.txt --mapping-out ./output/hash/en_canonical-mapping-case_sensititve.txt --prefix hash_`
-
-### 3.5. filter duplicates for analysis:
-
-**Files:** `DUPLICATES_REPORT` + `CANONICAL_MAPPING` → **6 Output Files**
-
-Separates duplicates report and canonical mapping into 6 files for detailed analysis and safe bulk replacement:
-
-**Output Files:**
-1. `en_duplicates_with_underscore.report.txt` - Duplicate groups where keys contain `_` (status/option codes)
-2. `en_canonical-mapping_with_underscore.txt` - Canonical mapping for underscore keys (requires manual handling)
-3. `en_duplicates_all_uppercase.report.txt` - Duplicate groups with all-uppercase values (constants/acronyms)
-4. `en_canonical-mapping_with_uppercase.txt` - Canonical mapping for uppercase values (requires manual handling)
-5. `en_duplicates-filtered.report.txt` - Duplicate groups safe for replacement (no underscore/uppercase)
-6. `en_canonical-mapping-filtered.txt` - Canonical mapping safe for bulk replacement (no underscore/uppercase)
-
-**Usage:**
-
-`python ./scripts/filter_duplicates.py ./output/hash/en_duplicates.report.txt --canonical-in ./output/hash/en_canonical-mapping.txt --underscore-duplicates-out ./output/hash/en_duplicates_with_underscore.report.txt --underscore-canonical-out ./output/hash/en_canonical-mapping_with_underscore.txt --uppercase-duplicates-out ./output/hash/en_duplicates_all_uppercase.report.txt --uppercase-canonical-out ./output/hash/en_canonical-mapping_with_uppercase.txt --filtered-duplicates-out ./output/hash/en_duplicates-filtered.report.txt --filtered-canonical-out ./output/hash/en_canonical-mapping-filtered.txt`
 
 ### 4. rename keys (in project and translation files):
 Renames keys in the project and translations, then delete duplicates in the translation files.
