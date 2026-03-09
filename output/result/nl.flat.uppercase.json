@@ -1,6 +1,6 @@
 {
   "app.gnss": "GNSS",
-  "app.unlocode": "UN LOCODE",
+  "app.unlocode": "UN/LOCODE",
   "advanceSearch.labels.advancedSearch": "GEAVANCEERD ZOEKEN",
   "advanceSearch.labels.eori": "EORI",
   "advanceSearch.labels.lrn": "LRN",
@@ -91,7 +91,7 @@
   "navDrawer.step.riskAndControlInfo": "Risico en controle informatie",
   "navDrawer.step.incidents": "INCIDENTEN",
   "recoveryRequests.mrn": "MRN",
-  "registerControlResultDialog.unlocode": "UN LOCODE",
+  "registerControlResultDialog.unlocode": "UN/LOCODE",
   "releaseRequest.listHeader.lrn": "LRN",
   "releaseRequest.listHeader.mrn": "MRN",
   "requestOnNonArrivedMovement.table.mrn": "MRN",

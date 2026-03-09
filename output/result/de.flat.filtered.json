@@ -429,7 +429,7 @@
   "declarationOverview.unforeseenProblem.description": "Unforeseen problem",
   "declarationOverview.unforeseenProblem.message": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
   "declarationOverview.unforeseenProblem.title": "Validation request could not be processed",
-  "des.registerArrivalNotification.UNLocode": "UNLocode",
+  "des.registerArrivalNotification.UNLocode": "UN/LOCODE",
   "des.registerArrivalNotification.actions.add": "hinzufügen",
   "des.registerArrivalNotification.actions.addAuthorisation": "Fügen Sie eine Autorisierung hinzu",
   "des.registerArrivalNotification.actions.addIncident": "Einen Vorfall hinzufügen",
