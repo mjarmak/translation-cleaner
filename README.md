@@ -80,7 +80,7 @@ Separates duplicates report and canonical mapping into 6 files for detailed anal
 
 **Usage:**
 
-`python ./scripts/filter_duplicates.py ./output/hash/en_duplicates.report.txt --canonical-in ./output/hash/en_canonical-mapping.txt --underscore-duplicates-out ./output/hash/en_duplicates_with_underscore.report.txt --underscore-canonical-out ./output/hash/en_canonical-mapping_with_underscore.txt --uppercase-duplicates-out ./output/hash/en_duplicates_all_uppercase.report.txt --uppercase-canonical-out ./output/hash/en_canonical-mapping_with_uppercase.txt --filtered-duplicates-out ./output/hash/en_duplicates-filtered.txt --filtered-canonical-out ./output/hash/en_canonical-mapping-filtered.txt`
+`python ./scripts/filter_duplicates.py ./output/hash/en_duplicates.report.txt --canonical-in ./output/hash/en_canonical-mapping.txt --underscore-duplicates-out ./output/hash/en_duplicates_with_underscore.report.txt --underscore-canonical-out ./output/hash/en_canonical-mapping_with_underscore.txt --uppercase-duplicates-out ./output/hash/en_duplicates_all_uppercase.report.txt --uppercase-canonical-out ./output/hash/en_canonical-mapping_with_uppercase.txt --filtered-duplicates-out ./output/hash/en_duplicates-filtered.report.txt --filtered-canonical-out ./output/hash/en_canonical-mapping-filtered.txt`
 
 ### 4. rename keys (in project and translation files):
 Renames keys in the project and translations, then delete duplicates in the translation files.

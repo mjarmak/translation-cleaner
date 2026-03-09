@@ -227,43 +227,90 @@ def main():
     log(f"Writing filtered duplicates to: {filtered_dup_out}")
     write_filtered_report(filtered_dup_out, filtered_entries, "DUPLICATES (FILTERED - NO UNDERSCORE/UPPERCASE)")
 
-    # Write canonical mappings
+    # Write canonical mappings with full duplicate blocks
     if canonical_mapping:
-        # Underscore canonical mapping
-        underscore_canonical = {}
-        for key, canonical_key in canonical_mapping.items():
-            if key in underscore_keys_set:
-                underscore_canonical[key] = canonical_key
+        # Build mapping from original_key to its value and duplicate group for reference
+        key_to_value = {}
+        for hash_key, original_key in canonical_mapping.items():
+            if original_key not in key_to_value:
+                # Find the value for this key from the entries
+                for value, keys in entries:
+                    for k, v in keys:
+                        if k == original_key:
+                            key_to_value[original_key] = (value, v)
+                            break
+
+        # Underscore canonical mapping - include full blocks for keys with underscore
+        underscore_blocks = []
+        for value, keys in entries:
+            has_underscore = any(k in underscore_keys_set for k, _ in keys)
+            if has_underscore:
+                underscore_blocks.append((value, keys))
 
         log(f"Writing underscore canonical mapping to: {underscore_can_out}")
         with open(underscore_can_out, "w", encoding="utf-8") as f:
-            for key, canonical_key in sorted(underscore_canonical.items()):
-                f.write(f"{key}: {canonical_key}\n")
-        log(f"Wrote {len(underscore_canonical)} underscore mappings")
+            f.write("=" * 60 + "\n")
+            f.write("CANONICAL MAPPING - UNDERSCORE KEYS (REQUIRES REVIEW)\n")
+            f.write("=" * 60 + "\n")
+            f.write(f"Total value groups: {len(underscore_blocks)}\n")
+            total_underscore_can_keys = sum(len(keys) for _, keys in underscore_blocks)
+            f.write(f"Total keys: {total_underscore_can_keys}\n")
+            f.write("=" * 60 + "\n\n")
 
-        # Uppercase canonical mapping
-        uppercase_canonical = {}
-        for key, canonical_key in canonical_mapping.items():
-            if key in uppercase_keys_set:
-                uppercase_canonical[key] = canonical_key
+            for value, keys in underscore_blocks:
+                f.write(f"VALUE: {value}\n")
+                for key, val in keys:
+                    f.write(f"  - {key} = {val}\n")
+                f.write("\n")
+        log(f"Wrote {len(underscore_blocks)} underscore groups")
+
+        # Uppercase canonical mapping - include full blocks for keys with uppercase values
+        uppercase_blocks = []
+        for value, keys in entries:
+            has_uppercase = any(k in uppercase_keys_set for k, _ in keys)
+            if has_uppercase:
+                uppercase_blocks.append((value, keys))
 
         log(f"Writing uppercase canonical mapping to: {uppercase_can_out}")
         with open(uppercase_can_out, "w", encoding="utf-8") as f:
-            for key, canonical_key in sorted(uppercase_canonical.items()):
-                f.write(f"{key}: {canonical_key}\n")
-        log(f"Wrote {len(uppercase_canonical)} uppercase mappings")
+            f.write("=" * 60 + "\n")
+            f.write("CANONICAL MAPPING - UPPERCASE VALUES (REQUIRES REVIEW)\n")
+            f.write("=" * 60 + "\n")
+            f.write(f"Total value groups: {len(uppercase_blocks)}\n")
+            total_uppercase_can_keys = sum(len(keys) for _, keys in uppercase_blocks)
+            f.write(f"Total keys: {total_uppercase_can_keys}\n")
+            f.write("=" * 60 + "\n\n")
 
-        # Filtered canonical mapping (excluding underscore and uppercase keys)
-        filtered_canonical = {}
-        for key, canonical_key in canonical_mapping.items():
-            if key not in underscore_keys_set and key not in uppercase_keys_set:
-                filtered_canonical[key] = canonical_key
+            for value, keys in uppercase_blocks:
+                f.write(f"VALUE: {value}\n")
+                for key, val in keys:
+                    f.write(f"  - {key} = {val}\n")
+                f.write("\n")
+        log(f"Wrote {len(uppercase_blocks)} uppercase groups")
+
+        # Filtered canonical mapping - include full blocks excluding underscore and uppercase
+        filtered_blocks = []
+        for value, keys in entries:
+            filtered_keys = [(k, v) for k, v in keys if k not in underscore_keys_set and k not in uppercase_keys_set]
+            if filtered_keys:
+                filtered_blocks.append((value, filtered_keys))
 
         log(f"Writing filtered canonical mapping to: {filtered_can_out}")
         with open(filtered_can_out, "w", encoding="utf-8") as f:
-            for key, canonical_key in sorted(filtered_canonical.items()):
-                f.write(f"{key}: {canonical_key}\n")
-        log(f"Wrote {len(filtered_canonical)} filtered mappings")
+            f.write("=" * 60 + "\n")
+            f.write("CANONICAL MAPPING - SAFE FOR REPLACEMENT\n")
+            f.write("=" * 60 + "\n")
+            f.write(f"Total value groups: {len(filtered_blocks)}\n")
+            total_filtered_can_keys = sum(len(keys) for _, keys in filtered_blocks)
+            f.write(f"Total keys: {total_filtered_can_keys}\n")
+            f.write("=" * 60 + "\n\n")
+
+            for value, keys in filtered_blocks:
+                f.write(f"VALUE: {value}\n")
+                for key, val in keys:
+                    f.write(f"  - {key} = {val}\n")
+                f.write("\n")
+        log(f"Wrote {len(filtered_blocks)} safe groups")
     else:
         log("No canonical mapping provided, skipping canonical mapping outputs")
 
