@@ -67,11 +67,11 @@ A prefix 'hash_' is added to the canonical keys to more easily identify them as 
 
 #### case insensitive
 
-`python ./scripts/canonical_map.py ./output/flat/en.flat.filtered.json --duplicates-out ./output/hash/en_duplicates.report.txt --mapping-out ./output/hash/en_canonical-mapping.txt --prefix hash_ --ignore-case`
+`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/hash/en_duplicates.report.txt --mapping-out ./output/hash/en_canonical-mapping.txt --prefix hash_ --ignore-case`
 
 #### case sensitive
 
-`python ./scripts/canonical_map.py ./output/flat/en.flat.filtered.json --duplicates-out ./output/hash/en_duplicates-case_sensititve.report.txt --mapping-out ./output/hash/en_canonical-mapping-case_sensititve.txt --prefix hash_`
+`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/hash/en_duplicates-case_sensititve.report.txt --mapping-out ./output/hash/en_canonical-mapping-case_sensititve.txt --prefix hash_`
 
 ### 4. rename keys (in project and translation files):
 Renames keys in the project and translations, then delete duplicates in the translation files.
@@ -101,13 +101,13 @@ The hashed keys are identified by looking at the 'hash_' prefix in the key names
 #### Apply on i18n json files
 Then run the rename script below again to update the project and translation files.
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/en.flat.filtered.json ./output/hash_rename-mapping.txt`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/en.flat.filtered.json ./output/hash_rename-mapping.txt`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/fr.flat.filtered.json ./output/hash_rename-mapping.txt`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/hash_rename-mapping.txt`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/nl.flat.filtered.json ./output/hash_rename-mapping.txt`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/nl.flat.filtered.json ./output/hash_rename-mapping.txt`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/de.flat.filtered.json ./output/hash_rename-mapping.txt`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/de.flat.filtered.json ./output/hash_rename-mapping.txt`
 
 #### Apply on project files
 `python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/hash_rename-mapping.txt`
@@ -121,11 +121,11 @@ Keep in mind that some keys are concatenated in the .ts files, such as statuses 
 
 #### dry run (safe preview of what would be deleted)
 
-`python ./scripts/delete_translations.py ./output/flat/en.flat.filtered.json ./files/remove.txt --dry-run`
+`python ./scripts/delete_translations.py ./output/flat_separated/en.flat.filtered.json ./files/remove.txt --dry-run`
 
 #### actual deletion
 
-`python ./scripts/delete_translations.py ./output/flat/en.flat.filtered.json ./files/remove.txt --out ./output/en.flat.clean.json`
+`python ./scripts/delete_translations.py ./output/flat_separated/en.flat.filtered.json ./files/remove.txt --out ./output/en.flat.clean.json`
 
 ### 7. unflatten:
 **Files:** `FLAT_JSON` + `FLAT_JSON_FR` + `FLAT_JSON_NL` + `FLAT_JSON_DE` → All unflattened outputs
@@ -133,11 +133,11 @@ Keep in mind that some keys are concatenated in the .ts files, such as statuses 
 - Copy the content of the underscore and uppercase files back to the filtered files before unflattening, so that the unflattened files contain all keys (including those with underscores and uppercase segments).
 - Unflatten all language files at once:
 
-`python ./scripts/unflatten_json.py ./output/flat/en.flat.filtered.json ./output/unflat/en.unflat.json ./output/flat/fr.flat.json ./output/unflat/fr.unflat.json ./output/flat/nl.flat.json ./output/unflat/nl.unflat.json ./output/flat/de.flat.json ./output/unflat/de.unflat.json`
+`python ./scripts/unflatten_json.py ./output/flat_separated/en.flat.filtered.json ./output/unflat/en.unflat.json ./output/flat/fr.flat.json ./output/unflat/fr.unflat.json ./output/flat/nl.flat.json ./output/unflat/nl.unflat.json ./output/flat/de.flat.json ./output/unflat/de.unflat.json`
 
 Or unflatten them individually:
 
-`python ./scripts/unflatten_json.py ./output/flat/en.flat.filtered.json ./output/unflat/en.unflat.json`
+`python ./scripts/unflatten_json.py ./output/flat_separated/en.flat.filtered.json ./output/unflat/en.unflat.json`
 
 `python ./scripts/unflatten_json.py ./output/flat/fr.flat.json ./output/unflat/fr.unflat.json`
 

@@ -90,7 +90,8 @@ def main():
         if key in underscore_keys:
             underscore_data[key] = value
 
-        if key in uppercase_keys:
+        # Only add to uppercase if value is all uppercase AND key is NOT in underscore_keys
+        if key in uppercase_keys and key not in underscore_keys:
             uppercase_data[key] = value
 
         if key not in underscore_keys and key not in uppercase_keys:
@@ -137,7 +138,7 @@ def main():
 
             # Create all three separated categories (use same categories as English)
             lang_underscore = {k: v for k, v in lang_data.items() if k in underscore_keys}
-            lang_uppercase = {k: v for k, v in lang_data.items() if k in uppercase_keys}
+            lang_uppercase = {k: v for k, v in lang_data.items() if k in uppercase_keys and k not in underscore_keys}
             lang_filtered = {k: v for k, v in lang_data.items() if k not in underscore_keys and k not in uppercase_keys}
 
             # Generate output paths
