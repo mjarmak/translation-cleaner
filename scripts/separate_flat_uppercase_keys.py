@@ -1,5 +1,6 @@
 import json
 import argparse
+import re
 from pathlib import Path
 
 
@@ -13,6 +14,19 @@ def is_all_uppercase(value: str) -> bool:
     if not letters_only:  # No letters at all
         return False
     return letters_only == letters_only.upper()
+
+
+def has_uppercase_word(key: str) -> bool:
+    """Check if key contains a word that is all uppercase (e.g., CANCELLED in advanceSearch.labels.CANCELLED)."""
+    # Split by dots and check each part
+    parts = key.split('.')
+    for part in parts:
+        # Extract only letters from the part
+        letters_only = ''.join(c for c in part if c.isalpha())
+        # Check if this part is all uppercase and has at least one letter
+        if letters_only and letters_only == letters_only.upper():
+            return True
+    return False
 
 
 def main():
@@ -51,17 +65,20 @@ def main():
     log(f"Loaded {original_count} keys")
 
     # Determine underscore and uppercase key sets from English file
+    # Underscore keys: keys with '_' OR keys with uppercase word segments (e.g., CANCELLED)
     underscore_keys = set()
     uppercase_keys = set()
 
     for key, value in data.items():
         str_value = str(value)
-        if '_' in key:
+        # Underscore: contains '_' or has uppercase word in key
+        if '_' in key or has_uppercase_word(key):
             underscore_keys.add(key)
+        # Uppercase: value is all uppercase
         if is_all_uppercase(str_value):
             uppercase_keys.add(key)
 
-    log(f"Found {len(underscore_keys)} keys with underscore")
+    log(f"Found {len(underscore_keys)} keys with underscore or uppercase words")
     log(f"Found {len(uppercase_keys)} keys with uppercase values")
 
     # Separate English file into three categories
