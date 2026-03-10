@@ -146,10 +146,6 @@ layout.account.label
 layout.logout.ejected1
 layout.logout.ejected2
 layout.logout.modal
-layout.officeFilter.allOffices
-layout.officeFilter.myOffices
-layout.officeFilter.specificOffice
-layout.officeFilter.specificOffices
 layout.title
 login.password
 login.username
