@@ -5976,66 +5976,6 @@
     ]
   },
   {
-    "value": "2 (Assumed duplication)",
-    "count": 1,
-    "mapKeyTo": "enquiryRequests.enquiryResponse.ASSUMED_DUPLICATION",
-    "mapValueTo": "2 (Assumed duplication)",
-    "keys": [
-      {
-        "key": "enquiryRequests.enquiryResponse.ASSUMED_DUPLICATION",
-        "value": "2 (Assumed duplication)"
-      }
-    ]
-  },
-  {
-    "value": "IE006/IE018",
-    "count": 1,
-    "mapKeyTo": "enquiryRequests.enquiryResponse.IE006_IE018",
-    "mapValueTo": "IE006/IE018",
-    "keys": [
-      {
-        "key": "enquiryRequests.enquiryResponse.IE006_IE018",
-        "value": "IE006/IE018"
-      }
-    ]
-  },
-  {
-    "value": "1 (Movement unknown at destination)",
-    "count": 1,
-    "mapKeyTo": "enquiryRequests.enquiryResponse.MOVEMENT_UNKNOWN_AT_DESTINATION",
-    "mapValueTo": "1 (Movement unknown at destination)",
-    "keys": [
-      {
-        "key": "enquiryRequests.enquiryResponse.MOVEMENT_UNKNOWN_AT_DESTINATION",
-        "value": "1 (Movement unknown at destination)"
-      }
-    ]
-  },
-  {
-    "value": "4 (Request for recovery at destination)",
-    "count": 1,
-    "mapKeyTo": "enquiryRequests.enquiryResponse.REQUEST_FOR_RECOVERY_AT_DESTINATION",
-    "mapValueTo": "4 (Request for recovery at destination)",
-    "keys": [
-      {
-        "key": "enquiryRequests.enquiryResponse.REQUEST_FOR_RECOVERY_AT_DESTINATION",
-        "value": "4 (Request for recovery at destination)"
-      }
-    ]
-  },
-  {
-    "value": "3 (Return copy returned on)",
-    "count": 1,
-    "mapKeyTo": "enquiryRequests.enquiryResponse.RETURN_COPY_RETURNED_ON",
-    "mapValueTo": "3 (Return copy returned on)",
-    "keys": [
-      {
-        "key": "enquiryRequests.enquiryResponse.RETURN_COPY_RETURNED_ON",
-        "value": "3 (Return copy returned on)"
-      }
-    ]
-  },
-  {
     "value": "Endorsement",
     "count": 1,
     "mapKeyTo": "app.endorsement",
