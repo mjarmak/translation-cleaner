@@ -104,17 +104,20 @@ Applies canonical mapping to rename keys by `mapKeyTo` and optionally rename val
 
 For **English**: Use `--mapValues` to replace both keys and values
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/en.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/replaced/en.flat.mapped.json --mapValues`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/en.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/mapped/en.flat.mapped.json --mapValues`
 
 For **other languages**: Omit `--mapValues` to replace only keys and keep original language values
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/replaced/fr.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/mapped/fr.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/nl.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/replaced/nl.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/nl.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/mapped/nl.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/de.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/replaced/de.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/mapped/fr.flat.mapped.json`
 
-### Apply on project files (TypeScript/JavaScript/HTML)
+The `apply_mapping_flat_json.py` script does the following in one pass:
+1. **Copies** the input file to a new output file
+2. **Applies mapping** - renames keys to `mapKeyTo` and optionally values to `mapValueTo`
+3. **Removes duplicates** - keeps only the first (mapped) key and removes all other duplicate keys from the same value group
 
 #### Apply on project files (TypeScript/JavaScript/HTML/JSON)
 
@@ -139,7 +142,7 @@ Creates two output files:
 1. `unused_keys.txt` - Simple list of unused keys (one per line) for deletion
 2. `unused_keys_summary.txt` - Detailed report with statistics and key values
 
-`python ./scripts/find_unused_keys.py ./output/replaced/en.flat.mapped.json C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/remove_unused/unused_keys.txt`
+`python ./scripts/find_unused_keys.py ./output/mapped/en.flat.mapped.json C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/remove_unused/unused_keys.txt`
 
 ## 6. delete unused keys:
 **Files:** `FLAT_JSON` + `UNUSED_KEYS_LIST` → `FLAT_JSON_CLEAN`
@@ -148,14 +151,14 @@ Removes all unused keys from the flat JSON files based on the unused keys list.
 
 ### Preview changes (dry-run)
 
-`python ./scripts/delete_unused_keys.py ./output/replaced/en.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/en.flat.clean.json --dry-run`
+`python ./scripts/delete_unused_keys.py ./output/mapped/en.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/en.flat.clean.json --dry-run`
 
 ### Apply actual deletion
 
-`python ./scripts/delete_unused_keys.py ./output/replaced/en.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/en.flat.clean.json`
-`python ./scripts/delete_unused_keys.py ./output/replaced/fr.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/fr.flat.clean.json`
-`python ./scripts/delete_unused_keys.py ./output/replaced/nl.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/nl.flat.clean.json`
-`python ./scripts/delete_unused_keys.py ./output/replaced/de.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/de.flat.clean.json`
+`python ./scripts/delete_unused_keys.py ./output/mapped/en.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/en.flat.clean.json`
+`python ./scripts/delete_unused_keys.py ./output/mapped/fr.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/fr.flat.clean.json`
+`python ./scripts/delete_unused_keys.py ./output/mapped/nl.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/nl.flat.clean.json`
+`python ./scripts/delete_unused_keys.py ./output/mapped/de.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/de.flat.clean.json`
 
 ## 8. copy underscore keys back to filtered files:
 
