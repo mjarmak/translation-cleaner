@@ -135,11 +135,11 @@ The `apply_mapping_flat_json.py` script does the following in one pass:
 
 Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, `.htm`, and `.json` files in the project.
 
-First, preview the changes with dry-run:
+### Dry-Run mapping:
 
 `python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_mapping.json --dry-run`
 
-Then apply the actual mapping:
+### Actual mapping:
 
 `python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_mapping.json`
 
@@ -168,19 +168,22 @@ Removes all unused keys from the flat JSON files based on the unused keys list.
 ### Apply actual deletion
 
 `python ./scripts/delete_unused_keys.py ./output/mapped/en.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/en.flat.clean.json`
+
 `python ./scripts/delete_unused_keys.py ./output/mapped/fr.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/fr.flat.clean.json`
+
 `python ./scripts/delete_unused_keys.py ./output/mapped/nl.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/nl.flat.clean.json`
+
 `python ./scripts/delete_unused_keys.py ./output/mapped/de.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/de.flat.clean.json`
 
-## 8. copy underscore keys back to filtered files:
+## 7. copy underscore keys back to filtered files:
 
-Copy the content of the underscore and uppercase files back to the filtered files before unflattening, so that the unflattened files contain all keys (including those with underscores and uppercase segments).
+Copy the content of the underscore files back to the filtered files before unflattening, so that the unflattened files contain all keys (including those with underscores and uppercase segments).
 
 Copy the keys in [result](output%2Fresult).
 
 Uppercase keys should have been copied back after the manual CSS updates in 1.3.
 
-## 7. unflatten:
+## 8. unflatten:
 **Files:** `FLAT_JSON` + `FLAT_JSON_FR` + `FLAT_JSON_NL` + `FLAT_JSON_DE` → All unflattened outputs
 
 [//]: # (- Unflatten all language files at once:)
