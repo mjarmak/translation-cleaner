@@ -1,0 +1,580 @@
+============================================================
+UNUSED KEYS REPORT
+============================================================
+
+Total keys in flat JSON: 1010
+Used keys: 821
+Unused keys: 189
+Usage percentage: 81.3%
+
+============================================================
+UNUSED KEYS LIST (189 total):
+============================================================
+
+advanceSearch.action.exportFollDoc
+  Value: Export followed document
+
+advanceSearch.labels.AwaitingRiskAnalysisResult
+  Value: Awaiting risk analysis result
+
+advanceSearch.labels.AwaitingRiskHitConfirmation
+  Value: Awaiting risk hit confirmation
+
+advanceSearch.labels.ControlResultRegistered
+  Value: Control result registered
+
+advanceSearch.labels.PreArrivalRiskAnalysisCancelled
+  Value: Pre-arrival risk analysis cancelled
+
+advanceSearch.labels.PreArrivalRiskAnalysisCompleted
+  Value: Pre-arrival risk analysis completed
+
+advanceSearch.labels.conOrRec
+  Value: Container or receptacle
+
+advanceSearch.labels.filters
+  Value: Filters
+
+advanceSearch.labels.maxMass
+  Value: Max Mass
+
+advanceSearch.labels.maxPackages
+  Value: Max Packages
+
+advanceSearch.labels.maximumCharactersHint
+  Value: Maximum {{maxChars}} characters
+
+advanceSearch.labels.minMass
+  Value: Min Mass
+
+advanceSearch.labels.minPackages
+  Value: Min Packages
+
+advanceSearch.labels.personPresGoods
+  Value: Person presenting the goods
+
+advanceSearch.labels.presOfgoodsDate
+  Value: Presentation of goods date range
+
+advanceSearch.labels.progressBar
+  Value: Progress bar
+
+advanceSearch.labels.racStatus
+  Value: Risk and control status
+
+advanceSearch.labels.regDateRange
+  Value: Acceptance date range
+
+advanceSearch.labels.selectAllRow
+  Value: Select all row
+
+advanceSearch.labels.selectRow
+  Value: Select a row
+
+advanceSearch.labels.tirHolder
+  Value: TIR holder
+
+advanceSearch.labels.unknown
+  Value: Unknown MRN
+
+advanceSearch.labels.warehouse
+  Value: Warehouse
+
+advanceSearch.resultColumn.declarationAcceptanceDate
+  Value: Acceptance date and time
+
+advanceSearch.resultColumn.linkedDeclaration
+  Value: Linked Declaration
+
+advanceSearch.status.UnderControl
+  Value: Under control
+
+advanceSearch.type.Combined
+  Value: Combined
+
+app.transportEquipments
+  Value: Transport Equipments
+
+application.admin
+  Value: Admin
+
+application.dep
+  Value: Departure
+
+application.documentation
+  Value: Documentation
+
+application.exi
+  Value: Competent authority
+
+application.tra
+  Value: Transit
+
+bindingItinerary.dialog.labels.countryOfDispatch
+  Value: Country of departure
+
+bindingItinerary.dialog.labels.countryOfTransit
+  Value: Country of transit
+
+common.button.reset
+  Value: reset (one hour)
+
+common.customsOrganisation.logo
+  Value: Logo Federal Public Service - Finance
+
+common.select.loading
+  Value: Loading...
+
+confirmNavigation.leavePage
+  Value: Leave this page
+
+confirmNavigation.stayPage
+  Value: Stay on this page
+
+confirmNavigation.title
+  Value: Confirm navigation
+
+consignment-item-info.label.step
+  Value: Step {{ stepNumber }}: Item {{ itemNumber }}
+
+consult-consignment.labels.declaredLocationOfGoods
+  Value: Aangegeven locatie van de goederen
+
+consult-consignment.labels.id
+  Value: id
+
+consultTransitInfo.labels.actualArrivalDateAndTime
+  Value: Actual arrival date and time
+
+consultTransitInfo.labels.arrivalDateAndTimeActual
+  Value: Arrival date and time actual
+
+controlDecision.controlRecommendation
+  Value: Control Recommendation
+
+declarationOverview.banner.failure.messageHint
+  Value: Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later. 
+
+declarationOverview.banner.success.message
+  Value: Submission succeeded
+
+declarationOverview.banner.success.messageHint
+  Value: Thank you, your transit declaration is submitted successfully.
+
+declarationOverview.errorContainer.message
+  Value: Errors will only be rectified after the resubmission of the transit declaration.
+
+des.registerArrivalNotification.actions.addIncident
+  Value: Add an incident
+
+des.registerArrivalNotification.actions.anticipatedArrivalRequest
+  Value: Anticipated arrival request (IE002)
+
+des.registerArrivalNotification.errors.mrnInvalid
+  Value: The MRN is invalid
+
+enquiryAndRecovery.enquiry.body.enquiryCommunication
+  Value: Enquiry communication
+
+errorMessage.invalidProcedureForRelease
+  Value: This declaration cannot be released
+
+errorMessage.saveDeleted
+  Value: We were not able to submit the draft. The draft that you are working on, has been deleted.
+
+errorMessage.saveOutdated
+  Value: We were not able to save your draft. The draft that you are working on, is outdated. A more recent version is available. Any changes you made are discarded.
+
+eventHistory.button.backToHistory
+  Value: Back to history
+
+eventHistory.button.close
+  Value: Close
+
+eventHistory.error.amendment
+  Value: Amendment
+
+eventHistory.error.errorMessage
+  Value: We couldn’t accept your request for {{cat}} due to {{reason}}
+
+eventHistory.error.title
+  Value: Error
+
+eventHistory.label.Amendment
+  Value: Amendment request
+
+eventHistory.label.Invalidation
+  Value: Invalidation request
+
+eventHistory.label.Submission
+  Value: Submission
+
+eventHistory.label.error
+  Value: View error
+
+eventHistory.label.nctsStatus
+  Value: NCTS status
+
+eventHistory.label.on
+  Value: on
+
+eventHistory.label.request
+  Value: View request
+
+eventHistory.label.requestStatus
+  Value: Request status
+
+eventHistory.label.version
+  Value: Version
+
+eventHistory.nctsStatus.Invalidation
+  Value: Invalidation
+
+generalInfoForm.errors.isDuplicate
+  Value: *Please enter a unique value
+
+generalInfoForm.errors.isFirstDigitIdTypeNotEqualToFDInlandMode
+  Value: *First digit of identification type is not equal to first digit of inland Mode
+
+generalInfoForm.errors.isLowerCase
+  Value: *Must be upper case
+
+generalInfoForm.hints.hintWithLengthShort
+  Value: Max. {{ noOfChars }} characters
+
+generalInfoForm.hints.length
+  Value: 0/{{ noOfDigits }}
+
+generalInfoForm.lables.additionalStreet
+  Value: Additional street line (optional)
+
+generalInfoForm.lables.addressType
+  Value: Address type
+
+generalInfoForm.lables.arrivalNotificationDateAndTime
+  Value: Arrival notification date and time (actual)
+
+generalInfoForm.lables.arrivalTransportMeansIdentificationType
+  Value: Arrival transport means identification type
+
+generalInfoForm.lables.customsOfficeReferenceNumber
+  Value: Customs office reference number
+
+generalInfoForm.lables.declarationDateTime
+  Value: {{ dateTime }} of declaration
+
+generalInfoForm.lables.economicOperatorIdentificationNumber
+  Value: Economic operator identification number
+
+generalInfoForm.lables.ensReuse
+  Value: ENS re-use Indicator
+
+generalInfoForm.lables.gnssLatitude
+  Value: GNSS latitude
+
+generalInfoForm.lables.gnssLongitude
+  Value: GNSS longitude
+
+generalInfoForm.lables.identificationNumberOfTrailer
+  Value: Identification number of trailer
+
+generalInfoForm.lables.nameHolderOfTransitProcedure
+  Value: Name holder of transit procedure
+
+generalInfoForm.lables.poBox
+  Value: P.O. box
+
+generalInfoForm.lables.presentationDateTime
+  Value: {{ dateTime }} of presentation of goods
+
+generalInfoForm.lables.representativeSub
+  Value: Only required if the holder of transit procedure is represented by a representative
+
+generalInfoForm.lables.street
+  Value: Street
+
+generalInfoForm.lables.time
+  Value: Time
+
+generalInfoForm.lables.tirHolderEori
+  Value: TIR holder EORI
+
+generalInfoForm.lables.typesOfPackages
+  Value: Types of packages
+
+generalInfoForm.lables.updatedAndHasErrors
+  Value: Updated. Has errors
+
+generalInfoForm.lables.warehouseType
+  Value: Warehouse type
+
+generalInfoForm.tooltips.addressedCustomsOffice-combined
+  Value: Please enter the supervising customs office indicated in the respective authorisation to supervise the procedure and the customs office of presentation where the goods are presented to customs pursuant to Article 139 of the Code.
+
+generalInfoForm.tooltips.addressedCustomsOffice-prelodged
+  Value: Please enter the customs office indicated in the respective authorisation to supervise the procedure.
+
+generalInfoForm.tooltips.declarationDateTime
+  Value: Please enter the date and time at which the declaration is issued (if different from the date and time of presentation of the goods).
+
+generalInfoForm.tooltips.entryInformation
+  Value: Please provide the required information related to the arrival of the means of transport into the EU customs territory and the unloading of the goods.
+
+generalInfoForm.tooltips.presentationDateTime
+  Value: Please enter the date and time when the goods are presented to customs pursuant to Article 139 of the Code.
+
+generalInfoForm.tooltips.qualifier
+  Value: Please select qualifier U or V in case of a designated location or an approved place.Please select qualifier U in case of an authorised place.Please select qualifier U, V, W, X or Y if the goods location is different from a designated location, an authorised place or an approved place.
+
+generalInfoForm.tooltips.receptacle
+  Value: A receptacle is a loading unit to carry mail items. Enter the receptacle identification numbers that make up the consolidated consignment assigned by a postal operator.
+
+generalInfoForm.tooltips.warehouse
+  Value: Warehouse identification is required when the type of location is an authorised place.
+
+guarantee.guaranteeType
+  Value: Guarantee type
+
+guarantee.notesToolTip
+  Value: Timer of this guarantee reference has expired.
+
+guarantee.references.actions.register
+  Value: Register
+
+guarantee.references.availableAmount
+  Value: Available amount
+
+guarantee.references.errors.valueRequired
+  Value: Please enter a value.
+
+guarantee.references.noResults
+  Value: No guarantee references found.
+
+houseConsignItem.hints.hintWithLengthShort
+  Value: {{ noOfChars }} characters
+
+i18n.common.Accepted
+  Value: Accepted
+
+i18n.common.EcoOperatorEORI
+  Value: Economic operator EORI
+
+i18n.common.Invalidated
+  Value: Invalidated
+
+i18n.common.IrregularityUnderInvestigation
+  Value: Irregularity under investigation
+
+i18n.common.PreLodged
+  Value: Pre-lodged
+
+i18n.common.arrivalTransMeansIdn
+  Value: Arrival transport means identification
+
+i18n.common.cusOffOfPres
+  Value: Customs office of presentation
+
+i18n.common.customsOfficeName
+  Value: Customs office name
+
+i18n.common.declarant
+  Value: Declarant
+
+i18n.common.entryInfo
+  Value: Entry Information
+
+i18n.common.guaranteeReferenceMain
+  Value: Guarantee reference(s)
+
+i18n.common.isWrongSelection
+  Value: Please select a valid value
+
+i18n.common.regDate
+  Value: Registration date and time
+
+i18n.common.supervCusOffice
+  Value: Supervising customs office
+
+i18n.common.warehouseIdentifier
+  Value: Warehouse identifier
+
+invalidate.button
+  Value: Invalidate
+
+invalidate.failure.message
+  Value: Request for invalidation refused
+
+invalidate.failure.messageHint
+  Value: Reason why it is refused 
+
+invalidate.placeholder
+  Value: Please enter invalidation reason here
+
+invalidate.submitting
+  Value: Submitting request for invalidation
+
+invalidate.success.message
+  Value: Request for invalidation approved
+
+invalidate.success.messageHint
+  Value: Thank you, we have approved your request for invalidation
+
+language.de
+  Value: Deutsch
+
+language.en
+  Value: English
+
+language.fr
+  Value: Français
+
+language.nl
+  Value: Nederlands
+
+layout.account.label
+  Value: My account
+
+layout.logout.ejected1
+  Value: You will be disconnected in 
+
+layout.logout.ejected2
+  Value:  seconds
+
+layout.logout.modal
+  Value: Do you want to disconnect from the app?
+
+layout.officeFilter.allOffices
+  Value: All offices
+
+layout.officeFilter.myOffices
+  Value: My offices
+
+layout.officeFilter.specificOffice
+  Value: {{count}} Selected office
+
+layout.officeFilter.specificOffices
+  Value: {{count}} Selected offices
+
+layout.title
+  Value: Angular Minfin
+
+login.password
+  Value: Password
+
+login.username
+  Value: User Name
+
+matStepper.label.masterConsignment
+  Value: Master consignment
+
+menu.components
+  Value: Components
+
+menu.movementQuery
+  Value: Movement Query
+
+menu.savedDrafts
+  Value: Saved drafts
+
+menu.searchFor
+  Value: Search for MRN
+
+meta.environment.acceptance
+  Value: Acceptance
+
+meta.environment.performance
+  Value: Performance
+
+meta.environment.test
+  Value: Test
+
+movementUnderResolutionOverview.timerNotExpired
+  Value: Timer not expired
+
+navDrawer.menu.followLetter
+  Value: Follow letter
+
+navDrawer.menu.registerArrivalNotificationIE002
+  Value: Register Arrival Notification (IE002)
+
+navDrawer.menu.reqForAmend
+  Value: Request for Amendment
+
+party.lables.additionalIdentifierField
+  Value: + Additional identifier (optional)
+
+registerControlResultDialog.activeBorderTransportMeans
+  Value: Active border transport means
+
+registerControlResultDialog.consignment
+  Value: Consignment
+
+registerControlResultDialog.registerControlResultDialog
+  Value: Register control result dialog
+
+releaseForTransit.noRelease
+  Value: no release
+
+releaseForTransit.postpone
+  Value: postpone
+
+releaseMovement.errorContainer.message
+  Value: Errors will only be rectified after the resubmission of the form.
+
+releaseMovement.errors.atLeastOneContainerIdentification
+  Value: Please add at least one container identification
+
+releaseMovement.errors.atLeastOneDepartureTransport
+  Value: Please add at least one departure transport means
+
+releaseMovement.errors.atLeastOneSeal
+  Value: Please add at least one seal
+
+releaseMovement.errors.firstDigitMustBeEqual
+  Value: First digit must be equal to the first digit of the Inland mode of transport
+
+releaseMovement.errors.firstSealIdentifierMustBeSet
+  Value: First seal identifier must be set
+
+releaseMovement.errors.identificationNumberMustBeUpperCase
+  Value: Identification number must be uppercase
+
+releaseMovement.errors.sealMustBeUnique
+  Value: Seal identifier must be unique
+
+riskAndControl.label.riskAndControlInfo
+  Value: Risk and control information
+
+riskAndControlInformation.identificationCode
+  Value: Identification code
+
+riskAndControlInformation.receivedTs
+  Value: Received ts
+
+riskAndControlInformation.updatedLimitDate
+  Value: Updated limit date
+
+saveAsTemplateDialog.main
+  Value: Save as template
+
+saveAsTemplateDialog.title
+  Value: Template 1 already exists. Do you want to replace it?
+
+savedDrafts.draftStatus
+  Value: Draft
+
+savedTemplates.templateStatus
+  Value: Template
+
+sendEnquiryInformation.dialog.enquiryInformationRequest
+  Value: Enquiry Information Request
+
+tra.crossingFrontier.itemNumber
+  Value: Item number: 
+
+unloadingRemark.noResults
+  Value: No results
+
+unloadingRemark.unloadingState
+  Value: Unloading state
+

@@ -45,6 +45,12 @@ Use the outputs to manually prepare keys in the projects for hashing replacement
 - `nl.flat.underscore.json`, `nl.flat.uppercase.json`, `nl.flat.filtered.json`
 - `de.flat.underscore.json`, `de.flat.uppercase.json`, `de.flat.filtered.json`
 
+## 1.3. manual processing of underscore and uppercase keys in the project:
+
+- For the underscore keys, manually review the `*.underscore.json` files to check if they are used in the project, and update the keys manually.
+- For the uppercase keys, manually add an uppercase css class to the corresponding elements in the project, so that the values can be safely renamed to a hash without losing the uppercase formatting.
+- Then copy all manually processed files to [result](output%2Fresult) for safe keeping.
+
 ## 2. usage report (in project):
 **Files:** `FLAT_JSON` → `USAGE_REPORT` or `USAGE_REPORT_IGNORE_CASE`
 
@@ -120,20 +126,40 @@ Then apply the actual mapping:
 
 `python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_duplicates.json`
 
+## 5. find unused translation keys:
+**Files:** `FLAT_JSON` + `PROJECT_SRC` → `UNUSED_KEYS_LIST`
+
+Scans all TypeScript/JavaScript/HTML files in the project to find which translation keys are NOT used anywhere.
+
+Manually review the list of unused keys before deletion, as some keys may be used dynamically or in ways that static analysis cannot detect.
+
+Creates two output files:
+1. `unused_keys.txt` - Simple list of unused keys (one per line) for deletion
+2. `unused_keys_summary.txt` - Detailed report with statistics and key values
+
+`python ./scripts/find_unused_keys.py ./output/replaced/en.flat.mapped.json C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/remove_unused/unused_keys.txt`
+
 ## 6. delete unused keys:
-**Files:** `FLAT_JSON` + `REMOVE_LIST` → `FLAT_JSON_CLEAN`
+**Files:** `FLAT_JSON` + `UNUSED_KEYS_LIST` → `FLAT_JSON_CLEAN`
 
-Manually update the output of step 2 (usage report) to create a list of keys to be removed. Save that list in `REMOVE_LIST` and then run the command below.
+Removes all unused keys from the flat JSON files based on the unused keys list.
 
-Keep in mind that some keys are concatenated in the .ts files, such as statuses and options, so you should not those keys.
+### Preview changes (dry-run)
 
-#### dry run (safe preview of what would be deleted)
+`python ./scripts/delete_unused_keys.py ./output/replaced/en.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/en.flat.clean.json --dry-run`
 
-`python ./scripts/delete_translations.py ./output/flat_separated/en.flat.filtered.json ./files/remove.txt --dry-run`
+### Apply actual deletion
 
-#### actual deletion
+`python ./scripts/delete_unused_keys.py ./output/replaced/en.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/en.flat.clean.json`
+`python ./scripts/delete_unused_keys.py ./output/replaced/fr.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/fr.flat.clean.json`
+`python ./scripts/delete_unused_keys.py ./output/replaced/nl.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/nl.flat.clean.json`
+`python ./scripts/delete_unused_keys.py ./output/replaced/de.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/de.flat.clean.json`
 
-`python ./scripts/delete_translations.py ./output/flat_separated/en.flat.filtered.json ./files/remove.txt --out ./output/en.flat.clean.json`
+## 8. copy underscore keys back to filtered files:
+
+Copy the keys in [result](output%2Fresult).
+
+Uppercase keys should have been copied back after the manual CSS updates in 1.3.
 
 ## 7. unflatten:
 **Files:** `FLAT_JSON` + `FLAT_JSON_FR` + `FLAT_JSON_NL` + `FLAT_JSON_DE` → All unflattened outputs
