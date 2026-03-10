@@ -96,7 +96,7 @@
   "releaseRequest.listHeader.mrn": "MRN",
   "requestOnNonArrivedMovement.table.mrn": "MRN",
   "savedDrafts.headers.lrn": "LRN",
-  "tra.crossingFrontier.mrn": "MRN: ",,
+  "tra.crossingFrontier.mrn": "MRN: ",
   "app.address": "Adres",
   "enquiryRequests.enquiryResponse.ASSUMED_DUPLICATION": "2 (Veronderstelde duplicatie)",
   "enquiryRequests.enquiryResponse.IE006_IE018": "IE006/IE018",

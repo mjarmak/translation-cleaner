@@ -96,7 +96,7 @@
   "releaseRequest.listHeader.mrn": "MRN",
   "requestOnNonArrivedMovement.table.mrn": "MRN",
   "savedDrafts.headers.lrn": "LRN",
-  "tra.crossingFrontier.mrn": "MRN: ",,
+  "tra.crossingFrontier.mrn": "MRN: ",
   "enquiryRequests.enquiryResponse.ASSUMED_DUPLICATION": "2 (Duplication supposée)",
   "enquiryRequests.enquiryResponse.IE006_IE018": "IE006/IE018",
   "enquiryRequests.enquiryResponse.MOVEMENT_UNKNOWN_AT_DESTINATION": "1 (Mouvement inconnu à destination)",

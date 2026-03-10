@@ -1,5 +1,833 @@
 [
   {
+    "value": "UN/LOCODE",
+    "count": 6,
+    "mapKeyTo": "i18n.common.unlocode",
+    "mapValueTo": "UN/LOCODE",
+    "keys": [
+      {
+        "key": "app.unlocode",
+        "value": "UN/LOCODE"
+      },
+      {
+        "key": "advanceSearch.labels.unLocode",
+        "value": "UN/LOCODE"
+      },
+      {
+        "key": "generalInfoForm.lables.un/locode",
+        "value": "UN/LOCODE"
+      },
+      {
+        "key": "generalInfoForm.lables.unlocode",
+        "value": "UN/LOCODE"
+      },
+      {
+        "key": "registerControlResultDialog.unlocode",
+        "value": "UN/LOCODE"
+      },
+      {
+        "key": "des.registerArrivalNotification.UNLocode",
+        "value": "UN/LOCODE"
+      }
+    ]
+  },
+  {
+    "value": "ADVANCED SEARCH",
+    "count": 2,
+    "mapKeyTo": "i18n.common.advancedSearch",
+    "mapValueTo": "ADVANCED SEARCH",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.advancedSearch",
+        "value": "ADVANCED SEARCH"
+      },
+      {
+        "key": "menu.advanceSearch",
+        "value": "ADVANCED SEARCH"
+      }
+    ]
+  },
+  {
+    "value": "EORI",
+    "count": 2,
+    "mapKeyTo": "i18n.common.eori",
+    "mapValueTo": "EORI",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.eori",
+        "value": "EORI"
+      },
+      {
+        "key": "generalInfoForm.lables.eori",
+        "value": "EORI"
+      }
+    ]
+  },
+  {
+    "value": "LRN",
+    "count": 7,
+    "mapKeyTo": "i18n.common.lrn",
+    "mapValueTo": "LRN",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.lrn",
+        "value": "LRN"
+      },
+      {
+        "key": "advanceSearch.resultColumn.lrn",
+        "value": "LRN"
+      },
+      {
+        "key": "generalInfoForm.lables.lrn",
+        "value": "LRN"
+      },
+      {
+        "key": "invalidationRequest.listHeader.lrn",
+        "value": "LRN"
+      },
+      {
+        "key": "menu.officeRole.lrn",
+        "value": "LRN"
+      },
+      {
+        "key": "releaseRequest.listHeader.lrn",
+        "value": "LRN"
+      },
+      {
+        "key": "savedDrafts.headers.lrn",
+        "value": "LRN"
+      }
+    ]
+  },
+  {
+    "value": "MRN",
+    "count": 12,
+    "mapKeyTo": "i18n.common.mrn",
+    "mapValueTo": "MRN",
+    "keys": [
+      {
+        "key": "advanceSearch.resultColumn.mrn",
+        "value": "MRN"
+      },
+      {
+        "key": "completeRecovery.mrn",
+        "value": "MRN"
+      },
+      {
+        "key": "des.registerArrivalNotification.mrn",
+        "value": "MRN"
+      },
+      {
+        "key": "enquiryRequests.listHeader.mrn",
+        "value": "MRN"
+      },
+      {
+        "key": "generalInfoForm.lables.mrn",
+        "value": "MRN"
+      },
+      {
+        "key": "guarantee.mrn",
+        "value": "MRN"
+      },
+      {
+        "key": "invalidationRequest.listHeader.mrn",
+        "value": "MRN"
+      },
+      {
+        "key": "menu.officeRole.mrn",
+        "value": "MRN"
+      },
+      {
+        "key": "movementUnderResolutionOverview.mrn",
+        "value": "MRN"
+      },
+      {
+        "key": "recoveryRequests.mrn",
+        "value": "MRN"
+      },
+      {
+        "key": "releaseRequest.listHeader.mrn",
+        "value": "MRN"
+      },
+      {
+        "key": "requestOnNonArrivedMovement.table.mrn",
+        "value": "MRN"
+      }
+    ]
+  },
+  {
+    "value": "MRN/CRN",
+    "count": 2,
+    "mapKeyTo": "i18n.common.mrnAndCrn",
+    "mapValueTo": "MRN/CRN",
+    "keys": [
+      {
+        "key": "advanceSearch.resultColumn.mrnAndCrn",
+        "value": "MRN/CRN"
+      },
+      {
+        "key": "generalInfoForm.lables.mrnOrCrn",
+        "value": "MRN/CRN"
+      }
+    ]
+  },
+  {
+    "value": "HOUSE CONSIGNMENT",
+    "count": 6,
+    "mapKeyTo": "i18n.common.houseConsignment",
+    "mapValueTo": "HOUSE CONSIGNMENT",
+    "keys": [
+      {
+        "key": "buttons.houseConsignment",
+        "value": "HOUSE CONSIGNMENT"
+      },
+      {
+        "key": "generalInfoForm.lables.deleteHouseConsignment",
+        "value": "HOUSE CONSIGNMENT"
+      },
+      {
+        "key": "advanceSearch.labels.houseConsignment",
+        "value": "House Consignment"
+      },
+      {
+        "key": "consult-consignment.labels.rootLabelHouseConsignment",
+        "value": "House Consignment"
+      },
+      {
+        "key": "matStepper.label.houseConsignment",
+        "value": "House Consignment"
+      },
+      {
+        "key": "registerControlResultDialog.houseConsignment",
+        "value": "House consignment"
+      }
+    ]
+  },
+  {
+    "value": "SAVE AS TEMPLATE",
+    "count": 2,
+    "mapKeyTo": "i18n.common.saveAsTemplate",
+    "mapValueTo": "SAVE AS TEMPLATE",
+    "keys": [
+      {
+        "key": "buttons.saveAsTemplate",
+        "value": "SAVE AS TEMPLATE"
+      },
+      {
+        "key": "saveAsTemplateDialog.main",
+        "value": "Save as template"
+      }
+    ]
+  },
+  {
+    "value": "SEARCH",
+    "count": 7,
+    "mapKeyTo": "i18n.common.search",
+    "mapValueTo": "SEARCH",
+    "keys": [
+      {
+        "key": "buttons.search",
+        "value": "SEARCH"
+      },
+      {
+        "key": "houseConsignItem.lables.search",
+        "value": "SEARCH"
+      },
+      {
+        "key": "menu.search",
+        "value": "SEARCH"
+      },
+      {
+        "key": "advanceSearch.button.search",
+        "value": "Search"
+      },
+      {
+        "key": "advanceSearch.labels.search",
+        "value": "Search"
+      },
+      {
+        "key": "layout.officeFilter.searchBar",
+        "value": "Search"
+      },
+      {
+        "key": "layout.search",
+        "value": "Search"
+      }
+    ]
+  },
+  {
+    "value": "OK",
+    "count": 2,
+    "mapKeyTo": "i18n.common.ok",
+    "mapValueTo": "OK",
+    "keys": [
+      {
+        "key": "common.button.ok",
+        "value": "OK"
+      },
+      {
+        "key": "buttons.ok",
+        "value": "ok"
+      }
+    ]
+  },
+  {
+    "value": "GRN",
+    "count": 4,
+    "mapKeyTo": "i18n.common.grn",
+    "mapValueTo": "GRN",
+    "keys": [
+      {
+        "key": "consultTransitInfo.labels.grn",
+        "value": "GRN"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.grn",
+        "value": "GRN"
+      },
+      {
+        "key": "generalInfoForm.lables.grn",
+        "value": "GRN"
+      },
+      {
+        "key": "guarantee.references.grn",
+        "value": "GRN"
+      }
+    ]
+  },
+  {
+    "value": "VIEW ENQUIRIES",
+    "count": 2,
+    "mapKeyTo": "i18n.common.viewEnquiries",
+    "mapValueTo": "VIEW ENQUIRIES",
+    "keys": [
+      {
+        "key": "enquiryRequests.heading",
+        "value": "VIEW ENQUIRIES"
+      },
+      {
+        "key": "menu.enquiry-requests",
+        "value": "VIEW ENQUIRIES"
+      }
+    ]
+  },
+  {
+    "value": "ADDITIONAL INFORMATION",
+    "count": 3,
+    "mapKeyTo": "i18n.common.additionalInformationSub",
+    "mapValueTo": "ADDITIONAL INFORMATION",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.additionalInformationSub",
+        "value": "ADDITIONAL INFORMATION"
+      },
+      {
+        "key": "consult-consignment.labels.additionalInfo",
+        "value": "Additional information"
+      },
+      {
+        "key": "generalInfoForm.lables.additionalInformation",
+        "value": "Additional information"
+      }
+    ]
+  },
+  {
+    "value": "ADDITIONAL REFERENCE",
+    "count": 4,
+    "mapKeyTo": "i18n.common.additionalReferenceSub",
+    "mapValueTo": "ADDITIONAL REFERENCE",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.additionalReferenceSub",
+        "value": "ADDITIONAL REFERENCE"
+      },
+      {
+        "key": "consult-consignment.labels.additionalRef",
+        "value": "Additional reference"
+      },
+      {
+        "key": "generalInfoForm.lables.additionalReference",
+        "value": "Additional reference"
+      },
+      {
+        "key": "registerControlResultDialog.additionalReference",
+        "value": "Additional reference"
+      }
+    ]
+  },
+  {
+    "value": "AUTHORISATION",
+    "count": 2,
+    "mapKeyTo": "i18n.common.authorisationSub",
+    "mapValueTo": "AUTHORISATION",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.authorisationSub",
+        "value": "AUTHORISATION"
+      },
+      {
+        "key": "generalInfoForm.lables.authorisation",
+        "value": "Authorisation"
+      }
+    ]
+  },
+  {
+    "value": "CONTAINER",
+    "count": 2,
+    "mapKeyTo": "i18n.common.container",
+    "mapValueTo": "CONTAINER",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.container",
+        "value": "CONTAINER"
+      },
+      {
+        "key": "consult-consignment.labels.container",
+        "value": "Container"
+      }
+    ]
+  },
+  {
+    "value": "GENERAL INFORMATION",
+    "count": 3,
+    "mapKeyTo": "i18n.common.generalInformation",
+    "mapValueTo": "GENERAL INFORMATION",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.generalInformation",
+        "value": "GENERAL INFORMATION"
+      },
+      {
+        "key": "consult-consignment.labels.generalInformation",
+        "value": "General information"
+      },
+      {
+        "key": "matStepper.label.generalInformation",
+        "value": "General Information"
+      }
+    ]
+  },
+  {
+    "value": "GUARANTEE REFERENCE",
+    "count": 4,
+    "mapKeyTo": "i18n.common.guaranteeReferenceSub",
+    "mapValueTo": "GUARANTEE REFERENCE",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.guaranteeReferenceSub",
+        "value": "GUARANTEE REFERENCE"
+      },
+      {
+        "key": "consultTransitInfo.labels.guaranteeReference",
+        "value": "Guarantee reference"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.guaranteeReference",
+        "value": "Guarantee reference"
+      },
+      {
+        "key": "generalInfoForm.lables.guaranteeReference",
+        "value": "Guarantee reference"
+      }
+    ]
+  },
+  {
+    "value": "GUARANTEE",
+    "count": 3,
+    "mapKeyTo": "i18n.common.guaranteeSub",
+    "mapValueTo": "GUARANTEE",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.guaranteeSub",
+        "value": "GUARANTEE"
+      },
+      {
+        "key": "consultTransitInfo.labels.guarantee",
+        "value": "Guarantee"
+      },
+      {
+        "key": "generalInfoForm.lables.guarantee",
+        "value": "Guarantee"
+      }
+    ]
+  },
+  {
+    "value": "PACKAGING",
+    "count": 6,
+    "mapKeyTo": "i18n.common.packagingSub",
+    "mapValueTo": "PACKAGING",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.packagingSub",
+        "value": "PACKAGING"
+      },
+      {
+        "key": "consignment-item-info.heading.packaging",
+        "value": "Packaging"
+      },
+      {
+        "key": "consignment-item-info.label.packaging",
+        "value": "Packaging"
+      },
+      {
+        "key": "generalInfoForm.lables.packaging",
+        "value": "Packaging"
+      },
+      {
+        "key": "houseConsignItem.lables.packaging",
+        "value": "Packaging"
+      },
+      {
+        "key": "registerControlResultDialog.packaging",
+        "value": "Packaging"
+      }
+    ]
+  },
+  {
+    "value": "PREVIOUS DOCUMENT",
+    "count": 2,
+    "mapKeyTo": "i18n.common.previousDocumentSub",
+    "mapValueTo": "PREVIOUS DOCUMENT",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.previousDocumentSub",
+        "value": "PREVIOUS DOCUMENT"
+      },
+      {
+        "key": "generalInfoForm.lables.previousDocument",
+        "value": "Previous document"
+      }
+    ]
+  },
+  {
+    "value": "SUPPORTING DOCUMENT",
+    "count": 3,
+    "mapKeyTo": "i18n.common.supportingDocumentSub",
+    "mapValueTo": "SUPPORTING DOCUMENT",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.supportingDocumentSub",
+        "value": "SUPPORTING DOCUMENT"
+      },
+      {
+        "key": "generalInfoForm.lables.supportingDocument",
+        "value": "Supporting document"
+      },
+      {
+        "key": "registerControlResultDialog.supportingDocument",
+        "value": "Supporting document"
+      }
+    ]
+  },
+  {
+    "value": "TRANSPORT DOCUMENT",
+    "count": 4,
+    "mapKeyTo": "i18n.common.transportDocumentSub",
+    "mapValueTo": "TRANSPORT DOCUMENT",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.transportDocumentSub",
+        "value": "TRANSPORT DOCUMENT"
+      },
+      {
+        "key": "advanceSearch.labels.transDoc",
+        "value": "Transport document"
+      },
+      {
+        "key": "generalInfoForm.lables.transportDocument",
+        "value": "Transport document"
+      },
+      {
+        "key": "registerControlResultDialog.transportDocument",
+        "value": "Transport document"
+      }
+    ]
+  },
+  {
+    "value": "GUARANTEES UNDER REGISTRATION",
+    "count": 2,
+    "mapKeyTo": "i18n.common.guaranteesUnderRegistration",
+    "mapValueTo": "GUARANTEES UNDER REGISTRATION",
+    "keys": [
+      {
+        "key": "guarantee.guaranteesUnderRegistration",
+        "value": "GUARANTEES UNDER REGISTRATION"
+      },
+      {
+        "key": "menu.guarantees-under-registration",
+        "value": "GUARANTEES UNDER REGISTRATION"
+      }
+    ]
+  },
+  {
+    "value": "ITEM",
+    "count": 4,
+    "mapKeyTo": "i18n.common.deleteHouseConsignmentItem",
+    "mapValueTo": "ITEM",
+    "keys": [
+      {
+        "key": "houseConsignItem.lables.deleteHouseConsignmentItem",
+        "value": "ITEM"
+      },
+      {
+        "key": "matStepper.heading.item",
+        "value": "ITEM"
+      },
+      {
+        "key": "consult-consignment.labels.item",
+        "value": "Item"
+      },
+      {
+        "key": "matStepper.label.item",
+        "value": "Item"
+      }
+    ]
+  },
+  {
+    "value": "SAVED DRAFTS",
+    "count": 2,
+    "mapKeyTo": "i18n.common.drafts",
+    "mapValueTo": "SAVED DRAFTS",
+    "keys": [
+      {
+        "key": "menu.drafts",
+        "value": "SAVED DRAFTS"
+      },
+      {
+        "key": "menu.savedDrafts",
+        "value": "Saved drafts"
+      }
+    ]
+  },
+  {
+    "value": "VIEW RECOVERIES",
+    "count": 2,
+    "mapKeyTo": "i18n.common.recovery-requests",
+    "mapValueTo": "VIEW RECOVERIES",
+    "keys": [
+      {
+        "key": "menu.recovery-requests",
+        "value": "VIEW RECOVERIES"
+      },
+      {
+        "key": "recoveryRequests.heading",
+        "value": "View Recoveries"
+      }
+    ]
+  },
+  {
+    "value": "HOME",
+    "count": 2,
+    "mapKeyTo": "i18n.common.home",
+    "mapValueTo": "HOME",
+    "keys": [
+      {
+        "key": "menu.home",
+        "value": "HOME"
+      },
+      {
+        "key": "layout.footer.home",
+        "value": "Home"
+      }
+    ]
+  },
+  {
+    "value": "INVALIDATION REQUESTS",
+    "count": 2,
+    "mapKeyTo": "i18n.common.invalidation-requests",
+    "mapValueTo": "INVALIDATION REQUESTS",
+    "keys": [
+      {
+        "key": "menu.invalidation-requests",
+        "value": "INVALIDATION REQUESTS"
+      },
+      {
+        "key": "invalidationRequest.heading",
+        "value": "Invalidation Requests"
+      }
+    ]
+  },
+  {
+    "value": "MOVEMENT UNDER RESOLUTION",
+    "count": 2,
+    "mapKeyTo": "i18n.common.movement-under-resolution",
+    "mapValueTo": "MOVEMENT UNDER RESOLUTION",
+    "keys": [
+      {
+        "key": "menu.movement-under-resolution",
+        "value": "MOVEMENT UNDER RESOLUTION"
+      },
+      {
+        "key": "movementUnderResolutionOverview.heading",
+        "value": "Movement under resolution"
+      }
+    ]
+  },
+  {
+    "value": "OFFICE OF DEPARTURE",
+    "count": 3,
+    "mapKeyTo": "i18n.common.officeOfDeparture",
+    "mapValueTo": "OFFICE OF DEPARTURE",
+    "keys": [
+      {
+        "key": "menu.officeRole.offices.officeOfDeparture",
+        "value": "OFFICE OF DEPARTURE"
+      },
+      {
+        "key": "enquiryRequests.listHeader.customsOfficeOfDeparture",
+        "value": "Office of departure"
+      },
+      {
+        "key": "recoveryRequests.officeOfDeparture",
+        "value": "Office of departure"
+      }
+    ]
+  },
+  {
+    "value": "OFFICE OF DESTINATION",
+    "count": 2,
+    "mapKeyTo": "i18n.common.officeOfDestination",
+    "mapValueTo": "OFFICE OF DESTINATION",
+    "keys": [
+      {
+        "key": "menu.officeRole.offices.officeOfDestination",
+        "value": "OFFICE OF DESTINATION"
+      },
+      {
+        "key": "recoveryRequests.officeOfDestination",
+        "value": "Office of destination"
+      }
+    ]
+  },
+  {
+    "value": "RECOVERY REQUEST",
+    "count": 2,
+    "mapKeyTo": "i18n.common.recovery-request",
+    "mapValueTo": "RECOVERY REQUEST",
+    "keys": [
+      {
+        "key": "menu.recovery-request",
+        "value": "RECOVERY REQUEST"
+      },
+      {
+        "key": "recoveryRequest.heading",
+        "value": "Recovery Request"
+      }
+    ]
+  },
+  {
+    "value": "REGISTER ARRIVAL NOTIFICATION",
+    "count": 2,
+    "mapKeyTo": "i18n.common.registerArrivalNotification",
+    "mapValueTo": "REGISTER ARRIVAL NOTIFICATION",
+    "keys": [
+      {
+        "key": "menu.registerArrivalNotification",
+        "value": "REGISTER ARRIVAL NOTIFICATION"
+      },
+      {
+        "key": "des.registerArrivalNotification.title",
+        "value": "Register arrival notification"
+      }
+    ]
+  },
+  {
+    "value": "RELEASE REQUESTS",
+    "count": 2,
+    "mapKeyTo": "i18n.common.release-requests",
+    "mapValueTo": "RELEASE REQUESTS",
+    "keys": [
+      {
+        "key": "menu.release-requests",
+        "value": "RELEASE REQUESTS"
+      },
+      {
+        "key": "releaseRequest.heading",
+        "value": "Release Requests"
+      }
+    ]
+  },
+  {
+    "value": "REQUEST ON NON-ARRIVED MOVEMENT",
+    "count": 2,
+    "mapKeyTo": "i18n.common.request-on-non-arrived-movement",
+    "mapValueTo": "REQUEST ON NON-ARRIVED MOVEMENT",
+    "keys": [
+      {
+        "key": "menu.request-on-non-arrived-movement",
+        "value": "REQUEST ON NON-ARRIVED MOVEMENT"
+      },
+      {
+        "key": "requestOnNonArrivedMovement.heading",
+        "value": "Request On Non-Arrived Movement"
+      }
+    ]
+  },
+  {
+    "value": "HISTORY",
+    "count": 2,
+    "mapKeyTo": "i18n.common.history",
+    "mapValueTo": "HISTORY",
+    "keys": [
+      {
+        "key": "navDrawer.step.history",
+        "value": "HISTORY"
+      },
+      {
+        "key": "eventHistory.label.history",
+        "value": "History"
+      }
+    ]
+  },
+  {
+    "value": "RISK AND CONTROL INFORMATION",
+    "count": 2,
+    "mapKeyTo": "i18n.common.riskAndControlInfo",
+    "mapValueTo": "RISK AND CONTROL INFORMATION",
+    "keys": [
+      {
+        "key": "navDrawer.step.riskAndControlInfo",
+        "value": "RISK AND CONTROL INFORMATION"
+      },
+      {
+        "key": "riskAndControl.label.riskAndControlInfo",
+        "value": "Risk and control information"
+      }
+    ]
+  },
+  {
+    "value": "INCIDENTS",
+    "count": 2,
+    "mapKeyTo": "i18n.common.incidents",
+    "mapValueTo": "INCIDENTS",
+    "keys": [
+      {
+        "key": "navDrawer.step.incidents",
+        "value": "INCIDENTS"
+      },
+      {
+        "key": "app.incidents",
+        "value": "incidents"
+      }
+    ]
+  },
+  {
+    "value": "INVALIDATION REQUEST",
+    "count": 2,
+    "mapKeyTo": "i18n.common.invalidation_request",
+    "mapValueTo": "INVALIDATION REQUEST",
+    "keys": [
+      {
+        "key": "invalidationRequest.invalidation_request",
+        "value": "INVALIDATION REQUEST"
+      },
+      {
+        "key": "eventHistory.label.Invalidation",
+        "value": "Invalidation request"
+      }
+    ]
+  },
+  {
     "value": "Address",
     "count": 4,
     "mapKeyTo": "i18n.common.address",
@@ -580,30 +1408,6 @@
       {
         "key": "advanceSearch.labels.clearAll",
         "value": "Clear all"
-      }
-    ]
-  },
-  {
-    "value": "Search",
-    "count": 4,
-    "mapKeyTo": "i18n.common.search",
-    "mapValueTo": "Search",
-    "keys": [
-      {
-        "key": "advanceSearch.button.search",
-        "value": "Search"
-      },
-      {
-        "key": "advanceSearch.labels.search",
-        "value": "Search"
-      },
-      {
-        "key": "layout.officeFilter.searchBar",
-        "value": "Search"
-      },
-      {
-        "key": "layout.search",
-        "value": "Search"
       }
     ]
   },
@@ -1308,26 +2112,6 @@
     ]
   },
   {
-    "value": "Transport document",
-    "count": 3,
-    "mapKeyTo": "i18n.common.transDoc",
-    "mapValueTo": "Transport document",
-    "keys": [
-      {
-        "key": "advanceSearch.labels.transDoc",
-        "value": "Transport document"
-      },
-      {
-        "key": "generalInfoForm.lables.transportDocument",
-        "value": "Transport document"
-      },
-      {
-        "key": "registerControlResultDialog.transportDocument",
-        "value": "Transport document"
-      }
-    ]
-  },
-  {
     "value": "Transit Operation",
     "count": 4,
     "mapKeyTo": "i18n.common.transitOperation",
@@ -1532,30 +2316,6 @@
       {
         "key": "houseConsignItem.lables.typeOfPackages",
         "value": "Type of packages"
-      }
-    ]
-  },
-  {
-    "value": "House Consignment",
-    "count": 4,
-    "mapKeyTo": "i18n.common.houseConsignment",
-    "mapValueTo": "House Consignment",
-    "keys": [
-      {
-        "key": "advanceSearch.labels.houseConsignment",
-        "value": "House Consignment"
-      },
-      {
-        "key": "consult-consignment.labels.rootLabelHouseConsignment",
-        "value": "House Consignment"
-      },
-      {
-        "key": "matStepper.label.houseConsignment",
-        "value": "House Consignment"
-      },
-      {
-        "key": "registerControlResultDialog.houseConsignment",
-        "value": "House consignment"
       }
     ]
   },
@@ -1938,7 +2698,7 @@
   {
     "value": "Alternative Proof",
     "count": 2,
-    "mapKeyTo": "i18n.common.heading",
+    "mapKeyTo": "i18n.common.alternativeProof",
     "mapValueTo": "Alternative Proof",
     "keys": [
       {
@@ -2712,34 +3472,6 @@
     ]
   },
   {
-    "value": "Packaging",
-    "count": 5,
-    "mapKeyTo": "i18n.common.packaging",
-    "mapValueTo": "Packaging",
-    "keys": [
-      {
-        "key": "consignment-item-info.heading.packaging",
-        "value": "Packaging"
-      },
-      {
-        "key": "consignment-item-info.label.packaging",
-        "value": "Packaging"
-      },
-      {
-        "key": "generalInfoForm.lables.packaging",
-        "value": "Packaging"
-      },
-      {
-        "key": "houseConsignItem.lables.packaging",
-        "value": "Packaging"
-      },
-      {
-        "key": "registerControlResultDialog.packaging",
-        "value": "Packaging"
-      }
-    ]
-  },
-  {
     "value": "Consignment item",
     "count": 3,
     "mapKeyTo": "i18n.common.Item",
@@ -2964,42 +3696,6 @@
     ]
   },
   {
-    "value": "Additional information",
-    "count": 2,
-    "mapKeyTo": "i18n.common.additionalInfo",
-    "mapValueTo": "Additional information",
-    "keys": [
-      {
-        "key": "consult-consignment.labels.additionalInfo",
-        "value": "Additional information"
-      },
-      {
-        "key": "generalInfoForm.lables.additionalInformation",
-        "value": "Additional information"
-      }
-    ]
-  },
-  {
-    "value": "Additional reference",
-    "count": 3,
-    "mapKeyTo": "i18n.common.additionalRef",
-    "mapValueTo": "Additional reference",
-    "keys": [
-      {
-        "key": "consult-consignment.labels.additionalRef",
-        "value": "Additional reference"
-      },
-      {
-        "key": "generalInfoForm.lables.additionalReference",
-        "value": "Additional reference"
-      },
-      {
-        "key": "registerControlResultDialog.additionalReference",
-        "value": "Additional reference"
-      }
-    ]
-  },
-  {
     "value": "Complement of Information",
     "count": 4,
     "mapKeyTo": "i18n.common.complementOfInformation",
@@ -3020,22 +3716,6 @@
       {
         "key": "registerControlResultDialog.complementOfInformation",
         "value": "Complement of information"
-      }
-    ]
-  },
-  {
-    "value": "General information",
-    "count": 2,
-    "mapKeyTo": "i18n.common.generalInformation",
-    "mapValueTo": "General Information",
-    "keys": [
-      {
-        "key": "consult-consignment.labels.generalInformation",
-        "value": "General information"
-      },
-      {
-        "key": "matStepper.label.generalInformation",
-        "value": "General Information"
       }
     ]
   },
@@ -3092,22 +3772,6 @@
       {
         "key": "registerControlResultDialog.identifier",
         "value": "Identifier"
-      }
-    ]
-  },
-  {
-    "value": "Item",
-    "count": 2,
-    "mapKeyTo": "i18n.common.item",
-    "mapValueTo": "Item",
-    "keys": [
-      {
-        "key": "consult-consignment.labels.item",
-        "value": "Item"
-      },
-      {
-        "key": "matStepper.label.item",
-        "value": "Item"
       }
     ]
   },
@@ -3320,42 +3984,6 @@
       {
         "key": "generalInfoForm.lables.passageDate",
         "value": "Passage date"
-      }
-    ]
-  },
-  {
-    "value": "Guarantee",
-    "count": 2,
-    "mapKeyTo": "i18n.common.guarantee",
-    "mapValueTo": "Guarantee",
-    "keys": [
-      {
-        "key": "consultTransitInfo.labels.guarantee",
-        "value": "Guarantee"
-      },
-      {
-        "key": "generalInfoForm.lables.guarantee",
-        "value": "Guarantee"
-      }
-    ]
-  },
-  {
-    "value": "Guarantee reference",
-    "count": 3,
-    "mapKeyTo": "i18n.common.guaranteeReference",
-    "mapValueTo": "Guarantee reference",
-    "keys": [
-      {
-        "key": "consultTransitInfo.labels.guaranteeReference",
-        "value": "Guarantee reference"
-      },
-      {
-        "key": "enquiryAndRecovery.recovery.body.guaranteeReference",
-        "value": "Guarantee reference"
-      },
-      {
-        "key": "generalInfoForm.lables.guaranteeReference",
-        "value": "Guarantee reference"
       }
     ]
   },
@@ -3654,7 +4282,7 @@
   {
     "value": "Register Arrival Notification (IE007)",
     "count": 2,
-    "mapKeyTo": "i18n.common.registerArrivalNotification",
+    "mapKeyTo": "i18n.common.registerArrivalNotificationIE007",
     "mapValueTo": "Register Arrival Notification (IE007)",
     "keys": [
       {
@@ -4120,22 +4748,6 @@
     ]
   },
   {
-    "value": "Office of departure",
-    "count": 2,
-    "mapKeyTo": "i18n.common.officeOfDeparture",
-    "mapValueTo": "Office of departure",
-    "keys": [
-      {
-        "key": "enquiryRequests.listHeader.customsOfficeOfDeparture",
-        "value": "Office of departure"
-      },
-      {
-        "key": "recoveryRequests.officeOfDeparture",
-        "value": "Office of departure"
-      }
-    ]
-  },
-  {
     "value": "Requested customs office",
     "count": 2,
     "mapKeyTo": "i18n.common.requestedCustomsOffice",
@@ -4532,22 +5144,6 @@
       {
         "key": "houseConsignParties.lables.rootLabelParties3",
         "value": "Step 3: Parties"
-      }
-    ]
-  },
-  {
-    "value": "Supporting document",
-    "count": 2,
-    "mapKeyTo": "i18n.common.supportingDocument",
-    "mapValueTo": "Supporting document",
-    "keys": [
-      {
-        "key": "generalInfoForm.lables.supportingDocument",
-        "value": "Supporting document"
-      },
-      {
-        "key": "registerControlResultDialog.supportingDocument",
-        "value": "Supporting document"
       }
     ]
   },
@@ -5068,6 +5664,378 @@
     ]
   },
   {
+    "value": "GNSS",
+    "count": 1,
+    "mapKeyTo": "app.gnss",
+    "mapValueTo": "GNSS",
+    "keys": [
+      {
+        "key": "app.gnss",
+        "value": "GNSS"
+      }
+    ]
+  },
+  {
+    "value": "MRN/LRN",
+    "count": 1,
+    "mapKeyTo": "advanceSearch.resultColumn.mrnAndLrn",
+    "mapValueTo": "MRN/LRN",
+    "keys": [
+      {
+        "key": "advanceSearch.resultColumn.mrnAndLrn",
+        "value": "MRN/LRN"
+      }
+    ]
+  },
+  {
+    "value": "DISMISS",
+    "count": 1,
+    "mapKeyTo": "buttons.dismiss",
+    "mapValueTo": "DISMISS",
+    "keys": [
+      {
+        "key": "buttons.dismiss",
+        "value": "DISMISS"
+      }
+    ]
+  },
+  {
+    "value": "RELEASE MOVEMENT",
+    "count": 1,
+    "mapKeyTo": "buttons.releaseMovement",
+    "mapValueTo": "RELEASE MOVEMENT",
+    "keys": [
+      {
+        "key": "buttons.releaseMovement",
+        "value": "RELEASE MOVEMENT"
+      }
+    ]
+  },
+  {
+    "value": "START DECLARATION",
+    "count": 1,
+    "mapKeyTo": "buttons.startDeclaration",
+    "mapValueTo": "START DECLARATION",
+    "keys": [
+      {
+        "key": "buttons.startDeclaration",
+        "value": "START DECLARATION"
+      }
+    ]
+  },
+  {
+    "value": "V",
+    "count": 1,
+    "mapKeyTo": "eventHistory.label.v",
+    "mapValueTo": "V",
+    "keys": [
+      {
+        "key": "eventHistory.label.v",
+        "value": "V"
+      }
+    ]
+  },
+  {
+    "value": "ACTOR",
+    "count": 1,
+    "mapKeyTo": "generalInfoForm.lables.actor",
+    "mapValueTo": "ACTOR",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.actor",
+        "value": "ACTOR"
+      }
+    ]
+  },
+  {
+    "value": "EQUIPMENT",
+    "count": 1,
+    "mapKeyTo": "generalInfoForm.lables.equipment",
+    "mapValueTo": "EQUIPMENT",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.equipment",
+        "value": "EQUIPMENT"
+      }
+    ]
+  },
+  {
+    "value": "MEAN",
+    "count": 1,
+    "mapKeyTo": "generalInfoForm.lables.mean",
+    "mapValueTo": "MEAN",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.mean",
+        "value": "MEAN"
+      }
+    ]
+  },
+  {
+    "value": "NEW COMPUTERISED TRANSIT SYSTEM",
+    "count": 1,
+    "mapKeyTo": "layout.application.label.full",
+    "mapValueTo": "NEW COMPUTERISED TRANSIT SYSTEM",
+    "keys": [
+      {
+        "key": "layout.application.label.full",
+        "value": "NEW COMPUTERISED TRANSIT SYSTEM"
+      }
+    ]
+  },
+  {
+    "value": "NCTS",
+    "count": 1,
+    "mapKeyTo": "layout.application.label.short",
+    "mapValueTo": "NCTS",
+    "keys": [
+      {
+        "key": "layout.application.label.short",
+        "value": "NCTS"
+      }
+    ]
+  },
+  {
+    "value": "FAQ",
+    "count": 1,
+    "mapKeyTo": "layout.footer.faq",
+    "mapValueTo": "FAQ",
+    "keys": [
+      {
+        "key": "layout.footer.faq",
+        "value": "FAQ"
+      }
+    ]
+  },
+  {
+    "value": "CONTROL RESULTS",
+    "count": 1,
+    "mapKeyTo": "menu.control-results",
+    "mapValueTo": "CONTROL RESULTS",
+    "keys": [
+      {
+        "key": "menu.control-results",
+        "value": "CONTROL RESULTS"
+      }
+    ]
+  },
+  {
+    "value": "CUMADA",
+    "count": 1,
+    "mapKeyTo": "menu.cumada",
+    "mapValueTo": "CUMADA",
+    "keys": [
+      {
+        "key": "menu.cumada",
+        "value": "CUMADA"
+      }
+    ]
+  },
+  {
+    "value": "HANDLE CONTROL DECISION",
+    "count": 1,
+    "mapKeyTo": "menu.handle-control-decision",
+    "mapValueTo": "HANDLE CONTROL DECISION",
+    "keys": [
+      {
+        "key": "menu.handle-control-decision",
+        "value": "HANDLE CONTROL DECISION"
+      }
+    ]
+  },
+  {
+    "value": "HANDLE CONTROL RESULT",
+    "count": 1,
+    "mapKeyTo": "menu.handle-control-result",
+    "mapValueTo": "HANDLE CONTROL RESULT",
+    "keys": [
+      {
+        "key": "menu.handle-control-result",
+        "value": "HANDLE CONTROL RESULT"
+      }
+    ]
+  },
+  {
+    "value": "NEW DECLARATION",
+    "count": 1,
+    "mapKeyTo": "menu.newDeclaration",
+    "mapValueTo": "NEW DECLARATION",
+    "keys": [
+      {
+        "key": "menu.newDeclaration",
+        "value": "NEW DECLARATION"
+      }
+    ]
+  },
+  {
+    "value": "OPTION 1",
+    "count": 1,
+    "mapKeyTo": "menu.option1",
+    "mapValueTo": "OPTION 1",
+    "keys": [
+      {
+        "key": "menu.option1",
+        "value": "OPTION 1"
+      }
+    ]
+  },
+  {
+    "value": "OPTION 2",
+    "count": 1,
+    "mapKeyTo": "menu.option2",
+    "mapValueTo": "OPTION 2",
+    "keys": [
+      {
+        "key": "menu.option2",
+        "value": "OPTION 2"
+      }
+    ]
+  },
+  {
+    "value": "QUERY GUARANTEES",
+    "count": 1,
+    "mapKeyTo": "menu.queryGuarantees",
+    "mapValueTo": "QUERY GUARANTEES",
+    "keys": [
+      {
+        "key": "menu.queryGuarantees",
+        "value": "QUERY GUARANTEES"
+      }
+    ]
+  },
+  {
+    "value": "REGISTER MOVEMENT CROSSING FRONTIER",
+    "count": 1,
+    "mapKeyTo": "menu.registerMovCrossFrontier",
+    "mapValueTo": "REGISTER MOVEMENT CROSSING FRONTIER",
+    "keys": [
+      {
+        "key": "menu.registerMovCrossFrontier",
+        "value": "REGISTER MOVEMENT CROSSING FRONTIER"
+      }
+    ]
+  },
+  {
+    "value": "REQUESTS",
+    "count": 1,
+    "mapKeyTo": "menu.requests",
+    "mapValueTo": "REQUESTS",
+    "keys": [
+      {
+        "key": "menu.requests",
+        "value": "REQUESTS"
+      }
+    ]
+  },
+  {
+    "value": "STATES",
+    "count": 1,
+    "mapKeyTo": "menu.states",
+    "mapValueTo": "STATES",
+    "keys": [
+      {
+        "key": "menu.states",
+        "value": "STATES"
+      }
+    ]
+  },
+  {
+    "value": "TEMPLATES",
+    "count": 1,
+    "mapKeyTo": "menu.templates",
+    "mapValueTo": "TEMPLATES",
+    "keys": [
+      {
+        "key": "menu.templates",
+        "value": "TEMPLATES"
+      }
+    ]
+  },
+  {
+    "value": "ENQUIRY & RECOVERY",
+    "count": 1,
+    "mapKeyTo": "navDrawer.step.enquiryAndRecovery",
+    "mapValueTo": "ENQUIRY & RECOVERY",
+    "keys": [
+      {
+        "key": "navDrawer.step.enquiryAndRecovery",
+        "value": "ENQUIRY & RECOVERY"
+      }
+    ]
+  },
+  {
+    "value": "MRN: ",
+    "count": 1,
+    "mapKeyTo": "tra.crossingFrontier.mrn",
+    "mapValueTo": "MRN: ",
+    "keys": [
+      {
+        "key": "tra.crossingFrontier.mrn",
+        "value": "MRN: "
+      }
+    ]
+  },
+  {
+    "value": "2 (Assumed duplication)",
+    "count": 1,
+    "mapKeyTo": "enquiryRequests.enquiryResponse.ASSUMED_DUPLICATION",
+    "mapValueTo": "2 (Assumed duplication)",
+    "keys": [
+      {
+        "key": "enquiryRequests.enquiryResponse.ASSUMED_DUPLICATION",
+        "value": "2 (Assumed duplication)"
+      }
+    ]
+  },
+  {
+    "value": "IE006/IE018",
+    "count": 1,
+    "mapKeyTo": "enquiryRequests.enquiryResponse.IE006_IE018",
+    "mapValueTo": "IE006/IE018",
+    "keys": [
+      {
+        "key": "enquiryRequests.enquiryResponse.IE006_IE018",
+        "value": "IE006/IE018"
+      }
+    ]
+  },
+  {
+    "value": "1 (Movement unknown at destination)",
+    "count": 1,
+    "mapKeyTo": "enquiryRequests.enquiryResponse.MOVEMENT_UNKNOWN_AT_DESTINATION",
+    "mapValueTo": "1 (Movement unknown at destination)",
+    "keys": [
+      {
+        "key": "enquiryRequests.enquiryResponse.MOVEMENT_UNKNOWN_AT_DESTINATION",
+        "value": "1 (Movement unknown at destination)"
+      }
+    ]
+  },
+  {
+    "value": "4 (Request for recovery at destination)",
+    "count": 1,
+    "mapKeyTo": "enquiryRequests.enquiryResponse.REQUEST_FOR_RECOVERY_AT_DESTINATION",
+    "mapValueTo": "4 (Request for recovery at destination)",
+    "keys": [
+      {
+        "key": "enquiryRequests.enquiryResponse.REQUEST_FOR_RECOVERY_AT_DESTINATION",
+        "value": "4 (Request for recovery at destination)"
+      }
+    ]
+  },
+  {
+    "value": "3 (Return copy returned on)",
+    "count": 1,
+    "mapKeyTo": "enquiryRequests.enquiryResponse.RETURN_COPY_RETURNED_ON",
+    "mapValueTo": "3 (Return copy returned on)",
+    "keys": [
+      {
+        "key": "enquiryRequests.enquiryResponse.RETURN_COPY_RETURNED_ON",
+        "value": "3 (Return copy returned on)"
+      }
+    ]
+  },
+  {
     "value": "Endorsement",
     "count": 1,
     "mapKeyTo": "app.endorsement",
@@ -5076,18 +6044,6 @@
       {
         "key": "app.endorsement",
         "value": "Endorsement"
-      }
-    ]
-  },
-  {
-    "value": "incidents",
-    "count": 1,
-    "mapKeyTo": "app.incidents",
-    "mapValueTo": "incidents",
-    "keys": [
-      {
-        "key": "app.incidents",
-        "value": "incidents"
       }
     ]
   },
@@ -6112,18 +7068,6 @@
     ]
   },
   {
-    "value": "ok",
-    "count": 1,
-    "mapKeyTo": "buttons.ok",
-    "mapValueTo": "ok",
-    "keys": [
-      {
-        "key": "buttons.ok",
-        "value": "ok"
-      }
-    ]
-  },
-  {
     "value": "Passage not confirmed",
     "count": 1,
     "mapKeyTo": "buttons.passageNotConfirmed",
@@ -6552,18 +7496,6 @@
       {
         "key": "consult-consignment.labels.consignorName",
         "value": "Consignor name"
-      }
-    ]
-  },
-  {
-    "value": "Container",
-    "count": 1,
-    "mapKeyTo": "consult-consignment.labels.container",
-    "mapValueTo": "Container",
-    "keys": [
-      {
-        "key": "consult-consignment.labels.container",
-        "value": "Container"
       }
     ]
   },
@@ -7384,18 +8316,6 @@
     ]
   },
   {
-    "value": "UNLocode",
-    "count": 1,
-    "mapKeyTo": "des.registerArrivalNotification.UNLocode",
-    "mapValueTo": "UNLocode",
-    "keys": [
-      {
-        "key": "des.registerArrivalNotification.UNLocode",
-        "value": "UNLocode"
-      }
-    ]
-  },
-  {
     "value": "Add",
     "count": 1,
     "mapKeyTo": "des.registerArrivalNotification.actions.add",
@@ -7572,18 +8492,6 @@
       {
         "key": "des.registerArrivalNotification.simplifiedProcedure",
         "value": "Simplified procedure"
-      }
-    ]
-  },
-  {
-    "value": "Register arrival notification",
-    "count": 1,
-    "mapKeyTo": "des.registerArrivalNotification.title",
-    "mapValueTo": "Register arrival notification",
-    "keys": [
-      {
-        "key": "des.registerArrivalNotification.title",
-        "value": "Register arrival notification"
       }
     ]
   },
@@ -8272,18 +9180,6 @@
     ]
   },
   {
-    "value": "Invalidation request",
-    "count": 1,
-    "mapKeyTo": "eventHistory.label.Invalidation",
-    "mapValueTo": "Invalidation request",
-    "keys": [
-      {
-        "key": "eventHistory.label.Invalidation",
-        "value": "Invalidation request"
-      }
-    ]
-  },
-  {
     "value": "Submission",
     "count": 1,
     "mapKeyTo": "eventHistory.label.Submission",
@@ -8304,18 +9200,6 @@
       {
         "key": "eventHistory.label.error",
         "value": "View error"
-      }
-    ]
-  },
-  {
-    "value": "History",
-    "count": 1,
-    "mapKeyTo": "eventHistory.label.history",
-    "mapValueTo": "History",
-    "keys": [
-      {
-        "key": "eventHistory.label.history",
-        "value": "History"
       }
     ]
   },
@@ -8784,18 +9668,6 @@
       {
         "key": "generalInfoForm.lables.authorisations",
         "value": "Authorisation(s)"
-      }
-    ]
-  },
-  {
-    "value": "Authorisation",
-    "count": 1,
-    "mapKeyTo": "generalInfoForm.lables.authorisation",
-    "mapValueTo": "Authorisation",
-    "keys": [
-      {
-        "key": "generalInfoForm.lables.authorisation",
-        "value": "Authorisation"
       }
     ]
   },
@@ -9324,18 +10196,6 @@
       {
         "key": "generalInfoForm.lables.previousDocuments",
         "value": "Previous document(s)"
-      }
-    ]
-  },
-  {
-    "value": "Previous document",
-    "count": 1,
-    "mapKeyTo": "generalInfoForm.lables.previousDocument",
-    "mapValueTo": "Previous document",
-    "keys": [
-      {
-        "key": "generalInfoForm.lables.previousDocument",
-        "value": "Previous document"
       }
     ]
   },
@@ -11080,18 +11940,6 @@
     ]
   },
   {
-    "value": "Invalidation Requests",
-    "count": 1,
-    "mapKeyTo": "invalidationRequest.heading",
-    "mapValueTo": "Invalidation Requests",
-    "keys": [
-      {
-        "key": "invalidationRequest.heading",
-        "value": "Invalidation Requests"
-      }
-    ]
-  },
-  {
     "value": "Assessor / Customs office",
     "count": 1,
     "mapKeyTo": "invalidationRequest.listHeader.accessor",
@@ -11244,18 +12092,6 @@
       {
         "key": "layout.footer.followus",
         "value": "Follow Us"
-      }
-    ]
-  },
-  {
-    "value": "Home",
-    "count": 1,
-    "mapKeyTo": "layout.footer.home",
-    "mapValueTo": "Home",
-    "keys": [
-      {
-        "key": "layout.footer.home",
-        "value": "Home"
       }
     ]
   },
@@ -11752,18 +12588,6 @@
     ]
   },
   {
-    "value": "Saved drafts",
-    "count": 1,
-    "mapKeyTo": "menu.savedDrafts",
-    "mapValueTo": "Saved drafts",
-    "keys": [
-      {
-        "key": "menu.savedDrafts",
-        "value": "Saved drafts"
-      }
-    ]
-  },
-  {
     "value": "Search for MRN",
     "count": 1,
     "mapKeyTo": "menu.searchFor",
@@ -11856,18 +12680,6 @@
       {
         "key": "incidentDecision.label",
         "value": "Decision about an incident"
-      }
-    ]
-  },
-  {
-    "value": "Movement under resolution",
-    "count": 1,
-    "mapKeyTo": "movementUnderResolutionOverview.heading",
-    "mapValueTo": "Movement under resolution",
-    "keys": [
-      {
-        "key": "movementUnderResolutionOverview.heading",
-        "value": "Movement under resolution"
       }
     ]
   },
@@ -12268,18 +13080,6 @@
     ]
   },
   {
-    "value": "Recovery Request",
-    "count": 1,
-    "mapKeyTo": "recoveryRequest.heading",
-    "mapValueTo": "Recovery Request",
-    "keys": [
-      {
-        "key": "recoveryRequest.heading",
-        "value": "Recovery Request"
-      }
-    ]
-  },
-  {
     "value": "Request Recovery (IE150)",
     "count": 1,
     "mapKeyTo": "recoveryRequest.requestRecovery",
@@ -12328,18 +13128,6 @@
     ]
   },
   {
-    "value": "View Recoveries",
-    "count": 1,
-    "mapKeyTo": "recoveryRequests.heading",
-    "mapValueTo": "View Recoveries",
-    "keys": [
-      {
-        "key": "recoveryRequests.heading",
-        "value": "View Recoveries"
-      }
-    ]
-  },
-  {
     "value": "Messages",
     "count": 1,
     "mapKeyTo": "recoveryRequests.messages",
@@ -12384,18 +13172,6 @@
       {
         "key": "recoveryRequests.holderIdentificationNumber",
         "value": "Holder identification number"
-      }
-    ]
-  },
-  {
-    "value": "Office of destination",
-    "count": 1,
-    "mapKeyTo": "recoveryRequests.officeOfDestination",
-    "mapValueTo": "Office of destination",
-    "keys": [
-      {
-        "key": "recoveryRequests.officeOfDestination",
-        "value": "Office of destination"
       }
     ]
   },
@@ -12940,18 +13716,6 @@
     ]
   },
   {
-    "value": "Release Requests",
-    "count": 1,
-    "mapKeyTo": "releaseRequest.heading",
-    "mapValueTo": "Release Requests",
-    "keys": [
-      {
-        "key": "releaseRequest.heading",
-        "value": "Release Requests"
-      }
-    ]
-  },
-  {
     "value": "Controlled on",
     "count": 1,
     "mapKeyTo": "releaseRequest.listHeader.controlledOn",
@@ -13128,18 +13892,6 @@
       {
         "key": "requestOnNonArrivedMovement.dialog.requestOnNonArrivedMovement",
         "value": "Please confirm you want to send a ‘Request on Non-Arrived Movement’ to the Holder of the Transit Procedure"
-      }
-    ]
-  },
-  {
-    "value": "Request On Non-Arrived Movement",
-    "count": 1,
-    "mapKeyTo": "requestOnNonArrivedMovement.heading",
-    "mapValueTo": "Request On Non-Arrived Movement",
-    "keys": [
-      {
-        "key": "requestOnNonArrivedMovement.heading",
-        "value": "Request On Non-Arrived Movement"
       }
     ]
   },
@@ -13368,18 +14120,6 @@
       {
         "key": "respondToRequestOnNonArrivedMovement.dialog.respondToRequestOnNonArrivedMovement",
         "value": "Respond to Non-Arrived Movement (IE141)"
-      }
-    ]
-  },
-  {
-    "value": "Risk and control information",
-    "count": 1,
-    "mapKeyTo": "riskAndControl.label.riskAndControlInfo",
-    "mapValueTo": "Risk and control information",
-    "keys": [
-      {
-        "key": "riskAndControl.label.riskAndControlInfo",
-        "value": "Risk and control information"
       }
     ]
   },
@@ -13620,18 +14360,6 @@
       {
         "key": "saveAsTemplateDialog.duplicate",
         "value": "Duplicate template"
-      }
-    ]
-  },
-  {
-    "value": "Save as template",
-    "count": 1,
-    "mapKeyTo": "saveAsTemplateDialog.main",
-    "mapValueTo": "Save as template",
-    "keys": [
-      {
-        "key": "saveAsTemplateDialog.main",
-        "value": "Save as template"
       }
     ]
   },

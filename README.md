@@ -89,12 +89,12 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 
 #### case insensitive
 
-`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_mapping.json --prefix i18n.common. --ignore-case`
+`python ./scripts/canonical_map.py ./output/result/en.flat.filtered.json --duplicates-out ./output/remap/en_mapping.json --prefix i18n.common. --ignore-case`
 
 [//]: # (#### case sensitive)
 
 [//]: # ()
-[//]: # (`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates-case-sensitive.json --prefix i18n.common`)
+[//]: # (`python ./scripts/canonical_map.py ./output/result/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates-case-sensitive.json --prefix i18n.common`)
 
 #### validate no duplicate mapKeyTo values
 
@@ -103,7 +103,7 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 `python ./scripts/validate_duplicates.py ./output/remap/en_mapping.json`
 - Ensure that the mapping file contains all keys from the flat JSON file (no keys are missing):
 
-`python ./scripts/validate_mapping_coverage.py ./output/flat_separated/en.flat.filtered.json ./output/remap/en_mapping.json`
+`python ./scripts/validate_mapping_coverage.py ./output/result/en.flat.filtered.json ./output/remap/en_mapping.json`
 
 **Note:** The `canonical_map.py` script automatically resolves duplicate `mapKeyTo` conflicts by appending hash suffixes (e.g., `mapKeyTo_hash123`), so this validation should pass if the script ran correctly.
 
@@ -116,15 +116,15 @@ Applies canonical mapping to rename keys by `mapKeyTo` and optionally rename val
 
 For **English**: Use `--mapValues` to replace both keys and values
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/en.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/en.flat.mapped.json --mapValues`
+`python ./scripts/apply_mapping_flat_json.py ./output/result/en.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/en.flat.mapped.json --mapValues`
 
 For **other languages**: Omit `--mapValues` to replace only keys and keep original language values
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/fr.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/result/fr.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/fr.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/nl.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/nl.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/result/nl.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/nl.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/fr.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/result/de.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/de.flat.mapped.json`
 
 The `apply_mapping_flat_json.py` script does the following in one pass:
 1. **Copies** the input file to a new output file
