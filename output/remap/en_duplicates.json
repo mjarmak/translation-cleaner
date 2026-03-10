@@ -389,10 +389,18 @@
   },
   {
     "value": "Postcode",
-    "count": 4,
+    "count": 7,
     "mapKeyTo": "i18n.common.postcode",
     "mapValueTo": "Postcode",
     "keys": [
+      {
+        "key": "generalInfoForm.lables.locationOfGoodsAddress.postcode",
+        "value": "Post Code"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.postCode",
+        "value": "Post code"
+      },,
       {
         "key": "app.postcode",
         "value": "Postcode"
@@ -1362,7 +1370,7 @@
   {
     "value": "Declaration goods item number",
     "count": 4,
-    "mapKeyTo": "i18n.common.goodsItemNumber",
+    "mapKeyTo": "i18n.common.declarationGoodsItemNumber",
     "mapValueTo": "Declaration goods item number",
     "keys": [
       {
@@ -2046,7 +2054,7 @@
   {
     "value": "Add Binding Itinerary",
     "count": 2,
-    "mapKeyTo": "i18n.common.action",
+    "mapKeyTo": "i18n.common.addBindingItinerary",
     "mapValueTo": "Add Binding Itinerary",
     "keys": [
       {
@@ -2234,7 +2242,7 @@
   {
     "value": "Office city",
     "count": 3,
-    "mapKeyTo": "i18n.common.city",
+    "mapKeyTo": "i18n.common.officeCity",
     "mapValueTo": "Office city",
     "keys": [
       {
@@ -2254,7 +2262,7 @@
   {
     "value": "Office name",
     "count": 3,
-    "mapKeyTo": "i18n.common.name",
+    "mapKeyTo": "i18n.common.officeName",
     "mapValueTo": "Office name",
     "keys": [
       {
@@ -2268,26 +2276,6 @@
       {
         "key": "sendEnquiryInformation.dialog.officeName",
         "value": "Office name"
-      }
-    ]
-  },
-  {
-    "value": "E-mail address",
-    "count": 3,
-    "mapKeyTo": "i18n.common.emailAddress",
-    "mapValueTo": "E-mail address",
-    "keys": [
-      {
-        "key": "completeRecovery.customsOfficeOfRecoveryAtDeparture.contactPerson.emailAddress",
-        "value": "E-mail address"
-      },
-      {
-        "key": "sendEnquiryInformation.dialog.emailAddress",
-        "value": "E-mail address"
-      },
-      {
-        "key": "sendEnquiryResponse.dialog.emailAddress",
-        "value": "E-mail address"
       }
     ]
   },
@@ -2334,7 +2322,7 @@
   {
     "value": "Contact Person",
     "count": 8,
-    "mapKeyTo": "i18n.common.title",
+    "mapKeyTo": "i18n.common.contactPerson",
     "mapValueTo": "Contact Person",
     "keys": [
       {
@@ -2394,7 +2382,7 @@
   {
     "value": "Recovery",
     "count": 4,
-    "mapKeyTo": "i18n.common.title",
+    "mapKeyTo": "i18n.common.recovery",
     "mapValueTo": "Recovery",
     "keys": [
       {
@@ -2565,10 +2553,22 @@
   },
   {
     "value": "Email address",
-    "count": 5,
+    "count": 8,
     "mapKeyTo": "i18n.common.emailAddress",
     "mapValueTo": "Email address",
     "keys": [
+      {
+        "key": "completeRecovery.customsOfficeOfRecoveryAtDeparture.contactPerson.emailAddress",
+        "value": "E-mail address"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.emailAddress",
+        "value": "E-mail address"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.emailAddress",
+        "value": "E-mail address"
+      },
       {
         "key": "consignParties.lables.emailAddress",
         "value": "Email address"
@@ -2826,7 +2826,7 @@
   {
     "value": "Gross Mass (kg)",
     "count": 2,
-    "mapKeyTo": "i18n.common.grossMass",
+    "mapKeyTo": "i18n.common.grossMassKilogram",
     "mapValueTo": "Gross Mass (kg)",
     "keys": [
       {
@@ -3522,7 +3522,7 @@
   {
     "value": "Submission failed",
     "count": 2,
-    "mapKeyTo": "i18n.common.message",
+    "mapKeyTo": "i18n.common.submissionFailed",
     "mapValueTo": "Submission failed",
     "keys": [
       {
@@ -3554,7 +3554,7 @@
   {
     "value": "{{number}} errors found. Kindly check, rectify and resubmit.",
     "count": 2,
-    "mapKeyTo": "i18n.common.title",
+    "mapKeyTo": "i18n.common.errorsFoundWithNumberAndRetryDescription",
     "mapValueTo": "{{number}} errors found. Kindly check, rectify and resubmit.",
     "keys": [
       {
@@ -3570,7 +3570,7 @@
   {
     "value": "{{number}} errors found.",
     "count": 2,
-    "mapKeyTo": "i18n.common.description",
+    "mapKeyTo": "i18n.common.errorsFoundWithNumber",
     "mapValueTo": "{{number}} errors found.",
     "keys": [
       {
@@ -3586,7 +3586,7 @@
   {
     "value": "Please review and correct errors",
     "count": 2,
-    "mapKeyTo": "i18n.common.title",
+    "mapKeyTo": "i18n.common.errorsPleaseReviewAndCorrect",
     "mapValueTo": "Please review and correct errors",
     "keys": [
       {
@@ -3602,7 +3602,7 @@
   {
     "value": "Unforeseen problem",
     "count": 2,
-    "mapKeyTo": "i18n.common.description",
+    "mapKeyTo": "i18n.common.unforeseenProblem",
     "mapValueTo": "Unforeseen problem",
     "keys": [
       {
@@ -3618,7 +3618,7 @@
   {
     "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
     "count": 2,
-    "mapKeyTo": "i18n.common.message",
+    "mapKeyTo": "i18n.common.errorGeneralDescription",
     "mapValueTo": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
     "keys": [
       {
@@ -3782,7 +3782,7 @@
   {
     "value": "Register Incident Notification",
     "count": 2,
-    "mapKeyTo": "i18n.common.title",
+    "mapKeyTo": "i18n.common.registerIncidentNotification",
     "mapValueTo": "Register Incident Notification",
     "keys": [
       {
@@ -4122,7 +4122,7 @@
   {
     "value": "Office of departure",
     "count": 2,
-    "mapKeyTo": "i18n.common.customsOfficeOfDeparture",
+    "mapKeyTo": "i18n.common.officeOfDeparture",
     "mapValueTo": "Office of departure",
     "keys": [
       {
@@ -4138,7 +4138,7 @@
   {
     "value": "Requested customs office",
     "count": 2,
-    "mapKeyTo": "i18n.common.customsOfficeOfRequest",
+    "mapKeyTo": "i18n.common.requestedCustomsOffice",
     "mapValueTo": "Requested customs office",
     "keys": [
       {
@@ -4262,7 +4262,7 @@
   {
     "value": "*Please enter a value",
     "count": 2,
-    "mapKeyTo": "i18n.common.required",
+    "mapKeyTo": "i18n.common.requiredWithAstrix",
     "mapValueTo": "*Please enter a value",
     "keys": [
       {
@@ -4448,22 +4448,6 @@
       {
         "key": "releaseForTransit.release",
         "value": "release"
-      }
-    ]
-  },
-  {
-    "value": "Post Code",
-    "count": 2,
-    "mapKeyTo": "i18n.common.postcode",
-    "mapValueTo": "Post Code",
-    "keys": [
-      {
-        "key": "generalInfoForm.lables.locationOfGoodsAddress.postcode",
-        "value": "Post Code"
-      },
-      {
-        "key": "sendEnquiryResponse.dialog.postCode",
-        "value": "Post code"
       }
     ]
   },
@@ -4830,7 +4814,7 @@
   {
     "value": "Login",
     "count": 2,
-    "mapKeyTo": "i18n.common.text",
+    "mapKeyTo": "i18n.common.login",
     "mapValueTo": "Login",
     "keys": [
       {

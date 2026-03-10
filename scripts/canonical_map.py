@@ -1,5 +1,7 @@
 import json
 import argparse
+import hashlib
+import base64
 from collections import defaultdict
 from pathlib import Path
 
@@ -34,6 +36,13 @@ def is_pascal_case(value: str) -> bool:
         if not first_letter_found:
             return False
     return True
+
+def generate_hash_suffix(value: str) -> str:
+    """Generate a short base64 hash suffix for a value."""
+    hash_obj = hashlib.md5(value.encode())
+    hash_bytes = hash_obj.digest()[:6]  # Take first 6 bytes for shorter hash
+    hash_b64 = base64.b64encode(hash_bytes).decode().rstrip('=')  # Remove padding
+    return 'hash_' + hash_b64
 
 def main():
     parser = argparse.ArgumentParser(
@@ -90,7 +99,9 @@ def main():
     # Build JSON duplicates structure
     # -------------------------------------------------
     duplicates_array = []
+    map_to_tracker = defaultdict(list)  # Track which entries use which mapKeyTo
 
+    # First pass: create all duplicate objects and track mapKeyTo usage
     for value_key, key_list in duplicates.items():
         # Extract original value from first tuple
         original_value = key_list[0][0]
@@ -125,6 +136,16 @@ def main():
         }
 
         duplicates_array.append(duplicate_obj)
+        map_to_tracker[map_to].append(duplicate_obj)
+
+    # Second pass: resolve mapKeyTo conflicts by adding hash suffix
+    for map_key, entries in map_to_tracker.items():
+        if len(entries) > 1:  # Conflict detected
+            for i, entry in enumerate(entries):
+                # Generate hash suffix from the value
+                hash_suffix = generate_hash_suffix(entry["value"])
+                entry["mapKeyTo"] = f"{map_key}_{hash_suffix}"
+                log(f"Resolved duplicate mapKeyTo '{map_key}' → '{entry['mapKeyTo']}' for value '{entry['value']}'")
 
     # Write JSON file
     log(f"Writing duplicates JSON to: {duplicates_out}")
