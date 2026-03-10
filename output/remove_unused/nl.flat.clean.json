@@ -315,6 +315,8 @@
   "i18n.common.save": "Opslaan",
   "bindingItinerary.dialog.description": "Gelieve de verplichte reisweg in chronologische volgorde in te geven, met inbegrip van alle landen startende van het land van verzending tot land van bestemming.",
   "i18n.common.countryOfRoutingOfConsignment": "Land dat deel uitmaakt van het traject",
+  "i18n.common.countryOfDestination": "Land van bestemming",
+  "i18n.common.countryOfTransit": "Land van doorgang",
   "buttons.back": "Terug",
   "buttons.cancelWithoutSaving": "annuleer zonder op te slaan",
   "i18n.common.confirm": "Bevestigen",

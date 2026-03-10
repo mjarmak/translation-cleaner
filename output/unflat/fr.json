@@ -260,6 +260,8 @@
       "addBindingItinerary": "Ajouter un itinéraire obligatoire",
       "save": "Sauvegarder",
       "countryOfRoutingOfConsignment": "Pays de l'itinéraire de l’envoi",
+      "countryOfDestination": "Pays de destination",
+      "countryOfTransit": "Pays de passage",
       "confirm": "Confirmer",
       "request": "Request",
       "cancelEnquiryNotificationText": "Cancel enquiry notification text",

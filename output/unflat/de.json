@@ -260,6 +260,8 @@
       "addBindingItinerary": "Verbindliche Beförderungsstrecke hinzufügen",
       "save": "Speichern",
       "countryOfRoutingOfConsignment": "Beförderungsroute der Sendung",
+      "countryOfDestination": "Bestimmungsland",
+      "countryOfTransit": "Durchgangsland",
       "confirm": "Bestätigen",
       "request": "Request",
       "cancelEnquiryNotificationText": "Cancel enquiry notification text",

@@ -28,8 +28,6 @@ advanceSearch.type.Combined
 app.transportEquipments
 application.documentation
 application.exi
-bindingItinerary.dialog.labels.countryOfDispatch
-bindingItinerary.dialog.labels.countryOfTransit
 buttons.dismiss
 buttons.startDeclaration
 common.button.reset

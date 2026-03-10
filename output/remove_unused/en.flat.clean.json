@@ -315,6 +315,8 @@
   "i18n.common.save": "Save",
   "bindingItinerary.dialog.description": "Please introduce the binding itinerary in a chronological order, including all countries of routing of consignment starting from the country of departure until the country of destination.",
   "i18n.common.countryOfRoutingOfConsignment": "Country of routing of consignment",
+  "i18n.common.countryOfDestination": "Country of destination",
+  "i18n.common.countryOfTransit": "Country of transit",
   "buttons.back": "Back",
   "buttons.cancelWithoutSaving": "cancel without saving",
   "i18n.common.confirm": "Confirm",

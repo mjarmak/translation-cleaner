@@ -315,6 +315,8 @@
   "i18n.common.save": "Sauvegarder",
   "bindingItinerary.dialog.description": "Veuillez présenter l'itinéraire de liaison dans un ordre chronologique, en incluant tous les pays de passage de l'envoi, du pays d'expédition au pays de destination.",
   "i18n.common.countryOfRoutingOfConsignment": "Pays de l'itinéraire de l’envoi",
+  "i18n.common.countryOfDestination": "Pays de destination",
+  "i18n.common.countryOfTransit": "Pays de passage",
   "buttons.back": "Retour",
   "buttons.cancelWithoutSaving": "annuler sans sauver",
   "i18n.common.confirm": "Confirmer",

@@ -260,6 +260,8 @@
       "addBindingItinerary": "Add Binding Itinerary",
       "save": "Save",
       "countryOfRoutingOfConsignment": "Country of routing of consignment",
+      "countryOfDestination": "Country of destination",
+      "countryOfTransit": "Country of transit",
       "confirm": "Confirm",
       "request": "Request",
       "cancelEnquiryNotificationText": "Cancel enquiry notification text",

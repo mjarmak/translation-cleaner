@@ -260,6 +260,8 @@
       "addBindingItinerary": "Voeg verplichte reisweg toe",
       "save": "Opslaan",
       "countryOfRoutingOfConsignment": "Land dat deel uitmaakt van het traject",
+      "countryOfDestination": "Land van bestemming",
+      "countryOfTransit": "Land van doorgang",
       "confirm": "Bevestigen",
       "request": "Request",
       "cancelEnquiryNotificationText": "Cancel enquiry notification text",
