@@ -91,17 +91,19 @@ def main():
         group_key = str_value.lower() if ignore_case else str_value
         value_to_keys[group_key].append((str_value, key))
 
-    # Filter duplicates only
+    # Separate duplicates and non-duplicates
     duplicates = {value: keys for value, keys in value_to_keys.items() if len(keys) > 1}
+    non_duplicates = {value: keys for value, keys in value_to_keys.items() if len(keys) == 1}
     log(f"Found {len(duplicates)} duplicated values")
+    log(f"Found {len(non_duplicates)} unique values")
 
     # -------------------------------------------------
-    # Build JSON duplicates structure
+    # Build JSON structure (all entries)
     # -------------------------------------------------
-    duplicates_array = []
+    all_entries_array = []
     map_to_tracker = defaultdict(list)  # Track which entries use which mapKeyTo
 
-    # First pass: create all duplicate objects and track mapKeyTo usage
+    # First pass: create duplicate objects and track mapKeyTo usage
     for value_key, key_list in duplicates.items():
         # Extract original value from first tuple
         original_value = key_list[0][0]
@@ -135,10 +137,38 @@ def main():
             "keys": keys_array
         }
 
-        duplicates_array.append(duplicate_obj)
+        all_entries_array.append(duplicate_obj)
         map_to_tracker[map_to].append(duplicate_obj)
 
-    # Second pass: resolve mapKeyTo conflicts by adding hash suffix
+    # Second pass: add non-duplicate entries (count = 1)
+    for value_key, key_list in non_duplicates.items():
+        original_value = key_list[0][0]
+        key = key_list[0][1]
+
+        # For non-duplicates, mapKeyTo is just the key itself
+        map_to = key
+
+        # For non-duplicates, mapValueTo is the value itself
+        map_value_to = original_value
+
+        # Build keys array with single entry
+        keys_array = [{
+            "key": key,
+            "value": original_value
+        }]
+
+        # Build entry object
+        entry_obj = {
+            "value": original_value,
+            "count": 1,
+            "mapKeyTo": map_to,
+            "mapValueTo": map_value_to,
+            "keys": keys_array
+        }
+
+        all_entries_array.append(entry_obj)
+
+    # Third pass: resolve mapKeyTo conflicts by adding hash suffix (only for duplicates)
     for map_key, entries in map_to_tracker.items():
         if len(entries) > 1:  # Conflict detected
             for i, entry in enumerate(entries):
@@ -148,15 +178,16 @@ def main():
                 log(f"Resolved duplicate mapKeyTo '{map_key}' → '{entry['mapKeyTo']}' for value '{entry['value']}'")
 
     # Write JSON file
-    log(f"Writing duplicates JSON to: {duplicates_out}")
+    log(f"Writing all entries JSON to: {duplicates_out}")
     with open(duplicates_out, "w", encoding="utf-8") as f:
-        json.dump(duplicates_array, f, ensure_ascii=False, indent=2)
+        json.dump(all_entries_array, f, ensure_ascii=False, indent=2)
 
-    log(f"Wrote {len(duplicates_array)} duplicated values with {sum(len(d['keys']) for d in duplicates_array)} total keys")
+    duplicates_count = len(duplicates)
+    non_duplicates_count = len(non_duplicates)
+    total_keys = sum(len(d['keys']) for d in all_entries_array)
+    log(f"Wrote {len(all_entries_array)} total entries ({duplicates_count} duplicates, {non_duplicates_count} unique) with {total_keys} total keys")
     log("✅ Done")
 
 if __name__ == "__main__":
     main()
 
-if __name__ == "__main__":
-    main()

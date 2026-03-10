@@ -91,9 +91,10 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 
 `python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_mapping.json --prefix i18n.common. --ignore-case`
 
-#### case sensitive
+[//]: # (#### case sensitive)
 
-`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates-case-sensitive.json --prefix i18n.common`
+[//]: # ()
+[//]: # (`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates-case-sensitive.json --prefix i18n.common`)
 
 #### validate no duplicate mapKeyTo values
 
