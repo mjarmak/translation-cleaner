@@ -92,40 +92,24 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 `python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates-case-sensitive.json --prefix i18n.common`
 
 ### 4. rename keys (in project and translation files):
-Renames keys in the project and translations, then delete duplicates in the translation files.
+**Files:** `FLAT_JSON` + `DUPLICATES.JSON` → `FLAT_JSON_MAPPED`
 
-#### Apply on i18n json files
+Applies canonical mapping to rename keys by `mapKeyTo` and optionally rename values by `mapValueTo`.
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/en.flat.filtered.json ./output/canonical/en_canonical-mapping.txt --out ./output/replaced/en.flat.mapped.json`
+- For **English**: Use `--mapValues` to replace both keys and values
+- For **other languages**: Omit `--mapValues` to replace only keys and keep original language values
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/canonical/en_canonical-mapping.txt --out ./output/replaced/fr.flat.mapped.json`
+#### Apply on English file with value mapping
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/nl.flat.filtered.json ./output/canonical/en_canonical-mapping.txt --out ./output/replaced/nl.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/en.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/replaced/en.flat.mapped.json --mapValues`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/de.flat.filtered.json ./output/canonical/replaced/en_canonical-mapping.txt --out ./output/replaced/de.flat.mapped.json`
+#### Apply on other language files (keys only, values unchanged)
 
-#### Apply on project files
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/canonical/en_canonical-mapping.txt`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/replaced/fr.flat.mapped.json`
 
-### 5. rename hashed keys to meaning translation keys (in project and translation files):
-**Files:** `CANONICAL_MAPPING_JSON` + `HASH_RENAME_MAPPING` → `FLAT_JSON*`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/nl.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/replaced/nl.flat.mapped.json`
 
-Run the following scripts to create a mapping file for the hashed keys in the 'common.<key>' format.
-
-The hashed keys are identified by looking at the 'hash_' prefix in the key names.
-
-`python ./scripts/rename_hashed_keys.py ./output/en_canonical-mapping.json ./output/hash_rename-mapping.txt --prefix hash_ --out ./output/hash_rename-mapping.txt`
-
-#### Apply on i18n json files
-Then run the rename script below again to update the project and translation files.
-
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/en.flat.filtered.json ./output/hash_rename-mapping.txt`
-
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/hash_rename-mapping.txt`
-
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/nl.flat.filtered.json ./output/hash_rename-mapping.txt`
-
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/de.flat.filtered.json ./output/hash_rename-mapping.txt`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/de.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/replaced/de.flat.mapped.json`
 
 #### Apply on project files
 `python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/hash_rename-mapping.txt`

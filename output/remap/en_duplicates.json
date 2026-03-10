@@ -1,0 +1,5086 @@
+[
+  {
+    "value": "Address",
+    "count": 4,
+    "mapKeyTo": "i18n.common.address",
+    "mapValueTo": "Address",
+    "keys": [
+      {
+        "key": "app.address",
+        "value": "Address"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.address",
+        "value": "Address"
+      },
+      {
+        "key": "generalInfoForm.lables.address",
+        "value": "Address"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.address",
+        "value": "Address"
+      }
+    ]
+  },
+  {
+    "value": "City",
+    "count": 5,
+    "mapKeyTo": "i18n.common.city",
+    "mapValueTo": "City",
+    "keys": [
+      {
+        "key": "app.city",
+        "value": "City"
+      },
+      {
+        "key": "generalInfoForm.lables.city",
+        "value": "City"
+      },
+      {
+        "key": "party.lables.city",
+        "value": "City"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.city",
+        "value": "City"
+      },
+      {
+        "key": "transitParties.city",
+        "value": "City"
+      }
+    ]
+  },
+  {
+    "value": "Code",
+    "count": 7,
+    "mapKeyTo": "i18n.common.code",
+    "mapValueTo": "Code",
+    "keys": [
+      {
+        "key": "app.code",
+        "value": "Code"
+      },
+      {
+        "key": "consult-consignment.labels.code",
+        "value": "Code"
+      },
+      {
+        "key": "consultTransitInfo.labels.code",
+        "value": "Code"
+      },
+      {
+        "key": "des.registerArrivalNotification.code",
+        "value": "Code"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.code",
+        "value": "Code"
+      },
+      {
+        "key": "generalInfoForm.lables.code",
+        "value": "Code"
+      },
+      {
+        "key": "riskAndControlInformation.code",
+        "value": "Code"
+      }
+    ]
+  },
+  {
+    "value": "Container Identification Number",
+    "count": 6,
+    "mapKeyTo": "i18n.common.containerIdentificationNumber",
+    "mapValueTo": "Container Identification Number",
+    "keys": [
+      {
+        "key": "app.containerIdentificationNumber",
+        "value": "Container Identification Number"
+      },
+      {
+        "key": "des.registerArrivalNotification.containerIdentificationNumber",
+        "value": "Container identification number"
+      },
+      {
+        "key": "enquiryRequests.labels.containerIdentificationNumber",
+        "value": "Container identification number"
+      },
+      {
+        "key": "generalInfoForm.lables.containerIdentificationNumber",
+        "value": "Container identification number"
+      },
+      {
+        "key": "recoveryRequests.containerIdentificationNumber",
+        "value": "Container identification number"
+      },
+      {
+        "key": "registerControlResultDialog.containerIdentificationNumber",
+        "value": "Container identification number"
+      }
+    ]
+  },
+  {
+    "value": "Container Indicator",
+    "count": 4,
+    "mapKeyTo": "i18n.common.containerIndicator",
+    "mapValueTo": "Container Indicator",
+    "keys": [
+      {
+        "key": "app.containerIndicator",
+        "value": "Container Indicator"
+      },
+      {
+        "key": "des.registerArrivalNotification.containerIndicator",
+        "value": "Container indicator"
+      },
+      {
+        "key": "generalInfoForm.lables.containerIndicator",
+        "value": "Container indicator"
+      },
+      {
+        "key": "registerControlResultDialog.containerIndicator",
+        "value": "Container indicator"
+      }
+    ]
+  },
+  {
+    "value": "Country",
+    "count": 7,
+    "mapKeyTo": "i18n.common.country",
+    "mapValueTo": "Country",
+    "keys": [
+      {
+        "key": "app.country",
+        "value": "Country"
+      },
+      {
+        "key": "des.registerArrivalNotification.country",
+        "value": "Country"
+      },
+      {
+        "key": "generalInfoForm.lables.country",
+        "value": "Country"
+      },
+      {
+        "key": "generalInfoForm.lables.locationOfGoodsAddress.country",
+        "value": "Country"
+      },
+      {
+        "key": "party.lables.country",
+        "value": "Country"
+      },
+      {
+        "key": "registerControlResultDialog.country",
+        "value": "Country"
+      },
+      {
+        "key": "transitParties.country",
+        "value": "Country"
+      }
+    ]
+  },
+  {
+    "value": "Date",
+    "count": 7,
+    "mapKeyTo": "i18n.common.date",
+    "mapValueTo": "Date",
+    "keys": [
+      {
+        "key": "app.date",
+        "value": "Date"
+      },
+      {
+        "key": "des.registerArrivalNotification.date",
+        "value": "Date"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.date",
+        "value": "Date"
+      },
+      {
+        "key": "generalInfoForm.lables.date",
+        "value": "Date"
+      },
+      {
+        "key": "riskAndControlInformation.date",
+        "value": "Date"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.date",
+        "value": "Date"
+      },
+      {
+        "key": "tra.crossingFrontier.passageDate",
+        "value": "Date"
+      }
+    ]
+  },
+  {
+    "value": "Identification Number",
+    "count": 12,
+    "mapKeyTo": "i18n.common.identificationNumber",
+    "mapValueTo": "Identification Number",
+    "keys": [
+      {
+        "key": "app.identificationNumber",
+        "value": "Identification Number"
+      },
+      {
+        "key": "advanceSearch.labels.identifictionNo",
+        "value": "Identification number"
+      },
+      {
+        "key": "consignParties.lables.identificationNumber",
+        "value": "Identification number"
+      },
+      {
+        "key": "consult-consignment.labels.identificationNumber",
+        "value": "Identification number"
+      },
+      {
+        "key": "consultTransitInfo.labels.identificationNo",
+        "value": "Identification number"
+      },
+      {
+        "key": "consultTransitInfo.labels.identificationNumber",
+        "value": "Identification number"
+      },
+      {
+        "key": "des.registerArrivalNotification.identificationNumber",
+        "value": "Identification number"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.identificationNumber",
+        "value": "Identification number"
+      },
+      {
+        "key": "generalInfoForm.lables.identificationNumber",
+        "value": "Identification number"
+      },
+      {
+        "key": "registerControlResultDialog.identificationNumber",
+        "value": "Identification number"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.identificationNumber",
+        "value": "Identification number"
+      },
+      {
+        "key": "transitParties.identificationNumber",
+        "value": "Identification number"
+      }
+    ]
+  },
+  {
+    "value": "Incident",
+    "count": 3,
+    "mapKeyTo": "i18n.common.incident",
+    "mapValueTo": "Incident",
+    "keys": [
+      {
+        "key": "app.incident",
+        "value": "Incident"
+      },
+      {
+        "key": "application.inc",
+        "value": "Incident"
+      },
+      {
+        "key": "des.registerArrivalNotification.incident",
+        "value": "Incident"
+      }
+    ]
+  },
+  {
+    "value": "Location",
+    "count": 4,
+    "mapKeyTo": "i18n.common.location",
+    "mapValueTo": "Location",
+    "keys": [
+      {
+        "key": "app.location",
+        "value": "Location"
+      },
+      {
+        "key": "advanceSearch.labels.location",
+        "value": "Location"
+      },
+      {
+        "key": "generalInfoForm.lables.location",
+        "value": "Location"
+      },
+      {
+        "key": "registerControlResultDialog.location",
+        "value": "Location"
+      }
+    ]
+  },
+  {
+    "value": "Nationality",
+    "count": 5,
+    "mapKeyTo": "i18n.common.nationality",
+    "mapValueTo": "Nationality",
+    "keys": [
+      {
+        "key": "app.nationality",
+        "value": "Nationality"
+      },
+      {
+        "key": "consultTransitInfo.labels.nationality",
+        "value": "Nationality"
+      },
+      {
+        "key": "des.registerArrivalNotification.nationality",
+        "value": "Nationality"
+      },
+      {
+        "key": "generalInfoForm.lables.nationality",
+        "value": "Nationality"
+      },
+      {
+        "key": "registerControlResultDialog.nationality",
+        "value": "Nationality"
+      }
+    ]
+  },
+  {
+    "value": "Number of seals",
+    "count": 5,
+    "mapKeyTo": "i18n.common.numberOfSeals",
+    "mapValueTo": "Number of seals",
+    "keys": [
+      {
+        "key": "app.numberOfSeals",
+        "value": "Number of seals"
+      },
+      {
+        "key": "consult-consignment.labels.noOfSeals",
+        "value": "Number of seals"
+      },
+      {
+        "key": "des.registerArrivalNotification.numberOfSeals",
+        "value": "Number of seals"
+      },
+      {
+        "key": "generalInfoForm.lables.numberOfSeals",
+        "value": "Number of seals"
+      },
+      {
+        "key": "registerControlResultDialog.numberOfSeals",
+        "value": "Number of seals"
+      }
+    ]
+  },
+  {
+    "value": "Place",
+    "count": 2,
+    "mapKeyTo": "i18n.common.place",
+    "mapValueTo": "Place",
+    "keys": [
+      {
+        "key": "app.place",
+        "value": "Place"
+      },
+      {
+        "key": "des.registerArrivalNotification.place",
+        "value": "Place"
+      }
+    ]
+  },
+  {
+    "value": "Postcode",
+    "count": 4,
+    "mapKeyTo": "i18n.common.postcode",
+    "mapValueTo": "Postcode",
+    "keys": [
+      {
+        "key": "app.postcode",
+        "value": "Postcode"
+      },
+      {
+        "key": "generalInfoForm.lables.postcode",
+        "value": "Postcode"
+      },
+      {
+        "key": "party.lables.postcode",
+        "value": "Postcode"
+      },
+      {
+        "key": "transitParties.postCode",
+        "value": "Postcode"
+      }
+    ]
+  },
+  {
+    "value": "Seal identifier",
+    "count": 3,
+    "mapKeyTo": "i18n.common.sealIdentifier",
+    "mapValueTo": "Seal identifier",
+    "keys": [
+      {
+        "key": "app.sealIdentifier",
+        "value": "Seal identifier"
+      },
+      {
+        "key": "consult-consignment.labels.sealIdentifier",
+        "value": "Seal identifier"
+      },
+      {
+        "key": "generalInfoForm.lables.sealIdentifier",
+        "value": "Seal identifier"
+      }
+    ]
+  },
+  {
+    "value": "Street and number",
+    "count": 6,
+    "mapKeyTo": "i18n.common.streetAndNumber",
+    "mapValueTo": "Street and number",
+    "keys": [
+      {
+        "key": "app.streetAndNumber",
+        "value": "Street and number"
+      },
+      {
+        "key": "generalInfoForm.lables.streeAndNumber",
+        "value": "Street and number"
+      },
+      {
+        "key": "generalInfoForm.lables.streetAndNumber",
+        "value": "Street and number"
+      },
+      {
+        "key": "party.lables.streetAndNumber",
+        "value": "Street and number"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.streetAndNumber",
+        "value": "Street and number"
+      },
+      {
+        "key": "transitParties.streetAndNumber",
+        "value": "Street and number"
+      }
+    ]
+  },
+  {
+    "value": "Transport Equipment",
+    "count": 5,
+    "mapKeyTo": "i18n.common.transportEquipment",
+    "mapValueTo": "Transport Equipment",
+    "keys": [
+      {
+        "key": "app.transportEquipment",
+        "value": "Transport Equipment"
+      },
+      {
+        "key": "consult-consignment.labels.transportEquipment",
+        "value": "Transport equipment"
+      },
+      {
+        "key": "des.registerArrivalNotification.transportEquipment",
+        "value": "Transport equipment"
+      },
+      {
+        "key": "generalInfoForm.lables.transportEquipment",
+        "value": "Transport equipment"
+      },
+      {
+        "key": "registerControlResultDialog.transportEquipment",
+        "value": "Transport equipment"
+      }
+    ]
+  },
+  {
+    "value": "Type of identification",
+    "count": 5,
+    "mapKeyTo": "i18n.common.typeOfIdentification",
+    "mapValueTo": "Type of identification",
+    "keys": [
+      {
+        "key": "app.typeOfIdentification",
+        "value": "Type of identification"
+      },
+      {
+        "key": "consultTransitInfo.labels.typeOfIdentification",
+        "value": "Type of identification"
+      },
+      {
+        "key": "des.registerArrivalNotification.typeOfIdentification",
+        "value": "Type of identification"
+      },
+      {
+        "key": "generalInfoForm.lables.typeOfIdentification",
+        "value": "Type of identification"
+      },
+      {
+        "key": "registerControlResultDialog.typeOfIdentification",
+        "value": "Type of identification"
+      }
+    ]
+  },
+  {
+    "value": "Release a Movement",
+    "count": 2,
+    "mapKeyTo": "i18n.common.releaseMovement",
+    "mapValueTo": "Release a Movement",
+    "keys": [
+      {
+        "key": "advanceSearch.action.releaseMovement",
+        "value": "Release a Movement"
+      },
+      {
+        "key": "navDrawer.menu.releaseMovement",
+        "value": "Release a Movement"
+      }
+    ]
+  },
+  {
+    "value": "View",
+    "count": 4,
+    "mapKeyTo": "i18n.common.view",
+    "mapValueTo": "View",
+    "keys": [
+      {
+        "key": "advanceSearch.action.view",
+        "value": "View"
+      },
+      {
+        "key": "eventHistory.label.view",
+        "value": "View"
+      },
+      {
+        "key": "invalidationRequest.viewOption",
+        "value": "View"
+      },
+      {
+        "key": "releaseRequest.viewOption",
+        "value": "View"
+      }
+    ]
+  },
+  {
+    "value": "Clear all",
+    "count": 2,
+    "mapKeyTo": "i18n.common.clearAll",
+    "mapValueTo": "Clear all",
+    "keys": [
+      {
+        "key": "advanceSearch.button.clearAll",
+        "value": "Clear all"
+      },
+      {
+        "key": "advanceSearch.labels.clearAll",
+        "value": "Clear all"
+      }
+    ]
+  },
+  {
+    "value": "Search",
+    "count": 4,
+    "mapKeyTo": "i18n.common.search",
+    "mapValueTo": "Search",
+    "keys": [
+      {
+        "key": "advanceSearch.button.search",
+        "value": "Search"
+      },
+      {
+        "key": "advanceSearch.labels.search",
+        "value": "Search"
+      },
+      {
+        "key": "layout.officeFilter.searchBar",
+        "value": "Search"
+      },
+      {
+        "key": "layout.search",
+        "value": "Search"
+      }
+    ]
+  },
+  {
+    "value": "Irregularity under investigation",
+    "count": 3,
+    "mapKeyTo": "i18n.common.IrregularityUnderInvestigation",
+    "mapValueTo": "Irregularity under investigation",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.IrregularityUnderInvestigation",
+        "value": "Irregularity under investigation"
+      },
+      {
+        "key": "advanceSearch.status.IrregularityUnderInvestigation",
+        "value": "Irregularity under investigation"
+      },
+      {
+        "key": "eventHistory.nctsStatus.Irregularity under investigation",
+        "value": "Irregularity under investigation"
+      }
+    ]
+  },
+  {
+    "value": "No risk",
+    "count": 2,
+    "mapKeyTo": "i18n.common.NoRisk",
+    "mapValueTo": "No risk",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.NoRisk",
+        "value": "No risk"
+      },
+      {
+        "key": "tra.crossingFrontier.noRisk",
+        "value": "No risk"
+      }
+    ]
+  },
+  {
+    "value": "Addressed customs office",
+    "count": 2,
+    "mapKeyTo": "i18n.common.addCusOff",
+    "mapValueTo": "Addressed customs office",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.addCusOff",
+        "value": "Addressed customs office"
+      },
+      {
+        "key": "generalInfoForm.lables.addressedCustomsOffice",
+        "value": "Addressed customs office"
+      }
+    ]
+  },
+  {
+    "value": "Additional supply chain actor",
+    "count": 2,
+    "mapKeyTo": "i18n.common.additionalSupplyChainActor",
+    "mapValueTo": "Additional supply chain actor",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.additionalSupplyChainActor",
+        "value": "Additional supply chain actor"
+      },
+      {
+        "key": "generalInfoForm.lables.additionalSupplyChainActor",
+        "value": "Additional supply chain actor"
+      }
+    ]
+  },
+  {
+    "value": "Arrival transport means identification",
+    "count": 2,
+    "mapKeyTo": "i18n.common.arrivalTransMeansIdn",
+    "mapValueTo": "Arrival transport means identification",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.arrivalTransMeansIdn",
+        "value": "Arrival transport means identification"
+      },
+      {
+        "key": "generalInfoForm.lables.arrivalTransportIdentification",
+        "value": "Arrival transport means identification"
+      }
+    ]
+  },
+  {
+    "value": "at",
+    "count": 7,
+    "mapKeyTo": "i18n.common.at",
+    "mapValueTo": "at",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.at",
+        "value": "at"
+      },
+      {
+        "key": "eventHistory.label.at",
+        "value": "at"
+      },
+      {
+        "key": "invalidationRequest.at",
+        "value": "at"
+      },
+      {
+        "key": "releaseRequest.at",
+        "value": "at"
+      },
+      {
+        "key": "savedDrafts.headers.at",
+        "value": "at"
+      },
+      {
+        "key": "savedTemplates.at",
+        "value": "at"
+      },
+      {
+        "key": "savedTemplates.headers.at",
+        "value": "at"
+      }
+    ]
+  },
+  {
+    "value": "Authorisation number",
+    "count": 2,
+    "mapKeyTo": "i18n.common.authorizationNumber",
+    "mapValueTo": "Authorisation number",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.authorizationNumber",
+        "value": "Authorisation number"
+      },
+      {
+        "key": "generalInfoForm.lables.authorisationNumber",
+        "value": "Authorisation number"
+      }
+    ]
+  },
+  {
+    "value": "Carrier",
+    "count": 3,
+    "mapKeyTo": "i18n.common.carrier",
+    "mapValueTo": "Carrier",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.carrier",
+        "value": "Carrier"
+      },
+      {
+        "key": "consignParties.lables.carrier",
+        "value": "Carrier"
+      },
+      {
+        "key": "generalInfoForm.lables.carrier",
+        "value": "Carrier"
+      }
+    ]
+  },
+  {
+    "value": "Consignee",
+    "count": 4,
+    "mapKeyTo": "i18n.common.consignee",
+    "mapValueTo": "Consignee",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.consignee",
+        "value": "Consignee"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.consignee",
+        "value": "Consignee"
+      },
+      {
+        "key": "generalInfoForm.lables.consignee",
+        "value": "Consignee"
+      },
+      {
+        "key": "respondToRequestOnNonArrivedMovement.dialog.consignee",
+        "value": "Consignee"
+      }
+    ]
+  },
+  {
+    "value": "Consignor",
+    "count": 2,
+    "mapKeyTo": "i18n.common.consignor",
+    "mapValueTo": "Consignor",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.consignor",
+        "value": "Consignor"
+      },
+      {
+        "key": "generalInfoForm.lables.consignor",
+        "value": "Consignor"
+      }
+    ]
+  },
+  {
+    "value": "Country of destination",
+    "count": 7,
+    "mapKeyTo": "i18n.common.countrydest",
+    "mapValueTo": "Country of destination",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.countrydest",
+        "value": "Country of destination"
+      },
+      {
+        "key": "advanceSearch.resultColumn.countryOfDest",
+        "value": "Country of destination"
+      },
+      {
+        "key": "bindingItinerary.dialog.labels.countryOfDestination",
+        "value": "Country of destination"
+      },
+      {
+        "key": "generalInfoForm.lables.countryOfDestination",
+        "value": "Country of destination"
+      },
+      {
+        "key": "invalidationRequest.listHeader.country",
+        "value": "Country of destination"
+      },
+      {
+        "key": "registerControlResultDialog.countryOfDestination",
+        "value": "Country of destination"
+      },
+      {
+        "key": "releaseRequest.listHeader.country",
+        "value": "Country of destination"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of presentation",
+    "count": 2,
+    "mapKeyTo": "i18n.common.cusOffOfPres",
+    "mapValueTo": "Customs office of presentation",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.cusOffOfPres",
+        "value": "Customs office of presentation"
+      },
+      {
+        "key": "generalInfoForm.lables.customsOfficeOfPresentation",
+        "value": "Customs office of presentation"
+      }
+    ]
+  },
+  {
+    "value": "Customs office",
+    "count": 5,
+    "mapKeyTo": "i18n.common.cusOffice",
+    "mapValueTo": "Customs office",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.cusOffice",
+        "value": "Customs office"
+      },
+      {
+        "key": "des.registerArrivalNotification.customsOffice",
+        "value": "Customs office"
+      },
+      {
+        "key": "generalInfoForm.lables.consultCustomsOffice",
+        "value": "Customs office"
+      },
+      {
+        "key": "generalInfoForm.lables.customsOffice",
+        "value": "Customs office"
+      },
+      {
+        "key": "statusRequest.customsOffice",
+        "value": "Customs office"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of destination",
+    "count": 4,
+    "mapKeyTo": "i18n.common.customsdest",
+    "mapValueTo": "Customs office of destination",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.customsdest",
+        "value": "Customs office of destination"
+      },
+      {
+        "key": "layout.officeFilter.advancedSearchDes",
+        "value": "Customs office of destination"
+      },
+      {
+        "key": "releaseRequest.listHeader.customsOfficeOfDestination",
+        "value": "Customs office of destination"
+      },
+      {
+        "key": "respondToRequestOnNonArrivedMovement.dialog.customsOfficeOfDestination",
+        "value": "Customs office of destination"
+      }
+    ]
+  },
+  {
+    "value": "Declaration information",
+    "count": 6,
+    "mapKeyTo": "i18n.common.decInfo",
+    "mapValueTo": "Declaration Information",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.decInfo",
+        "value": "Declaration information"
+      },
+      {
+        "key": "consignment-item-info.heading.declarationInfo",
+        "value": "Declaration information"
+      },
+      {
+        "key": "generalInfoForm.lables.declartionInformation",
+        "value": "Declaration Information"
+      },
+      {
+        "key": "generalInfoForm.lables.declarationInformation",
+        "value": "Declaration Information"
+      },
+      {
+        "key": "houseConsignItem.lables.declarationInformation",
+        "value": "Declaration information"
+      },
+      {
+        "key": "matStepper.label.declarationInformation",
+        "value": "Declaration Information"
+      }
+    ]
+  },
+  {
+    "value": "Declaration status",
+    "count": 3,
+    "mapKeyTo": "i18n.common.decStatus",
+    "mapValueTo": "Declaration status",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.decStatus",
+        "value": "Declaration status"
+      },
+      {
+        "key": "guarantee.declarationStatus",
+        "value": "Declaration status"
+      },
+      {
+        "key": "movementUnderResolutionOverview.declarationStatus",
+        "value": "Declaration status"
+      }
+    ]
+  },
+  {
+    "value": "Declarant",
+    "count": 4,
+    "mapKeyTo": "i18n.common.declarant",
+    "mapValueTo": "Declarant",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.declarant",
+        "value": "Declarant"
+      },
+      {
+        "key": "advanceSearch.resultColumn.declarant",
+        "value": "Declarant"
+      },
+      {
+        "key": "invalidationRequest.listHeader.declarant",
+        "value": "Declarant"
+      },
+      {
+        "key": "releaseRequest.listHeader.declarant",
+        "value": "Declarant"
+      }
+    ]
+  },
+  {
+    "value": "Destination",
+    "count": 2,
+    "mapKeyTo": "i18n.common.destination",
+    "mapValueTo": "Destination",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.destination",
+        "value": "Destination"
+      },
+      {
+        "key": "application.des",
+        "value": "Destination"
+      }
+    ]
+  },
+  {
+    "value": "Entry information",
+    "count": 2,
+    "mapKeyTo": "i18n.common.entryInfo",
+    "mapValueTo": "Entry Information",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.entryInfo",
+        "value": "Entry information"
+      },
+      {
+        "key": "generalInfoForm.lables.entryInformation",
+        "value": "Entry Information"
+      }
+    ]
+  },
+  {
+    "value": "Export",
+    "count": 6,
+    "mapKeyTo": "i18n.common.export",
+    "mapValueTo": "Export",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.export",
+        "value": "Export"
+      },
+      {
+        "key": "common.export",
+        "value": "Export"
+      },
+      {
+        "key": "enquiryRequests.labels.export",
+        "value": "Export"
+      },
+      {
+        "key": "eventHistory.label.export",
+        "value": "Export"
+      },
+      {
+        "key": "invalidationRequest.exportOption",
+        "value": "Export"
+      },
+      {
+        "key": "releaseRequest.exportOption",
+        "value": "Export"
+      }
+    ]
+  },
+  {
+    "value": "Holder of transit procedure",
+    "count": 10,
+    "mapKeyTo": "i18n.common.holderOfTransitProcedure",
+    "mapValueTo": "Holder of transit procedure",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.holderOfTransitProcedure",
+        "value": "Holder of transit procedure"
+      },
+      {
+        "key": "advanceSearch.resultColumn.hotp",
+        "value": "Holder of transit procedure"
+      },
+      {
+        "key": "generalInfoForm.lables.holderOfTransitProcedure",
+        "value": "Holder of transit procedure"
+      },
+      {
+        "key": "invalidationRequest.listHeader.holderName",
+        "value": "Holder of transit procedure"
+      },
+      {
+        "key": "invalidationRequest.listHeader.holderOfTransitProcedure",
+        "value": "Holder of transit procedure"
+      },
+      {
+        "key": "party.lables.holderOfTransitProcedure",
+        "value": "Holder of transit procedure"
+      },
+      {
+        "key": "releaseRequest.listHeader.holderIdentificationNumber",
+        "value": "Holder of transit procedure"
+      },
+      {
+        "key": "releaseRequest.listHeader.holderOfTransitProcedure",
+        "value": "Holder of transit procedure"
+      },
+      {
+        "key": "requestOnNonArrivedMovement.table.officeOfDeparture",
+        "value": "Holder of transit procedure"
+      },
+      {
+        "key": "transitParties.holderOfTransitProcedure",
+        "value": "Holder of transit procedure"
+      }
+    ]
+  },
+  {
+    "value": "Name",
+    "count": 10,
+    "mapKeyTo": "i18n.common.name",
+    "mapValueTo": "Name",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.name",
+        "value": "Name"
+      },
+      {
+        "key": "completeRecovery.customsOfficeOfRecoveryAtDeparture.contactPerson.name",
+        "value": "Name"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.name",
+        "value": "Name"
+      },
+      {
+        "key": "generalInfoForm.lables.name",
+        "value": "Name"
+      },
+      {
+        "key": "party.lables.name",
+        "value": "Name"
+      },
+      {
+        "key": "recoveryRequest.contactPersonName",
+        "value": "Name"
+      },
+      {
+        "key": "savedTemplates.headers.name",
+        "value": "Name"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.name",
+        "value": "Name"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.name",
+        "value": "Name"
+      },
+      {
+        "key": "transitParties.name",
+        "value": "Name"
+      }
+    ]
+  },
+  {
+    "value": "Parties",
+    "count": 4,
+    "mapKeyTo": "i18n.common.parties",
+    "mapValueTo": "Parties",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.parties",
+        "value": "Parties"
+      },
+      {
+        "key": "consult-consignment.labels.parties",
+        "value": "Parties"
+      },
+      {
+        "key": "matStepper.label.parties",
+        "value": "Parties"
+      },
+      {
+        "key": "transitParties.parties",
+        "value": "Parties"
+      }
+    ]
+  },
+  {
+    "value": "Reference number",
+    "count": 11,
+    "mapKeyTo": "i18n.common.refNum",
+    "mapValueTo": "Reference Number",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.refNum",
+        "value": "Reference number"
+      },
+      {
+        "key": "completeRecovery.customsOfficeOfRecovery.referenceNumber",
+        "value": "Reference number"
+      },
+      {
+        "key": "completeRecovery.customsOfficeOfRecoveryAtDeparture.referenceNumber",
+        "value": "Reference number"
+      },
+      {
+        "key": "consignment-item-info.label.referenceNumber",
+        "value": "Reference Number"
+      },
+      {
+        "key": "consult-consignment.labels.referenceNumber",
+        "value": "Reference Number"
+      },
+      {
+        "key": "consultTransitInfo.labels.referenceNumber",
+        "value": "Reference number"
+      },
+      {
+        "key": "des.registerArrivalNotification.referenceNumber",
+        "value": "Reference number"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.referenceNumber",
+        "value": "Reference number"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.referenceNumber",
+        "value": "Reference number"
+      },
+      {
+        "key": "generalInfoForm.lables.referenceNumber",
+        "value": "Reference number"
+      },
+      {
+        "key": "registerControlResultDialog.referenceNumber",
+        "value": "Reference number"
+      }
+    ]
+  },
+  {
+    "value": "Release date",
+    "count": 3,
+    "mapKeyTo": "i18n.common.releaseDateRange",
+    "mapValueTo": "Release date",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.releaseDateRange",
+        "value": "Release date"
+      },
+      {
+        "key": "advanceSearch.resultColumn.releaseDate",
+        "value": "Release date"
+      },
+      {
+        "key": "generalInfoForm.lables.releaseDate",
+        "value": "Release date"
+      }
+    ]
+  },
+  {
+    "value": "Incident notification date",
+    "count": 2,
+    "mapKeyTo": "i18n.common.incidentDateRange",
+    "mapValueTo": "Incident notification date",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.incidentDateRange",
+        "value": "Incident notification date"
+      },
+      {
+        "key": "advanceSearch.resultColumn.incidentNotificationDate",
+        "value": "Incident notification date"
+      }
+    ]
+  },
+  {
+    "value": "Representative",
+    "count": 7,
+    "mapKeyTo": "i18n.common.representative",
+    "mapValueTo": "Representative",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.representative",
+        "value": "Representative"
+      },
+      {
+        "key": "advanceSearch.resultColumn.representative",
+        "value": "Representative"
+      },
+      {
+        "key": "generalInfoForm.lables.representative",
+        "value": "Representative"
+      },
+      {
+        "key": "invalidationRequest.listHeader.representative",
+        "value": "Representative"
+      },
+      {
+        "key": "party.lables.representative",
+        "value": "Representative"
+      },
+      {
+        "key": "releaseRequest.listHeader.representative",
+        "value": "Representative"
+      },
+      {
+        "key": "transitParties.representative",
+        "value": "Representative"
+      }
+    ]
+  },
+  {
+    "value": "Supervising customs office",
+    "count": 2,
+    "mapKeyTo": "i18n.common.supervCusOffice",
+    "mapValueTo": "Supervising customs office",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.supervCusOffice",
+        "value": "Supervising customs office"
+      },
+      {
+        "key": "generalInfoForm.lables.supervisingCustomsOffice",
+        "value": "Supervising customs office"
+      }
+    ]
+  },
+  {
+    "value": "Transport document",
+    "count": 3,
+    "mapKeyTo": "i18n.common.transDoc",
+    "mapValueTo": "Transport document",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.transDoc",
+        "value": "Transport document"
+      },
+      {
+        "key": "generalInfoForm.lables.transportDocument",
+        "value": "Transport document"
+      },
+      {
+        "key": "registerControlResultDialog.transportDocument",
+        "value": "Transport document"
+      }
+    ]
+  },
+  {
+    "value": "Transit Operation",
+    "count": 4,
+    "mapKeyTo": "i18n.common.transitOperation",
+    "mapValueTo": "Transit Operation",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.transitOperation",
+        "value": "Transit Operation"
+      },
+      {
+        "key": "declarationOverview.dialog.labels.transitOperation",
+        "value": "Transit Operation"
+      },
+      {
+        "key": "des.registerArrivalNotification.transitOperation",
+        "value": "Transit operation"
+      },
+      {
+        "key": "generalInfoForm.lables.transitOperation",
+        "value": "Transit Operation"
+      }
+    ]
+  },
+  {
+    "value": "Warehouse identifier",
+    "count": 2,
+    "mapKeyTo": "i18n.common.warehouseIdentifier",
+    "mapValueTo": "Warehouse identifier",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.warehouseIdentifier",
+        "value": "Warehouse identifier"
+      },
+      {
+        "key": "generalInfoForm.lables.warehouseIdentifier",
+        "value": "Warehouse identifier"
+      }
+    ]
+  },
+  {
+    "value": "Declaration goods item number",
+    "count": 4,
+    "mapKeyTo": "i18n.common.goodsItemNumber",
+    "mapValueTo": "Declaration goods item number",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.goodsItemNumber",
+        "value": "Declaration goods item number"
+      },
+      {
+        "key": "generalInfoForm.lables.declarationGoodsItemNumber",
+        "value": "Declaration goods item number"
+      },
+      {
+        "key": "registerControlResultDialog.declarationGoodsItemNumber",
+        "value": "Declaration goods item number"
+      },
+      {
+        "key": "riskAndControlInformation.declarationGoodsItem",
+        "value": "Declaration goods item number"
+      }
+    ]
+  },
+  {
+    "value": "Status",
+    "count": 13,
+    "mapKeyTo": "i18n.common.discrepancyStatus",
+    "mapValueTo": "Status",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.discrepancyStatus",
+        "value": "Status"
+      },
+      {
+        "key": "advanceSearch.resultColumn.status",
+        "value": "Status"
+      },
+      {
+        "key": "generalInfoForm.lables.status",
+        "value": "Status"
+      },
+      {
+        "key": "guarantee.references.status",
+        "value": "Status"
+      },
+      {
+        "key": "invalidationRequest.listHeader.status",
+        "value": "Status"
+      },
+      {
+        "key": "navDrawer.menu.status",
+        "value": "status"
+      },
+      {
+        "key": "party.lables.status",
+        "value": "Status"
+      },
+      {
+        "key": "releaseRequest.listHeader.status",
+        "value": "Status"
+      },
+      {
+        "key": "savedDrafts.headers.status",
+        "value": "Status"
+      },
+      {
+        "key": "savedTemplates.headers.status",
+        "value": "Status"
+      },
+      {
+        "key": "status-history.title",
+        "value": "Status"
+      },
+      {
+        "key": "statusHistory.heading",
+        "value": "status"
+      },
+      {
+        "key": "transitParties.status",
+        "value": "Status"
+      }
+    ]
+  },
+  {
+    "value": "Added",
+    "count": 2,
+    "mapKeyTo": "i18n.common.added",
+    "mapValueTo": "Added",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.added",
+        "value": "Added"
+      },
+      {
+        "key": "generalInfoForm.lables.added",
+        "value": "Added"
+      }
+    ]
+  },
+  {
+    "value": "Updated",
+    "count": 2,
+    "mapKeyTo": "i18n.common.updated",
+    "mapValueTo": "Updated",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.updated",
+        "value": "Updated"
+      },
+      {
+        "key": "generalInfoForm.lables.updated",
+        "value": "Updated"
+      }
+    ]
+  },
+  {
+    "value": "Deleted",
+    "count": 2,
+    "mapKeyTo": "i18n.common.deleted",
+    "mapValueTo": "Deleted",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.deleted",
+        "value": "Deleted"
+      },
+      {
+        "key": "generalInfoForm.lables.deleted",
+        "value": "Deleted"
+      }
+    ]
+  },
+  {
+    "value": "Total Packages",
+    "count": 2,
+    "mapKeyTo": "i18n.common.totalPackages",
+    "mapValueTo": "Total Packages",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.totalPackages",
+        "value": "Total Packages"
+      },
+      {
+        "key": "consult-consignment.labels.totalPackages",
+        "value": "Total Packages"
+      }
+    ]
+  },
+  {
+    "value": "Type of packages",
+    "count": 3,
+    "mapKeyTo": "i18n.common.typeOfPackages",
+    "mapValueTo": "Type of packages",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.typeOfPackages",
+        "value": "Type of packages"
+      },
+      {
+        "key": "consult-consignment.labels.typeOfPackages",
+        "value": "Type of Packages"
+      },
+      {
+        "key": "houseConsignItem.lables.typeOfPackages",
+        "value": "Type of packages"
+      }
+    ]
+  },
+  {
+    "value": "House Consignment",
+    "count": 4,
+    "mapKeyTo": "i18n.common.houseConsignment",
+    "mapValueTo": "House Consignment",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.houseConsignment",
+        "value": "House Consignment"
+      },
+      {
+        "key": "consult-consignment.labels.rootLabelHouseConsignment",
+        "value": "House Consignment"
+      },
+      {
+        "key": "matStepper.label.houseConsignment",
+        "value": "House Consignment"
+      },
+      {
+        "key": "registerControlResultDialog.houseConsignment",
+        "value": "House consignment"
+      }
+    ]
+  },
+  {
+    "value": "Consignment Items",
+    "count": 2,
+    "mapKeyTo": "i18n.common.consignmentItem",
+    "mapValueTo": "Consignment Items",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.consignmentItem",
+        "value": "Consignment Items"
+      },
+      {
+        "key": "consult-consignment.labels.consignmentItems",
+        "value": "Consignment items"
+      }
+    ]
+  },
+  {
+    "value": "Gross Mass",
+    "count": 4,
+    "mapKeyTo": "i18n.common.grossMass",
+    "mapValueTo": "Gross Mass",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.grossMass",
+        "value": "Gross Mass"
+      },
+      {
+        "key": "generalInfoForm.lables.grossMass",
+        "value": "Gross mass"
+      },
+      {
+        "key": "houseConsignItem.lables.grossMass",
+        "value": "Gross mass"
+      },
+      {
+        "key": "registerControlResultDialog.grossMass",
+        "value": "Gross mass"
+      }
+    ]
+  },
+  {
+    "value": "Net Mass",
+    "count": 3,
+    "mapKeyTo": "i18n.common.netMass",
+    "mapValueTo": "Net Mass",
+    "keys": [
+      {
+        "key": "advanceSearch.labels.netMass",
+        "value": "Net Mass"
+      },
+      {
+        "key": "houseConsignItem.lables.netMass",
+        "value": "Net mass"
+      },
+      {
+        "key": "registerControlResultDialog.netMass",
+        "value": "Net mass"
+      }
+    ]
+  },
+  {
+    "value": "Action",
+    "count": 9,
+    "mapKeyTo": "i18n.common.action",
+    "mapValueTo": "Action",
+    "keys": [
+      {
+        "key": "advanceSearch.resultColumn.action",
+        "value": "Action"
+      },
+      {
+        "key": "eventHistory.label.action",
+        "value": "Action"
+      },
+      {
+        "key": "guarantee.references.action",
+        "value": "Action"
+      },
+      {
+        "key": "invalidationRequest.listHeader.action",
+        "value": "Action"
+      },
+      {
+        "key": "movementUnderResolutionOverview.action",
+        "value": "Action"
+      },
+      {
+        "key": "releaseRequest.listHeader.action",
+        "value": "Action"
+      },
+      {
+        "key": "requestOnNonArrivedMovement.table.action",
+        "value": "Action"
+      },
+      {
+        "key": "savedDrafts.headers.action",
+        "value": "Action"
+      },
+      {
+        "key": "savedTemplates.headers.action",
+        "value": "Action"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of departure",
+    "count": 7,
+    "mapKeyTo": "i18n.common.customsOfficeOfDeparture",
+    "mapValueTo": "Customs office of departure",
+    "keys": [
+      {
+        "key": "advanceSearch.resultColumn.customsOfficeOfDeparture",
+        "value": "Customs office of departure"
+      },
+      {
+        "key": "cancelEnquiry.dialog.customsOfficeOfDeparture",
+        "value": "Customs office of departure"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.customsOfficeOfDeparture",
+        "value": "Customs office of departure"
+      },
+      {
+        "key": "generalInfoForm.lables.customsOfficeOfDeparture",
+        "value": "Customs office of departure"
+      },
+      {
+        "key": "guarantee.references.customsOfficeOfDeparture",
+        "value": "Customs office of departure"
+      },
+      {
+        "key": "layout.officeFilter.advancedSearchDep",
+        "value": "Customs office of departure"
+      },
+      {
+        "key": "releaseRequest.listHeader.customsOfficeOfDeparture",
+        "value": "Customs office of departure"
+      }
+    ]
+  },
+  {
+    "value": "Declared customs office of destination",
+    "count": 3,
+    "mapKeyTo": "i18n.common.customsOfficeOfDestinationDeclared",
+    "mapValueTo": "Declared customs office of destination",
+    "keys": [
+      {
+        "key": "advanceSearch.resultColumn.customsOfficeOfDestinationDeclared",
+        "value": "Declared customs office of destination"
+      },
+      {
+        "key": "generalInfoForm.lables.declaredCustomsOfOfficeDestination",
+        "value": "Declared customs office of destination"
+      },
+      {
+        "key": "respondToRequestOnNonArrivedMovement.dialog.customsOfficeOfDestinationDeclared",
+        "value": "Declared customs office of destination"
+      }
+    ]
+  },
+  {
+    "value": "Customs Office of Incident registration",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeOfIncident",
+    "mapValueTo": "Customs Office of Incident registration",
+    "keys": [
+      {
+        "key": "advanceSearch.resultColumn.customsOfficeOfIncident",
+        "value": "Customs Office of Incident registration"
+      },
+      {
+        "key": "inc.registerIncidentNotification.customsOfficeIncReg",
+        "value": "Customs office of incident registration"
+      }
+    ]
+  },
+  {
+    "value": "Declaration type",
+    "count": 7,
+    "mapKeyTo": "i18n.common.declarationType",
+    "mapValueTo": "Declaration type",
+    "keys": [
+      {
+        "key": "advanceSearch.resultColumn.declarationType",
+        "value": "Declaration type"
+      },
+      {
+        "key": "consignment-item-info.label.declarationType",
+        "value": "Declaration type"
+      },
+      {
+        "key": "generalInfoForm.lables.declarationType",
+        "value": "Declaration type"
+      },
+      {
+        "key": "houseConsignItem.lables.declarationType",
+        "value": "Declaration type"
+      },
+      {
+        "key": "invalidationRequest.listHeader.declarationType",
+        "value": "Declaration type"
+      },
+      {
+        "key": "registerControlResultDialog.declarationType",
+        "value": "Declaration type"
+      },
+      {
+        "key": "releaseRequest.listHeader.declarationType",
+        "value": "Declaration type"
+      }
+    ]
+  },
+  {
+    "value": "Registration date and time",
+    "count": 2,
+    "mapKeyTo": "i18n.common.regDate",
+    "mapValueTo": "Registration date and time",
+    "keys": [
+      {
+        "key": "advanceSearch.resultColumn.regDate",
+        "value": "Registration date and time"
+      },
+      {
+        "key": "generalInfoForm.lables.registrationDate",
+        "value": "Registration date and time"
+      }
+    ]
+  },
+  {
+    "value": "Submission date and time",
+    "count": 2,
+    "mapKeyTo": "i18n.common.submissionDate",
+    "mapValueTo": "Submission date and time",
+    "keys": [
+      {
+        "key": "advanceSearch.resultColumn.submissionDate",
+        "value": "Submission date and time"
+      },
+      {
+        "key": "generalInfoForm.lables.submissionDateAndTime",
+        "value": "Submission date and time"
+      }
+    ]
+  },
+  {
+    "value": "Trader at destination",
+    "count": 3,
+    "mapKeyTo": "i18n.common.traderAtDestination",
+    "mapValueTo": "Trader at destination",
+    "keys": [
+      {
+        "key": "advanceSearch.resultColumn.traderAtDestination",
+        "value": "Trader at destination"
+      },
+      {
+        "key": "des.registerArrivalNotification.traderAtDestination",
+        "value": "Trader at destination"
+      },
+      {
+        "key": "transitParties.traderAtDestination",
+        "value": "Trader at destination"
+      }
+    ]
+  },
+  {
+    "value": "Accepted",
+    "count": 2,
+    "mapKeyTo": "i18n.common.Accepted",
+    "mapValueTo": "Accepted",
+    "keys": [
+      {
+        "key": "advanceSearch.status.Accepted",
+        "value": "Accepted"
+      },
+      {
+        "key": "eventHistory.nctsStatus.Accepted",
+        "value": "Accepted"
+      }
+    ]
+  },
+  {
+    "value": "Invalidated",
+    "count": 3,
+    "mapKeyTo": "i18n.common.Invalidated",
+    "mapValueTo": "Invalidated",
+    "keys": [
+      {
+        "key": "advanceSearch.status.Invalidated",
+        "value": "Invalidated"
+      },
+      {
+        "key": "eventHistory.error.invalidation",
+        "value": "Invalidated"
+      },
+      {
+        "key": "eventHistory.label.Invalidated",
+        "value": "Invalidated"
+      }
+    ]
+  },
+  {
+    "value": "Pre-lodged",
+    "count": 3,
+    "mapKeyTo": "i18n.common.PreLodged",
+    "mapValueTo": "Pre-lodged",
+    "keys": [
+      {
+        "key": "advanceSearch.status.PreLodged",
+        "value": "Pre-lodged"
+      },
+      {
+        "key": "advanceSearch.type.PreLodged",
+        "value": "Pre-lodged"
+      },
+      {
+        "key": "eventHistory.nctsStatus.Prelodged",
+        "value": "Pre-lodged"
+      }
+    ]
+  },
+  {
+    "value": "Cancel",
+    "count": 12,
+    "mapKeyTo": "i18n.common.cancel",
+    "mapValueTo": "Cancel",
+    "keys": [
+      {
+        "key": "alternativeProof.dialog.cancel",
+        "value": "Cancel"
+      },
+      {
+        "key": "bindingItinerary.dialog.buttons.cancel",
+        "value": "Cancel"
+      },
+      {
+        "key": "buttons.cancel",
+        "value": "Cancel"
+      },
+      {
+        "key": "common.button.cancel",
+        "value": "Cancel"
+      },
+      {
+        "key": "des.registerArrivalNotification.actions.cancel",
+        "value": "Cancel"
+      },
+      {
+        "key": "invalidationRequest.cancelButton",
+        "value": "Cancel"
+      },
+      {
+        "key": "manualStartRecovery.cancel",
+        "value": "Cancel"
+      },
+      {
+        "key": "navDrawer.menu.cancel",
+        "value": "Cancel"
+      },
+      {
+        "key": "releaseRequest.cancelButton",
+        "value": "Cancel"
+      },
+      {
+        "key": "requestForDocuments.dialog.buttons.cancel",
+        "value": "Cancel"
+      },
+      {
+        "key": "saveAsTemplateDialog.cancel",
+        "value": "Cancel"
+      },
+      {
+        "key": "statusRequest.cancel",
+        "value": "Cancel"
+      }
+    ]
+  },
+  {
+    "value": "Alternative Proof",
+    "count": 2,
+    "mapKeyTo": "i18n.common.heading",
+    "mapValueTo": "Alternative Proof",
+    "keys": [
+      {
+        "key": "alternativeProof.dialog.heading",
+        "value": "Alternative Proof"
+      },
+      {
+        "key": "generalInfoForm.lables.alternativeProof",
+        "value": "Alternative Proof"
+      }
+    ]
+  },
+  {
+    "value": "Submit",
+    "count": 6,
+    "mapKeyTo": "i18n.common.submit",
+    "mapValueTo": "Submit",
+    "keys": [
+      {
+        "key": "alternativeProof.dialog.submit",
+        "value": "Submit"
+      },
+      {
+        "key": "buttons.submit",
+        "value": "Submit"
+      },
+      {
+        "key": "controlDecision.submit",
+        "value": "Submit"
+      },
+      {
+        "key": "movementUnderResolutionOverview.submit",
+        "value": "Submit"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.submit",
+        "value": "Submit"
+      },
+      {
+        "key": "statusRequest.submit",
+        "value": "Submit"
+      }
+    ]
+  },
+  {
+    "value": "Text",
+    "count": 15,
+    "mapKeyTo": "i18n.common.text",
+    "mapValueTo": "Text",
+    "keys": [
+      {
+        "key": "alternativeProof.dialog.text",
+        "value": "Text"
+      },
+      {
+        "key": "completeRecovery.recovery.text",
+        "value": "Text"
+      },
+      {
+        "key": "consult-consignment.labels.text",
+        "value": "Text"
+      },
+      {
+        "key": "consult-incident.labels.incident.text",
+        "value": "Text"
+      },
+      {
+        "key": "consultTransitInfo.labels.text",
+        "value": "Text"
+      },
+      {
+        "key": "des.registerArrivalNotification.text",
+        "value": "Text"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.text",
+        "value": "Text"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.text",
+        "value": "Text"
+      },
+      {
+        "key": "generalInfoForm.lables.text",
+        "value": "Text"
+      },
+      {
+        "key": "incident.body.text",
+        "value": "Text"
+      },
+      {
+        "key": "recoveryRequest.recoveryText",
+        "value": "Text"
+      },
+      {
+        "key": "registerControlResultDialog.text",
+        "value": "Text"
+      },
+      {
+        "key": "riskAndControlInformation.text",
+        "value": "Text"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.text",
+        "value": "Text"
+      },
+      {
+        "key": "tra.crossingFrontier.passageRefusalText",
+        "value": "Text"
+      }
+    ]
+  },
+  {
+    "value": "Add Binding Itinerary",
+    "count": 2,
+    "mapKeyTo": "i18n.common.action",
+    "mapValueTo": "Add Binding Itinerary",
+    "keys": [
+      {
+        "key": "bindingItinerary.action",
+        "value": "Add Binding Itinerary"
+      },
+      {
+        "key": "bindingItinerary.dialog.title",
+        "value": "Add Binding Itinerary"
+      }
+    ]
+  },
+  {
+    "value": "Save",
+    "count": 3,
+    "mapKeyTo": "i18n.common.save",
+    "mapValueTo": "Save",
+    "keys": [
+      {
+        "key": "bindingItinerary.dialog.buttons.save",
+        "value": "Save"
+      },
+      {
+        "key": "buttons.save",
+        "value": "Save"
+      },
+      {
+        "key": "saveAsTemplateDialog.save",
+        "value": "Save"
+      }
+    ]
+  },
+  {
+    "value": "Country of routing of consignment",
+    "count": 2,
+    "mapKeyTo": "i18n.common.countryOfRoutingOfConsignment",
+    "mapValueTo": "Country of routing of consignment",
+    "keys": [
+      {
+        "key": "bindingItinerary.dialog.labels.countryOfRoutingOfConsignment",
+        "value": "Country of routing of consignment"
+      },
+      {
+        "key": "generalInfoForm.lables.countryOfRoutingOfConsignment",
+        "value": "Country of routing of consignment"
+      }
+    ]
+  },
+  {
+    "value": "Confirm",
+    "count": 3,
+    "mapKeyTo": "i18n.common.confirm",
+    "mapValueTo": "Confirm",
+    "keys": [
+      {
+        "key": "buttons.confirm",
+        "value": "Confirm"
+      },
+      {
+        "key": "common.button.confirm",
+        "value": "Confirm"
+      },
+      {
+        "key": "manualStartRecovery.confirm",
+        "value": "Confirm"
+      }
+    ]
+  },
+  {
+    "value": "Request",
+    "count": 3,
+    "mapKeyTo": "i18n.common.request",
+    "mapValueTo": "Request",
+    "keys": [
+      {
+        "key": "buttons.request",
+        "value": "Request"
+      },
+      {
+        "key": "eventHistory.label.requestLabel",
+        "value": "request"
+      },
+      {
+        "key": "requestForDocuments.dialog.buttons.request",
+        "value": "Request"
+      }
+    ]
+  },
+  {
+    "value": "Cancel enquiry notification text",
+    "count": 2,
+    "mapKeyTo": "i18n.common.cancelEnquiryNotificationText",
+    "mapValueTo": "Cancel enquiry notification text",
+    "keys": [
+      {
+        "key": "cancelEnquiry.dialog.cancelEnquiryNotificationText",
+        "value": "Cancel enquiry notification text"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.cancelEnquiryNotificationText",
+        "value": "Cancel enquiry notification text"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of request",
+    "count": 5,
+    "mapKeyTo": "i18n.common.customsOfficeOfRequest",
+    "mapValueTo": "Customs office of request",
+    "keys": [
+      {
+        "key": "cancelEnquiry.dialog.customsOfficeOfRequest",
+        "value": "Customs office of request"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.customsOfficeOfRequest",
+        "value": "Customs office of request"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.customsOfficeOfRequest",
+        "value": "Customs office of request"
+      },
+      {
+        "key": "movementQuery.customsOfficeOfRequest",
+        "value": "Customs office of request"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.customsOfficeOfRequest",
+        "value": "Customs Office of Request"
+      }
+    ]
+  },
+  {
+    "value": "No",
+    "count": 6,
+    "mapKeyTo": "i18n.common.no",
+    "mapValueTo": "No",
+    "keys": [
+      {
+        "key": "common.button.no",
+        "value": "No"
+      },
+      {
+        "key": "consignment-item-info.label.No",
+        "value": "No"
+      },
+      {
+        "key": "consult-incident.labels.incident.no",
+        "value": "No"
+      },
+      {
+        "key": "enquiryRequests.boolean.false",
+        "value": "No"
+      },
+      {
+        "key": "generalInfoForm.lables.no",
+        "value": "No"
+      },
+      {
+        "key": "invalidate.no",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "value": "Yes",
+    "count": 3,
+    "mapKeyTo": "i18n.common.yes",
+    "mapValueTo": "Yes",
+    "keys": [
+      {
+        "key": "common.button.yes",
+        "value": "Yes"
+      },
+      {
+        "key": "enquiryRequests.boolean.true",
+        "value": "Yes"
+      },
+      {
+        "key": "generalInfoForm.lables.yes",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "value": "Office city",
+    "count": 3,
+    "mapKeyTo": "i18n.common.city",
+    "mapValueTo": "Office city",
+    "keys": [
+      {
+        "key": "completeRecovery.customsOfficeOfRecovery.city",
+        "value": "Office city"
+      },
+      {
+        "key": "completeRecovery.customsOfficeOfRecoveryAtDeparture.city",
+        "value": "Office city"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.officeCity",
+        "value": "Office city"
+      }
+    ]
+  },
+  {
+    "value": "Office name",
+    "count": 3,
+    "mapKeyTo": "i18n.common.name",
+    "mapValueTo": "Office name",
+    "keys": [
+      {
+        "key": "completeRecovery.customsOfficeOfRecovery.name",
+        "value": "Office name"
+      },
+      {
+        "key": "completeRecovery.customsOfficeOfRecoveryAtDeparture.name",
+        "value": "Office name"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.officeName",
+        "value": "Office name"
+      }
+    ]
+  },
+  {
+    "value": "E-mail address",
+    "count": 3,
+    "mapKeyTo": "i18n.common.emailAddress",
+    "mapValueTo": "E-mail address",
+    "keys": [
+      {
+        "key": "completeRecovery.customsOfficeOfRecoveryAtDeparture.contactPerson.emailAddress",
+        "value": "E-mail address"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.emailAddress",
+        "value": "E-mail address"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.emailAddress",
+        "value": "E-mail address"
+      }
+    ]
+  },
+  {
+    "value": "Phone number",
+    "count": 8,
+    "mapKeyTo": "i18n.common.phoneNumber",
+    "mapValueTo": "Phone number",
+    "keys": [
+      {
+        "key": "completeRecovery.customsOfficeOfRecoveryAtDeparture.contactPerson.phoneNumber",
+        "value": "Phone number"
+      },
+      {
+        "key": "consignParties.lables.phoneNumber",
+        "value": "Phone number"
+      },
+      {
+        "key": "generalInfoForm.lables.phoneNumber",
+        "value": "Phone number"
+      },
+      {
+        "key": "party.lables.phoneNumber",
+        "value": "Phone number"
+      },
+      {
+        "key": "recoveryRequest.contactPersonPhone",
+        "value": "Phone number"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.phoneNumber",
+        "value": "Phone number"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.phoneNumber",
+        "value": "Phone number"
+      },
+      {
+        "key": "transitParties.phoneNumber",
+        "value": "Phone number"
+      }
+    ]
+  },
+  {
+    "value": "Contact Person",
+    "count": 8,
+    "mapKeyTo": "i18n.common.title",
+    "mapValueTo": "Contact Person",
+    "keys": [
+      {
+        "key": "completeRecovery.customsOfficeOfRecoveryAtDeparture.contactPerson.title",
+        "value": "Contact Person"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.contactPerson",
+        "value": "Contact person"
+      },
+      {
+        "key": "party.lables.contactPerson",
+        "value": "Contact person"
+      },
+      {
+        "key": "recoveryRequest.contactPerson",
+        "value": "Contact person"
+      },
+      {
+        "key": "requestEnquiry.dialog.contactPerson",
+        "value": "Contact person"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.contactPerson",
+        "value": "Contact person"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.contactPerson",
+        "value": "Contact person"
+      },
+      {
+        "key": "transitParties.contactPerson",
+        "value": "Contact person"
+      }
+    ]
+  },
+  {
+    "value": "Currency",
+    "count": 3,
+    "mapKeyTo": "i18n.common.recovCurrency",
+    "mapValueTo": "Currency",
+    "keys": [
+      {
+        "key": "completeRecovery.recoveryNotification.recovCurrency",
+        "value": "Currency"
+      },
+      {
+        "key": "consultTransitInfo.labels.currency",
+        "value": "Currency"
+      },
+      {
+        "key": "generalInfoForm.lables.currency",
+        "value": "Currency"
+      }
+    ]
+  },
+  {
+    "value": "Recovery",
+    "count": 4,
+    "mapKeyTo": "i18n.common.title",
+    "mapValueTo": "Recovery",
+    "keys": [
+      {
+        "key": "completeRecovery.recovery.title",
+        "value": "Recovery"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.recovery",
+        "value": "Recovery"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.heading",
+        "value": "Recovery"
+      },
+      {
+        "key": "recoveryRequest.recovery",
+        "value": "Recovery"
+      }
+    ]
+  },
+  {
+    "value": "Please select a valid value",
+    "count": 4,
+    "mapKeyTo": "i18n.common.isWrongSelection",
+    "mapValueTo": "Please select a valid value",
+    "keys": [
+      {
+        "key": "consignParties.errors.isWrongSelection",
+        "value": "Please select a valid value"
+      },
+      {
+        "key": "houseConsignItem.errors.isWrongSelection",
+        "value": "Please select a valid value"
+      },
+      {
+        "key": "houseConsignParties.errors.isWrongSelection",
+        "value": "Please select a valid value"
+      },
+      {
+        "key": "party.errors.isWrongSelection",
+        "value": "Please select a valid value"
+      }
+    ]
+  },
+  {
+    "value": "Please enter a value",
+    "count": 6,
+    "mapKeyTo": "i18n.common.required",
+    "mapValueTo": "Please enter a value",
+    "keys": [
+      {
+        "key": "consignParties.errors.required",
+        "value": "Please enter a value"
+      },
+      {
+        "key": "houseConsignItem.errors.required",
+        "value": "Please enter a value"
+      },
+      {
+        "key": "houseConsignParties.errors.required",
+        "value": "Please enter a value"
+      },
+      {
+        "key": "invalidationRequest.required",
+        "value": "Please enter a value"
+      },
+      {
+        "key": "party.errors.required",
+        "value": "Please enter a value"
+      },
+      {
+        "key": "requestForDocuments.dialog.errors.required",
+        "value": "Please enter a value"
+      }
+    ]
+  },
+  {
+    "value": "Please select a value",
+    "count": 8,
+    "mapKeyTo": "i18n.common.selectRequired",
+    "mapValueTo": "Please select a value",
+    "keys": [
+      {
+        "key": "consignParties.errors.selectRequired",
+        "value": "Please select a value"
+      },
+      {
+        "key": "discrepancy.dialog.errors.selectRequired",
+        "value": "Please select a value"
+      },
+      {
+        "key": "houseConsignItem.errors.selectRequired",
+        "value": "Please select a value"
+      },
+      {
+        "key": "houseConsignParties.errors.selectRequired",
+        "value": "Please select a value"
+      },
+      {
+        "key": "movementUnderResolutionOverview.selectValue",
+        "value": "Please select a value"
+      },
+      {
+        "key": "party.errors.selectRequired",
+        "value": "Please select a value"
+      },
+      {
+        "key": "requestForDocuments.dialog.errors.selectRequired",
+        "value": "Please select a value"
+      },
+      {
+        "key": "statusRequest.selectReq",
+        "value": "Please select a value"
+      }
+    ]
+  },
+  {
+    "value": "Maximum {{ noOfChars }} characters",
+    "count": 5,
+    "mapKeyTo": "i18n.common.hintWithLength",
+    "mapValueTo": "Maximum {{ noOfChars }} characters",
+    "keys": [
+      {
+        "key": "consignParties.hints.hintWithLength",
+        "value": "Maximum {{ noOfChars }} characters"
+      },
+      {
+        "key": "generalInfoForm.hints.hintWithLength",
+        "value": "Maximum {{ noOfChars }} characters"
+      },
+      {
+        "key": "houseConsignItem.hints.hintWithLength",
+        "value": "Maximum {{ noOfChars }} characters"
+      },
+      {
+        "key": "houseConsignParties.hints.hintWithLength",
+        "value": "Maximum {{ noOfChars }} characters"
+      },
+      {
+        "key": "party.hints.hintWithLength",
+        "value": "Maximum {{ noOfChars }} characters"
+      }
+    ]
+  },
+  {
+    "value": "Area code followed by phone number",
+    "count": 4,
+    "mapKeyTo": "i18n.common.hintWithPhoneNumber",
+    "mapValueTo": "Area code followed by phone number",
+    "keys": [
+      {
+        "key": "consignParties.hints.hintWithPhoneNumber",
+        "value": "Area code followed by phone number"
+      },
+      {
+        "key": "generalInfoForm.hints.hintWithPhoneNumber",
+        "value": "Area code followed by phone number"
+      },
+      {
+        "key": "houseConsignParties.hints.hintWithPhoneNumber",
+        "value": "Area code followed by phone number"
+      },
+      {
+        "key": "party.hints.hintWithPhoneNumber",
+        "value": "Area code followed by phone number"
+      }
+    ]
+  },
+  {
+    "value": "Email address",
+    "count": 5,
+    "mapKeyTo": "i18n.common.emailAddress",
+    "mapValueTo": "Email address",
+    "keys": [
+      {
+        "key": "consignParties.lables.emailAddress",
+        "value": "Email address"
+      },
+      {
+        "key": "generalInfoForm.lables.emailAddress",
+        "value": "Email address"
+      },
+      {
+        "key": "party.lables.emailAddress",
+        "value": "Email address"
+      },
+      {
+        "key": "recoveryRequest.contactPersonEmail",
+        "value": "Email address"
+      },
+      {
+        "key": "transitParties.emailAddress",
+        "value": "Email address"
+      }
+    ]
+  },
+  {
+    "value": "Name contact person",
+    "count": 5,
+    "mapKeyTo": "i18n.common.nameContactPerson",
+    "mapValueTo": "Name contact person",
+    "keys": [
+      {
+        "key": "consignParties.lables.nameContactPerson",
+        "value": "Name contact person"
+      },
+      {
+        "key": "generalInfoForm.lables.nameContactPerson",
+        "value": "Name contact person"
+      },
+      {
+        "key": "party.lables.nameContactPerson",
+        "value": "Name contact person"
+      },
+      {
+        "key": "requestEnquiry.dialog.contactPersonName",
+        "value": "Name contact person"
+      },
+      {
+        "key": "transitParties.nameContactPerson",
+        "value": "Name contact person"
+      }
+    ]
+  },
+  {
+    "value": "Select the actors that are involved and enter their information",
+    "count": 4,
+    "mapKeyTo": "i18n.common.partiesSub",
+    "mapValueTo": "Select the actors that are involved and enter their information",
+    "keys": [
+      {
+        "key": "consignParties.lables.partiesSub",
+        "value": "Select the actors that are involved and enter their information"
+      },
+      {
+        "key": "generalInfoForm.lables.partiesSub",
+        "value": "Select the actors that are involved and enter their information"
+      },
+      {
+        "key": "houseConsignParties.lables.partiesSub",
+        "value": "Select the actors that are involved and enter their information"
+      },
+      {
+        "key": "party.lables.partiesSub",
+        "value": "Select the actors that are involved and enter their information"
+      }
+    ]
+  },
+  {
+    "value": "Step 2: Parties",
+    "count": 2,
+    "mapKeyTo": "i18n.common.rootLabelParties2",
+    "mapValueTo": "Step 2: Parties",
+    "keys": [
+      {
+        "key": "consignParties.lables.rootLabelParties2",
+        "value": "Step 2: Parties"
+      },
+      {
+        "key": "generalInfoForm.lables.rootLabelParties2",
+        "value": "Step 2: Parties"
+      }
+    ]
+  },
+  {
+    "value": "Additional reference(s)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.additional-references",
+    "mapValueTo": "Additional reference(s)",
+    "keys": [
+      {
+        "key": "consignment-item-info.heading.additional-references",
+        "value": "Additional reference(s)"
+      },
+      {
+        "key": "generalInfoForm.lables.additionalReferences",
+        "value": "Additional reference(s)"
+      }
+    ]
+  },
+  {
+    "value": "Commodity",
+    "count": 2,
+    "mapKeyTo": "i18n.common.commodity",
+    "mapValueTo": "Commodity",
+    "keys": [
+      {
+        "key": "consignment-item-info.heading.commodity",
+        "value": "Commodity"
+      },
+      {
+        "key": "houseConsignItem.lables.commodity",
+        "value": "Commodity"
+      }
+    ]
+  },
+  {
+    "value": "Commodity code",
+    "count": 3,
+    "mapKeyTo": "i18n.common.commodity-code",
+    "mapValueTo": "Commodity code",
+    "keys": [
+      {
+        "key": "consignment-item-info.heading.commodity-code",
+        "value": "Commodity code"
+      },
+      {
+        "key": "consult-consignment.labels.commodityCode",
+        "value": "Commodity code"
+      },
+      {
+        "key": "houseConsignItem.lables.commodityCode",
+        "value": "Commodity code"
+      }
+    ]
+  },
+  {
+    "value": "Packaging",
+    "count": 5,
+    "mapKeyTo": "i18n.common.packaging",
+    "mapValueTo": "Packaging",
+    "keys": [
+      {
+        "key": "consignment-item-info.heading.packaging",
+        "value": "Packaging"
+      },
+      {
+        "key": "consignment-item-info.label.packaging",
+        "value": "Packaging"
+      },
+      {
+        "key": "generalInfoForm.lables.packaging",
+        "value": "Packaging"
+      },
+      {
+        "key": "houseConsignItem.lables.packaging",
+        "value": "Packaging"
+      },
+      {
+        "key": "registerControlResultDialog.packaging",
+        "value": "Packaging"
+      }
+    ]
+  },
+  {
+    "value": "Consignment item",
+    "count": 3,
+    "mapKeyTo": "i18n.common.Item",
+    "mapValueTo": "Consignment Item",
+    "keys": [
+      {
+        "key": "consignment-item-info.label.Item",
+        "value": "Consignment item"
+      },
+      {
+        "key": "consignment-item-info.pageTitle",
+        "value": "Consignment Item"
+      },
+      {
+        "key": "registerControlResultDialog.consignmentItem",
+        "value": "Consignment item"
+      }
+    ]
+  },
+  {
+    "value": "Combined nomenclature code",
+    "count": 3,
+    "mapKeyTo": "i18n.common.combinedNomenclatureCode",
+    "mapValueTo": "Combined nomenclature code",
+    "keys": [
+      {
+        "key": "consignment-item-info.label.combinedNomenclatureCode",
+        "value": "Combined nomenclature code"
+      },
+      {
+        "key": "houseConsignItem.lables.combinedNomenclatureCode",
+        "value": "Combined nomenclature code"
+      },
+      {
+        "key": "registerControlResultDialog.combinedNomenclatureCode",
+        "value": "Combined nomenclature code"
+      }
+    ]
+  },
+  {
+    "value": "CUS code",
+    "count": 3,
+    "mapKeyTo": "i18n.common.cusCode",
+    "mapValueTo": "CUS Code",
+    "keys": [
+      {
+        "key": "consignment-item-info.label.cusCode",
+        "value": "CUS code"
+      },
+      {
+        "key": "houseConsignItem.lables.cusCode",
+        "value": "CUS Code"
+      },
+      {
+        "key": "registerControlResultDialog.cusCode",
+        "value": "CUS code"
+      }
+    ]
+  },
+  {
+    "value": "Description of goods",
+    "count": 4,
+    "mapKeyTo": "i18n.common.descriptionOfGoods",
+    "mapValueTo": "Description of goods",
+    "keys": [
+      {
+        "key": "consignment-item-info.label.descriptionOfGoods",
+        "value": "Description of goods"
+      },
+      {
+        "key": "consult-consignment.labels.descriptionOfGoods",
+        "value": "Description of goods"
+      },
+      {
+        "key": "houseConsignItem.lables.descriptionOfGoods",
+        "value": "Description of goods"
+      },
+      {
+        "key": "registerControlResultDialog.descriptionOfGoods",
+        "value": "Description of goods"
+      }
+    ]
+  },
+  {
+    "value": "Gross Mass (kg)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.grossMass",
+    "mapValueTo": "Gross Mass (kg)",
+    "keys": [
+      {
+        "key": "consignment-item-info.label.grossMass",
+        "value": "Gross Mass (kg)"
+      },
+      {
+        "key": "consult-consignment.labels.grossMass",
+        "value": "Gross mass (kg)"
+      }
+    ]
+  },
+  {
+    "value": "Harmonized system sub heading code",
+    "count": 2,
+    "mapKeyTo": "i18n.common.harmonizedSystemSubHeadingCode",
+    "mapValueTo": "Harmonized System Sub Heading Code",
+    "keys": [
+      {
+        "key": "consignment-item-info.label.harmonizedSystemSubHeadingCode",
+        "value": "Harmonized system sub heading code"
+      },
+      {
+        "key": "registerControlResultDialog.harmonizedSystemSubHeadingCode",
+        "value": "Harmonized System Sub Heading Code"
+      }
+    ]
+  },
+  {
+    "value": "Number",
+    "count": 2,
+    "mapKeyTo": "i18n.common.number",
+    "mapValueTo": "Number",
+    "keys": [
+      {
+        "key": "consignment-item-info.label.number",
+        "value": "Number"
+      },
+      {
+        "key": "generalInfoForm.lables.number",
+        "value": "Number"
+      }
+    ]
+  },
+  {
+    "value": "Shipping Marks",
+    "count": 4,
+    "mapKeyTo": "i18n.common.shippingMarks",
+    "mapValueTo": "Shipping Marks",
+    "keys": [
+      {
+        "key": "consignment-item-info.label.shippingMarks",
+        "value": "Shipping Marks"
+      },
+      {
+        "key": "generalInfoForm.lables.shippingMarks",
+        "value": "Shipping marks"
+      },
+      {
+        "key": "houseConsignItem.lables.shippingMarks",
+        "value": "Shipping marks"
+      },
+      {
+        "key": "registerControlResultDialog.shippingMarks",
+        "value": "Shipping marks"
+      }
+    ]
+  },
+  {
+    "value": "Type",
+    "count": 10,
+    "mapKeyTo": "i18n.common.type",
+    "mapValueTo": "Type",
+    "keys": [
+      {
+        "key": "consignment-item-info.label.type",
+        "value": "Type"
+      },
+      {
+        "key": "consult-consignment.labels.type",
+        "value": "Type"
+      },
+      {
+        "key": "consultTransitInfo.labels.type",
+        "value": "Type"
+      },
+      {
+        "key": "generalInfoForm.lables.tdType",
+        "value": "Type"
+      },
+      {
+        "key": "generalInfoForm.lables.type",
+        "value": "Type"
+      },
+      {
+        "key": "guarantee.references.guaranteeType",
+        "value": "Type"
+      },
+      {
+        "key": "houseConsignItem.lables.type",
+        "value": "Type"
+      },
+      {
+        "key": "registerControlResultDialog.type",
+        "value": "Type"
+      },
+      {
+        "key": "riskAndControlInformation.type",
+        "value": "Type"
+      },
+      {
+        "key": "savedDrafts.headers.type",
+        "value": "Type"
+      }
+    ]
+  },
+  {
+    "value": "No.",
+    "count": 3,
+    "mapKeyTo": "i18n.common.No",
+    "mapValueTo": "No.",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.No",
+        "value": "No."
+      },
+      {
+        "key": "consultTransitInfo.labels.no",
+        "value": "No."
+      },
+      {
+        "key": "guarantee.references.number",
+        "value": "No."
+      }
+    ]
+  },
+  {
+    "value": "Additional information",
+    "count": 2,
+    "mapKeyTo": "i18n.common.additionalInfo",
+    "mapValueTo": "Additional information",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.additionalInfo",
+        "value": "Additional information"
+      },
+      {
+        "key": "generalInfoForm.lables.additionalInformation",
+        "value": "Additional information"
+      }
+    ]
+  },
+  {
+    "value": "Additional reference",
+    "count": 3,
+    "mapKeyTo": "i18n.common.additionalRef",
+    "mapValueTo": "Additional reference",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.additionalRef",
+        "value": "Additional reference"
+      },
+      {
+        "key": "generalInfoForm.lables.additionalReference",
+        "value": "Additional reference"
+      },
+      {
+        "key": "registerControlResultDialog.additionalReference",
+        "value": "Additional reference"
+      }
+    ]
+  },
+  {
+    "value": "Complement of Information",
+    "count": 4,
+    "mapKeyTo": "i18n.common.complementOfInformation",
+    "mapValueTo": "Complement of Information",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.complementOfInformation",
+        "value": "Complement of Information"
+      },
+      {
+        "key": "consultTransitInfo.labels.complementOfInformation",
+        "value": "Complement of information"
+      },
+      {
+        "key": "generalInfoForm.lables.complementOfInformation",
+        "value": "Complement of information"
+      },
+      {
+        "key": "registerControlResultDialog.complementOfInformation",
+        "value": "Complement of information"
+      }
+    ]
+  },
+  {
+    "value": "General information",
+    "count": 2,
+    "mapKeyTo": "i18n.common.generalInformation",
+    "mapValueTo": "General Information",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.generalInformation",
+        "value": "General information"
+      },
+      {
+        "key": "matStepper.label.generalInformation",
+        "value": "General Information"
+      }
+    ]
+  },
+  {
+    "value": "Goods item",
+    "count": 2,
+    "mapKeyTo": "i18n.common.goodsItem",
+    "mapValueTo": "Goods item",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.goodsItem",
+        "value": "Goods item"
+      },
+      {
+        "key": "des.registerArrivalNotification.goodsItem",
+        "value": "Goods item"
+      }
+    ]
+  },
+  {
+    "value": "Goods Item number",
+    "count": 4,
+    "mapKeyTo": "i18n.common.goodsItemNumber",
+    "mapValueTo": "Goods Item number",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.goodsItemNumber",
+        "value": "Goods Item number"
+      },
+      {
+        "key": "generalInfoForm.lables.goodsItemNumber",
+        "value": "Goods item number"
+      },
+      {
+        "key": "houseConsignItem.lables.goodsItemNumber",
+        "value": "Goods item number"
+      },
+      {
+        "key": "registerControlResultDialog.goodsItemNumber",
+        "value": "Goods item number"
+      }
+    ]
+  },
+  {
+    "value": "Identifier",
+    "count": 2,
+    "mapKeyTo": "i18n.common.identifier",
+    "mapValueTo": "Identifier",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.identifier",
+        "value": "Identifier"
+      },
+      {
+        "key": "registerControlResultDialog.identifier",
+        "value": "Identifier"
+      }
+    ]
+  },
+  {
+    "value": "Item",
+    "count": 2,
+    "mapKeyTo": "i18n.common.item",
+    "mapValueTo": "Item",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.item",
+        "value": "Item"
+      },
+      {
+        "key": "matStepper.label.item",
+        "value": "Item"
+      }
+    ]
+  },
+  {
+    "value": "Measurement unit and qualifier",
+    "count": 3,
+    "mapKeyTo": "i18n.common.measurementUnitAndQualifier",
+    "mapValueTo": "Measurement unit and qualifier",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.measurementUnitAndQualifier",
+        "value": "Measurement unit and qualifier"
+      },
+      {
+        "key": "generalInfoForm.lables.measurementUnitAndQualifier",
+        "value": "Measurement unit and qualifier"
+      },
+      {
+        "key": "houseConsignItem.lables.measurementUnitAndQualifier",
+        "value": "Measurement unit and qualifier"
+      }
+    ]
+  },
+  {
+    "value": "Quantity",
+    "count": 3,
+    "mapKeyTo": "i18n.common.quantity",
+    "mapValueTo": "Quantity",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.quantity",
+        "value": "Quantity"
+      },
+      {
+        "key": "generalInfoForm.lables.quantity",
+        "value": "Quantity"
+      },
+      {
+        "key": "houseConsignItem.lables.quantity",
+        "value": "Quantity"
+      }
+    ]
+  },
+  {
+    "value": "House Consignment(s)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.rootLabelHouseConsignments",
+    "mapValueTo": "House Consignment(s)",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.rootLabelHouseConsignments",
+        "value": "House Consignment(s)"
+      },
+      {
+        "key": "matStepper.label.houseConsignments",
+        "value": "House Consignment(s)"
+      }
+    ]
+  },
+  {
+    "value": "Consignment Item(s)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.rootLabelConsignmentItems",
+    "mapValueTo": "Consignment Item(s)",
+    "keys": [
+      {
+        "key": "consult-consignment.labels.rootLabelConsignmentItems",
+        "value": "Consignment Item(s)"
+      },
+      {
+        "key": "matStepper.label.consignmentItems",
+        "value": "Consignment Item(s)"
+      }
+    ]
+  },
+  {
+    "value": "Date and Time",
+    "count": 2,
+    "mapKeyTo": "i18n.common.dateAndTime",
+    "mapValueTo": "Date and Time",
+    "keys": [
+      {
+        "key": "consult-incident.labels.incidentNotification.dateAndTime",
+        "value": "Date and Time"
+      },
+      {
+        "key": "eventHistory.label.dateTime",
+        "value": "Date and time"
+      }
+    ]
+  },
+  {
+    "value": "Decision",
+    "count": 2,
+    "mapKeyTo": "i18n.common.decision",
+    "mapValueTo": "Decision",
+    "keys": [
+      {
+        "key": "consult-incident.labels.incident.decision",
+        "value": "Decision"
+      },
+      {
+        "key": "controlDecision.decision",
+        "value": "Decision"
+      }
+    ]
+  },
+  {
+    "value": "Access code",
+    "count": 3,
+    "mapKeyTo": "i18n.common.accessCode",
+    "mapValueTo": "Access code",
+    "keys": [
+      {
+        "key": "consultTransitInfo.labels.accessCode",
+        "value": "Access code"
+      },
+      {
+        "key": "generalInfoForm.lables.accessCode",
+        "value": "Access code"
+      },
+      {
+        "key": "guarantee.references.accessCode",
+        "value": "Access code"
+      }
+    ]
+  },
+  {
+    "value": "Amount",
+    "count": 3,
+    "mapKeyTo": "i18n.common.amountToBeCovered",
+    "mapValueTo": "Amount",
+    "keys": [
+      {
+        "key": "consultTransitInfo.labels.amountToBeCovered",
+        "value": "Amount"
+      },
+      {
+        "key": "generalInfoForm.lables.amount",
+        "value": "Amount"
+      },
+      {
+        "key": "guarantee.references.amount",
+        "value": "Amount"
+      }
+    ]
+  },
+  {
+    "value": "Conveyance reference number",
+    "count": 3,
+    "mapKeyTo": "i18n.common.conveyanceReferenceNumber",
+    "mapValueTo": "Conveyance reference number",
+    "keys": [
+      {
+        "key": "consultTransitInfo.labels.conveyanceReferenceNumber",
+        "value": "Conveyance reference number"
+      },
+      {
+        "key": "generalInfoForm.lables.conveyanceReferenceNumber",
+        "value": "Conveyance reference number"
+      },
+      {
+        "key": "registerControlResultDialog.conveyanceReferenceNumber",
+        "value": "Conveyance reference number"
+      }
+    ]
+  },
+  {
+    "value": "Customs office at border",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeAtBorder",
+    "mapValueTo": "Customs office at border",
+    "keys": [
+      {
+        "key": "consultTransitInfo.labels.customsOfficeAtBorder",
+        "value": "Customs office at border"
+      },
+      {
+        "key": "generalInfoForm.lables.customsOfficeAtBorder",
+        "value": "Customs office at border"
+      }
+    ]
+  },
+  {
+    "value": "Document line item number",
+    "count": 2,
+    "mapKeyTo": "i18n.common.documentLineItemNumber",
+    "mapValueTo": "Document line item number",
+    "keys": [
+      {
+        "key": "consultTransitInfo.labels.documentLineItemNumber",
+        "value": "Document line item number"
+      },
+      {
+        "key": "generalInfoForm.lables.documentLineItemNumber",
+        "value": "Document line item number"
+      }
+    ]
+  },
+  {
+    "value": "Passage Date",
+    "count": 2,
+    "mapKeyTo": "i18n.common.passageDate",
+    "mapValueTo": "Passage Date",
+    "keys": [
+      {
+        "key": "consultTransitInfo.labels.passageDate",
+        "value": "Passage Date"
+      },
+      {
+        "key": "generalInfoForm.lables.passageDate",
+        "value": "Passage date"
+      }
+    ]
+  },
+  {
+    "value": "Guarantee",
+    "count": 2,
+    "mapKeyTo": "i18n.common.guarantee",
+    "mapValueTo": "Guarantee",
+    "keys": [
+      {
+        "key": "consultTransitInfo.labels.guarantee",
+        "value": "Guarantee"
+      },
+      {
+        "key": "generalInfoForm.lables.guarantee",
+        "value": "Guarantee"
+      }
+    ]
+  },
+  {
+    "value": "Guarantee reference",
+    "count": 3,
+    "mapKeyTo": "i18n.common.guaranteeReference",
+    "mapValueTo": "Guarantee reference",
+    "keys": [
+      {
+        "key": "consultTransitInfo.labels.guaranteeReference",
+        "value": "Guarantee reference"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.guaranteeReference",
+        "value": "Guarantee reference"
+      },
+      {
+        "key": "generalInfoForm.lables.guaranteeReference",
+        "value": "Guarantee reference"
+      }
+    ]
+  },
+  {
+    "value": "Other guarantee reference",
+    "count": 2,
+    "mapKeyTo": "i18n.common.otherGuaranteeReference",
+    "mapValueTo": "Other guarantee reference",
+    "keys": [
+      {
+        "key": "consultTransitInfo.labels.otherGuaranteeReference",
+        "value": "Other guarantee reference"
+      },
+      {
+        "key": "generalInfoForm.lables.otherGuaranteeReference",
+        "value": "Other guarantee reference"
+      }
+    ]
+  },
+  {
+    "value": "Reduced dataset indicator",
+    "count": 2,
+    "mapKeyTo": "i18n.common.reducedDatasetIndicator",
+    "mapValueTo": "Reduced dataset indicator",
+    "keys": [
+      {
+        "key": "consultTransitInfo.labels.reducedDatasetIndicator",
+        "value": "Reduced dataset indicator"
+      },
+      {
+        "key": "generalInfoForm.lables.reducedDatasetIndicator",
+        "value": "Reduced dataset indicator"
+      }
+    ]
+  },
+  {
+    "value": "Role",
+    "count": 2,
+    "mapKeyTo": "i18n.common.role",
+    "mapValueTo": "Role",
+    "keys": [
+      {
+        "key": "consultTransitInfo.labels.role",
+        "value": "Role"
+      },
+      {
+        "key": "generalInfoForm.lables.role",
+        "value": "Role"
+      }
+    ]
+  },
+  {
+    "value": "Discrepancies",
+    "count": 2,
+    "mapKeyTo": "i18n.common.discrepancies",
+    "mapValueTo": "Discrepancies",
+    "keys": [
+      {
+        "key": "controlActionTypes.discrepancies",
+        "value": "Discrepancies"
+      },
+      {
+        "key": "generalInfoForm.lables.discrepancies",
+        "value": "Discrepancies"
+      }
+    ]
+  },
+  {
+    "value": "Satisfactory",
+    "count": 2,
+    "mapKeyTo": "i18n.common.satisfactory",
+    "mapValueTo": "Satisfactory",
+    "keys": [
+      {
+        "key": "controlActionTypes.satisfactory",
+        "value": "Satisfactory"
+      },
+      {
+        "key": "riskAndControlInformation.resultDescription.2510",
+        "value": "Satisfactory"
+      }
+    ]
+  },
+  {
+    "value": "Requested Document(s)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.Requested Document(s)",
+    "mapValueTo": "Requested Document(s)",
+    "keys": [
+      {
+        "key": "controlDecision.Requested Document(s)",
+        "value": "Requested Document(s)"
+      },
+      {
+        "key": "controlDecision.requestedDocuments",
+        "value": "Requested Document(s)"
+      }
+    ]
+  },
+  {
+    "value": "Document",
+    "count": 2,
+    "mapKeyTo": "i18n.common.document",
+    "mapValueTo": "Document",
+    "keys": [
+      {
+        "key": "controlDecision.document",
+        "value": "Document"
+      },
+      {
+        "key": "requestForDocuments.dialog.expansionPanelTitle",
+        "value": "Document"
+      }
+    ]
+  },
+  {
+    "value": "Document Type",
+    "count": 2,
+    "mapKeyTo": "i18n.common.documentType",
+    "mapValueTo": "Document Type",
+    "keys": [
+      {
+        "key": "controlDecision.documentType",
+        "value": "Document Type"
+      },
+      {
+        "key": "requestForDocuments.dialog.labels.documentType",
+        "value": "Document type"
+      }
+    ]
+  },
+  {
+    "value": "Reason",
+    "count": 2,
+    "mapKeyTo": "i18n.common.reason",
+    "mapValueTo": "Reason",
+    "keys": [
+      {
+        "key": "controlDecision.reason",
+        "value": "Reason"
+      },
+      {
+        "key": "eventHistory.request.reason",
+        "value": "Reason"
+      }
+    ]
+  },
+  {
+    "value": "Risk analysis",
+    "count": 2,
+    "mapKeyTo": "i18n.common.riskAnalysis",
+    "mapValueTo": "Risk analysis",
+    "keys": [
+      {
+        "key": "controlResults.riskAnalysis",
+        "value": "Risk analysis"
+      },
+      {
+        "key": "riskAndControlInformation.riskAnalysis",
+        "value": "Risk analysis"
+      }
+    ]
+  },
+  {
+    "value": "Submission failed",
+    "count": 2,
+    "mapKeyTo": "i18n.common.message",
+    "mapValueTo": "Submission failed",
+    "keys": [
+      {
+        "key": "declarationOverview.banner.failure.message",
+        "value": "Submission failed"
+      },
+      {
+        "key": "declarationOverview.validationTimeoutDialog.title",
+        "value": "Submission failed"
+      }
+    ]
+  },
+  {
+    "value": "Transit Information",
+    "count": 2,
+    "mapKeyTo": "i18n.common.transitInformation",
+    "mapValueTo": "Transit Information",
+    "keys": [
+      {
+        "key": "declarationOverview.dialog.labels.transitInformation",
+        "value": "Transit Information"
+      },
+      {
+        "key": "matStepper.label.transitInformation",
+        "value": "Transit Information"
+      }
+    ]
+  },
+  {
+    "value": "{{number}} errors found. Kindly check, rectify and resubmit.",
+    "count": 2,
+    "mapKeyTo": "i18n.common.title",
+    "mapValueTo": "{{number}} errors found. Kindly check, rectify and resubmit.",
+    "keys": [
+      {
+        "key": "declarationOverview.errorContainer.title",
+        "value": "{{number}} errors found. Kindly check, rectify and resubmit."
+      },
+      {
+        "key": "releaseMovement.errorContainer.title",
+        "value": "{{number}} errors found. Kindly check, rectify and resubmit."
+      }
+    ]
+  },
+  {
+    "value": "{{number}} errors found.",
+    "count": 2,
+    "mapKeyTo": "i18n.common.description",
+    "mapValueTo": "{{number}} errors found.",
+    "keys": [
+      {
+        "key": "declarationOverview.errorDialog.description",
+        "value": "{{number}} errors found."
+      },
+      {
+        "key": "releaseMovement.errorDialog.description",
+        "value": "{{number}} errors found."
+      }
+    ]
+  },
+  {
+    "value": "Please review and correct errors",
+    "count": 2,
+    "mapKeyTo": "i18n.common.title",
+    "mapValueTo": "Please review and correct errors",
+    "keys": [
+      {
+        "key": "declarationOverview.errorDialog.title",
+        "value": "Please review and correct errors"
+      },
+      {
+        "key": "releaseMovement.errorDialog.title",
+        "value": "Please review and correct errors"
+      }
+    ]
+  },
+  {
+    "value": "Unforeseen problem",
+    "count": 2,
+    "mapKeyTo": "i18n.common.description",
+    "mapValueTo": "Unforeseen problem",
+    "keys": [
+      {
+        "key": "declarationOverview.unforeseenProblem.description",
+        "value": "Unforeseen problem"
+      },
+      {
+        "key": "releaseMovement.unforeseenProblem.description",
+        "value": "Unforeseen problem"
+      }
+    ]
+  },
+  {
+    "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
+    "count": 2,
+    "mapKeyTo": "i18n.common.message",
+    "mapValueTo": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
+    "keys": [
+      {
+        "key": "declarationOverview.unforeseenProblem.message",
+        "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
+      },
+      {
+        "key": "releaseMovement.unforeseenProblem.message",
+        "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
+      }
+    ]
+  },
+  {
+    "value": "Edit",
+    "count": 3,
+    "mapKeyTo": "i18n.common.edit",
+    "mapValueTo": "Edit",
+    "keys": [
+      {
+        "key": "des.registerArrivalNotification.actions.edit",
+        "value": "Edit"
+      },
+      {
+        "key": "des.registerArrivalNotification.edit",
+        "value": "Edit"
+      },
+      {
+        "key": "savedDrafts.edit",
+        "value": "Edit"
+      }
+    ]
+  },
+  {
+    "value": "Register Arrival Notification (IE007)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.registerArrivalNotification",
+    "mapValueTo": "Register Arrival Notification (IE007)",
+    "keys": [
+      {
+        "key": "des.registerArrivalNotification.actions.registerArrivalNotification",
+        "value": "Register Arrival Notification (IE007)"
+      },
+      {
+        "key": "navDrawer.menu.registerArrivalNotificationIE007",
+        "value": "Register Arrival Notification (IE007)"
+      }
+    ]
+  },
+  {
+    "value": "Authority",
+    "count": 2,
+    "mapKeyTo": "i18n.common.authority",
+    "mapValueTo": "Authority",
+    "keys": [
+      {
+        "key": "des.registerArrivalNotification.authority",
+        "value": "Authority"
+      },
+      {
+        "key": "incident.body.endorsement.authority",
+        "value": "Authority"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of destination actual",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeDestActual",
+    "mapValueTo": "Customs office of destination actual",
+    "keys": [
+      {
+        "key": "des.registerArrivalNotification.customsOfficeDestActual",
+        "value": "Customs office of destination actual"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.body.customsOfficeOfDestinationActual",
+        "value": "Customs office of destination actual"
+      }
+    ]
+  },
+  {
+    "value": "Discharge",
+    "count": 2,
+    "mapKeyTo": "i18n.common.dischargeTitle",
+    "mapValueTo": "Discharge",
+    "keys": [
+      {
+        "key": "des.registerArrivalNotification.dischargeTitle",
+        "value": "Discharge"
+      },
+      {
+        "key": "generalInfoForm.lables.discharge",
+        "value": "Discharge"
+      }
+    ]
+  },
+  {
+    "value": "Location of goods",
+    "count": 2,
+    "mapKeyTo": "i18n.common.locationOfGoods",
+    "mapValueTo": "Location of goods",
+    "keys": [
+      {
+        "key": "des.registerArrivalNotification.locationOfGoods",
+        "value": "Location of goods"
+      },
+      {
+        "key": "generalInfoForm.lables.locationOfGoods",
+        "value": "Location of goods"
+      }
+    ]
+  },
+  {
+    "value": "Qualifier of identification",
+    "count": 2,
+    "mapKeyTo": "i18n.common.qualifierOfIdentification",
+    "mapValueTo": "Qualifier of identification",
+    "keys": [
+      {
+        "key": "des.registerArrivalNotification.qualifierOfIdentification",
+        "value": "Qualifier of identification"
+      },
+      {
+        "key": "incident.body.location.qualifierOfIdentification",
+        "value": "Qualifier of identification"
+      }
+    ]
+  },
+  {
+    "value": "Volet page number",
+    "count": 2,
+    "mapKeyTo": "i18n.common.voletPageNumber",
+    "mapValueTo": "Volet page number",
+    "keys": [
+      {
+        "key": "des.registerArrivalNotification.voletPageNumber",
+        "value": "Volet page number"
+      },
+      {
+        "key": "generalInfoForm.lables.voletPageNumber",
+        "value": "Volet page number"
+      }
+    ]
+  },
+  {
+    "value": "Register Incident Notification (IE180)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.registerIncidentNotification",
+    "mapValueTo": "Register Incident Notification (IE180)",
+    "keys": [
+      {
+        "key": "inc.registerIncidentNotification.actions.registerIncidentNotification",
+        "value": "Register Incident Notification (IE180)"
+      },
+      {
+        "key": "incidentNotification.label",
+        "value": "Register incident notification (IE180)"
+      }
+    ]
+  },
+  {
+    "value": "Register Incident Notification",
+    "count": 2,
+    "mapKeyTo": "i18n.common.title",
+    "mapValueTo": "Register Incident Notification",
+    "keys": [
+      {
+        "key": "inc.registerIncidentNotification.title",
+        "value": "Register Incident Notification"
+      },
+      {
+        "key": "matStepper.label.registerIncidentNotification",
+        "value": "Register incident notification"
+      }
+    ]
+  },
+  {
+    "value": "Discrepancy resolution",
+    "count": 2,
+    "mapKeyTo": "i18n.common.discrepancyResolution",
+    "mapValueTo": "Discrepancy resolution",
+    "keys": [
+      {
+        "key": "discrepancy.dialog.discrepancyResolution",
+        "value": "Discrepancy resolution"
+      },
+      {
+        "key": "movementUnderResolutionOverview.discrepancyResolution",
+        "value": "Discrepancy resolution"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of enquiry at departure",
+    "count": 5,
+    "mapKeyTo": "i18n.common.customsOfficeOfEnquiryAtDeparture",
+    "mapValueTo": "Customs office of enquiry at departure",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.customsOfficeOfEnquiryAtDeparture",
+        "value": "Customs office of enquiry at departure"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.customsOfficeOfEnquiryAtDeparture",
+        "value": "Customs office of enquiry at departure"
+      },
+      {
+        "key": "requestEnquiry.dialog.customsOfficeOfEnquiryAtDeparture",
+        "value": "Customs office of enquiry at departure"
+      },
+      {
+        "key": "requestOnNonArrivedMovement.dialog.customsOfficeOfEnquiryAtDeparture",
+        "value": "Customs office of enquiry at departure"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.customsOfficeOfEnquiryAtDeparture",
+        "value": "Customs Office of Enquiry at Departure"
+      }
+    ]
+  },
+  {
+    "value": "Enquiry",
+    "count": 7,
+    "mapKeyTo": "i18n.common.enquiry",
+    "mapValueTo": "Enquiry",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.enquiry",
+        "value": "Enquiry"
+      },
+      {
+        "key": "enquiryAndRecovery.enquiry.heading",
+        "value": "Enquiry"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.enquiry",
+        "value": "Enquiry"
+      },
+      {
+        "key": "requestEnquiry.dialog.enquiry",
+        "value": "Enquiry"
+      },
+      {
+        "key": "respondToRequestOnNonArrivedMovement.dialog.enquiry",
+        "value": "Enquiry"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.enquiry",
+        "value": "Enquiry"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.enquiry",
+        "value": "Enquiry"
+      }
+    ]
+  },
+  {
+    "value": "Enquiry request date",
+    "count": 2,
+    "mapKeyTo": "i18n.common.enquiryRequestDate",
+    "mapValueTo": "Enquiry request date",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.enquiryRequestDate",
+        "value": "Enquiry request date"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.enquiryRequestDate",
+        "value": "Enquiry request date"
+      }
+    ]
+  },
+  {
+    "value": "Enquiry response date",
+    "count": 3,
+    "mapKeyTo": "i18n.common.enquiryResponseDate",
+    "mapValueTo": "Enquiry response date",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.enquiryResponseDate",
+        "value": "Enquiry response date"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.enquiryResponseDate",
+        "value": "Enquiry response date"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.enquiryResponseDate",
+        "value": "Enquiry response date"
+      }
+    ]
+  },
+  {
+    "value": "Information available from trader",
+    "count": 2,
+    "mapKeyTo": "i18n.common.informationAvailableFromTrader",
+    "mapValueTo": "Information available from trader",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.informationAvailableFromTrader",
+        "value": "Information available from trader"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.informationAvailableFromTrader",
+        "value": "Information available from trader"
+      }
+    ]
+  },
+  {
+    "value": "Information code",
+    "count": 2,
+    "mapKeyTo": "i18n.common.informationCode",
+    "mapValueTo": "Information code",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.informationCode",
+        "value": "Information code"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.informationCode",
+        "value": "Information code"
+      }
+    ]
+  },
+  {
+    "value": "Office role",
+    "count": 2,
+    "mapKeyTo": "i18n.common.officeRole",
+    "mapValueTo": "Office role",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.officeRole",
+        "value": "Office role"
+      },
+      {
+        "key": "riskAndControlInformation.officeRole",
+        "value": "Office role"
+      }
+    ]
+  },
+  {
+    "value": "Requested information",
+    "count": 2,
+    "mapKeyTo": "i18n.common.requestedInformation",
+    "mapValueTo": "Requested Information",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.requestedInformation",
+        "value": "Requested information"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.requestedInformation",
+        "value": "Requested Information"
+      }
+    ]
+  },
+  {
+    "value": "Response code",
+    "count": 3,
+    "mapKeyTo": "i18n.common.responseCode",
+    "mapValueTo": "Response code",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.responseCode",
+        "value": "Response code"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.responseCode",
+        "value": "Response code"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.responseCode",
+        "value": "Response code"
+      }
+    ]
+  },
+  {
+    "value": "Response information",
+    "count": 2,
+    "mapKeyTo": "i18n.common.responseInformation",
+    "mapValueTo": "Response Information",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.responseInformation",
+        "value": "Response information"
+      },
+      {
+        "key": "sendEnquiryInformation.dialog.responseInformation",
+        "value": "Response Information"
+      }
+    ]
+  },
+  {
+    "value": "Response text",
+    "count": 2,
+    "mapKeyTo": "i18n.common.responseText",
+    "mapValueTo": "Response text",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.responseText",
+        "value": "Response text"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.responseText",
+        "value": "Response text"
+      }
+    ]
+  },
+  {
+    "value": "Return copy returned date",
+    "count": 3,
+    "mapKeyTo": "i18n.common.returnCopyReturnedDate",
+    "mapValueTo": "Return copy returned date",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.returnCopyReturnedDate",
+        "value": "Return copy returned date"
+      },
+      {
+        "key": "enquiryAndRecovery.recovery.body.returnCopyReturnedDate",
+        "value": "Return copy returned date"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.returnCopyReturnedDate",
+        "value": "Return copy returned date"
+      }
+    ]
+  },
+  {
+    "value": "TC11 delivery date",
+    "count": 3,
+    "mapKeyTo": "i18n.common.tc11DeliveryDate",
+    "mapValueTo": "TC11 Delivery Date",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.enquiry.body.tc11DeliveryDate",
+        "value": "TC11 delivery date"
+      },
+      {
+        "key": "requestEnquiry.dialog.TC11DeliveryDate",
+        "value": "TC11 Delivery Date"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.tc11DeliveryDate",
+        "value": "TC11 delivery date"
+      }
+    ]
+  },
+  {
+    "value": "Guarantor",
+    "count": 2,
+    "mapKeyTo": "i18n.common.guarantor",
+    "mapValueTo": "Guarantor",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.recovery.body.guarantor",
+        "value": "Guarantor"
+      },
+      {
+        "key": "generalInfoForm.lables.guarantor",
+        "value": "Guarantor"
+      }
+    ]
+  },
+  {
+    "value": "Recovery communication date",
+    "count": 3,
+    "mapKeyTo": "i18n.common.recoveryCommunicationDate",
+    "mapValueTo": "Recovery communication date",
+    "keys": [
+      {
+        "key": "enquiryAndRecovery.recovery.body.recoveryCommunicationDate",
+        "value": "Recovery communication date"
+      },
+      {
+        "key": "generalInfoForm.lables.recoveryCommunicationDate",
+        "value": "Recovery communication date"
+      },
+      {
+        "key": "recoveryRequest.recoveryCommunicationDate",
+        "value": "Recovery Communication date"
+      }
+    ]
+  },
+  {
+    "value": "Declaration acceptance date",
+    "count": 2,
+    "mapKeyTo": "i18n.common.declarationAcceptanceDate",
+    "mapValueTo": "Declaration acceptance date",
+    "keys": [
+      {
+        "key": "enquiryRequests.labels.declarationAcceptanceDate",
+        "value": "Declaration acceptance date"
+      },
+      {
+        "key": "recoveryRequests.declarationAcceptanceDate",
+        "value": "Declaration acceptance date"
+      }
+    ]
+  },
+  {
+    "value": "Office of departure",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeOfDeparture",
+    "mapValueTo": "Office of departure",
+    "keys": [
+      {
+        "key": "enquiryRequests.listHeader.customsOfficeOfDeparture",
+        "value": "Office of departure"
+      },
+      {
+        "key": "recoveryRequests.officeOfDeparture",
+        "value": "Office of departure"
+      }
+    ]
+  },
+  {
+    "value": "Requested customs office",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeOfRequest",
+    "mapValueTo": "Requested customs office",
+    "keys": [
+      {
+        "key": "enquiryRequests.listHeader.customsOfficeOfRequest",
+        "value": "Requested customs office"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.receivedEnquiryRequested.requestedCustomsOffice",
+        "value": "Requested customs office"
+      }
+    ]
+  },
+  {
+    "value": "New",
+    "count": 2,
+    "mapKeyTo": "i18n.common.new",
+    "mapValueTo": "New",
+    "keys": [
+      {
+        "key": "errorMessage.new",
+        "value": "New"
+      },
+      {
+        "key": "generalInfoForm.lables.new",
+        "value": "New"
+      }
+    ]
+  },
+  {
+    "value": "Approved",
+    "count": 3,
+    "mapKeyTo": "i18n.common.Approved",
+    "mapValueTo": "Approved",
+    "keys": [
+      {
+        "key": "eventHistory.label.Approved",
+        "value": "Approved"
+      },
+      {
+        "key": "generalInfoForm.lables.approved",
+        "value": "Approved"
+      },
+      {
+        "key": "invalidate.approved",
+        "value": "Approved"
+      }
+    ]
+  },
+  {
+    "value": "Refused",
+    "count": 3,
+    "mapKeyTo": "i18n.common.Refused",
+    "mapValueTo": "Refused",
+    "keys": [
+      {
+        "key": "eventHistory.label.Refused",
+        "value": "Refused"
+      },
+      {
+        "key": "generalInfoForm.lables.refused",
+        "value": "Refused"
+      },
+      {
+        "key": "invalidate.refused",
+        "value": "Refused"
+      }
+    ]
+  },
+  {
+    "value": "Category",
+    "count": 2,
+    "mapKeyTo": "i18n.common.category",
+    "mapValueTo": "Category",
+    "keys": [
+      {
+        "key": "eventHistory.label.category",
+        "value": "Category"
+      },
+      {
+        "key": "savedDrafts.headers.category",
+        "value": "Category"
+      }
+    ]
+  },
+  {
+    "value": "Remark",
+    "count": 3,
+    "mapKeyTo": "i18n.common.remark",
+    "mapValueTo": "Remark",
+    "keys": [
+      {
+        "key": "eventHistory.label.remark",
+        "value": "Remark"
+      },
+      {
+        "key": "registerControlResultDialog.remark",
+        "value": "Remark"
+      },
+      {
+        "key": "riskAndControlInformation.remark",
+        "value": "Remark"
+      }
+    ]
+  },
+  {
+    "value": "Request for invalidation",
+    "count": 2,
+    "mapKeyTo": "i18n.common.invalidationRequest",
+    "mapValueTo": "Request for invalidation",
+    "keys": [
+      {
+        "key": "eventHistory.request.invalidationRequest",
+        "value": "Request for invalidation"
+      },
+      {
+        "key": "invalidate.reqForInval",
+        "value": "Request for invalidation"
+      }
+    ]
+  },
+  {
+    "value": "*Please enter a value",
+    "count": 2,
+    "mapKeyTo": "i18n.common.required",
+    "mapValueTo": "*Please enter a value",
+    "keys": [
+      {
+        "key": "generalInfoForm.errors.required",
+        "value": "*Please enter a value"
+      },
+      {
+        "key": "invalidate.req",
+        "value": "*Please enter a value"
+      }
+    ]
+  },
+  {
+    "value": "Maximum {{ noOfDigits }} digits with {{ noOfDecimal }} digits after decimal",
+    "count": 2,
+    "mapKeyTo": "i18n.common.hintWithDecimal",
+    "mapValueTo": "Maximum {{ noOfDigits }} digits with {{ noOfDecimal }} digits after decimal",
+    "keys": [
+      {
+        "key": "generalInfoForm.hints.hintWithDecimal",
+        "value": "Maximum {{ noOfDigits }} digits with {{ noOfDecimal }} digits after decimal"
+      },
+      {
+        "key": "houseConsignItem.hints.hintWithDecimal",
+        "value": "Maximum {{ noOfDigits }} digits with {{ noOfDecimal }} digits after decimal"
+      }
+    ]
+  },
+  {
+    "value": "Maximum {{ noOfDigits }} digits",
+    "count": 2,
+    "mapKeyTo": "i18n.common.hintWithDigits",
+    "mapValueTo": "Maximum {{ noOfDigits }} digits",
+    "keys": [
+      {
+        "key": "generalInfoForm.hints.hintWithDigits",
+        "value": "Maximum {{ noOfDigits }} digits"
+      },
+      {
+        "key": "houseConsignItem.hints.hintWithDigits",
+        "value": "Maximum {{ noOfDigits }} digits"
+      }
+    ]
+  },
+  {
+    "value": "Economic operator EORI",
+    "count": 2,
+    "mapKeyTo": "i18n.common.EcoOperatorEORI",
+    "mapValueTo": "Economic operator EORI",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.EcoOperatorEORI",
+        "value": "Economic operator EORI"
+      },
+      {
+        "key": "generalInfoForm.lables.economicOperator",
+        "value": "Economic operator EORI"
+      }
+    ]
+  },
+  {
+    "value": "Country of dispatch",
+    "count": 2,
+    "mapKeyTo": "i18n.common.countryOfDispatch",
+    "mapValueTo": "Country of dispatch",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.countryOfDispatch",
+        "value": "Country of dispatch"
+      },
+      {
+        "key": "registerControlResultDialog.countryOfDispatch",
+        "value": "Country of dispatch"
+      }
+    ]
+  },
+  {
+    "value": "EORI or identification number",
+    "count": 2,
+    "mapKeyTo": "i18n.common.eoriOrIdentificationNumber",
+    "mapValueTo": "EORI or identification number",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.eoriOrIdentificationNumber",
+        "value": "EORI or identification number"
+      },
+      {
+        "key": "party.lables.eoriOrIdentificationNumber",
+        "value": "EORI or identification number"
+      }
+    ]
+  },
+  {
+    "value": "Expiration date and time",
+    "count": 2,
+    "mapKeyTo": "i18n.common.expirationDate",
+    "mapValueTo": "Expiration date and time",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.expirationDate",
+        "value": "Expiration date and time"
+      },
+      {
+        "key": "requestOnNonArrivedMovement.table.dateLimitForResponse",
+        "value": "Expiration date and time"
+      }
+    ]
+  },
+  {
+    "value": "Guarantee reference(s)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.guaranteeReferenceMain",
+    "mapValueTo": "Guarantee reference(s)",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.guaranteeReferenceMain",
+        "value": "Guarantee reference(s)"
+      },
+      {
+        "key": "guarantee.references.header",
+        "value": "Guarantee reference(s)"
+      }
+    ]
+  },
+  {
+    "value": "House Number",
+    "count": 2,
+    "mapKeyTo": "i18n.common.houseNumber",
+    "mapValueTo": "House Number",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.houseNumber",
+        "value": "House Number"
+      },
+      {
+        "key": "generalInfoForm.lables.locationOfGoodsAddress.houseNumber",
+        "value": "House Number"
+      }
+    ]
+  },
+  {
+    "value": "Inland mode of transport",
+    "count": 2,
+    "mapKeyTo": "i18n.common.inlandModeOfTransport",
+    "mapValueTo": "Inland mode of transport",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.inlandModeOfTransport",
+        "value": "Inland mode of transport"
+      },
+      {
+        "key": "registerControlResultDialog.inlandModeOfTransport",
+        "value": "Inland mode of transport"
+      }
+    ]
+  },
+  {
+    "value": "Control result date",
+    "count": 2,
+    "mapKeyTo": "i18n.common.lastControlResultDate",
+    "mapValueTo": "Control result date",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.lastControlResultDate",
+        "value": "Control result date"
+      },
+      {
+        "key": "riskAndControlInformation.controlResultDate",
+        "value": "Control result date"
+      }
+    ]
+  },
+  {
+    "value": "Release",
+    "count": 2,
+    "mapKeyTo": "i18n.common.release",
+    "mapValueTo": "Release",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.release",
+        "value": "Release"
+      },
+      {
+        "key": "releaseForTransit.release",
+        "value": "release"
+      }
+    ]
+  },
+  {
+    "value": "Post Code",
+    "count": 2,
+    "mapKeyTo": "i18n.common.postcode",
+    "mapValueTo": "Post Code",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.locationOfGoodsAddress.postcode",
+        "value": "Post Code"
+      },
+      {
+        "key": "sendEnquiryResponse.dialog.postCode",
+        "value": "Post code"
+      }
+    ]
+  },
+  {
+    "value": "Mode of transport at the border",
+    "count": 2,
+    "mapKeyTo": "i18n.common.modeOfTransportAtTheBorder",
+    "mapValueTo": "Mode of transport at the border",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.modeOfTransportAtTheBorder",
+        "value": "Mode of transport at the border"
+      },
+      {
+        "key": "registerControlResultDialog.modeOfTransportAtTheBorder",
+        "value": "Mode of transport at the border"
+      }
+    ]
+  },
+  {
+    "value": "Number of packages",
+    "count": 3,
+    "mapKeyTo": "i18n.common.numberOfPackages",
+    "mapValueTo": "Number of packages",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.numberOfPackages",
+        "value": "Number of packages"
+      },
+      {
+        "key": "houseConsignItem.lables.numberOfPackages",
+        "value": "Number of packages"
+      },
+      {
+        "key": "registerControlResultDialog.numberOfPackages",
+        "value": "Number of packages"
+      }
+    ]
+  },
+  {
+    "value": "Reference number UCR",
+    "count": 2,
+    "mapKeyTo": "i18n.common.referenceNumberUcr",
+    "mapValueTo": "Reference number UCR",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.referenceNumberUcr",
+        "value": "Reference number UCR"
+      },
+      {
+        "key": "registerControlResultDialog.referenceNumberUCR",
+        "value": "Reference number UCR"
+      }
+    ]
+  },
+  {
+    "value": "Step 1: Parties",
+    "count": 2,
+    "mapKeyTo": "i18n.common.rootLabelParties",
+    "mapValueTo": "Step 1: Parties",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.rootLabelParties",
+        "value": "Step 1: Parties"
+      },
+      {
+        "key": "party.lables.rootLabelParties",
+        "value": "Step 1: Parties"
+      }
+    ]
+  },
+  {
+    "value": "Step 3: Parties",
+    "count": 2,
+    "mapKeyTo": "i18n.common.rootLabelParties3",
+    "mapValueTo": "Step 3: Parties",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.rootLabelParties3",
+        "value": "Step 3: Parties"
+      },
+      {
+        "key": "houseConsignParties.lables.rootLabelParties3",
+        "value": "Step 3: Parties"
+      }
+    ]
+  },
+  {
+    "value": "Supporting document",
+    "count": 2,
+    "mapKeyTo": "i18n.common.supportingDocument",
+    "mapValueTo": "Supporting document",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.supportingDocument",
+        "value": "Supporting document"
+      },
+      {
+        "key": "registerControlResultDialog.supportingDocument",
+        "value": "Supporting document"
+      }
+    ]
+  },
+  {
+    "value": "TIR carnet number",
+    "count": 3,
+    "mapKeyTo": "i18n.common.tirCarnetNumber",
+    "mapValueTo": "TIR carnet number",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.tirCarnetNumber",
+        "value": "TIR carnet number"
+      },
+      {
+        "key": "registerControlResultDialog.tirCarnetNumber",
+        "value": "Tir carnet number"
+      },
+      {
+        "key": "riskAndControlInformation.tirCarnetNumber",
+        "value": "TIR carnet number"
+      }
+    ]
+  },
+  {
+    "value": "No release motivation text",
+    "count": 2,
+    "mapKeyTo": "i18n.common.noReleaseMotivationText",
+    "mapValueTo": "No release motivation text",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.noReleaseMotivationText",
+        "value": "No release motivation text"
+      },
+      {
+        "key": "releaseForTransit.modal.noReleaseMotivationText",
+        "value": "no release motivation text"
+      }
+    ]
+  },
+  {
+    "value": "Latitude",
+    "count": 2,
+    "mapKeyTo": "i18n.common.latitude",
+    "mapValueTo": "Latitude",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.latitude",
+        "value": "Latitude"
+      },
+      {
+        "key": "incident.body.location.gnss.latitude",
+        "value": "Latitude"
+      }
+    ]
+  },
+  {
+    "value": "Longitude",
+    "count": 2,
+    "mapKeyTo": "i18n.common.longitude",
+    "mapValueTo": "Longitude",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.longitude",
+        "value": "Longitude"
+      },
+      {
+        "key": "incident.body.location.gnss.longitude",
+        "value": "Longitude"
+      }
+    ]
+  },
+  {
+    "value": "Timer Expired",
+    "count": 3,
+    "mapKeyTo": "i18n.common.Timer Expired",
+    "mapValueTo": "Timer Expired",
+    "keys": [
+      {
+        "key": "guarantee.Timer Expired",
+        "value": "Timer Expired"
+      },
+      {
+        "key": "movementUnderResolutionOverview.timerExpired",
+        "value": "Timer expired"
+      },
+      {
+        "key": "movementUnderResolutionOverview.timerExpiredFilter",
+        "value": "Timer expired"
+      }
+    ]
+  },
+  {
+    "value": "Notes",
+    "count": 7,
+    "mapKeyTo": "i18n.common.notes",
+    "mapValueTo": "Notes",
+    "keys": [
+      {
+        "key": "guarantee.notes",
+        "value": "Notes"
+      },
+      {
+        "key": "guarantee.references.notes",
+        "value": "Notes"
+      },
+      {
+        "key": "invalidate.notes",
+        "value": "Notes"
+      },
+      {
+        "key": "invalidationRequest.listHeader.notes",
+        "value": "Notes"
+      },
+      {
+        "key": "invalidationRequest.notes",
+        "value": "Notes"
+      },
+      {
+        "key": "releaseRequest.listHeader.notes",
+        "value": "Notes"
+      },
+      {
+        "key": "releaseRequest.notes",
+        "value": "Notes"
+      }
+    ]
+  },
+  {
+    "value": "Refuse",
+    "count": 5,
+    "mapKeyTo": "i18n.common.refuse",
+    "mapValueTo": "Refuse",
+    "keys": [
+      {
+        "key": "guarantee.references.actions.refuse",
+        "value": "Refuse"
+      },
+      {
+        "key": "guarantee.references.dialog.buttons.refuse",
+        "value": "Refuse"
+      },
+      {
+        "key": "invalidate.refuse",
+        "value": "Refuse"
+      },
+      {
+        "key": "invalidationRequest.refuseButton",
+        "value": "Refuse"
+      },
+      {
+        "key": "releaseRequest.refuseButton",
+        "value": "Refuse"
+      }
+    ]
+  },
+  {
+    "value": "Dangerous goods",
+    "count": 2,
+    "mapKeyTo": "i18n.common.dangerousGoods",
+    "mapValueTo": "Dangerous goods",
+    "keys": [
+      {
+        "key": "houseConsignItem.lables.dangerousGoods",
+        "value": "Dangerous goods"
+      },
+      {
+        "key": "registerControlResultDialog.dangerousGoods",
+        "value": "Dangerous goods"
+      }
+    ]
+  },
+  {
+    "value": "Goods measure",
+    "count": 2,
+    "mapKeyTo": "i18n.common.goodsMeasure",
+    "mapValueTo": "Goods Measure",
+    "keys": [
+      {
+        "key": "houseConsignItem.lables.goodsMeasure",
+        "value": "Goods measure"
+      },
+      {
+        "key": "registerControlResultDialog.goodsMeasure",
+        "value": "Goods Measure"
+      }
+    ]
+  },
+  {
+    "value": "Approve",
+    "count": 3,
+    "mapKeyTo": "i18n.common.approve",
+    "mapValueTo": "Approve",
+    "keys": [
+      {
+        "key": "invalidate.approve",
+        "value": "Approve"
+      },
+      {
+        "key": "invalidationRequest.approveButton",
+        "value": "Approve"
+      },
+      {
+        "key": "releaseRequest.approveButton",
+        "value": "Approve"
+      }
+    ]
+  },
+  {
+    "value": "Invalidation reason",
+    "count": 4,
+    "mapKeyTo": "i18n.common.pleaseEnterReason",
+    "mapValueTo": "Invalidation reason",
+    "keys": [
+      {
+        "key": "invalidate.pleaseEnterReason",
+        "value": "Invalidation reason"
+      },
+      {
+        "key": "invalidate.reasonForInval",
+        "value": "Invalidation reason"
+      },
+      {
+        "key": "invalidationRequest.listHeader.invalidationReason",
+        "value": "Invalidation reason"
+      },
+      {
+        "key": "releaseRequest.listHeader.invalidationReason",
+        "value": "Invalidation reason"
+      }
+    ]
+  },
+  {
+    "value": "Customs office name",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeName",
+    "mapValueTo": "Customs office name",
+    "keys": [
+      {
+        "key": "invalidationRequest.customsOfficeName",
+        "value": "Customs office name"
+      },
+      {
+        "key": "releaseRequest.customsOfficeName",
+        "value": "Customs office name"
+      }
+    ]
+  },
+  {
+    "value": "Requested on",
+    "count": 2,
+    "mapKeyTo": "i18n.common.requestedOn",
+    "mapValueTo": "Requested on",
+    "keys": [
+      {
+        "key": "invalidationRequest.listHeader.requestedOn",
+        "value": "Requested on"
+      },
+      {
+        "key": "requestOnNonArrivedMovement.table.requestDate",
+        "value": "Requested on"
+      }
+    ]
+  },
+  {
+    "value": "Login",
+    "count": 2,
+    "mapKeyTo": "i18n.common.text",
+    "mapValueTo": "Login",
+    "keys": [
+      {
+        "key": "login.text",
+        "value": "Login"
+      },
+      {
+        "key": "sessionExpiredDialog.login",
+        "value": "Login"
+      }
+    ]
+  },
+  {
+    "value": "Control Result",
+    "count": 4,
+    "mapKeyTo": "i18n.common.controlResult",
+    "mapValueTo": "Control Result",
+    "keys": [
+      {
+        "key": "matStepper.label.controlResult",
+        "value": "Control Result"
+      },
+      {
+        "key": "registerControlResultDialog.controlResult",
+        "value": "Control Result"
+      },
+      {
+        "key": "registerControlResultDialog.controlResultCode",
+        "value": "Control result"
+      },
+      {
+        "key": "riskAndControlInformation.controlResult",
+        "value": "Control Result"
+      }
+    ]
+  },
+  {
+    "value": "Unloading Remarks",
+    "count": 2,
+    "mapKeyTo": "i18n.common.unloadingRemarks",
+    "mapValueTo": "Unloading Remarks",
+    "keys": [
+      {
+        "key": "matStepper.label.unloadingRemarks",
+        "value": "Unloading Remarks"
+      },
+      {
+        "key": "unloadingRemark.unloadingRemarks",
+        "value": "Unloading remarks"
+      }
+    ]
+  },
+  {
+    "value": "Manual Decision for Recovery",
+    "count": 2,
+    "mapKeyTo": "i18n.common.recommendRecovery",
+    "mapValueTo": "Manual Decision for Recovery",
+    "keys": [
+      {
+        "key": "navDrawer.menu.recommendRecovery",
+        "value": "Manual Decision for Recovery"
+      },
+      {
+        "key": "manualDecisionForRecovery.title",
+        "value": "Manual Decision for Recovery"
+      }
+    ]
+  },
+  {
+    "value": "TIR holder identification number",
+    "count": 2,
+    "mapKeyTo": "i18n.common.tirHolderIdentificationNumber",
+    "mapValueTo": "TIR holder identification number",
+    "keys": [
+      {
+        "key": "party.lables.tirHolderIdentificationNumber",
+        "value": "TIR holder identification number"
+      },
+      {
+        "key": "transitParties.tirIdentificationNumber",
+        "value": "TIR holder identification number"
+      }
+    ]
+  },
+  {
+    "value": "Controlled by",
+    "count": 2,
+    "mapKeyTo": "i18n.common.controlledBy",
+    "mapValueTo": "Controlled by",
+    "keys": [
+      {
+        "key": "registerControlResultDialog.controlledBy",
+        "value": "Controlled by"
+      },
+      {
+        "key": "riskAndControlInformation.controlledBy",
+        "value": "Controlled by"
+      }
+    ]
+  },
+  {
+    "value": "Other things to report",
+    "count": 3,
+    "mapKeyTo": "i18n.common.otherThingsToReport",
+    "mapValueTo": "Other things to report",
+    "keys": [
+      {
+        "key": "registerControlResultDialog.otherThingsToReport",
+        "value": "Other things to report"
+      },
+      {
+        "key": "riskAndControlInformation.otherThingsToReport",
+        "value": "Other things to report"
+      },
+      {
+        "key": "unloadingRemark.otherThingsToReport",
+        "value": "Other things to report"
+      }
+    ]
+  },
+  {
+    "value": "State of seals",
+    "count": 3,
+    "mapKeyTo": "i18n.common.stateOfSeals",
+    "mapValueTo": "State of seals",
+    "keys": [
+      {
+        "key": "registerControlResultDialog.stateOfSeals",
+        "value": "State of seals"
+      },
+      {
+        "key": "riskAndControlInformation.stateOfSeals",
+        "value": "State of seals"
+      },
+      {
+        "key": "unloadingRemark.stateOfSeals",
+        "value": "State of seals"
+      }
+    ]
+  },
+  {
+    "value": "Decide on release for transit",
+    "count": 2,
+    "mapKeyTo": "i18n.common.decideOnReleaseForTransit",
+    "mapValueTo": "Decide on release for transit",
+    "keys": [
+      {
+        "key": "releaseForTransit.decideOnReleaseForTransit",
+        "value": "Decide on release for transit"
+      },
+      {
+        "key": "releaseForTransit.menuActionButton",
+        "value": "Decide on release for transit"
+      }
+    ]
+  },
+  {
+    "value": "Date cannot be in the future",
+    "count": 2,
+    "mapKeyTo": "i18n.common.pastDate",
+    "mapValueTo": "Date cannot be in the future",
+    "keys": [
+      {
+        "key": "requestEnquiry.dialog.error.pastDate",
+        "value": "Date cannot be in the future"
+      },
+      {
+        "key": "respondToRequestOnNonArrivedMovement.dialog.error.pastDate",
+        "value": "Date cannot be in the future"
+      }
+    ]
+  },
+  {
+    "value": "Description",
+    "count": 2,
+    "mapKeyTo": "i18n.common.description",
+    "mapValueTo": "Description",
+    "keys": [
+      {
+        "key": "requestForDocuments.dialog.labels.description",
+        "value": "Description"
+      },
+      {
+        "key": "savedTemplates.headers.description",
+        "value": "Description"
+      }
+    ]
+  },
+  {
+    "value": "Delete",
+    "count": 2,
+    "mapKeyTo": "i18n.common.delete",
+    "mapValueTo": "Delete",
+    "keys": [
+      {
+        "key": "savedDrafts.delete",
+        "value": "Delete"
+      },
+      {
+        "key": "savedTemplates.delete",
+        "value": "Delete"
+      }
+    ]
+  },
+  {
+    "value": "Last saved",
+    "count": 2,
+    "mapKeyTo": "i18n.common.lastSaved",
+    "mapValueTo": "Last saved",
+    "keys": [
+      {
+        "key": "savedDrafts.headers.lastSaved",
+        "value": "Last saved"
+      },
+      {
+        "key": "savedTemplates.headers.lastSaved",
+        "value": "Last saved"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of destination(actual)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeOfDestinationActual",
+    "mapValueTo": "Customs office of destination(actual)",
+    "keys": [
+      {
+        "key": "statusRequest.customsOfficeOfDestinationActual",
+        "value": "Customs office of destination(actual)"
+      },
+      {
+        "key": "tra.crossingFrontier.customsOfficeOfDestinationActual",
+        "value": "Customs office of destination(actual)"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of transit(actual)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeOfTransitActual",
+    "mapValueTo": "Customs office of transit(actual)",
+    "keys": [
+      {
+        "key": "statusRequest.customsOfficeOfTransitActual",
+        "value": "Customs office of transit(actual)"
+      },
+      {
+        "key": "tra.crossingFrontier.customsOfficeOfTransitActual",
+        "value": "Customs office of transit(actual)"
+      }
+    ]
+  }
+]
