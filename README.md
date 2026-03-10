@@ -157,6 +157,8 @@ Removes all unused keys from the flat JSON files based on the unused keys list.
 
 ## 8. copy underscore keys back to filtered files:
 
+Copy the content of the underscore and uppercase files back to the filtered files before unflattening, so that the unflattened files contain all keys (including those with underscores and uppercase segments).
+
 Copy the keys in [result](output%2Fresult).
 
 Uppercase keys should have been copied back after the manual CSS updates in 1.3.
@@ -164,22 +166,30 @@ Uppercase keys should have been copied back after the manual CSS updates in 1.3.
 ## 7. unflatten:
 **Files:** `FLAT_JSON` + `FLAT_JSON_FR` + `FLAT_JSON_NL` + `FLAT_JSON_DE` → All unflattened outputs
 
-- Copy the content of the underscore and uppercase files back to the filtered files before unflattening, so that the unflattened files contain all keys (including those with underscores and uppercase segments).
-- Unflatten all language files at once:
+[//]: # (- Unflatten all language files at once:)
 
-`python ./scripts/unflatten_json.py ./output/flat_separated/en.flat.filtered.json ./output/unflat/en.unflat.json ./output/flat/fr.flat.json ./output/unflat/fr.unflat.json ./output/flat/nl.flat.json ./output/unflat/nl.unflat.json ./output/flat/de.flat.json ./output/unflat/de.unflat.json`
+[//]: # ()
+[//]: # (`python ./scripts/unflatten_json.py ./output/flat_separated/en.flat.filtered.json ./output/unflat/en.unflat.json ./output/flat/fr.flat.json ./output/unflat/fr.unflat.json ./output/flat/nl.flat.json ./output/unflat/nl.unflat.json ./output/flat/de.flat.json ./output/unflat/de.unflat.json`)
 
-Or unflatten them individually:
+[//]: # ()
+[//]: # (Or unflatten them individually:)
 
-`python ./scripts/unflatten_json.py ./output/flat_separated/en.flat.filtered.json ./output/unflat/en.unflat.json`
+`python ./scripts/unflatten_json.py ./output/result/en.flat.clean.json ./output/unflat/en.json`
 
-`python ./scripts/unflatten_json.py ./output/flat/fr.flat.json ./output/unflat/fr.unflat.json`
+`python ./scripts/unflatten_json.py ./output/result/fr.flat.clean.json ./output/unflat/fr.json`
 
-`python ./scripts/unflatten_json.py ./output/flat/nl.flat.json ./output/unflat/nl.unflat.json`
+`python ./scripts/unflatten_json.py ./output/result/nl.flat.clean.json ./output/unflat/nl.json`
 
-`python ./scripts/unflatten_json.py ./output/flat/de.flat.json ./output/unflat/de.unflat.json`
+`python ./scripts/unflatten_json.py ./output/result/de.flat.clean.json ./output/unflat/de.json`
 
-### 8. validate flatten ↔ unflatten:
+# Extras:
+
+## convert flat to csv:
+**Files:** `FLAT_JSON` → `FLAT_CSV`
+
+`python ./scripts/flat_to_csv.py ./output/flat/en.flat.json --out ./output/en.flat.csv`
+
+## validate flatten ↔ unflatten:
 **Files:** Original JSON + Unflattened → Validation
 
 Validate that the original JSON file is the same as the unflattened file (ensuring no data loss during the flatten/unflatten process):
@@ -197,11 +207,3 @@ Or validate them individually:
 `python ./scripts/validate_flatten_unflatten.py ./files/nl.json ./output/unflat/nl.unflat.json --verbose`
 
 `python ./scripts/validate_flatten_unflatten.py ./files/de.json ./output/unflat/de.unflat.json --verbose`
-
-## Extras:
-
-### convert flat to csv:
-**Files:** `FLAT_JSON` → `FLAT_CSV`
-
-`python ./scripts/flat_to_csv.py ./output/flat/en.flat.json --out ./output/en.flat.csv`
-

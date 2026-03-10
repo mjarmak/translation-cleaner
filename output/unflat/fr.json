@@ -1,0 +1,1270 @@
+{
+  "i18n": {
+    "common": {
+      "address": "Adresse",
+      "city": "Ville",
+      "code": "Code",
+      "containerIdentificationNumber": "Numéro d'identification du conteneur",
+      "containerIndicator": "Indicateur de conteneur",
+      "country": "Pays",
+      "date": "Date",
+      "identificationNumber": "Numéro d'identification",
+      "incident": "Incident",
+      "location": "Localisation",
+      "nationality": "Nationalité",
+      "numberOfSeals": "Nombre de scellés",
+      "place": "Lieu",
+      "postcode": "Code postal",
+      "sealIdentifier": "Seal identifier",
+      "streetAndNumber": "Rue et numéro",
+      "transportEquipment": "Équipement de transport",
+      "typeOfIdentification": "Type d'identification",
+      "releaseMovement": "Libérer un mouvement",
+      "view": "Voir",
+      "clearAll": "Tout effacer",
+      "search": "Rechercher",
+      "NoRisk": "Pas de risque",
+      "addCusOff": "Bureau de douane requis",
+      "additionalSupplyChainActor": "Autre acteur de la chaîne d'approvisionnement",
+      "at": "A",
+      "authorizationNumber": "Numéro d'autorisation",
+      "carrier": "Transporteur",
+      "consignee": "Destinataire",
+      "consignor": "Expéditeur",
+      "countrydest": "Pays de destination",
+      "cusOffice": "Bureau de douane",
+      "customsdest": "Bureau de douane de destination",
+      "decInfo": "Informations sur la déclaration",
+      "decStatus": "Statut de la déclaration",
+      "destination": "Destination",
+      "export": "Export",
+      "holderOfTransitProcedure": "Titulaire du régime du transit",
+      "name": "Nom",
+      "parties": "Parties",
+      "refNum": "Numéro de référence",
+      "releaseDateRange": "Date de libération",
+      "incidentDateRange": "Date de notification de l'incident",
+      "representative": "Représentant",
+      "transDoc": "Document de transport",
+      "transitOperation": "Opération de transit",
+      "goodsItemNumber": "Numéro d'article de la déclaration de marchandises",
+      "discrepancyStatus": "Statut",
+      "added": "Ajouté",
+      "updated": "Mis à jour",
+      "deleted": "Supprimé",
+      "totalPackages": "Nombre total de paquets",
+      "typeOfPackages": "Type de paquets",
+      "houseConsignment": "House Envoi",
+      "consignmentItem": "Articles en consignation",
+      "grossMass": "Masse brute",
+      "netMass": "Masse nette",
+      "action": "Action",
+      "customsOfficeOfDeparture": "Bureau de douane de départ",
+      "customsOfficeOfDestinationDeclared": "Bureau de douane de destination déclaré",
+      "customsOfficeOfIncident": "Bureau des douanes d'enregistrement des incidents",
+      "declarationType": "Type de déclaration",
+      "submissionDate": "Date et heure de soumission",
+      "traderAtDestination": "Trader at destination",
+      "cancel": "Cancel",
+      "heading": "Alternative Proof",
+      "submit": "Submit",
+      "text": "Text",
+      "save": "Sauvegarder",
+      "countryOfRoutingOfConsignment": "Pays de l'itinéraire de l’envoi",
+      "confirm": "Confirmer",
+      "request": "Request",
+      "cancelEnquiryNotificationText": "Cancel enquiry notification text",
+      "customsOfficeOfRequest": "Customs office of request",
+      "no": "Non",
+      "yes": "Oui",
+      "emailAddress": "E-mail address",
+      "phoneNumber": "Phone number",
+      "title": "Contact Person",
+      "recovCurrency": "Device",
+      "required": "Veuillez introduire une valeur",
+      "selectRequired": "Veuillez sélectionner une valeur",
+      "hintWithLength": "{{noOfChars}} caractères maximum",
+      "hintWithPhoneNumber": "Code régional suivi du numéro de téléphone",
+      "nameContactPerson": "Personne de contact",
+      "partiesSub": "Veuillez sélectionner les acteurs qui sont impliqués et entrer les informations requises",
+      "rootLabelParties2": "Etape 2: Parties",
+      "additional-references": "Référence supplémentaire",
+      "commodity": "Marchandise",
+      "commodity-code": "Code des marchandises",
+      "packaging": "Emballage",
+      "Item": "Article de consignment",
+      "combinedNomenclatureCode": "Code de la nomenclature combinée",
+      "cusCode": "CUS code",
+      "descriptionOfGoods": "Description des marchandises",
+      "harmonizedSystemSubHeadingCode": "Harmonized system sub heading code",
+      "number": "Nombre",
+      "shippingMarks": "Marques d’expédition",
+      "type": "Type",
+      "No": "N°",
+      "additionalInfo": "Mentions spéciales",
+      "additionalRef": "Additional reference",
+      "complementOfInformation": "Informations complémentaires",
+      "generalInformation": "Information générale",
+      "goodsItem": "Article de marchandise",
+      "identifier": "Identifiant",
+      "item": "Item",
+      "measurementUnitAndQualifier": "Unité de mesure et qualifiant",
+      "quantity": "Quantité",
+      "rootLabelHouseConsignments": "House Envoi(s)",
+      "rootLabelConsignmentItems": "Articles de consignation(s)",
+      "dateAndTime": "Date et Heure",
+      "decision": "Décision",
+      "accessCode": "Code d'accès",
+      "amountToBeCovered": "Montant",
+      "conveyanceReferenceNumber": "Bureau de douane à la frontière",
+      "customsOfficeAtBorder": "Bureau de douane à la frontière",
+      "documentLineItemNumber": "Numéro de ligne de l’article dans le document",
+      "passageDate": "Date de passage",
+      "guarantee": "Guarantee",
+      "guaranteeReference": "Référence de garantie",
+      "otherGuaranteeReference": "Autre référence de garantie",
+      "reducedDatasetIndicator": "Indicateur de jeu de données restreint",
+      "role": "Rôle",
+      "discrepancies": "Divergences",
+      "satisfactory": "Conforme",
+      "Requested Document(s)": "Requested Document(s)",
+      "document": "Document",
+      "documentType": "Document Type",
+      "reason": "Reason",
+      "riskAnalysis": "Analyse de risques",
+      "message": "Soumission échouée",
+      "transitInformation": "Informations Transit",
+      "description": "{{number}} erreurs trouvées.",
+      "edit": "Edit",
+      "registerArrivalNotification": "Register Arrival Notification (IE007)",
+      "authority": "Authority",
+      "customsOfficeDestActual": "Customs office of destination actual",
+      "dischargeTitle": "Discharge",
+      "locationOfGoods": "Location of goods",
+      "qualifierOfIdentification": "Qualifier of identification",
+      "voletPageNumber": "Volet page number",
+      "registerIncidentNotification": "Enregistrer une notification d'incident (IE180)",
+      "discrepancyResolution": "Résolution de la divergence",
+      "customsOfficeOfEnquiryAtDeparture": "Customs office of enquiry at departure",
+      "enquiry": "Enquiry",
+      "enquiryRequestDate": "Enquiry request date",
+      "enquiryResponseDate": "Enquiry response date",
+      "informationAvailableFromTrader": "Information available from trader",
+      "informationCode": "Information code",
+      "officeRole": "Office role",
+      "requestedInformation": "Requested information",
+      "responseCode": "Response code",
+      "responseInformation": "Response information",
+      "responseText": "Response text",
+      "returnCopyReturnedDate": "Return copy returned date",
+      "tc11DeliveryDate": "TC11 delivery date",
+      "guarantor": "Guarantor",
+      "recoveryCommunicationDate": "Recovery communication date",
+      "declarationAcceptanceDate": "Date d'acceptation de la déclaration",
+      "new": "Nouveau",
+      "Approved": "Approved",
+      "Refused": "Refused",
+      "category": "Category",
+      "remark": "Remark",
+      "invalidationRequest": "Demande d'invalidation",
+      "hintWithDecimal": " {{noOfDigits}} chifres maximum dont {{ noOfDecimal }} après décimal",
+      "hintWithDigits": " {{noOfDigits}} chifres maximum",
+      "countryOfDispatch": "Pays d'expédition",
+      "eoriOrIdentificationNumber": "EORI ou Numéro d’identification",
+      "expirationDate": "Expiration date and time",
+      "houseNumber": "House Number",
+      "inlandModeOfTransport": "Mode de transport intérieur",
+      "lastControlResultDate": "Control result date",
+      "release": "Libération",
+      "modeOfTransportAtTheBorder": "Mode de transport à la frontière",
+      "numberOfPackages": "Nombre de colis",
+      "referenceNumberUcr": "Numéro de référence UCR",
+      "rootLabelParties": "Etape 1: Parties",
+      "rootLabelParties3": "Etape 3: Parties",
+      "supportingDocument": "Document d'accompagnement",
+      "tirCarnetNumber": "Numéro du carnet TIR",
+      "noReleaseMotivationText": "Texte de motivation de non-libération",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "Timer Expired": "Minuteur expiré",
+      "notes": "Notes",
+      "refuse": "Refuser",
+      "dangerousGoods": "Marchandises dangereuses",
+      "goodsMeasure": "Mesure des marchandises",
+      "approve": "Approuver",
+      "pleaseEnterReason": "Raison de l'invalidation",
+      "requestedOn": "Demandé le",
+      "controlResult": "Résultat du Contrôle",
+      "unloadingRemarks": "Remarques de déchargement",
+      "recommendRecovery": "Décision manuelle pour la récupération",
+      "tirHolderIdentificationNumber": "Numéro d’identification du titulaire du carnet TIR",
+      "controlledBy": "Controlled by",
+      "otherThingsToReport": "Other things to report",
+      "stateOfSeals": "State of seals",
+      "decideOnReleaseForTransit": "Decide on release for transit",
+      "pastDate": "Date cannot be in the future",
+      "delete": "Effacer",
+      "lastSaved": "Dernières sauvegardes",
+      "customsOfficeOfDestinationActual": "Bureau de douane de destination (actuel)",
+      "customsOfficeOfTransitActual": "Bureau de douane de transit (actuel)"
+    },
+    "status": {
+      "AAR_CREATED": "AAR created",
+      "AAR_REQUESTED": "AAR requested",
+      "ACCEPTED": "Accepté",
+      "ARRIVAL_ACCEPTED": "Arrival accepted",
+      "ARRIVED": "Arrivé",
+      "ATR_CREATED": "ATR created",
+      "ATR_REJECTED": "ATR rejected",
+      "ATR_REQUESTED": "ATR requested",
+      "CANCELLED": "Annulé",
+      "DIVERSION_REJECTED": "Diversion rejected",
+      "DRAFT": "Brouillon",
+      "ENQUIRY_RECOMMENDED": "Recherche recommandée",
+      "GOODS_RELEASED": "Goods released",
+      "GUARANTEE_REGISTERED": "Garantie enregistrée",
+      "GUARANTEE_UNDER_AMENDMENT": "Garantie en cours de modification",
+      "GUARANTEE_UNDER_REGISTRATION": "Garantie en cours d'enregistrement",
+      "IDLE": "Inactif",
+      "INVALIDATED": "Invalidé",
+      "MOVEMENT_RELEASED": "Mouvement libéré",
+      "MOVEMENT_STOPPED": "Mouvement arrêté",
+      "FRONTIER_CROSSING_REFUSED": "Mouvement retourné",
+      "MOVEMENT_UNDER_RESOLUTION": "Sous enquête",
+      "MOVEMENT_WRITTEN_OFF": "Mouvement apuré",
+      "NCF_REGISTERED": "Enregistré au NCF",
+      "NONE": "Aucun",
+      "INCIDENT_REGISTERED": "Incident enregistré",
+      "NOT_RELEASED_FOR_TRANSIT": "Non libéré pour le transit",
+      "PENDING_RESPONSE_FROM_AES": "En attente d'une réponse d'AES",
+      "PRELODGED": "Dépôt préalable",
+      "RECOVERY_COMPLETED": "Recouvrement terminée",
+      "RECOVERY_RECOMMENDED": "Recouvrement recommandé",
+      "RECOVERY_REQUESTED": "Recouvrement demandée",
+      "RECOVERY_REQUEST_REJECTED": "Demande de recouvrement rejetée",
+      "REJECTED": "Rejetée",
+      "SUBMITTED": "Soumise",
+      "TEMPLATE": "Template",
+      "UNDER_AMENDMENT_REQUEST_DUETO_EFTB": "Sous demande de modification de l'EFBT",
+      "UNDER_CONTROL": "Sous contrôle",
+      "UNDER_ENQUIRY_PROCEDURE": "Sous procédure d'enquête",
+      "UNDER_RECOVERY_DECISION": "Under recovery decision",
+      "UNDER_RECOVERY_PROCEDURE": "Recouvrement",
+      "UNDER_RELEASE_REQUEST": "Sous demande de libération",
+      "UNLOADING": "Unloading",
+      "UNLOADING_REMARKS": "Unloading remarks",
+      "WAITING_FOR_DISCREPANCIES_RESOLUTION": "Waiting for discrepancies resolution",
+      "PENDING": "En attente",
+      "REFUSED": "Refusé",
+      "REGISTERED": "Enregistré",
+      "TO_DO": "To-do",
+      "APPROVED": "Approuvé",
+      "NO_DECISION": "Aucune décision",
+      "MOVEMENT_CONTINUED": "Mouvement poursuivi"
+    },
+    "options": {
+      "NORMAL_WITHOUT_APPROVED_PLACE": "Normal sans lieu approuvé",
+      "NORMAL_WITH_APPROVED_PLACE": "Normal avec un lieu approuvé",
+      "SIMPLIFIED": "Simplifié",
+      "LAST_12_MONTHS": "Les 12 derniers mois",
+      "LAST_14_DAYS": "Les 14 derniers jours",
+      "LAST_2_DAYS": "Les 2 derniers jours",
+      "LAST_30_DAYS": "Les 30 derniers jours",
+      "LAST_7_DAYS": "Les 7 derniers jours",
+      "ANSWERED": "Responded",
+      "UNANSWERED": "Not Responded",
+      "DOCUMENTARY": "Documentaire",
+      "PHYSICAL": "Physique",
+      "description": {
+        "DOCUMENTARY": "Documentaire - tous les contrôles étaient strictement limités aux contrôles documentaires.",
+        "PHYSICAL": "Physique - au moins un article faisait l’objet d’un contrôle physique (ou de tout autre type de contrôle que les contrôles documentaires).",
+        "NO_CONTROL": "Aucun contrôle."
+      },
+      "FD": "décharge complète",
+      "PD": "décharge partielle",
+      "IN": "RECEIVED",
+      "OUT": "SENT",
+      "CC140C": "IE140 - REQUEST ON NON-ARRIVED MOVEMENT",
+      "CC141C": "IE141 - INFORMATION ABOUT NON-ARRIVED MOVEMENT",
+      "CD059C": "IE059 - CANCEL ENQUIRY NOTIFICATION",
+      "CD142C": "IE142 - ENQUIRY REQUEST",
+      "CD143C": "IE143 - ENQUIRY RESPONSE",
+      "CD144C": "IE144 - ENQUIRY INFORMATION",
+      "CD145C": "IE145 - ENQUIRY INFORMATION REQUEST",
+      "CD150C": "IE150 - RECOVERY REQUEST",
+      "CD151C": "IE151 - RECOVERY ACCEPTANCE NOTIFICATION",
+      "CANCELLED": "Annulé",
+      "CLOSED": "Fermé",
+      "OPEN": "Ouvert",
+      "TIMER_EXPIRED": "Minuteur expiré",
+      "IE140": "IE140 (Demande de mouvement non arrivée)",
+      "IE142": "IE142 (Demande de renseignements)",
+      "RECOVERY_REQUESTS_RECEIVED": "Demandes de recouvrement reçues",
+      "RECOVERY_REQUESTS_SENT": "Demandes de recouvrement envoyées",
+      "RECOVERY_ACCEPTANCE_NOTIFICATION_RECEIVED": "Notification d'acceptation de recouvrement reçue",
+      "RECOVERY_ACCEPTANCE_NOTIFICATION_SENT": "Notification d'acceptation de récupération envoyée",
+      "RECEIVED_IE144": "Informations de demande reçues",
+      "SENT_IE145": "Envoyer une demande d'informations",
+      "SENT_IE144": "Envoyer des informations de demande",
+      "RECEIVED_IE145": "Demande d'informations reçue",
+      "UNDER_RECOVERY_PROCEDURE": "Procédure de récupération en cours",
+      "RECOVERY_REQUESTED": "Récupération demandée",
+      "RECOVERY_REQUEST_REJECTED": "Demande de récupération rejetée",
+      "RECOVERY_COMPLETED": "Récupération terminée",
+      "ALL": "Tous",
+      "RECOVERY_RECOMMENDED": "Récupération recommandée",
+      "MOVEMENT_UNDER_RESOLUTION": "Mouvement sous résolution"
+    },
+    "errors": {
+      "ERR_01": "Le pays de départ n'est pas égal au premier pays de la séquence de l'itinéraire contraignant.",
+      "ERR_02": "Le pays de destination n'est pas égal au dernier pays de la séquence de l'itinéraire contraignant.",
+      "ERR_03": "The current status of the transit declaration is invalid for this operation.",
+      "ERR_04": "The specified discrepancy resolution type is invalid.",
+      "ERR_05": "This declaration contains pending invalidation requests",
+      "ERR_06": "This declaration is not a normal procedure without an approved place",
+      "ERR_07": "Declaration ID must be either an MRN or a numerical ID.",
+      "ERR_08": "Guarantee not found.",
+      "ERR_09": "Guarantee references must have status Pending.",
+      "ERR_10": "Amount to be covered must be provided to register this guarantee reference.",
+      "ERR_11": "Customs office of guarantee must be provided to register this guarantee reference.",
+      "ERR_12": "Value of an element in a message is outside the predefined set of values or not part of the applicable technical code list (it is not facet-valid with respect to enumeration). This type of error is applicable to all elements with code values, so it is also applicable to those elements that identify a message type.",
+      "ERR_13": "A mandatory/required element is missing in the received data, e.g. a required element is not present.",
+      "ERR_14": "unknown",
+      "ERR_15": "An element is not allowed to have a value because it is not allowed to be present according to the TMS message specification (including sequence of elements).",
+      "ERR_18": "Unspecified Error.",
+      "ERR_27": "The value defining Code list CL027 indicator flag is invalid",
+      "ERR_35": "Too many repetitions of a data group than the allowed.",
+      "ERR_39": "Notification that the length of the element received exceeded the maximum length specified.",
+      "ERR_40": "Notification that the length of an element received is shorter than the minimum length specified.",
+      "ERR_50": "The value of the specific data item is invalid according to the type of this element. For instance, MRN does not conform to the specifications given in the convention.",
+      "ERR_51": "The value of the specific data item is invalid with respect to the defined pattern for this specific type.",
+      "ERR_52": "Unclosed XML tags.",
+      "ERR_53": "One (or more) character(s) used in a specific item is (are) not valid character(s).",
+      "ERR_54": "The value of the element is numerically lower than the lowest limit defined for this data item. For instance, if the minimum defined value is 99, then any value lower to that limit will be invalid (e.g. 98).",
+      "ERR_55": "The value of the element is numerically greater than the upper limit defined for this data item. For instance, if the maximum defined value is 100 then any value greater to that limit will be invalid (e.g. 101).",
+      "ERR_56": "The value of the element is numerically lower than or equal to the lowest limit defined for this data item. For instance, if the minimum defined value is 99, then any value equal or lower to that limit will be invalid (e.g. 99).",
+      "ERR_57": "The value of the element is numerically greater than or equal to the upper limit defined for this data item. For instance, if the maximum defined value is 100 then any value greater to that limit will be invalid (e.g. 100).",
+      "ERR_90_LRN": "unknown",
+      "ERR_90_MRN": "N/A",
+      "ERR_92": "N/A",
+      "GMS_ERR": "GMS ERR",
+      "UIERR_01": "Pas de demande en cours pour l'irrégularité spécifiée ou décision déjà donnée pour la demande en cours",
+      "UIERR_02": "La demande d'invalidation n'a pas pu être traitée puisque le statut actuel n'est pas autorisé dans la liste des états.",
+      "UIERR_03": "Departure transport means cannot be added after transition period expiry",
+      "UIERR_04": "Date incorrecte."
+    }
+  },
+  "app": {
+    "endorsement": "Endorcement",
+    "incidents": "incidents",
+    "sequenceNumber": "Numéro de séquence",
+    "transhipment": "Transbordement",
+    "transportMeans": "Moyens de transport"
+  },
+  "advanceSearch": {
+    "action": {
+      "alternativeProof": "Manual Closure",
+      "completeRecovery": "Send Recovery Dispatch Notification (IE152)",
+      "exportDec": "Déclaration d'export",
+      "registerControlResult": "Register Control Results (IE017)",
+      "registerControlResultDest": "Register Control Results (IE018)",
+      "startNewControlResultDep": "Démarrer un nouveau résultat de contrôle",
+      "startNewControlResultDes": "Démarrer un nouveau résultat de contrôle (IE018)",
+      "startNewUnloadingRemarkDes": "Démarrer l'enregistrement des remarques au déchargement",
+      "continueUnloadingRemarkDes": "Continuer l'enregistrement des remarques au déchargement",
+      "continueControlResultDep": "Continuer le résultat du contrôle",
+      "continueControlResultDes": "Continuer le résultat du contrôle (IE018)",
+      "requestForAmendment": "Amend Declaration (IE013)",
+      "sendRecoveryAcceptanceNotification": "Envoyer la notification d'acceptation de recouvrement (IE151)",
+      "submitManualRecovery": "Manual Start for Recovery",
+      "startRecovery": "Envoyer la notification de recouvrement (IE035)"
+    },
+    "button": {
+      "actionMenu": "Bouton de menu d'action",
+      "refineSearch": "Affiner la recherche",
+      "reset": "Reset"
+    },
+    "labels": {
+      "maximumDateRangeError": "Veuillez sélectionner une fourchette de date de 60 jours maximum.",
+      "maximumDateRangeHint": "Période maximale de deux mois",
+      "noData": "Pas de données. Veuillez affiner votre recherche",
+      "noResult": "Il y a 0 résultat pour les critères de recherche. Veuillez affiner votre recherche ci-dessous.",
+      "procedure": "Procédure",
+      "searchResult": "Résultats des recherches",
+      "subDateRange": "Date de soumission",
+      "filter": "Filtre",
+      "declGoodsItemNumber": "Numéro d'article de la décl.",
+      "discrepancy": "Écart",
+      "none": "Aucun",
+      "of": "de",
+      "mass": "Masse",
+      "massOf": "Masse de",
+      "packages": "Colis",
+      "min": "Min",
+      "max": "Max",
+      "both": "Les deux",
+      "searchPlaceholderHouseConsignment": "Numéro de conteneur, Destinataire, Expéditeur",
+      "searchPlaceholderConsignmentItem": "Produit, Description des marchandises",
+      "errors": "Erreurs"
+    }
+  },
+  "alternativeProof": {
+    "dialog": {
+      "actualOfficeOfDestination": "Actual office of destination",
+      "proofDate": "Proof date"
+    }
+  },
+  "bindingItinerary": {
+    "dialog": {
+      "description": "Veuillez présenter l'itinéraire de liaison dans un ordre chronologique, en incluant tous les pays de passage de l'envoi, du pays d'expédition au pays de destination."
+    }
+  },
+  "buttons": {
+    "back": "Retour",
+    "cancelWithoutSaving": "annuler sans sauver",
+    "crossingFrontier": "Enregistrer au NCF",
+    "refuseFrontierCrossing": "Refuse frontier crossing",
+    "next": "Suivant",
+    "ok": "ok",
+    "passageNotConfirmed": "Passage not confirmed",
+    "stopMovement": "Arrêter le mouvement",
+    "respond": "Réponse",
+    "saveChanges": "sauvegarder les modifications",
+    "saved": "Sauvegardé",
+    "saving": "Sauvegarde en cours",
+    "sendAnticipatedTransitRequest": "Anticipated transit request",
+    "submitIE015": "Soumettre (IE015)"
+  },
+  "cancelEnquiry": {
+    "dialog": {
+      "heading": "Cancel Enquiry"
+    }
+  },
+  "common": {
+    "button": {
+      "notOk": "Pas OK"
+    },
+    "country": {
+      "logo": {
+        "alt": "Belgian government logo"
+      }
+    },
+    "otherInfo": {
+      "label": "Autres informations et services officiels",
+      "url": "http://www.belgium.be/en"
+    },
+    "selected": "sélectionné",
+    "noResults": "Aucun résultat trouvé"
+  },
+  "compare": {
+    "currentSituation": "Current situation"
+  },
+  "completeRecovery": {
+    "customsOfficeOfRecovery": {
+      "title": "Bureau des douanes pour le recouvrement"
+    },
+    "customsOfficeOfRecoveryAtDeparture": {
+      "title": "Customs Office of Recovery at Departure"
+    },
+    "recoveryNotification": {
+      "title": "Notification de recouvrement (IE035)",
+      "notificationDate": "Date de notification de recouvrement",
+      "amountClaimed": "Montant réclamé",
+      "recovNotif": "Texte de notification de recouvrement"
+    },
+    "modalTitle": "Complete Recovery",
+    "recovery": {
+      "collectionDate": "Collection date"
+    }
+  },
+  "confirmNavigation": {
+    "message": "Les modifications que vous avez apportées seront perdues si vous quittez cette page.  Êtes-vous sûr de vouloir quitter cette page ? "
+  },
+  "consult-consignment": {
+    "labels": {
+      "consigneeId": "Destinataire id",
+      "consigneeName": "Destinataire nom",
+      "consignorId": "Expéditeur id",
+      "consignorName": "Expéditeur nom",
+      "container": "Conteneur",
+      "declarationGoodsItems": "Articles de marchandise déclarés",
+      "goodsItems": "Articles de marchandise",
+      "netMass": "Masse nette (kg)",
+      "identifiers": "Identifiants",
+      "numberOfPackages": "nombre de collis totale",
+      "weightUnit": "kg"
+    }
+  },
+  "consult-incident": {
+    "labels": {
+      "incidentNotification": {
+        "customsOfficeOfIncidentRegistration": "Bureau d'enregistrement des incidents"
+      }
+    }
+  },
+  "consultTransitInfo": {
+    "labels": {
+      "actualCustomsOfficeOfExitTransit": "OoExtTra Effectif",
+      "actualCustomsOfficeOfTransit": "OoTra Effectif",
+      "actualCustomOfficeOfDestination": "OoDes Effectif",
+      "declaredCustomOfficeOfDestination": "OoDes Déclaré",
+      "declaredArrivalDateAndTime": "Date et heure d'arrivée déclarée",
+      "declaredCustomsOfficeOfExitTransit": "OoExtTra Déclaré",
+      "declaredCustomsOfficeOfTransit": "OoTra Déclaré",
+      "declaredLocationOfGoods": "Localisation déclarée des marchandises",
+      "emailAddress": "Adresse e-mail de la personne de contact",
+      "passageRefusalDate": "Date de refus de passage",
+      "passageRefusalReasonCode": "Code de motif de refus de passage",
+      "passageText": "Texte du passage",
+      "identification": "Numéro d'identification",
+      "phoneNumber": "Numéro de contact de la personne de référence"
+    }
+  },
+  "controlActionTypes": {
+    "noOpposition": "Pas d’opposition",
+    "notSatisfactory": "Non conforme",
+    "opposition": "Opposition",
+    "unDecided": "Indécis"
+  },
+  "controlDecision": {
+    "controlDecision": "Control Decision",
+    "controlRecommendations": "Control Recommendations",
+    "documentDescription": "Document Description",
+    "noControlNeeded": "No Control Needed",
+    "noResults": "No control decisions found.",
+    "performControl": "Perform Control",
+    "recommendation": "Recommendation Type",
+    "recommendationDescription": "Recommendation Description",
+    "takeControlDecision": "Take Control Decision"
+  },
+  "controlResults": {
+    "confirmActionA1": "Confirm for {{numberOfSelectedRows}} element(s)",
+    "noResults": "No control result found.",
+    "registerSatisfactoryControlResult": "Register Satisfactory Control Results (IE017-A1)",
+    "errorTirCarnet": "Veuillez encoder un tir carnet valide",
+    "controlType": "Type de contrôle effectué",
+    "tooltipDesc": "Indiquez le type général utilisé pour contrôler cette déclaration.",
+    "tooltipPhys": "Physique: cochez cette case si au moins un article a fait l’objet d’un contrôle physique (ou un type de contrôle autre que le contrôle documentaire).",
+    "tooltipDoc": "Documentaire: cochez cette case uniquement si tous les contrôles se sont limités au contrôle documentaire.",
+    "satisfactoryWarning": "En définissant les résultats du contrôle comme satisfaisants, les écarts précédemment signalés seront supprimés. Voulez-vous continuer cette action ?",
+    "cancelWarning": "Annuler l'enregistrement supprimera définitivement le résultat du contrôle et toutes les données associées. Voulez-vous continuer ?",
+    "errors": {
+      "failToDeleteControlResult": "Échec de la suppression du résultat de contrôle",
+      "failToLoadControlResult": "Échec du chargement du résultat de contrôle",
+      "failToSaveControlResult": "Échec de l'enregistrement du résultat de contrôle",
+      "failToSubmitControlResult": "Échec de la soumission du résultat de contrôle"
+    },
+    "progress": {
+      "submitting": "Soumission des résultats de contrôle...",
+      "validating": "Les résultats de contrôle soumis sont actuellement en cours de validation. Cela peut prendre quelques instants."
+    },
+    "unloadingRemarkBanner": "Des remarques au déchargement non conformes ont été reçues pour cette déclaration. Assurez-vous que les constatations de l'opérateur à destination sont examinées avant de soumettre les résultats de contrôle."
+  },
+  "declarationOverview": {
+    "dialog": {
+      "labels": {
+        "transitDeclaration": "Déclaration de transit"
+      },
+      "title": "Vérifier et confirmer la soumission"
+    },
+    "errorDialog": {
+      "message": "La déclaration de transit n'a pas pu être  soumise {{number}} erreurs ont étés trouvées, Veuillez vérifier, rectifier et soumettre à nouveau. Les erreurs ne seront rectifiées qu'après la soumission de la nouvelle déclaration de transit."
+    },
+    "validationTimeoutDialog": {
+      "description": "Pour l'instant nous sommes dans l'impossibilité de soumettre la déclaration. Votre déclaration est sauvée en brouillon. Veuillez réessayer plus tard."
+    },
+    "progressBar": {
+      "submitting": "Soumission de la déclaration",
+      "validating": "Validation de la déclaration",
+      "validatingTakingLong": "La Validation de la déclaration en cours – ça prends plus de temps que prévu – veuillez patienter"
+    },
+    "unforeseenProblem": {
+      "title": "Validation request could not be processed"
+    }
+  },
+  "des": {
+    "registerArrivalNotification": {
+      "UNLocode": "UNLocode",
+      "actions": {
+        "add": "Add",
+        "addAuthorisation": "Add an authorization"
+      },
+      "addEndorsement": "Add endorsement",
+      "addSeal": "Add seal",
+      "endorsement": "Endorcement :",
+      "eoriIdNumber": "EORI/Identification number",
+      "errors": {
+        "statusNotAllowed": "The status of this MRN is not allowed"
+      },
+      "addGoodsItem": "Ajouter un article de marchandise",
+      "language": "Language",
+      "location": "Location :",
+      "notificationDate": "Notification date",
+      "simplifiedProcedure": "Simplified procedure",
+      "title": "Register arrival notification",
+      "transhipment": "Transhipment :"
+    }
+  },
+  "dialog": {
+    "cancelDialog": {
+      "message": "Vous êtes sur le point d'annuler cette page sans sauvegarder. Les données non sauvegardées seront perdues. Voulez-vous vraiment annuler sans sauvegarder ? ",
+      "title": "Modifications non sauvegardées"
+    },
+    "selectLanguage": {
+      "caption": "Please select a language."
+    },
+    "unableToSaveDialog": {
+      "message": "Nous n'avons pas pu sauvegarder le brouillon. Le brouillon sur lequel vous travaillez a été a été supprimé. Voulez-vous créer une nouvelle déclaration de dépôt temporaire ?",
+      "title": "Impossible de sauvegarder"
+    },
+    "concurrentModification": {
+      "title": "Modification concurrente détectée",
+      "message": "Une autre modification a été apportée à ces données pendant que vous travailliez. Pour garantir l'exactitude, la dernière version sera rechargée."
+    }
+  },
+  "discrepancy": {
+    "dialog": {
+      "addDiscrepancyResolution": "Ajouter la résolution des divergences",
+      "specifyDiscrepancyResolution": "Veuillez spécifier la résolution de la divergence."
+    }
+  },
+  "enquiryAndRecovery": {
+    "dateTime": "Date & Time",
+    "direction": "Direction",
+    "enquiry": {
+      "body": {
+        "cancelEnquiryNotificationDateAndTime": "Cancel enquiry notification date and time",
+        "competentCustomsOfficeAtDeparture": "Competent customs office at departure",
+        "competentCustomsOfficeAtDestination": "Competent customs office at destination",
+        "consigneeActual": "Consignee actual",
+        "expired": "Expiré",
+        "holderOfTheTransitProcedure": "Holder of the transit procedure",
+        "limitForResponseDate": "Limit for response date",
+        "limitForTheEnquiryResponseDate": "Limit for the enquiry response date"
+      },
+      "noResults": "No enquiry has been initiated for this transit declaration."
+    },
+    "messageType": "Message Type",
+    "recovery": {
+      "body": {
+        "customsOfficeOfRecoveryRequested": "Customs office of recovery requested",
+        "customsOfficeOfRecoveryRequesting": "Customs office of recovery requesting",
+        "recoveryAcceptance": "Recovery Acceptance"
+      },
+      "noResults": "No recovery has been initiated for this transit declaration."
+    }
+  },
+  "enquiryRequests": {
+    "labels": {
+      "enquiryResponse": "Réponse à la demande de renseignements",
+      "message": "Message"
+    },
+    "listHeader": {
+      "customsOfficeOfEnquiryAtDeparture": "Autorité compétente de départ",
+      "customsOfficeOfRequestOrEconomicOperator": "Bureau de douanes demandé / Opérateur économique",
+      "enquiryStatus": "Statut de la demande",
+      "ie144Received": "IE144 reçu",
+      "ie144Sent": "IE144 envoyé",
+      "ie145Received": "IE145 reçu",
+      "ie145Sent": "IE145 envoyé",
+      "receptionDate": "Date de réception"
+    }
+  },
+  "error": {
+    "formIsIncorrect": "The form is incorrect",
+    "mrnNotFound": "The MRN is not found",
+    "mrnPattern": "The MRN is incorrect",
+    "noValuesReceived": "Aucune valeur n'a été reçue. Vérifiez Cumada ou la liste utilisée."
+  },
+  "errorMessage": {
+    "discard": "Jeter",
+    "generalError": "Il y a eu une erreur de service inattendue. Nous n'avons pas pu effectuer cette action. Veuillez réessayer.",
+    "wrong": "Quelque chose a mal tourné",
+    "failure": "Erreur(s) trouvée(s)."
+  },
+  "eventHistory": {
+    "error": {
+      "errorMessageForAReason": "Nous n'avons pas pu accepter votre demande pour la ou les raisons suivantes:",
+      "outdated": "Nous n'avons pas pu traiter votre demande d'invalidation portant le ",
+      "outdatedSuff": ".  Veuillez rafraichir la page et réessayer."
+    },
+    "label": {
+      "history": "History",
+      "timerType": "Timer Type",
+      "user": "User"
+    }
+  },
+  "generalInfoForm": {
+    "errors": {
+      "email": "L'adresse email n'est pas valide",
+      "hasCrsIssue": "*Invalid value or crs issue",
+      "invalidMRN": "*Invalid MRN",
+      "isWrongSelection": "*Veuillez sélectionner une valeur valable",
+      "greaterThanZero": "Veuillez saisir une valeur supérieure à 0",
+      "selectRequired": "*Veuillez sélectionner une valeur",
+      "invalidLatitude": "Latitude invalide : doit être comprise entre -90,00000 et 90,00000",
+      "invalidLongitude": "Longitude invalide : doit être comprise entre -180,00000 et 180,00000"
+    },
+    "hints": {
+      "latitude": "Veuillez saisir une latitude valide comprise entre -90.00000 et 90.00000",
+      "longitude": "Veuillez saisir une longitude valide comprise entre -180.00000 et 180.00000"
+    },
+    "lables": {
+      "crnTooltip": "Numéro d'enregistrement douane utilisé comme identifiant alternatif pour la déclaration de transit",
+      "acceptanceDate": "Date d'acceptation",
+      "activeBorderTransportMeans": "Moyen(s) de transport actif à la frontière",
+      "activeBorderTransportMean": "Moyenne de transport actif à la frontière",
+      "actualCustomOfficeOfDestination": "Bureau de douane de destination effectif",
+      "additionalDeclarationType": "Type de déclaration complémentaire",
+      "additionalIdentifierButton": "Identifiant supplémentaire (optional)",
+      "additionalIdentifierField": "Identifiant supplémentaire",
+      "additionalInformations": "Information(s) supplémentaire",
+      "additionalSupplyChainActors": "Autre acteur(s) de la chaîne d’approvisionnement",
+      "arrivalDate": "Date d'arrivée",
+      "arrivalTime": "Heure d'arrivée",
+      "authorisations": "Authorisation(s)",
+      "authorisation": "Authorisation",
+      "bindingItinerary": "Itinéraire obligatoire",
+      "communicationLanguageAtDeparture": "Langue de communication au départ",
+      "customsOfficeOfDestination(declared)": " Bureau de douane de destination (déclaré)",
+      "customsOfficeOfDestination(actual)": "Bureau de douane de destination (actual)",
+      "customsOfficeOfExitForTransitDeclared": "Bureau de douane de sortie pour le transit (déclaré)",
+      "customsOfficeOfTransitDeclared": "Bureau de douane de passage (déclaré)",
+      "customsOffices": "Bureaux de douane",
+      "days": "days",
+      "departureTransportMean": "Moyen de transport au départ",
+      "departureTransportMeans": "Moyen de transport au départ",
+      "generalInfoSub": "Sélectionnez les sections qui sont applicables et saisissez les informations requises.",
+      "involvedCountries": "Pays concernés",
+      "limitDate": "Date limite",
+      "simplifiedProcedure": "Procédure simplifiée",
+      "presentationOfTheGoodsDateAndTime": "Présentation des marchandises date et heure (déclarée)",
+      "presentationOfTheGoodsDateAndTimeActual": "Présentation des marchandises date et heure (réelle)",
+      "incidentFlag": "Flag incident",
+      "requestRejectionReasonCode": "Code de rejet de la demande",
+      "releaseIndicator": "Indicateur de libération",
+      "arrivalDateAndTimeActual": "Date et heure d'arrivée (réelles)",
+      "limitDates": "Dates limites",
+      "declaredLimitDate": "Date limite (Déclaration)",
+      "controlResultLimitDate": "Date limite du résultat du contrôle",
+      "arrivalLimitDate": "Date limite d’arrivée",
+      "locationType": "Type de localisation",
+      "methodOfPayment": "Mode de paiement",
+      "modeOfTransport": "Mode de transport",
+      "placeOfLoading": "Lieu de chargement",
+      "placeOfUnloading": "Lieu de déchargement",
+      "presentationOfGoodsDateAndTime": "Date et heure de présentation des marchandises",
+      "presentationOfgoodsDate": "Date de présentation des marchandises",
+      "presentationOfgoodsTime": "Heure de présentation des marchandises",
+      "previousDocuments": "Document(s) précédent",
+      "previousDocument": "Document précédent",
+      "qualifier": "Qualificatif",
+      "releaseDateAndTime": "Date et heure de libération",
+      "rootLabel": "Etape 1: Information générale",
+      "rootLabel2": "Etape 2: Information générale",
+      "rootLabel3": "Etape 3: Information générale",
+      "security": "Sécurité",
+      "specificCircumstanceIndicator": "Indicateur de circonstance spécifique",
+      "supportingDocuments": "Document(s) d'accompagnement",
+      "writeOffDate": "Date d’annulation",
+      "discrepanciesResolved": "Divergences résolues",
+      "alternativeProofText": "Texte de preuve alternative",
+      "alternativeProofDate": "Date de preuve alternative",
+      "releaseRequested": "Demande de libération",
+      "releaseRequestDateAndTime": "Date et heure de la demande de libération",
+      "noReleaseMotivationCode": "Code de motivation de non-libération",
+      "totalGrossMass": "Masse brute totale",
+      "transportCharges": "Frais de transport",
+      "transportDocuments": "Document(s) de transport",
+      "transportEquipments": "Equipement(s) de transport",
+      "weight": "Poids",
+      "confirmDeleteHouseConsignment": "Êtes-vous sûr de vouloir supprimer cette house consignment?",
+      "confirmDeleteConsignmentItem": "Êtes-vous sûr de vouloir supprimer cet article de consignation?",
+      "seals": "Scellés",
+      "selectTransportEquipmentTitle": "Sélectionner l'équipement de transport",
+      "selectTransportEquipmentCaption": "Associez l'équipement de transport à cet article de consignation en le sélectionnant dans la liste ci-dessous",
+      "hasErrors": "Contient des erreurs",
+      "clearedWas": "Effacer. Était",
+      "setTo": "Définir sur",
+      "to": "à",
+      "was": "Était",
+      "changedFrom": "Modifié depuis",
+      "controlResultSub": "Veuillez remplir le formulaire pour enregistrer les résultats du contrôle. Pour signaler des divergences spécifiques sur des éléments de la déclaration, des écrans supplémentaires seront disponibles lorsque vous indiquerez un résultat général «Non satisfaisant» ou «Divergences».",
+      "unloadingRemarkSub": "Veuillez remplir le formulaire pour enregistrer la remarque de déchargement. Pour fournir des informations spécifiques sur les éléments de la déclaration, des écrans supplémentaires seront disponibles lorsque vous indiquerez un résultat général «Non conforme».",
+      "controlResultDiscrepanciesGeneralSub": "Veuillez indiquer les divergences constatées sur les éléments concernés. Lorsque vous êtes prêt, retournez à la section 'Résultat du Contrôle' pour terminer l'enregistrement des résultats du contrôle.",
+      "unloadingRemarkDiscrepanciesGeneralSub": "Veuillez indiquer les anomalies constatées sur les éléments concernés. Une fois prêt, retournez à la section « Remarque de déchargement » pour finaliser l'enregistrement de la remarque de déchargement.",
+      "unloadingRemarkCompareSub": "<b>Comparaison des remarques de déchargement</b>. Cet écran affiche les remarques de déchargement soumises par l'opérateur à destination. Il met en évidence les divergences spécifiques — indiquées par une icône « Delta » — entre les données de déchargement enregistrées et les données de la déclaration originale reçues du bureau de départ.",
+      "houseConsignmentInformationTitle": "House Envoi{{number}}- Informations Générales",
+      "houseConsignmentPartiesTitle": "House Envoi{{number}}- Parties",
+      "consignmentItemTableTitle": "House Envoi{{hcNumber}}- Article(s)",
+      "consignmentItemTitle": "House Envoi{{hcNumber}}- Article{{hciNumber}}",
+      "movementStoppedDateAndTime": "Date et heure de l’arrêt du mouvement"
+    },
+    "tooltips": {
+      "customsOfficeOfTransitDeclared": "Mentionner le code pour le bureau de douane d’entrée prévu dans chaque partie contractante de la convention relative à un régime de transit autre que l’Union (ci-après le «pays de transit commun non Union») dont il est prévu d’emprunter le territoire ainsi que le bureau de douane d’entrée par lequel les marchandises sont réintroduites dans le territoire douanier de l’Union après avoir emprunté le territoire d’un pays de transit commun non Union ou, lorsque le transport doit emprunter un territoire autre que celui de l’Union ou d’un pays de transit commun non Union, le bureau de douane de sortie par lequel le transport quitte l’Union et le bureau de douane d’entrée par lequel il réintègre cette dernière. Indiquer, selon le code de l’Union prévu à cet effet, le numéro de référence du bureau de douane concerné.",
+      "activeIdentificationNumber": "En cas de transport combiné ou s’il y a plusieurs moyens detransport, le moyen de transport actif est celui qui assure lapropulsion de l’ensemble. Par exemple, s'il s'agit d'un camionsur un navire de mer, le moyen de transport actif est lenavire. S'il s'agit d'un tracteur et d'une remorque, le moyende transport actif est le tracteur. En fonction du moyen detransport concerné, les mentions suivantes sont indiquées ence qui concerne l’identité:- Transport par mer et parnavigation intérieure:Nom du navire- Transport par air: Numéro et date du vol (Encas d’absence de numéro devol, indiquer le numéro d’immatriculationde l’aéronef)- Transport par route: Numéro d’immatriculationdu véhicule et/ou de laremorque- Transport par chemin de fer: Numéro du wagon",
+      "additionalDeclarationType": "Choisir le type A pour une déclaration de transit standard, choisir le type D pour une déclaration préalable au dépôt (peut être déposée au maximum 30 jours avant le départ effectif des marchandises)",
+      "additionalInformation": "Ce groupe de données peut être utilisé pour des informations pour lesquelles la législation de l'Union ne précise pas le champ dans lequel elles doivent être saisies",
+      "additionalReference": "Numéro de référence pour toute déclaration supplémentaire non couverte par un document d’accompagnement, un documentde transport ou des informations complémentaires",
+      "additionalSupplyChainActor": "D’autres acteurs de la chaîne d’approvisionnement peuvent être indiqués ici afin de démontrer que l’ensemble de la chaîne d’approvisionnement était couvert par les opérateurs économiques titulaires du statut d’OEA.",
+      "additionalSupplyChainActors": "Cette information est fournie lorsqu’un expéditeur agréé, dont l’autorisation prévoit l’utilisation de scellés, introduit une déclaration ou lorsqu’un titulaire du régime de transit est autorisé à utiliser des scellés d’un modèle spécial",
+      "consignee": "Partie à laquelle les marchandises sont effectivement expédiées.",
+      "consignor": "Partie expédiant les marchandises, comme indiqué dans le contrat de transport par la personne ayant demandé le transport. Cette information doit être fournie lorsqu’elle est différente de celle du déclarant.",
+      "conveyanceReferenceNumber": "Identification du trajet du moyen de transport, par exemple le numéro du voyage, le numéro de vol IATA, le numéro du trajet, s'il y a lieu. En cas de transport aérien, lorsque l’exploitant de l’aéronef transporte les marchandises dans le cadre d’un accord de partage de code ou d'autres dispositions contractuelles, les numéros de vol des partenaires à cet accord sont utilisés.",
+      "countryOfDispatch": "Cet élément de données est utilisé uniquement en ce quiconcerne le carnet TIR. Indiquer, selon le code de l’Unionprévu à cet effet, le pays dans lequel le mouvement TIR acommencé et où le carnet TIR a été expédié.",
+      "customsOfficeOfExitForTransitDeclared": "Ce bureau de douane est utilisé lorsque la déclaration de transit est combinée avec la déclaration sommaire de sortie et que le mouvement de transit ne suit pas la procédure d'exportation. Saisissez le code du bureau de douane prévu où le mouvement de transit quitte la zone de sûreté et de sécurité. Zone de sûreté et de sécurité = UE + CH et NO",
+      "departureTransportMeans": "Information regarding the means of transport on which the goods are directly loaded at the time of transit formalities (or that of the vehicle propelling the others if there are several means of transport).",
+      "disabledSave": "Veuillez introduire le LRN pour pouvoir sauvegarder le brouillon",
+      "disabledSaveTemplate": "Veuillez introduire le LRN pour pouvoir sauvegarder le modèle",
+      "documentLineItemNumber": "Indiquer le numéro séquentiel dans le document d’accompagnement(par exemple, certificat, permis, document d’entrée,etc.) correspondant à l’article en question.",
+      "guaranteeReference": "Code d'accès - Le code d’accès doit être lié au nom de la personne de contact du représentant-Indiquer le montant de la dette douanière susceptible de naître ou née au titre de la déclaration en question, qui doit donc être couvert par la garantie.",
+      "identificationNumber": "Indiquer, selon le code de l’Union prévu à cet effet, la nationalitédu moyen de transport (ou celle du moyen assurant lapropulsion de l’ensemble s’il y a plusieurs moyens de transport)sur lequel les marchandises sont directement chargéeslors des formalités d’exportation ou de transit. S’il y a utilisationd’un véhicule tracteur et d’une remorque de nationalitésdifférentes, indiquer la nationalité du véhicule tracteur.Lorsque les marchandises sont transportées au moyen d’unvéhicule tracteur et d’une remorque, indiquer la nationalité du véhicule tracteur et celle de la remorque. Si la nationalité du véhicule tracteur n’est pas connue, indiquerla nationalité dela remorque.",
+      "limitDate": "La date limite doit être remplie en cas de déclaration de transit standard (déclaration de type A) sous procédure simplifiée (autorisation de type C521).",
+      "locationOfGoods": "Le type C avec le qualificatif U est autorisé pour les déclarations standards en procédure simplifiée et les déclarations standards en procédure normale avec lieu approuvé. Pour les déclarations en procédure normale, ce groupe de données ne doit pas être rempli.",
+      "lrnToolTip": "Le numéro de référence local (LRN) est utilisé pour identifier de manière unique la déclaration. Cela signifie qu'il ne peut pas déjà avoir été utilisé dans une autre déclaration ou par un autre déclarant.",
+      "nationality": "Indiquer, selon le code de l’Union prévu à cet effet, la nationalitédu moyen de transport (ou celle du moyen assurant lapropulsion de l’ensemble s’il y a plusieurs moyens de transport)sur lequel les marchandises sont directement chargéeslors des formalités d’exportation ou de transit. S’il y a utilisationd’un véhicule tracteur et d’une remorque de nationalitésdifférentes, indiquer la nationalité du véhicule tracteur",
+      "placeOfLoading": "Identification du port maritime, de l’aéroport, du terminal defret, de la gare ferroviaire ou de tout autre lieu où lesmarchandises sont chargées sur le moyen de transportutilisé pour leur acheminement, y compris le pays où il estsitué. Le cas échéant, des informations codées sont fourniespour l’identification du lieu.Dans le cas où aucun Locode/ONU n’est disponible pour lelieu concerné, le code du pays est suivi du nom du lieu,indiqué avec le maximum de précision.",
+      "placeOfUnloading": "Identification du port maritime, de l’aéroport, du terminal defret, de la gare ferroviaire ou de tout autre lieu où lesmarchandises sont déchargées du moyen de transport utilisépour leur acheminement vers le territoire douanier del’Union, y compris le pays où il est situé. Le cas échéant,des informations codées sont fournies pour l’identification dulieu.Dans le cas où aucun Locode/ONU n’est disponible pour lelieu concerné, le code du pays est suivi du nom du lieu,indiqué avec le maximum de précision.",
+      "previousDocument": "Saisissez les détails relatifs à la déclaration de marchandises pour l'exportation, ce qui déclenche des scénarios d'exportation suivis d'un transit avec AES.",
+      "referenceNumber": "a) Numéro d’identification ou de référence des documents ou certificats et autorisations de l’Union ou internationaux produits à l’appui de la déclaration. Indiquer, selon les codes de l’Union prévus à cet effet, d’une part, les mentions requises en fonction des réglementations spécifiques éventuellement applicables et, d’autre part, les données de référence des documents produits à l’appui de la déclaration. b) Numéro d’identification ou de référence des documents ou certificats nationaux produits à l’appui de la déclaration.",
+      "referenceNumberUCR": "Cette indication concerne la référence unique attribuée par la personne intéressée sur le plan commercial à l’envoi en cause. Elle peut prendre la forme de codes OMD (ISO 15459) ou équivalents. Elle permet aux douanes d’avoir accès à des données présentant un intérêt commercial sous-jacent.",
+      "sealIdentifier": "The information shall be provided, if an authorised consignor lodges a declaration for which his authorisation requires the use of seals or a holder of the transit procedure is granted the use of seals of a special type.",
+      "security": "Cet élément de données est destiné à indiquer si la déclaration de transit est utilisée à des fins de sécurité et de sûreté. La valeur 0 = n'est pas utilisée à des fins de sûreté et de sécurité, les valeurs 1, 2 et 3 indiquent si la déclaration est déposée avec les mentions ENS (déclaration sommaire d'entrée) ou EXS (déclaration sommaire de sortie) ou une combinaison des deux.",
+      "specificCircumstanceIndicator": "Indiquer, selon le code prévu à cet effet, si la déclaration sommaire de sortie porte sur un envoi express.",
+      "supportingDocument": "Indiquer les mentions relatives à la mise en non-valeur des marchandises déclarées dans la déclaration concernée, en rapport avec les certificats d'importation et d'exportation.",
+      "transportDocument": "Cet élément de données comprend le type et la référence du document de transport.",
+      "transportEquipment": "Marques (lettres et/ou numéros) d'identification du conteneur.Pour les modes de transport autres que le transport aérien, unconteneur est une boîte conçue pour le transport de marchandises,renforcée, empilable et pouvant être transbordée horizontalementou verticalement.Pour le transport aérien, les conteneurs sont des boîtesspéciales conçues pour le transport de marchandises, renforcéeset pouvant être transbordées horizontalement ou verticalement.Dans le cadre du présent élément de données, les caissesmobiles et semi-remorques utilisées pour le transport routieret ferroviaire sont considérées comme des conteneurs.S’il y a lieu, pour les conteneurs couverts par la norme ISO6346, l’identifiant (préfixe) attribué par le Bureau internationaldes containers et du transport intermodal (BIC) estégalement fourni en plus du numéro d’identification desconteneurs. Pour les caisses mobiles et les semi-remorques, le code desunités de chargement intermodales (UCI) tel qu’introduit parla norme EN 13044 est utilisé.",
+      "un/locode": "Saisissez le code du localisation où les marchandises sont disponibles et qui est mentionné dans votre autorisation de destinataire autorisé ou de lieu agréé.",
+      "weight": "La masse brute totale est le poids des marchandises de la totalité de l’envoi correspondant à la déclaration, y compris l’emballage mais à l’exclusion du matériel de transport. Lorsque la masse brute est supérieure à 1 kg, et comporte une fraction d’unité (kg), il est permis de procéder à l’arrondissement suivant: — de 0,001 à 0,499: arrondissement à l'unité inférieure (kg), — de 0,5 à 0,999: arrondissement à l'unité supérieure (kg). Lorsque la masse brute est inférieure à 1 kg, il convient de l’indiquer sous la forme «0,» suivie de jusqu’à 6 décimales, en éliminant tous les «0» à la fin de la quantité (par exemple 0,123 pour un paquet de 123 grammes, 0,00304 pour un paquet de 3 grammes et 40 milligrammes ou 0,000654 pour un paquet de 654 milligrammes)."
+    }
+  },
+  "guarantee": {
+    "filterOnMRN": "Filtrer sur le MRN",
+    "noResults": "Aucune garantie trouvée.",
+    "otherGuaranteeReference": "Autre référence de garantie",
+    "references": {
+      "defaultAmount": "Montant par défaut",
+      "dialog": {
+        "description": "Veuillez sélectionner un motif de refus de la ou des référence(s) de garantie. En cas de refus d'une référence de garantie, toutes les autres références de garantie de la même déclaration seront refusées.",
+        "label": "Motif du refus",
+        "title": "Refuser la ou les référence(s) de garantie"
+      },
+      "errors": {
+        "selectRequired": "Veuillez sélectionner une valeur."
+      },
+      "gmsGuarantees": "Guaranties GMS",
+      "nonGmsGuarantees": "Guaranties Non-GMS",
+      "notValidIn": "Non valide en",
+      "officeOfGuarantee": "Bureau de la garantie"
+    }
+  },
+  "houseConsignItem": {
+    "lables": {
+      "harmonisedSystemSubHeadingCode": "Code de la sous-position du système harmonisé",
+      "supplementaryUnits": "Unités supplémentaires",
+      "title": "Etape 3: Article",
+      "unNumber": "Numéro ONU"
+    },
+    "tooltip": {
+      "cusCode": "Le numéro CUS (Customs Union and Statistics) est l’identifiant attribué dans l’inventaire douanier européen des substances chimiques (ECICS) à des substances et préparations chimiques principalement. Le déclarant peut fournir ce code sur une base volontaire lorsqu’aucune mesure prévue dans la législation de l’Union telle que publiée dans le TARIC n’existe pour les marchandises concernées, à savoir dans les cas où la communication de ce code représenterait une charge moindre par rapport à une description textuelle complète du produit.",
+      "dangerousGoods": "Le code d’identification des marchandises dangereuses des Nations unies (UNDG) est un numéro d’ordre attribué dans le cadre des Nations unies aux substances et articles figurant dans une liste des marchandises dangereuses les plus fréquemment transportées.",
+      "goodsItemNumber": "Numéro de l’article contenu dans la déclaration, la déclaration sommaire, la notification ou la preuve du statut douanier de marchandises de l’Union, s’il y a plus d’un article de marchandise.",
+      "grossMass": "La masse brute est le poids des marchandises correspondant à la déclaration, y compris l’emballage mais à l’exclusion du matériel de transport. Lorsque la masse brute est supérieure à 1 kg, et comporte une fraction d’unité (kg), il est permis de procéder à l’arrondissement suivant: — de 0,001 à 0,499: arrondissement à l'unité inférieure (kg), — de 0,5 à 0,999: arrondissement à l'unité supérieure (kg). Lorsque la masse brute est inférieure à 1 kg, il convient de l’indiquer sous la forme «0,» suivie de jusqu’à 6 décimales, en éliminant tous les «0» à la fin de la quantité (par exemple 0,123 pour un paquet de 123 grammes, 0,00304 pour un paquet de 3 grammes et 40 milligrammes ou 0,000654 pour un paquet de 654 milligrammes).",
+      "measurementUnitAndQualifier": "Les unités de mesure définies dans la législation de l’Union, telle que publiée dans le TARIC, sont utilisées. Un qualifiant supplémentaire peut être utilisé, le cas échéant. Indiquer l’unité de mesure et le qualifiant mis en non-valeur correspondants.",
+      "netMass": "Indiquer la masse nette, exprimée en kilogrammes, des marchandises concernées par l’article de marchandise de la déclaration en question. La masse nette correspond à la masse propre des marchandises dépouillées de tous leurs emballages. Lorsque la masse nette est supérieure à 1 kg, et comporte une fraction d’unité (kg), il est permis de procéder à l’arrondissement suivant: — de 0,001 à 0,499: arrondissement à l'unité inférieure (kg), — de 0,5 à 0,999: arrondissement à l'unité supérieure (kg).Lorsque la masse nette est inférieure à 1 kg, il convient de l’indiquer sous la forme «0,» suivie de jusqu’à 6 décimales, en éliminant tous les «0» à la fin de la quantité (par exemple 0,123 pour un paquet de 123 grammes, 0,00304 pour un paquet de 3 grammes et 40 milligrammes ou 0,000654 pour un paquet de 654 milligrammes).",
+      "referenceNumber": "Dans le cas d’une déclaration de transit, indiquer la référence du dépôt temporaire, du régime douanier précédent ou des documents douaniers correspondants.",
+      "supplementaryUnits": "Le cas échéant, indiquer, pour l’article correspondant, la quantité exprimée dans l’unité prévue dans la législation de l’Union, telle que publiée dans le TARIC."
+    }
+  },
+  "incident": {
+    "body": {
+      "transportEquipment": {
+        "declarationGoodsItemsNumber": "Numéro d'article de la marchandise déclarée"
+      }
+    }
+  },
+  "invalidate": {
+    "approveInv": "Approuver la ou les demandes d'invalidation",
+    "buttonIE009": "Invalidate (IE009)",
+    "cancelCaption": "Etes-vous sûr de vouloir annuler la déclaration de transit?",
+    "cancelDeclaration": "Annuler la déclaration",
+    "hotp": "Demandé par le détenteur de la procédure de transit",
+    "invCaption": "Veuillez introduire une raison valide d'invalider la déclaration",
+    "invCaptionApprove": "Veuillez saisir une raison valable pour approuver la ou les demandes d'invalidation. Cette raison sera valable pour toutes les demandes d'invalidation sélectionnées.",
+    "invCaptionByCO": "Veuillez indiquer l'initiateur de la demande et entrer une raison valide pour annuler la déclaration.",
+    "invCaptionRefuse": "Veuillez saisir une raison valable pour refuser la ou les demandes d'invalidation. Cette raison sera valable pour toutes les demandes d'invalidation sélectionnées.",
+    "invalDecl": "Annuler la déclaration",
+    "placeholderApprove": "Veuillez indiquer ici la raison de l'approbation",
+    "placeholderRefuse": "Veuillez entrer une raison de refus",
+    "refuseInv": "Refuser la ou les demandes d'invalidation",
+    "yes": "Oui, annuler"
+  },
+  "invalidationRequest": {
+    "approveOption": "Approuver l'invalidation",
+    "heading": "Demandes d'invalidation",
+    "listHeader": {
+      "accessor": "Evaluateur / Bureau de douanes",
+      "approvedOn": "Approuvé le",
+      "refusedOn": "Refusé le"
+    },
+    "noInvalidation": "Pas de demande d'invalidation.",
+    "refuseOption": "Refuser l'invalidation"
+  },
+  "layout": {
+    "copyright": "Copyright Federal Public Service Finance",
+    "footer": {
+      "contact": "Contact",
+      "followus": "Nous suivre",
+      "home": "Accueil",
+      "serviceof": "Service de …"
+    },
+    "links": {
+      "accessibility": {
+        "label": "Accessibility",
+        "url": "https://finances.belgium.be/fr/accessibilite"
+      },
+      "disclaimer": {
+        "label": "Mentions légales",
+        "url": "https://finances.belgium.be/fr/site/disclaimer"
+      },
+      "privacy": {
+        "label": "Confidentiality declaration",
+        "url": "https://www.belgium.be/fr/declaration_de_confidentialite"
+      }
+    },
+    "logo": "assets/img/logo_customs_excise_fr.png",
+    "logout": {
+      "label": " Sign Out"
+    },
+    "officeFilter": {
+      "advancedSearchTra": "Bureau de douane de passage",
+      "advancedSearchInc": "Bureau de douane de l'incident"
+    },
+    "page": {
+      "longRange": "{{startIndexMore1}} - {{endIndex}} par {{length}}",
+      "next": "Page suivante",
+      "previous": "Page précédente",
+      "size": "Articles par page"
+    }
+  },
+  "manualStartRecovery": {
+    "subTitle": "Veuillez confirmer que vous souhaitez démarrer la récupération manuellement",
+    "title": "Démarrer la récupération manuellement",
+    "extraInfo": "Informations supplémentaires"
+  },
+  "matStepper": {
+    "label": {
+      "consignment": "Informations de l'Envoi",
+      "houseConsignmentWithNbr": "House Envoi :houseConsignmentNbr",
+      "consignmentItemWithNbr": "Article :goodsItemNbr",
+      "houseConsignmentGeneralInformationWithNbr": "House Envoi :houseConsignmentNbr - Informations Générales",
+      "houseConsignmentPartiesWithNbr": "House Envoi :houseConsignmentNbr - Parties",
+      "transitGeneralInformation": "Informations Transit Générales",
+      "transitParties": "Informations Transit Parties",
+      "consignmentGeneralInformation": "Informations de l'Envoi Générales",
+      "consignmentParties": "Informations de l'Envoi Parties",
+      "finishDiscrepancies": "Terminer l’enregistrement des divergences"
+    }
+  },
+  "movementQuery": {
+    "label": "Send Movement Query (IE027)"
+  },
+  "incidentNotification": {
+    "stopMovement": "Le mouvement s’arrête",
+    "continueMovement": "Le mouvement continue"
+  },
+  "incidentDecision": {
+    "label": "Décision concernant un incident"
+  },
+  "movementUnderResolutionOverview": {
+    "heading": "Movement under resolution",
+    "noMovementUnderResolution": "No movements under resolution found.",
+    "startDateAndTime": "Start date and time",
+    "timer": "Timer"
+  },
+  "navDrawer": {
+    "menu": {
+      "cancelEnquiry": "Cancel Open Enquiry (IE059)",
+      "generateFollowLetter": "Generate Follow Letter",
+      "generateTAD": "Generate T(S)AD",
+      "generateTADOfficeCopy": "Generate T(S)AD (office copy)",
+      "manageGuarantees": "Gérer les garanties",
+      "manageReqForInv": "Gérer une demande d'invalidation (IE009)",
+      "reqForInv": "Demande d'invalidation (IE014)",
+      "reqForInvbyCO": "Invalider une Declaration (IE009)",
+      "requestEnquiry": "Request Enquiry (IE142)",
+      "requestOnNonArrivedMovement": "Send Request on Non-Arrived Movement (IE140)",
+      "sendEnquiryInformation": "Send Enquiry Information (IE144)",
+      "sendEnquiryInformationRequest": "Request Enquiry Information (IE145)",
+      "sendEnquiryResponse": "Send Enquiry Response (IE143)",
+      "sendGuaranteeCheck": "Envoyer une vérification de la marchandise (IE200)",
+      "sendStatusReq": "Statut de la demande (IE094)",
+      "startEnquiryEarly": "Start Enquiry Early"
+    }
+  },
+  "pageNotFound": {
+    "header": "Page non trouvée",
+    "section": "La page que vous recherchez n'existe pas ou a été déplacée."
+  },
+  "party": {
+    "lables": {
+      "readOnly": "Lecture seule",
+      "representativeDescription": "Seulement requis si le titulaire du régime de transit est représenté par un mandataire"
+    }
+  },
+  "recoveryAcceptanceNotification": {
+    "acceptance": "Accepter la récupération",
+    "recoveryAcceptanceNotification": "Soumettre la notification d'acceptation de recouvrement",
+    "submit": "Soumettre (IE151)"
+  },
+  "recoveryRequest": {
+    "agentInCountryOfCompetentAuthority": "Agent in country of competent authority",
+    "contactDetailsInCountryOfCompetentAuthority": "Contact details in country of competent authority",
+    "heading": "Recovery Request",
+    "requestRecovery": "Demande de recouvrement (IE150)",
+    "requestedOffice": "Bureau demandé",
+    "requestingOffice": "Bureau demandeur",
+    "submit": "Soumettre (IE150)"
+  },
+  "recoveryRequests": {
+    "heading": "Voir les recouvrements",
+    "messages": "Messages",
+    "recoveryStatus": "État du recouvrement",
+    "recoveryStatusDate": "Date de l'état du recouvrement",
+    "holderIdentificationNumber": "Numéro d'identification du titulaire",
+    "officeOfDestination": "Bureau de destination"
+  },
+  "registerControlResultDialog": {
+    "addHouseConsignment": "Add house consignment",
+    "completeControl": "Complete control",
+    "controlActionTypes": "Titulaire de la décision de procédure de transit sur les révisions proposées",
+    "controlDate": "Control date",
+    "countryOfRoutingConsignment": "Country of routing consignment",
+    "createConsignment": "Create consignment",
+    "customsOfficeAtBorderReferenceNumber": "Customs office at border reference number",
+    "deleteConsignment": "Delete consignment",
+    "departureTransportMeans": "Departure transport means",
+    "firstCreateConsignment": "You must first create a consignment.",
+    "goodsReferences": "Goods references",
+    "loadConsignment": "Load copy of consignment",
+    "seal": "Seal",
+    "securityIndicatorFromExportDeclaration": "Security indicator from export declaration",
+    "typeOfIdentificationNumber": "Type of identification number",
+    "typeOfPackage": "Type of package",
+    "unNumber": "unNumber",
+    "hotpDecision": "Décision du titulaire du régime du transit à la proposition de révision"
+  },
+  "releaseForTransit": {
+    "modal": {
+      "noReleaseMotivation": "no release motivation",
+      "noReleaseMotivationCaption": "Please select a valid reason",
+      "noReleaseMotivationTitle": "Motivation pour la non libération du transit"
+    },
+    "selectDecideOnReleaseAction": "Please select an action"
+  },
+  "releaseMovement": {
+    "arrivalDateRange": "Plage de date d'arrivée",
+    "errorDialog": {
+      "message": "Release a movement for transit could not be preformed because {{number}} errors were found. Kindly check, rectify and resubmit again. Errors will only be rectified after the resubmission of the form. "
+    },
+    "errors": {
+      "numberOfSealsMatchesSealListSize": "Le nombre de sceaux doit correspondre au nombre de sceaux dans la liste",
+      "expectedArrivalDate": "Veuillez introduire une date d'arrivée prévue dans la plage de date d'arrivée proposée.",
+      "expectedControlDate": "Veuillez introduire une date de contrôle prévue postérieure à la date d'arrivée prévue, mais inférieure ou égale à la date d'arrivée prévue plus un délai de grâce de {{gracePeriod}} jours."
+    },
+    "expectedArrivalDate": "Date d'arrivée attendue.",
+    "expectedControlDate": "Date de contrôle prévue",
+    "modalTitle": "Libérer un mouvement pour transit.",
+    "unforeseenProblem": {
+      "title": "Release Movement could not be preformed"
+    }
+  },
+  "releaseRequest": {
+    "approveOption": "Approve release request",
+    "heading": "Release Requests",
+    "listHeader": {
+      "controlledOn": "Controlled on"
+    },
+    "noReleaseRequest": "No release requests.",
+    "refuseOption": "Refuse release request"
+  },
+  "requestEnquiry": {
+    "dialog": {
+      "actualConsignee": "Consignee (actual)",
+      "cusuomsOfficeOfRequest": "Customs office of request (Destination)",
+      "enquiryDate": "Date of enquiry request",
+      "limitForEnquiryResponse": "Limit for the enquiry response",
+      "pleaseProvide": "Please provide the requested enquiry information.",
+      "requestEnquiry": "Request Enquiry"
+    }
+  },
+  "requestForDocuments": {
+    "action": "Demande de documents (IE060)",
+    "dialog": {
+      "description": "Veuillez préciser quel(s) document(s) vous souhaitez demander au titulaire du régime de transit.",
+      "subTitle": "Document(s)",
+      "title": "Demande de documents"
+    }
+  },
+  "requestOnNonArrivedMovement": {
+    "dialog": {
+      "confirm": "Confirmer (IE140)",
+      "requestOnNonArrivedMovement": "Please confirm you want to send a ‘Request on Non-Arrived Movement’ to the Holder of the Transit Procedure"
+    },
+    "heading": "Request On Non-Arrived Movement",
+    "table": {
+      "enquiryResponseDate": "Enquiry delivery date",
+      "enquiryText": "Enquiry text",
+      "ie142Sent": "Enquiry request (IE142) sent",
+      "noResults": "No results found."
+    }
+  },
+  "respondToRequestOnNonArrivedMovement": {
+    "dialog": {
+      "actualCity": "Ville effective",
+      "actualCountry": "Pays effectif",
+      "actualIdentificationNumber": "Numéro d'identification effectif",
+      "actualName": "Nom effectif",
+      "actualPostcode": "Code postal effectif",
+      "actualStreetAndNumber": "Rue et numéro effectif",
+      "declaredCity": "Ville déclarée",
+      "declaredCountry": "Pays déclaré",
+      "declaredIdentificationNumber": "Numéro d'identification déclaré",
+      "declaredName": "Nom déclaré",
+      "declaredPostcode": "Code postal déclaré",
+      "declaredStreetAndNumber": "Rue et numéro déclarés",
+      "enquiryDate": "Date de livraison",
+      "pleaseProvide": "Veuillez indiquer les informations souhaitées à l'arrivée.",
+      "respondToRequestOnNonArrivedMovement": "Réponse à une demande de renseignement d'un mouvement non arrivé (IE141)"
+    }
+  },
+  "riskAndControlInformation": {
+    "control": "Control",
+    "customs": "Customs",
+    "riskAnalysisIdentification": "Analyse des risques et identification",
+    "spsChart": "SPS chart",
+    "colorCode": "Code couleur",
+    "result": "Résultat",
+    "resultDescription": {
+      "2509": "Aucun contrôle effectué",
+      "2511": "Différences - en attente de demande de mainlevée",
+      "2512": "Différences - opposition du titulaire du régime de transit, décision en attente concernant la mainlevée du mouvement",
+      "2513": "Différences - opposition du titulaire du régime de transit, décision de ne pas autoriser la mainlevée du mouvement",
+      "2514": "Différences - pas de retour du titulaire du régime de transit, décision de ne pas autoriser la mainlevée du mouvement",
+      "2515": "Différences - pas d'opposition du titulaire du régime de transit",
+      "2516": "Différences - opposition du titulaire du régime de transit, décision de poursuivre le mouvement",
+      "2517": "Différences - pas de retour du titulaire du régime de transit, décision de poursuivre le mouvement",
+      "2518": "Différences majeures constatées, mouvement non autorisé",
+      "2519": "Procédure domiciliée - aucun contrôle effectué"
+    }
+  },
+  "saveAsTemplateDialog": {
+    "duplicate": "Duplicate template",
+    "message": "A file with the same name already exists in the tab Templates. Replacing it will overwrite its current content.",
+    "newTemplateDescription": "New template description",
+    "newTemplateName": "New template name",
+    "replace": "Replace",
+    "templateDescription": "Template description",
+    "templateName": "Template name"
+  },
+  "savedDrafts": {
+    "consult": "Consulter",
+    "noDrafts": "Pas de brouillon. Veuillez sauver une déclaration comme brouillon et elle sera visible ici.",
+    "tooltip": "Les brouillons sont automatiquement effacés après un mois d'inactivité"
+  },
+  "savedTemplates": {
+    "createNewDeclaration": "Create new declaration from template",
+    "duplicate": "Duplicate",
+    "editNameAndDescription": "Edit name and description",
+    "noTemplates": "No Templates. Save a declaration as a template and it will show up here."
+  },
+  "sendEnquiryInformation": {
+    "dialog": {
+      "competentOfficeAtDeparture": "Competent office at departure",
+      "competentOfficeAtDestination": "Competent office at destination",
+      "heading": "Enquiry Information",
+      "information": "Information"
+    }
+  },
+  "sendEnquiryResponse": {
+    "dialog": {
+      "consignee": "Consignment Consignee (Actual)",
+      "heading": "Send Enquiry Response",
+      "receivedEnquiryRequested": {
+        "comptetentAuthorityOfDeparture": "comptetent authority of departure",
+        "receivedEnquiryRequested": "Received enquiry requested"
+      },
+      "submit": "Soumettre (IE143)"
+    }
+  },
+  "startEnquiryEarly": {
+    "errorMessage": "The transit declaration is not in the correct state to perform the action",
+    "startEnquiryEarlyCaption": "Please confirm you want to start enquiry",
+    "startEnquiryEarlyDecl": "Start enquiry"
+  },
+  "manualDecisionForRecovery": {
+    "caption": "Veuillez confirmer que vous souhaitez démarrer manuellement la procédure de récupération."
+  },
+  "staticTable": {
+    "noData": "No data",
+    "noDataForFilter": "No data for filter"
+  },
+  "statusRequest": {
+    "customsOfficeOfDestinationDeclared": "Bureau de douane de destination (déclaré)",
+    "customsOfficeOfExitForTransitActual": "Bureau de douane de sortie pour transit (réel)",
+    "customsOfficeOfExitForTransitDeclared": "Bureau de douane de transit (déclaré)",
+    "customsOfficeOfTransitDeclared": "Customs office of transit(declared)",
+    "statusReq": "Requête de status",
+    "statusReqCaption": "Veuillez sélectionner le(s) bureau(x) de douane au(x)quel(s) vous souhaitez envoyer la ou les requêtes de statut"
+  },
+  "tra": {
+    "crossingFrontier": {
+      "country": "Country: ",
+      "referenceNumber": "Reference number: ",
+      "registerCrossingFrontier": "Enregistrer le passage à la frontière",
+      "sendAnticipatedTransitRequest": "Ce mouvement est inconnu. Souhaitez-vous envoyer un IE114?",
+      "registerPassageNotConfirmed": "Enregistrer passage non confirmé",
+      "registerStopMovement": "Enregistrez l'arrêt du mouvement",
+      "refuseFrontierCrossing": "Retourner le mouvement",
+      "passageRefusalReasonCode": "Raison du refus",
+      "riskCode": "Risk code: ",
+      "status": "Status: ",
+      "title": "Decide on Movement Crossing Frontier",
+      "warningBinding": "Warning, binding itinerary present."
+    }
+  },
+  "transitParties": {
+    "communicationLanguageAtDestination": "Communication language at destination"
+  },
+  "sessionExpiredDialog": {
+    "header": "Session expiré",
+    "description": "Votre session a expiré. Veuillez vous reconnecter."
+  },
+  "optionalSection": {
+    "maxCountReached": "Nombre maximal d'éléments atteint ({{maxCount}})",
+    "maxReachedCannotUndo": "Nombre maximal d'éléments atteint. Annuler une suppression rajouterait l'élément.",
+    "revertToOriginal": "Rétablir la valeur déclarée initialement"
+  },
+  "unloadingRemark": {
+    "compareWithCurrentSituation": "Examiner les remarques de déchargement",
+    "compareButtonTooltip": "Examiner les remarques de déchargement soumises et les comparer aux données de la déclaration originale reçues du bureau de départ.",
+    "conform": "Conform",
+    "noRemark": "No remark",
+    "unloadingCompletion": "Unloading completion",
+    "unloadingDate": "Unloading date",
+    "unloadingRemark": "Unloading remark",
+    "remarks": "Remarques",
+    "noSeals": "Aucun scellé",
+    "cancelWarning": "L'annulation de l'enregistrement supprimera définitivement la remarque de déchargement et toutes les données associées. Voulez-vous continuer ?",
+    "conformWarning": "En marquant la remarque de déchargement comme conforme, toutes les données précédemment saisies seront supprimées. Voulez-vous continuer ?",
+    "errors": {
+      "failToDelete": "Échec de la suppression de la remarque de déchargement",
+      "failToLoad": "Échec du chargement de la remarque de déchargement",
+      "failToSave": "Échec de l'enregistrement de la remarque de déchargement",
+      "failToSubmit": "Échec de l'envoi de la remarque de déchargement"
+    },
+    "progress": {
+      "submitting": "Soumission des remarques de déchargement..."
+    }
+  }
+}
