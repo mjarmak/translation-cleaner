@@ -56,25 +56,38 @@ Case checking is for translation keys. So best not to ignore case.
 `python ./scripts/usage_report.py ./output/flat/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage.report.csv --languages "./output/flat/fr.flat.json,./output/flat/nl.flat.json,./output/flat/de.flat.json"`,
 
 ### 3. create mapping of duplicate keys to their canonical key:
-**Files:** `FLAT_JSON` → `CANONICAL_MAPPING` + `DUPLICATES_REPORT`
+**Files:** `FLAT_JSON` → `DUPLICATES.JSON`
 
-Only en is needed to create the mapping, then it can be applied to all languages.
+Only en is needed to create the mapping. The output is a JSON file with duplicate values and their corresponding keys.
 
-The mapping file will contain the canonical key for each duplicate key, and the duplicates report will list all the duplicate keys and their corresponding canonical key.
+**JSON Structure:**
+```json
+[
+  {
+    "value": "Address",
+    "count": 4,
+    "mapTo": "address",
+    "keys": [
+      {"key": "app.address", "value": "Address"},
+      {"key": "enquiryAndRecovery.enquiry.body.address", "value": "Address"},
+      ...
+    ]
+  }
+]
+```
 
-Case-insensitive finds more duplicates, but it may also create false positives if there are keys that differ only by case but have different meanings.
-
-Case-sensitive will be more strict and only find exact duplicates, but it may miss some duplicates that differ only by case.
-
-A prefix 'hash_' is added to the canonical keys to more easily identify them as the keys that should be renamed to the hashed keys in the project files.
+- `value`: The shared translation value
+- `count`: Number of keys with this value
+- `mapTo`: Last word after the final dot (.) in the first key
+- `keys`: Array of all keys and their values
 
 #### case insensitive
 
-`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/hash/en_duplicates.report.txt --mapping-out ./output/hash/en_canonical-mapping.txt --prefix hash_ --ignore-case`
+`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates.json --prefix i18n.common. --ignore-case`
 
 #### case sensitive
 
-`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/hash/en_duplicates-case_sensititve.report.txt --mapping-out ./output/hash/en_canonical-mapping-case_sensititve.txt --prefix hash_`
+`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates-case-sensitive.json --prefix i18n.common.`
 
 ### 4. rename keys (in project and translation files):
 Renames keys in the project and translations, then delete duplicates in the translation files.

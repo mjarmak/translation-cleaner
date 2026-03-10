@@ -1,53 +1,49 @@
 import json
 import argparse
-import base64
 from collections import defaultdict
 from pathlib import Path
 
 def log(msg: str):
     print(f"[i18n-dedupe] {msg}")
 
-def to_base64(value: str) -> str:
-    """URL-safe base64 without padding."""
-    return base64.urlsafe_b64encode(value.encode("utf-8")).decode("ascii").rstrip("=")
+def extract_last_word(key: str) -> str:
+    """Extract the last word after the last dot (.) in a key."""
+    parts = key.split('.')
+    if parts:
+        return parts[-1]
+    return key
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Find duplicated translation values and generate base64 mapping"
+        description="Find duplicated translation values and generate JSON duplicates file"
     )
 
     parser.add_argument("flat_json", help="Flattened i18n JSON file")
     parser.add_argument(
         "--duplicates-out",
-        default="duplicates.txt",
-        help="Output file listing duplicated values and their keys",
-    )
-    parser.add_argument(
-        "--mapping-out",
-        default="hash_mapping.txt",
-        help="Output file mapping base64(value) to original keys",
-    )
-    parser.add_argument(
-        "--prefix",
-        default="",
-        help="Optional prefix to prepend to each base64 hash in the mapping file",
+        default="duplicates.json",
+        help="Output file in JSON format listing duplicated values and their keys",
     )
     parser.add_argument(
         "--ignore-case",
         action="store_true",
         help="Case-insensitive duplicate detection",
     )
+    parser.add_argument(
+        "--prefix",
+        default="",
+        help="Prefix to prepend to all mapTo values",
+    )
 
     args = parser.parse_args()
 
     flat_path = Path(args.flat_json)
     duplicates_out = Path(args.duplicates_out)
-    mapping_out = Path(args.mapping_out)
-    prefix = args.prefix
     ignore_case = args.ignore_case
+    prefix = args.prefix
 
     if not flat_path.exists():
-        raise FileNotFoundError(f"Flatten file not found: {flat_path}")
+        parser.error(f"Flatten file not found: {flat_path}")
 
     log(f"Loading flattened file: {flat_path}")
     log(f"Case insensitive mode: {'ON' if ignore_case else 'OFF'}")
@@ -69,48 +65,44 @@ def main():
     log(f"Found {len(duplicates)} duplicated values")
 
     # -------------------------------------------------
-    # Write duplicates listing
+    # Build JSON duplicates structure
     # -------------------------------------------------
-    log(f"Writing duplicates list to: {duplicates_out}")
+    duplicates_array = []
 
-    # Calculate statistics
-    total_duplicate_keys = sum(len(keys) for keys in duplicates.values())
-    total_unique_values = len(duplicates)
+    for value_key, key_list in duplicates.items():
+        # Extract original value from first tuple
+        original_value = key_list[0][0]
+        last_word = extract_last_word(key_list[0][1])  # Last word after '.' from first key
+        map_to = prefix + last_word  # Apply prefix to mapTo
 
+        # Build keys array
+        keys_array = []
+        for value, k in key_list:
+            keys_array.append({
+                "key": k,
+                "value": value
+            })
+
+        # Build duplicate object
+        duplicate_obj = {
+            "value": original_value,
+            "count": len(key_list),
+            "mapTo": map_to,
+            "keys": keys_array
+        }
+
+        duplicates_array.append(duplicate_obj)
+
+    # Write JSON file
+    log(f"Writing duplicates JSON to: {duplicates_out}")
     with open(duplicates_out, "w", encoding="utf-8") as f:
-        # Write summary header
-        f.write("=" * 60 + "\n")
-        f.write("DUPLICATES REPORT SUMMARY\n")
-        f.write("=" * 60 + "\n")
-        f.write(f"Total duplicate values found: {total_unique_values}\n")
-        f.write(f"Total duplicate keys found: {total_duplicate_keys}\n")
-        f.write(f"Unique values with 2+ keys: {total_unique_values}\n")
-        f.write("=" * 60 + "\n\n")
+        json.dump(duplicates_array, f, ensure_ascii=False, indent=2)
 
-        for value_key, key_list in duplicates.items():
-            # Extract original value from first tuple
-            original_value = key_list[0][0]
-            f.write(f"VALUE: {original_value}\n")
-            for value, k in key_list:
-                f.write(f"  - {k} = {value}\n")
-            f.write("\n")
-
-    # -------------------------------------------------
-    # Write base64 mapping with optional prefix
-    # -------------------------------------------------
-    log(f"Writing base64 mapping to: {mapping_out}")
-    total_mapped = 0
-    with open(mapping_out, "w", encoding="utf-8") as f:
-        for value_key, key_list in duplicates.items():
-            # Use original value for hash generation
-            original_value = key_list[0][0]
-            hash_key = prefix + to_base64(original_value)
-            for _, k in key_list:
-                f.write(f"{hash_key}: {k}\n")
-                total_mapped += 1
-
-    log(f"Wrote {total_mapped} base64 key mappings")
+    log(f"Wrote {len(duplicates_array)} duplicated values with {sum(len(d['keys']) for d in duplicates_array)} total keys")
     log("✅ Done")
+
+if __name__ == "__main__":
+    main()
 
 if __name__ == "__main__":
     main()
