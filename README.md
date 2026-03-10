@@ -21,14 +21,12 @@ FLAT_CSV = ./output/flat/en.flat.csv
 PROJECT_SRC = C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src
 ```
 
-## Order of operations:
-
-### 1.1. flatten:
+## 1.1. flatten:
 
 Flatten all language files at once:
 `python ./scripts/flatten_json.py ./files/en.json ./output/flat/en.flat.json ./files/fr.json ./output/flat/fr.flat.json ./files/nl.json ./output/flat/nl.flat.json ./files/de.json ./output/flat/de.flat.json`
 
-### 1.2 . separate keys that contain '_' and all uppercase values
+## 1.2 . separate keys that contain '_' and all uppercase values
 **Files:** `FLAT_JSON` → `FLAT_JSON_UNDERSCORE` + `FLAT_JSON_UPPERCASE` + `FLAT_JSON_FILTERED`
 
 Use the outputs to manually prepare keys in the projects for hashing replacement in the next steps:
@@ -47,7 +45,7 @@ Use the outputs to manually prepare keys in the projects for hashing replacement
 - `nl.flat.underscore.json`, `nl.flat.uppercase.json`, `nl.flat.filtered.json`
 - `de.flat.underscore.json`, `de.flat.uppercase.json`, `de.flat.filtered.json`
 
-### 2. usage report (in project):
+## 2. usage report (in project):
 **Files:** `FLAT_JSON` → `USAGE_REPORT` or `USAGE_REPORT_IGNORE_CASE`
 
 Case checking is for translation keys. So best not to ignore case.
@@ -55,7 +53,7 @@ Case checking is for translation keys. So best not to ignore case.
 #### case sensitive with language values:
 `python ./scripts/usage_report.py ./output/flat/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage.report.csv --languages "./output/flat/fr.flat.json,./output/flat/nl.flat.json,./output/flat/de.flat.json"`,
 
-### 3. create mapping of duplicate keys to their canonical key:
+## 3. create mapping of duplicate keys to their canonical key:
 **Files:** `FLAT_JSON` → `DUPLICATES.JSON`
 
 Only en is needed to create the mapping. The output is a JSON file with duplicate values and their corresponding keys.
@@ -91,19 +89,18 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 
 `python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates-case-sensitive.json --prefix i18n.common`
 
-### 4. rename keys (in project and translation files):
-**Files:** `FLAT_JSON` + `DUPLICATES.JSON` → `FLAT_JSON_MAPPED`
+## 4. rename keys (in project and translation files):
+**Files:** `FLAT_JSON` + `DUPLICATES.JSON` → `FLAT_JSON_MAPPED` + Updated Project Files
 
 Applies canonical mapping to rename keys by `mapKeyTo` and optionally rename values by `mapValueTo`.
 
-- For **English**: Use `--mapValues` to replace both keys and values
-- For **other languages**: Omit `--mapValues` to replace only keys and keep original language values
+### Apply on i18n JSON files
 
-#### Apply on English file with value mapping
+For **English**: Use `--mapValues` to replace both keys and values
 
 `python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/en.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/replaced/en.flat.mapped.json --mapValues`
 
-#### Apply on other language files (keys only, values unchanged)
+For **other languages**: Omit `--mapValues` to replace only keys and keep original language values
 
 `python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/replaced/fr.flat.mapped.json`
 
@@ -111,10 +108,19 @@ Applies canonical mapping to rename keys by `mapKeyTo` and optionally rename val
 
 `python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/de.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/replaced/de.flat.mapped.json`
 
-#### Apply on project files
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/hash_rename-mapping.txt`
+### Apply on project files (TypeScript/JavaScript/HTML)
 
-### 6. delete unused keys:
+Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, and `.htm` files in the project.
+
+First, preview the changes with dry-run:
+
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_duplicates.json --dry-run`
+
+Then apply the actual mapping:
+
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_duplicates.json`
+
+## 6. delete unused keys:
 **Files:** `FLAT_JSON` + `REMOVE_LIST` → `FLAT_JSON_CLEAN`
 
 Manually update the output of step 2 (usage report) to create a list of keys to be removed. Save that list in `REMOVE_LIST` and then run the command below.
@@ -129,7 +135,7 @@ Keep in mind that some keys are concatenated in the .ts files, such as statuses 
 
 `python ./scripts/delete_translations.py ./output/flat_separated/en.flat.filtered.json ./files/remove.txt --out ./output/en.flat.clean.json`
 
-### 7. unflatten:
+## 7. unflatten:
 **Files:** `FLAT_JSON` + `FLAT_JSON_FR` + `FLAT_JSON_NL` + `FLAT_JSON_DE` → All unflattened outputs
 
 - Copy the content of the underscore and uppercase files back to the filtered files before unflattening, so that the unflattened files contain all keys (including those with underscores and uppercase segments).
