@@ -2,13 +2,13 @@
 UNUSED KEYS REPORT
 ============================================================
 
-Total keys in flat JSON: 1010
-Used keys: 821
-Unused keys: 189
-Usage percentage: 81.3%
+Total keys in flat JSON: 1060
+Used keys: 868
+Unused keys: 192
+Usage percentage: 81.9%
 
 ============================================================
-UNUSED KEYS LIST (189 total):
+UNUSED KEYS LIST (192 total):
 ============================================================
 
 advanceSearch.action.exportFollDoc
@@ -86,6 +86,9 @@ advanceSearch.resultColumn.declarationAcceptanceDate
 advanceSearch.resultColumn.linkedDeclaration
   Value: Linked Declaration
 
+advanceSearch.resultColumn.mrnAndLrn
+  Value: MRN/LRN
+
 advanceSearch.status.UnderControl
   Value: Under control
 
@@ -95,26 +98,23 @@ advanceSearch.type.Combined
 app.transportEquipments
   Value: Transport Equipments
 
-application.admin
-  Value: Admin
-
-application.dep
-  Value: Departure
-
 application.documentation
   Value: Documentation
 
 application.exi
   Value: Competent authority
 
-application.tra
-  Value: Transit
-
 bindingItinerary.dialog.labels.countryOfDispatch
   Value: Country of departure
 
 bindingItinerary.dialog.labels.countryOfTransit
   Value: Country of transit
+
+buttons.dismiss
+  Value: DISMISS
+
+buttons.startDeclaration
+  Value: START DECLARATION
 
 common.button.reset
   Value: reset (one hour)
@@ -176,6 +176,9 @@ des.registerArrivalNotification.errors.mrnInvalid
 enquiryAndRecovery.enquiry.body.enquiryCommunication
   Value: Enquiry communication
 
+enquiryRequests.labels.enquiryResponse
+  Value: Enquiry response
+
 errorMessage.invalidProcedureForRelease
   Value: This declaration cannot be released
 
@@ -203,9 +206,6 @@ eventHistory.error.title
 eventHistory.label.Amendment
   Value: Amendment request
 
-eventHistory.label.Invalidation
-  Value: Invalidation request
-
 eventHistory.label.Submission
   Value: Submission
 
@@ -223,6 +223,9 @@ eventHistory.label.request
 
 eventHistory.label.requestStatus
   Value: Request status
+
+eventHistory.label.v
+  Value: V
 
 eventHistory.label.version
   Value: Version
@@ -269,6 +272,9 @@ generalInfoForm.lables.economicOperatorIdentificationNumber
 generalInfoForm.lables.ensReuse
   Value: ENS re-use Indicator
 
+generalInfoForm.lables.equipment
+  Value: EQUIPMENT
+
 generalInfoForm.lables.gnssLatitude
   Value: GNSS latitude
 
@@ -277,6 +283,9 @@ generalInfoForm.lables.gnssLongitude
 
 generalInfoForm.lables.identificationNumberOfTrailer
   Value: Identification number of trailer
+
+generalInfoForm.lables.mean
+  Value: MEAN
 
 generalInfoForm.lables.nameHolderOfTransitProcedure
   Value: Name holder of transit procedure
@@ -383,6 +392,9 @@ i18n.common.declarant
 i18n.common.entryInfo
   Value: Entry Information
 
+i18n.common.errorsFoundWithNumberAndRetryDescription
+  Value: {{number}} errors found. Kindly check, rectify and resubmit.
+
 i18n.common.guaranteeReferenceMain
   Value: Guarantee reference(s)
 
@@ -467,17 +479,20 @@ login.username
 matStepper.label.masterConsignment
   Value: Master consignment
 
-menu.components
-  Value: Components
+menu.option1
+  Value: OPTION 1
 
-menu.movementQuery
-  Value: Movement Query
+menu.option2
+  Value: OPTION 2
 
-menu.savedDrafts
-  Value: Saved drafts
+menu.queryGuarantees
+  Value: QUERY GUARANTEES
 
 menu.searchFor
   Value: Search for MRN
+
+menu.states
+  Value: STATES
 
 meta.environment.acceptance
   Value: Acceptance
@@ -542,9 +557,6 @@ releaseMovement.errors.identificationNumberMustBeUpperCase
 releaseMovement.errors.sealMustBeUnique
   Value: Seal identifier must be unique
 
-riskAndControl.label.riskAndControlInfo
-  Value: Risk and control information
-
 riskAndControlInformation.identificationCode
   Value: Identification code
 
@@ -553,9 +565,6 @@ riskAndControlInformation.receivedTs
 
 riskAndControlInformation.updatedLimitDate
   Value: Updated limit date
-
-saveAsTemplateDialog.main
-  Value: Save as template
 
 saveAsTemplateDialog.title
   Value: Template 1 already exists. Do you want to replace it?

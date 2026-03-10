@@ -144,7 +144,7 @@ Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, `.htm`, and `.json
 `python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_mapping.json`
 
 ## 5. find unused translation keys:
-**Files:** `FLAT_JSON` + `PROJECT_SRC` → `UNUSED_KEYS_LIST`
+**Files:** `MAPPING_JSON` + `PROJECT_SRC` → `UNUSED_MAPPED_KEYS_LIST`
 
 Scans all TypeScript/JavaScript/HTML files in the project to find which translation keys are NOT used anywhere.
 
@@ -154,7 +154,7 @@ Creates two output files:
 1. `unused_keys.txt` - Simple list of unused keys (one per line) for deletion
 2. `unused_keys_summary.txt` - Detailed report with statistics and key values
 
-`python ./scripts/find_unused_keys.py ./output/mapped/en.flat.mapped.json C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/remove_unused/unused_keys.txt`
+`python ./scripts/find_unused_keys.py ./output/mapped/en.flat.mapped.json C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/remove_unused`
 
 ## 6. delete unused keys:
 **Files:** `FLAT_JSON` + `UNUSED_KEYS_LIST` → `FLAT_JSON_CLEAN`
@@ -194,13 +194,13 @@ Uppercase keys should have been copied back after the manual CSS updates in 1.3.
 [//]: # ()
 [//]: # (Or unflatten them individually:)
 
-`python ./scripts/unflatten_json.py ./output/result/en.flat.clean.json ./output/unflat/en.json`
+`python ./scripts/unflatten_json.py ./output/remove_unused/en.flat.clean.json ./output/unflat/en.json`
 
-`python ./scripts/unflatten_json.py ./output/result/fr.flat.clean.json ./output/unflat/fr.json`
+`python ./scripts/unflatten_json.py ./output/remove_unused/fr.flat.clean.json ./output/unflat/fr.json`
 
-`python ./scripts/unflatten_json.py ./output/result/nl.flat.clean.json ./output/unflat/nl.json`
+`python ./scripts/unflatten_json.py ./output/remove_unused/nl.flat.clean.json ./output/unflat/nl.json`
 
-`python ./scripts/unflatten_json.py ./output/result/de.flat.clean.json ./output/unflat/de.json`
+`python ./scripts/unflatten_json.py ./output/remove_unused/de.flat.clean.json ./output/unflat/de.json`
 
 # Extras:
 

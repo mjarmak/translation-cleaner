@@ -48,17 +48,18 @@ def main():
 
     log(f"Loaded {len(flat_data)} keys from flat JSON")
 
-    # Find all TypeScript/JavaScript and HTML files
+    # Find all TypeScript/JavaScript, HTML, and JSON files
     ts_extensions = {".ts", ".js", ".tsx", ".jsx"}
     html_extensions = {".html", ".htm"}
-    all_extensions = ts_extensions | html_extensions
+    json_extensions = {".json"}
+    all_extensions = ts_extensions | html_extensions | json_extensions
     project_files = []
 
     for project_file in src_path.rglob("*"):
         if project_file.is_file() and project_file.suffix in all_extensions:
             project_files.append(project_file)
 
-    log(f"Found {len(project_files)} TypeScript/JavaScript/HTML files to search")
+    log(f"Found {len(project_files)} TypeScript/JavaScript/HTML/JSON files to search")
 
     # Read all project files and track which keys are used
     used_keys = set()
