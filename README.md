@@ -116,7 +116,9 @@ For **other languages**: Omit `--mapValues` to replace only keys and keep origin
 
 ### Apply on project files (TypeScript/JavaScript/HTML)
 
-Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, and `.htm` files in the project.
+#### Apply on project files (TypeScript/JavaScript/HTML/JSON)
+
+Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, `.htm`, and `.json` files in the project.
 
 First, preview the changes with dry-run:
 
