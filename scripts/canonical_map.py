@@ -13,6 +13,28 @@ def extract_last_word(key: str) -> str:
         return parts[-1]
     return key
 
+def is_pascal_case(value: str) -> bool:
+    """Check if value is in PascalCase (every word begins with uppercase)."""
+    if not value:
+        return False
+    # Split by spaces and check each word
+    words = value.split()
+    if not words:
+        return False
+    # Each word should start with uppercase
+    for word in words:
+        # Remove non-letter characters at the start to check first letter
+        first_letter_found = False
+        for char in word:
+            if char.isalpha():
+                if not char.isupper():
+                    return False
+                first_letter_found = True
+                break
+        if not first_letter_found:
+            return False
+    return True
+
 def main():
     parser = argparse.ArgumentParser(
         description="Find duplicated translation values and generate JSON duplicates file"
@@ -75,6 +97,16 @@ def main():
         last_word = extract_last_word(key_list[0][1])  # Last word after '.' from first key
         map_to = prefix + last_word  # Apply prefix to mapTo
 
+        # Find PascalCase value from all values in this duplicate group
+        map_value_to = None
+        for value, k in key_list:
+            if is_pascal_case(value):
+                map_value_to = value
+                break
+        # If no PascalCase value found, use the original value
+        if not map_value_to:
+            map_value_to = original_value
+
         # Build keys array
         keys_array = []
         for value, k in key_list:
@@ -87,7 +119,8 @@ def main():
         duplicate_obj = {
             "value": original_value,
             "count": len(key_list),
-            "mapTo": map_to,
+            "mapKeyTo": map_to,
+            "mapValueTo": map_value_to,
             "keys": keys_array
         }
 

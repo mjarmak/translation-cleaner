@@ -64,21 +64,23 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 ```json
 [
   {
-    "value": "Address",
+    "value": "Container Indicator",
     "count": 4,
-    "mapTo": "address",
+    "mapKeyTo": "hash_containerIndicator",
+    "mapValueTo": "Container Indicator",
     "keys": [
-      {"key": "app.address", "value": "Address"},
-      {"key": "enquiryAndRecovery.enquiry.body.address", "value": "Address"},
+      {"key": "app.containerIndicator", "value": "Container Indicator"},
+      {"key": "des.registerArrivalNotification.containerIndicator", "value": "Container indicator"},
       ...
     ]
   }
 ]
 ```
 
-- `value`: The shared translation value
+- `value`: The shared translation value (as-is from first occurrence)
 - `count`: Number of keys with this value
-- `mapTo`: Last word after the final dot (.) in the first key
+- `mapKeyTo`: Last word after the final dot (.) in the first key, with optional prefix
+- `mapValueTo`: The value in PascalCase (every word starts with uppercase) selected from the duplicate group. If no PascalCase value exists, uses the original value
 - `keys`: Array of all keys and their values
 
 #### case insensitive
@@ -87,7 +89,7 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 
 #### case sensitive
 
-`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates-case-sensitive.json --prefix i18n.common.`
+`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates-case-sensitive.json --prefix i18n.common`
 
 ### 4. rename keys (in project and translation files):
 Renames keys in the project and translations, then delete duplicates in the translation files.
