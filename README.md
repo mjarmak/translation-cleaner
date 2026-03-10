@@ -95,6 +95,14 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 
 `python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates-case-sensitive.json --prefix i18n.common`
 
+#### validate no duplicate mapKeyTo values
+
+After creating the duplicates JSON file, validate that there are no duplicate `mapKeyTo` values:
+
+`python ./scripts/validate_duplicates.py ./output/remap/en_duplicates.json`
+
+**Note:** The `canonical_map.py` script automatically resolves duplicate `mapKeyTo` conflicts by appending hash suffixes (e.g., `mapKeyTo_hash123`), so this validation should pass if the script ran correctly. 
+
 ## 4. rename keys (in project and translation files):
 **Files:** `FLAT_JSON` + `DUPLICATES.JSON` → `FLAT_JSON_MAPPED` + Updated Project Files
 
