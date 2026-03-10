@@ -89,7 +89,7 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 
 #### case insensitive
 
-`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates.json --prefix i18n.common. --ignore-case`
+`python ./scripts/canonical_map.py ./output/flat_separated/en.flat.filtered.json --duplicates-out ./output/remap/en_mapping.json --prefix i18n.common. --ignore-case`
 
 #### case sensitive
 
@@ -99,7 +99,7 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 
 After creating the duplicates JSON file, validate that there are no duplicate `mapKeyTo` values:
 
-`python ./scripts/validate_duplicates.py ./output/remap/en_duplicates.json`
+`python ./scripts/validate_duplicates.py ./output/remap/en_mapping.json`
 
 **Note:** The `canonical_map.py` script automatically resolves duplicate `mapKeyTo` conflicts by appending hash suffixes (e.g., `mapKeyTo_hash123`), so this validation should pass if the script ran correctly. 
 
@@ -112,15 +112,15 @@ Applies canonical mapping to rename keys by `mapKeyTo` and optionally rename val
 
 For **English**: Use `--mapValues` to replace both keys and values
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/en.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/mapped/en.flat.mapped.json --mapValues`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/en.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/en.flat.mapped.json --mapValues`
 
 For **other languages**: Omit `--mapValues` to replace only keys and keep original language values
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/mapped/fr.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/fr.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/nl.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/mapped/nl.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/nl.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/nl.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/remap/en_duplicates.json --out ./output/mapped/fr.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat_separated/fr.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/fr.flat.mapped.json`
 
 The `apply_mapping_flat_json.py` script does the following in one pass:
 1. **Copies** the input file to a new output file
@@ -133,11 +133,11 @@ Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, `.htm`, and `.json
 
 First, preview the changes with dry-run:
 
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_duplicates.json --dry-run`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_mapping.json --dry-run`
 
 Then apply the actual mapping:
 
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_duplicates.json`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_mapping.json`
 
 ## 5. find unused translation keys:
 **Files:** `FLAT_JSON` + `PROJECT_SRC` → `UNUSED_KEYS_LIST`
