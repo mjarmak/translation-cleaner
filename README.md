@@ -50,6 +50,9 @@ Use the outputs to manually prepare keys in the projects for hashing replacement
 ### 2. usage report (in project):
 **Files:** `FLAT_JSON` → `USAGE_REPORT` or `USAGE_REPORT_IGNORE_CASE`
 
+Case checking is for translation keys. So best not to ignore case.
+
+#### case sensitive with language values:
 `python ./scripts/usage_report.py ./output/flat/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage.report.csv --languages "./output/flat/fr.flat.json,./output/flat/nl.flat.json,./output/flat/de.flat.json"`,
 
 ### 3. create mapping of duplicate keys to their canonical key:
