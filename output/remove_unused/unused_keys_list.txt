@@ -18,7 +18,6 @@ advanceSearch.labels.racStatus
 advanceSearch.labels.regDateRange
 advanceSearch.labels.selectAllRow
 advanceSearch.labels.selectRow
-advanceSearch.labels.tirHolder
 advanceSearch.labels.unknown
 advanceSearch.labels.warehouse
 advanceSearch.resultColumn.declarationAcceptanceDate
@@ -90,7 +89,6 @@ generalInfoForm.lables.gnssLatitude
 generalInfoForm.lables.gnssLongitude
 generalInfoForm.lables.identificationNumberOfTrailer
 generalInfoForm.lables.mean
-generalInfoForm.lables.nameHolderOfTransitProcedure
 generalInfoForm.lables.poBox
 generalInfoForm.lables.presentationDateTime
 generalInfoForm.lables.representativeSub

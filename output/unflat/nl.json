@@ -234,6 +234,7 @@
       "releaseDateRange": "Datum van vrijgave",
       "incidentDateRange": "Datum melding incident",
       "representative": "Vertegenwoordiger",
+      "tirHolder": "TIR holder",
       "transitOperation": "Douanevervoer",
       "declarationGoodsItemNumber": "Aangifte goederenartikelnummer",
       "discrepancyStatus": "Status",
@@ -468,6 +469,7 @@
       "locationType": "Locatietype",
       "methodOfPayment": "Betaalwijze",
       "modeOfTransport": "Vervoerswijze",
+      "nameHolderOfTransitProcedure": "Name holder of transit procedure",
       "placeOfLoading": "Plaats van lading",
       "placeOfUnloading": "Plaats van lossing",
       "presentationOfGoodsDateAndTime": "Datum en tijdstip van aanbrenging van de goederen",
@@ -602,7 +604,11 @@
     },
     "officeFilter": {
       "advancedSearchTra": "Douanekantoor van doorgang",
-      "advancedSearchInc": "Douanekantoor van incident"
+      "advancedSearchInc": "Douanekantoor van incident",
+      "allOffices": "Alle kantoren",
+      "myOffices": "Mijn kantoren",
+      "specificOffice": "{{count}} geselecteerd kantoor",
+      "specificOffices": "{{count}} geselecteerde kantoren"
     },
     "page": {
       "longRange": "{{startIndexMore1}} - {{endIndex}} van {{length}}",

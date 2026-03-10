@@ -234,6 +234,7 @@
       "releaseDateRange": "Date de libération",
       "incidentDateRange": "Date de notification de l'incident",
       "representative": "Représentant",
+      "tirHolder": "TIR holder",
       "transitOperation": "Opération de transit",
       "declarationGoodsItemNumber": "Numéro d'article de la déclaration de marchandises",
       "discrepancyStatus": "Statut",
@@ -468,6 +469,7 @@
       "locationType": "Type de localisation",
       "methodOfPayment": "Mode de paiement",
       "modeOfTransport": "Mode de transport",
+      "nameHolderOfTransitProcedure": "Name holder of transit procedure",
       "placeOfLoading": "Lieu de chargement",
       "placeOfUnloading": "Lieu de déchargement",
       "presentationOfGoodsDateAndTime": "Date et heure de présentation des marchandises",
@@ -602,7 +604,11 @@
     },
     "officeFilter": {
       "advancedSearchTra": "Bureau de douane de passage",
-      "advancedSearchInc": "Bureau de douane de l'incident"
+      "advancedSearchInc": "Bureau de douane de l'incident",
+      "allOffices": "Tous les bureaux",
+      "myOffices": "Mes bureaux",
+      "specificOffice": "{{count}} Bureau sélectionné",
+      "specificOffices": "{{count}} Bureaux sélectionnés"
     },
     "page": {
       "longRange": "{{startIndexMore1}} - {{endIndex}} par {{length}}",

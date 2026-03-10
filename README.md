@@ -157,23 +157,29 @@ Creates two output files:
 `python ./scripts/find_unused_keys.py ./output/mapped/en.flat.mapped.json C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/remove_unused`
 
 ## 6. delete unused keys:
-**Files:** `FLAT_JSON` + `UNUSED_KEYS_LIST` → `FLAT_JSON_CLEAN`
+**Files:** `FLAT_JSON` + `MAPPING_JSON` + `UNUSED_MAPPED_KEYS_LIST` → `FLAT_JSON_CLEAN`
 
-Removes all unused keys from the flat JSON files based on the unused keys list.
+Removes all unused keys from the flat JSON files based on the unused mapped keys list. Uses the mapping file to find all original sub-keys that correspond to unused mapped keys, then deletes them.
+
+**The script:**
+1. **Reads** the mapping JSON file to get the relationship between mapKeyTo and sub-keys
+2. **Loads** the unused mapped keys list (output from `find_unused_keys.py`)
+3. **Finds** all sub-keys that map to the unused mapped keys
+4. **Removes** ALL those sub-keys from the flat JSON files
 
 ### Preview changes (dry-run)
 
-`python ./scripts/delete_unused_keys.py ./output/mapped/en.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/en.flat.clean.json --dry-run`
+`python ./scripts/delete_unused_keys.py ./output/mapped/en.flat.mapped.json ./output/remove_unused/unused_keys_list.txt --out ./output/remove_unused/en.flat.clean.json --dry-run`
 
 ### Apply actual deletion
 
-`python ./scripts/delete_unused_keys.py ./output/mapped/en.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/en.flat.clean.json`
+`python ./scripts/delete_unused_keys.py ./output/mapped/en.flat.mapped.json ./output/remove_unused/unused_keys_list.txt --out ./output/remove_unused/en.flat.clean.json`
 
-`python ./scripts/delete_unused_keys.py ./output/mapped/fr.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/fr.flat.clean.json`
+`python ./scripts/delete_unused_keys.py ./output/mapped/fr.flat.mapped.json ./output/remove_unused/unused_keys_list.txt --out ./output/remove_unused/fr.flat.clean.json`
 
-`python ./scripts/delete_unused_keys.py ./output/mapped/nl.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/nl.flat.clean.json`
+`python ./scripts/delete_unused_keys.py ./output/mapped/nl.flat.mapped.json ./output/remove_unused/unused_keys_list.txt --out ./output/remove_unused/nl.flat.clean.json`
 
-`python ./scripts/delete_unused_keys.py ./output/mapped/de.flat.mapped.json ./output/remove_unused/unused_keys.txt --out ./output/remove_unused/de.flat.clean.json`
+`python ./scripts/delete_unused_keys.py ./output/mapped/de.flat.mapped.json ./output/remove_unused/unused_keys_list.txt --out ./output/remove_unused/de.flat.clean.json`
 
 ## 7. copy underscore keys back to filtered files:
 
@@ -186,13 +192,16 @@ Uppercase keys should have been copied back after the manual CSS updates in 1.3.
 ## 8. unflatten:
 **Files:** `FLAT_JSON` + `FLAT_JSON_FR` + `FLAT_JSON_NL` + `FLAT_JSON_DE` → All unflattened outputs
 
-[//]: # (- Unflatten all language files at once:)
+- Unflatten all language files at once:
 
-[//]: # ()
-[//]: # (`python ./scripts/unflatten_json.py ./output/flat_separated/en.flat.filtered.json ./output/unflat/en.unflat.json ./output/flat/fr.flat.json ./output/unflat/fr.unflat.json ./output/flat/nl.flat.json ./output/unflat/nl.unflat.json ./output/flat/de.flat.json ./output/unflat/de.unflat.json`)
+`python ./scripts/unflatten_json.py
+./output/remove_unused/en.flat.clean.json ./output/unflat/en.json
+./output/remove_unused/fr.flat.clean.json ./output/unflat/fr.json
+./output/remove_unused/nl.flat.clean.json ./output/unflat/nl.json
+./output/remove_unused/de.flat.clean.json ./output/unflat/de.json
+`
 
-[//]: # ()
-[//]: # (Or unflatten them individually:)
+Or unflatten them individually:
 
 `python ./scripts/unflatten_json.py ./output/remove_unused/en.flat.clean.json ./output/unflat/en.json`
 

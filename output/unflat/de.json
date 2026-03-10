@@ -234,6 +234,7 @@
       "releaseDateRange": "Zeitraum Überlassung",
       "incidentDateRange": "Zeitraum des Vorfalls",
       "representative": "Vertreter",
+      "tirHolder": "TIR holder",
       "transitOperation": "Versandvorgang",
       "declarationGoodsItemNumber": "Warenartikelnummer der Anmeldung",
       "discrepancyStatus": "Status",
@@ -468,6 +469,7 @@
       "locationType": "Art des Ortes",
       "methodOfPayment": "Zahlungsart",
       "modeOfTransport": "Verkehrszweig",
+      "nameHolderOfTransitProcedure": "Name holder of transit procedure",
       "placeOfLoading": "Ladeort",
       "placeOfUnloading": "Entladeort",
       "presentationOfGoodsDateAndTime": "Datum und Uhrzeit der Gestellung der Waren",
@@ -602,7 +604,11 @@
     },
     "officeFilter": {
       "advancedSearchTra": "Durchgangszollstelle",
-      "advancedSearchInc": "Zollamt des Vorfalls"
+      "advancedSearchInc": "Zollamt des Vorfalls",
+      "allOffices": "Alle Zollstellen",
+      "myOffices": "Meine Zollstellen",
+      "specificOffice": "{{count}} ausgewählte Zollstelle",
+      "specificOffices": "{{count}} ausgewählte Zollstellen"
     },
     "page": {
       "longRange": "{{startIndexMore1}} - {{endIndex}} von {{length}}",

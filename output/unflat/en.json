@@ -234,6 +234,7 @@
       "releaseDateRange": "Release date",
       "incidentDateRange": "Incident notification date",
       "representative": "Representative",
+      "tirHolder": "TIR holder",
       "transitOperation": "Transit Operation",
       "declarationGoodsItemNumber": "Declaration goods item number",
       "discrepancyStatus": "Status",
@@ -468,6 +469,7 @@
       "locationType": "Location type",
       "methodOfPayment": "Method of payment",
       "modeOfTransport": "Mode of transport",
+      "nameHolderOfTransitProcedure": "Name holder of transit procedure",
       "placeOfLoading": "Place of loading",
       "placeOfUnloading": "Place of unloading",
       "presentationOfGoodsDateAndTime": "Presentation of goods date and time",
@@ -602,7 +604,11 @@
     },
     "officeFilter": {
       "advancedSearchTra": "Customs office of transit",
-      "advancedSearchInc": "Customs office of incident"
+      "advancedSearchInc": "Customs office of incident",
+      "allOffices": "All offices",
+      "myOffices": "My offices",
+      "specificOffice": "{{count}} Selected office",
+      "specificOffices": "{{count}} Selected offices"
     },
     "page": {
       "longRange": "{{startIndexMore1}} - {{endIndex}} of {{length}}",
