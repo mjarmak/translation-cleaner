@@ -87,22 +87,23 @@ def main():
 
     log(f"Loaded {len(data)} total keys")
 
-    # Separate keys that are already in i18n namespace
-    i18n_keys = {}
-    non_i18n_keys = {}
+    # Separate keys that are in protected i18n namespaces (will not be merged)
+    protected_namespaces = ("i18n.errors", "i18n.options", "i18n.status")
+    protected_keys = {}
+    non_protected_keys = {}
 
     for key, value in data.items():
-        if key.startswith("i18n."):
-            i18n_keys[key] = value
+        if key.startswith(protected_namespaces):
+            protected_keys[key] = value
         else:
-            non_i18n_keys[key] = value
+            non_protected_keys[key] = value
 
-    log(f"Found {len(i18n_keys)} keys already in i18n namespace (will not be merged)")
-    log(f"Found {len(non_i18n_keys)} keys outside i18n namespace (will be deduplicated)")
+    log(f"Found {len(protected_keys)} keys in protected namespaces (i18n.errors, i18n.options, i18n.status) - will not be merged")
+    log(f"Found {len(non_protected_keys)} other keys (will be deduplicated)")
 
-    # Group keys by value (only non-i18n keys)
+    # Group keys by value (only non-protected keys)
     value_to_keys = defaultdict(list)
-    for key, value in non_i18n_keys.items():
+    for key, value in non_protected_keys.items():
         str_value = str(value)
         # Normalize value: trim and remove all spaces
         normalized_value = normalize_value(str_value)
@@ -199,11 +200,11 @@ def main():
 
         all_entries_array.append(entry_obj)
 
-    # Third pass: add i18n namespace keys as non-mergeable entries
-    for key, value in i18n_keys.items():
+    # Third pass: add protected namespace keys as non-mergeable entries
+    for key, value in protected_keys.items():
         original_value = str(value)
 
-        # For i18n keys, mapKeyTo and mapValueTo remain the same (no remapping)
+        # For protected keys, mapKeyTo and mapValueTo remain the same (no remapping)
         map_to = key
         map_value_to = original_value
 
@@ -240,9 +241,9 @@ def main():
 
     duplicates_count = len(duplicates)
     non_duplicates_count = len(non_duplicates)
-    i18n_count = len(i18n_keys)
+    protected_count = len(protected_keys)
     total_keys = sum(len(d['keys']) for d in all_entries_array)
-    log(f"Wrote {len(all_entries_array)} total entries ({duplicates_count} duplicates, {non_duplicates_count} unique, {i18n_count} i18n) with {total_keys} total keys")
+    log(f"Wrote {len(all_entries_array)} total entries ({duplicates_count} duplicates, {non_duplicates_count} unique, {protected_count} protected) with {total_keys} total keys")
     log("✅ Done")
 
 if __name__ == "__main__":

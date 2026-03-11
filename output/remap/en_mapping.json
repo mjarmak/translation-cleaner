@@ -1,5 +1,73 @@
 [
   {
+    "value": "Customs office of destination (declared)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeOfDestinationDeclared",
+    "mapValueTo": "Customs office of destination (declared)",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.customsOfficeOfDestination(declared)",
+        "value": "Customs office of destination (declared)"
+      },
+      {
+        "key": "statusRequest.customsOfficeOfDestinationDeclared",
+        "value": "Customs office of destination(declared)"
+      },
+      {
+        "key": "i18n.common.customsOfficeOfDestinationDeclared",
+        "value": "Declared customs office of destination"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of exit for transit (declared)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeOfExitForTransitDeclared",
+    "mapValueTo": "Customs office of exit for transit (declared)",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.customsOfficeOfExitForTransitDeclared",
+        "value": "Customs office of exit for transit (declared)"
+      },
+      {
+        "key": "statusRequest.customsOfficeOfExitForTransitDeclared",
+        "value": "Customs office of exit for transit(declared)"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of transit (declared)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeOfTransitDeclared",
+    "mapValueTo": "Customs office of transit (declared)",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.customsOfficeOfTransitDeclared",
+        "value": "Customs office of transit (declared)"
+      },
+      {
+        "key": "statusRequest.customsOfficeOfTransitDeclared",
+        "value": "Customs office of transit(declared)"
+      }
+    ]
+  },
+  {
+    "value": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg, — from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level.",
+    "count": 2,
+    "mapKeyTo": "i18n.common.weight",
+    "mapValueTo": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg, — from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level.",
+    "keys": [
+      {
+        "key": "generalInfoForm.tooltips.weight",
+        "value": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg, — from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level."
+      },
+      {
+        "key": "houseConsignItem.tooltip.grossMass",
+        "value": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg,— from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level."
+      }
+    ]
+  },
+  {
     "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
     "count": 2,
     "mapKeyTo": "i18n.errors.unforeseenProblemDescription",
@@ -44,6 +112,22 @@
       {
         "key": "releaseMovement.errorContainer.title",
         "value": "{{number}} errors found. Kindly check, rectify and resubmit."
+      }
+    ]
+  },
+  {
+    "value": "UN number",
+    "count": 2,
+    "mapKeyTo": "i18n.common.unNumber",
+    "mapValueTo": "UN Number",
+    "keys": [
+      {
+        "key": "houseConsignItem.lables.unNumber",
+        "value": "UN number"
+      },
+      {
+        "key": "registerControlResultDialog.unNumber",
+        "value": "unNumber"
       }
     ]
   },
@@ -468,18 +552,6 @@
     ]
   },
   {
-    "value": "Customs office of destination (declared)",
-    "count": 1,
-    "mapKeyTo": "generalInfoForm.lables.customsOfficeOfDestination(declared)",
-    "mapValueTo": "Customs office of destination (declared)",
-    "keys": [
-      {
-        "key": "generalInfoForm.lables.customsOfficeOfDestination(declared)",
-        "value": "Customs office of destination (declared)"
-      }
-    ]
-  },
-  {
     "value": "Customs office of destination (actual)",
     "count": 1,
     "mapKeyTo": "generalInfoForm.lables.customsOfficeOfDestination(actual)",
@@ -488,30 +560,6 @@
       {
         "key": "generalInfoForm.lables.customsOfficeOfDestination(actual)",
         "value": "Customs office of destination (actual)"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of exit for transit (declared)",
-    "count": 1,
-    "mapKeyTo": "generalInfoForm.lables.customsOfficeOfExitForTransitDeclared",
-    "mapValueTo": "Customs office of exit for transit (declared)",
-    "keys": [
-      {
-        "key": "generalInfoForm.lables.customsOfficeOfExitForTransitDeclared",
-        "value": "Customs office of exit for transit (declared)"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of transit (declared)",
-    "count": 1,
-    "mapKeyTo": "generalInfoForm.lables.customsOfficeOfTransitDeclared",
-    "mapValueTo": "Customs office of transit (declared)",
-    "keys": [
-      {
-        "key": "generalInfoForm.lables.customsOfficeOfTransitDeclared",
-        "value": "Customs office of transit (declared)"
       }
     ]
   },
@@ -1868,18 +1916,6 @@
       {
         "key": "generalInfoForm.tooltips.un/locode",
         "value": "Enter the location code where the goods are available which is mentioned in your authorsation authorised consignee or approved place."
-      }
-    ]
-  },
-  {
-    "value": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg, — from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level.",
-    "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.weight",
-    "mapValueTo": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg, — from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level.",
-    "keys": [
-      {
-        "key": "generalInfoForm.tooltips.weight",
-        "value": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg, — from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level."
       }
     ]
   },
@@ -4154,7 +4190,7 @@
   {
     "value": "Validation request could not be processed",
     "count": 1,
-    "mapKeyTo": "unforeseenProblemTitle",
+    "mapKeyTo": "declarationOverview.unforeseenProblem.title",
     "mapValueTo": "Validation request could not be processed",
     "keys": [
       {
@@ -5064,18 +5100,6 @@
     ]
   },
   {
-    "value": "UN number",
-    "count": 1,
-    "mapKeyTo": "houseConsignItem.lables.unNumber",
-    "mapValueTo": "UN number",
-    "keys": [
-      {
-        "key": "houseConsignItem.lables.unNumber",
-        "value": "UN number"
-      }
-    ]
-  },
-  {
     "value": "The Customs Union and Statistics (CUS) number is the identifier assigned within the European Customs Inventory of Chemical Substances (ECICS) to mainly chemical substances and preparations.The declarant may provide this code on a voluntary basis where no measure laid down in Union legislation as published in TARIC exists for the goods concerned, i.e. where providing this code would represent a lesser burden than a full textual description of the product",
     "count": 1,
     "mapKeyTo": "houseConsignItem.tooltip.cusCode",
@@ -5108,18 +5132,6 @@
       {
         "key": "houseConsignItem.tooltip.goodsItemNumber",
         "value": "Number of the item contained in the declaration, the summary declaration, notification or proof of the customs status of Union goods, where there is more than one item of goods."
-      }
-    ]
-  },
-  {
-    "value": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg,— from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level.",
-    "count": 1,
-    "mapKeyTo": "houseConsignItem.tooltip.grossMass",
-    "mapValueTo": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg,— from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level.",
-    "keys": [
-      {
-        "key": "houseConsignItem.tooltip.grossMass",
-        "value": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg,— from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level."
       }
     ]
   },
@@ -6068,18 +6080,6 @@
       {
         "key": "registerControlResultDialog.typeOfPackage",
         "value": "Type of package"
-      }
-    ]
-  },
-  {
-    "value": "unNumber",
-    "count": 1,
-    "mapKeyTo": "registerControlResultDialog.unNumber",
-    "mapValueTo": "unNumber",
-    "keys": [
-      {
-        "key": "registerControlResultDialog.unNumber",
-        "value": "unNumber"
       }
     ]
   },
@@ -7200,18 +7200,6 @@
     ]
   },
   {
-    "value": "Customs office of destination(declared)",
-    "count": 1,
-    "mapKeyTo": "statusRequest.customsOfficeOfDestinationDeclared",
-    "mapValueTo": "Customs office of destination(declared)",
-    "keys": [
-      {
-        "key": "statusRequest.customsOfficeOfDestinationDeclared",
-        "value": "Customs office of destination(declared)"
-      }
-    ]
-  },
-  {
     "value": "Customs office of exit for transit(actual)",
     "count": 1,
     "mapKeyTo": "statusRequest.customsOfficeOfExitForTransitActual",
@@ -7220,30 +7208,6 @@
       {
         "key": "statusRequest.customsOfficeOfExitForTransitActual",
         "value": "Customs office of exit for transit(actual)"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of exit for transit(declared)",
-    "count": 1,
-    "mapKeyTo": "statusRequest.customsOfficeOfExitForTransitDeclared",
-    "mapValueTo": "Customs office of exit for transit(declared)",
-    "keys": [
-      {
-        "key": "statusRequest.customsOfficeOfExitForTransitDeclared",
-        "value": "Customs office of exit for transit(declared)"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of transit(declared)",
-    "count": 1,
-    "mapKeyTo": "statusRequest.customsOfficeOfTransitDeclared",
-    "mapValueTo": "Customs office of transit(declared)",
-    "keys": [
-      {
-        "key": "statusRequest.customsOfficeOfTransitDeclared",
-        "value": "Customs office of transit(declared)"
       }
     ]
   },
@@ -10424,18 +10388,6 @@
       {
         "key": "i18n.common.customsOfficeOfDeparture",
         "value": "Customs office of departure"
-      }
-    ]
-  },
-  {
-    "value": "Declared customs office of destination",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeOfDestinationDeclared",
-    "mapValueTo": "Declared customs office of destination",
-    "keys": [
-      {
-        "key": "i18n.common.customsOfficeOfDestinationDeclared",
-        "value": "Declared customs office of destination"
       }
     ]
   },

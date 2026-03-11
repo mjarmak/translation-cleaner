@@ -87,6 +87,18 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 - `mapValueTo`: The value in PascalCase (every word starts with uppercase) selected from the duplicate group. If no PascalCase value exists, uses the original value
 - `keys`: Array of all keys and their values
 
+**Value Normalization:** Keys are automatically merged if they have the same value after:
+1. **Trimming** leading and trailing whitespace
+2. **Removing all internal spaces**
+
+For example, these values would be merged into a single group:
+- `"Container Indicator"`
+- `"Container  Indicator"` (double space)
+- `"  Container Indicator  "` (leading/trailing spaces)
+- `"Container    Indicator"` (multiple spaces)
+
+This helps identify translation keys that are semantically identical but have different spacing.
+
 **Note:** Keys that are already in the `i18n` namespace are NOT merged/deduplicated. They are included in the output with `count: 1` and `mapKeyTo` set to the original key itself, preventing any remapping.
 
 #### case insensitive
