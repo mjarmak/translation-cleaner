@@ -98,17 +98,6 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 [//]: # ()
 [//]: # (`python ./scripts/canonical_map.py ./output/result/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates-case-sensitive.json --prefix i18n.common`)
 
-#### validate no duplicate mapKeyTo values
-
-- After creating the duplicates JSON file, validate that there are no duplicate `mapKeyTo` values:
-
-`python ./scripts/validate_duplicates.py ./output/remap/en_mapping.json`
-- Ensure that the mapping file contains all keys from the flat JSON file (no keys are missing):
-
-`python ./scripts/validate_mapping_coverage.py ./output/result/en.flat.filtered.json ./output/remap/en_mapping.json`
-
-**Note:** The `canonical_map.py` script automatically resolves duplicate `mapKeyTo` conflicts by appending hash suffixes (e.g., `mapKeyTo_hash123`), so this validation should pass if the script ran correctly.
-
 ### 3.2. sort mapping by value:
 **Files:** `MAPPING_JSON` → Sorted `MAPPING_JSON`
 
@@ -130,13 +119,24 @@ Improves the mapping file by moving keys with values below 6 words to `i18n.comm
 - Keys already under `i18n` namespace are ignored (not moved)
 - Output replaces the input file or can be saved to a new file
 
-`python ./scripts/reorganize_mapping_by_word_count.py ./output/remap/en_mapping.json -o ./output/remap/en_mapping_reorganized.json`
+`python ./scripts/reorganize_mapping_by_word_count.py ./output/remap/en_mapping_sorted.json -o ./output/remap/en_mapping_reorganized.json`
 
 **Example transformations:**
 - `advanceSearch.labels.containerIndicator` (value: "Container Indicator" - 2 words) → `i18n.common.containerIndicator`
 - `form.labels.submit` (value: "Submit" - 1 word) → `i18n.common.submit`
 - `helpText.invalidEmail` (value: "Please enter a valid email address" - 6 words, not moved)
-- 
+
+## 3.4 validate no duplicate mapKeyTo values
+
+- After creating the duplicates JSON file, validate that there are no duplicate `mapKeyTo` values:
+
+`python ./scripts/validate_duplicates.py ./output/remap/en_mapping.json`
+- Ensure that the mapping file contains all keys from the flat JSON file (no keys are missing):
+
+`python ./scripts/validate_mapping_coverage.py ./output/flat/en.flat.json ./output/remap/en_mapping.json`
+
+**Note:** The `canonical_map.py` script automatically resolves duplicate `mapKeyTo` conflicts by appending hash suffixes (e.g., `mapKeyTo_hash123`), so this validation should pass if the script ran correctly.
+
 ## 4. rename keys (in project and translation files):
 **Files:** `FLAT_JSON` + `DUPLICATES.JSON` → `FLAT_JSON_MAPPED` + Updated Project Files
 
@@ -146,15 +146,15 @@ Applies canonical mapping to rename keys by `mapKeyTo` and optionally rename val
 
 For **English**: Use `--mapValues` to replace both keys and values
 
-`python ./scripts/apply_mapping_flat_json.py ./output/result/en.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/en.flat.mapped.json --mapValues`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/en.flat.json ./output/remap/en_mapping_reorganized.json --out ./output/mapped/en.flat.mapped.json --mapValues`
 
 For **other languages**: Omit `--mapValues` to replace only keys and keep original language values
 
-`python ./scripts/apply_mapping_flat_json.py ./output/result/fr.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/fr.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/fr.flat.json ./output/remap/en_mapping_reorganized.json --out ./output/mapped/fr.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/result/nl.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/nl.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/nl.flat.json ./output/remap/en_mapping_reorganized.json --out ./output/mapped/nl.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/result/de.flat.filtered.json ./output/remap/en_mapping.json --out ./output/mapped/de.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/de.flat.json ./output/remap/en_mapping_reorganized.json --out ./output/mapped/de.flat.mapped.json`
 
 The `apply_mapping_flat_json.py` script does the following in one pass:
 1. **Copies** the input file to a new output file
@@ -167,29 +167,29 @@ Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, `.htm`, `.feature`
 
 ### Dry-Run mapping:
 
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_mapping.json --dry-run`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_mapping_reorganized.json --dry-run`
 
 ### Actual mapping:
 
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_mapping.json`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_mapping_reorganized.json`
 
 ### Mapping on tests:
 
 #### Playwright
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/remap/en_mapping.json`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/remap/en_mapping_reorganized.json`
 
 #### Cypress
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/remap/en_mapping.json`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/remap/en_mapping_reorganized.json`
 
 ### Mapping on tests with label prefix:
 
 To prepend prefixes to all keys being searched, use the `--prefix` option with comma-separated values:
 
 #### Playwright
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/remap/en_mapping.json --prefix "label-,input-,mat-select-,textarea-"`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/remap/en_mapping_reorganized.json --prefix "label-,input-,mat-select-,textarea-"`
 
 #### Cypress
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/remap/en_mapping.json --prefix "label-,input-,mat-select-,textarea-"`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/remap/en_mapping_reorganized.json --prefix "label-,input-,mat-select-,textarea-"`
 
 ## 5. find unused translation keys:
 **Files:** `MAPPING_JSON` + `PROJECT_SRC` → `UNUSED_MAPPED_KEYS_LIST`

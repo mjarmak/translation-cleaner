@@ -44,6 +44,10 @@ def generate_hash_suffix(value: str) -> str:
     hash_b64 = base64.b64encode(hash_bytes).decode().rstrip('=')  # Remove padding
     return 'hash_' + hash_b64
 
+def normalize_value(value: str) -> str:
+    """Normalize value by trimming and removing all spaces."""
+    return str(value).strip().replace(" ", "")
+
 def main():
     parser = argparse.ArgumentParser(
         description="Find duplicated translation values and generate JSON duplicates file"
@@ -100,15 +104,29 @@ def main():
     value_to_keys = defaultdict(list)
     for key, value in non_i18n_keys.items():
         str_value = str(value)
-        # Use lowercase value as the grouping key if ignore_case is True
-        group_key = str_value.lower() if ignore_case else str_value
+        # Normalize value: trim and remove all spaces
+        normalized_value = normalize_value(str_value)
+        # Use lowercase normalized value as the grouping key if ignore_case is True
+        group_key = normalized_value.lower() if ignore_case else normalized_value
         value_to_keys[group_key].append((str_value, key))
 
     # Separate duplicates and non-duplicates
     duplicates = {value: keys for value, keys in value_to_keys.items() if len(keys) > 1}
     non_duplicates = {value: keys for value, keys in value_to_keys.items() if len(keys) == 1}
-    log(f"Found {len(duplicates)} duplicated values")
+    log(f"Found {len(duplicates)} duplicated values (after normalization)")
     log(f"Found {len(non_duplicates)} unique values")
+
+    # Log examples of merged values
+    merged_count = 0
+    for group_key, key_list in duplicates.items():
+        if len(key_list) > 1:
+            original_values = list(set([k[0] for k in key_list]))
+            if len(original_values) > 1:
+                merged_count += 1
+                if merged_count <= 10:  # Show first 10 examples
+                    log(f"  Merged: {original_values[:3]} (normalized to: '{group_key}')")
+    if merged_count > 10:
+        log(f"  ... and {merged_count - 10} more merged value groups")
 
     # -------------------------------------------------
     # Build JSON structure (all entries)
