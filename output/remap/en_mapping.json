@@ -2,7 +2,7 @@
   {
     "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
     "count": 2,
-    "mapKeyTo": "unforeseenProblemDescription",
+    "mapKeyTo": "i18n.errors.unforeseenProblemDescription",
     "mapValueTo": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
     "keys": [
       {
@@ -12,6 +12,22 @@
       {
         "key": "releaseMovement.unforeseenProblem.message",
         "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
+      }
+    ]
+  },
+  {
+    "value": "Errors will only be rectified after the resubmission of the form.",
+    "count": 2,
+    "mapKeyTo": "i18n.errors.errorRectificationDescription",
+    "mapValueTo": "Errors will only be rectified after the resubmission of the form.",
+    "keys": [
+      {
+        "key": "declarationOverview.errorContainer.message",
+        "value": "Errors will only be rectified after the resubmission of the form."
+      },
+      {
+        "key": "releaseMovement.errorContainer.message",
+        "value": "Errors will only be rectified after the resubmission of the form."
       }
     ]
   },
@@ -4148,18 +4164,6 @@
     ]
   },
   {
-    "value": "Errors will only be rectified after the resubmission of the transit declaration.",
-    "count": 1,
-    "mapKeyTo": "declarationOverview.errorContainer.message",
-    "mapValueTo": "Errors will only be rectified after the resubmission of the form.",
-    "keys": [
-      {
-        "key": "declarationOverview.errorContainer.message",
-        "value": "Errors will only be rectified after the resubmission of the transit declaration."
-      }
-    ]
-  },
-  {
     "value": "Add",
     "count": 1,
     "mapKeyTo": "des.registerArrivalNotification.actions.add",
@@ -6232,18 +6236,6 @@
       {
         "key": "releaseMovement.unforeseenProblem.title",
         "value": "Release Movement could not be preformed"
-      }
-    ]
-  },
-  {
-    "value": "Errors will only be rectified after the resubmission of the form.",
-    "count": 1,
-    "mapKeyTo": "releaseMovement.errorContainer.message",
-    "mapValueTo": "Errors will only be rectified after the resubmission of the form.",
-    "keys": [
-      {
-        "key": "releaseMovement.errorContainer.message",
-        "value": "Errors will only be rectified after the resubmission of the form."
       }
     ]
   },
