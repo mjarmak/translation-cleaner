@@ -1,5 +1,57 @@
 [
   {
+    "value": "Country of destination",
+    "count": 2,
+    "mapKeyTo": "i18n.common.countryOfDestination",
+    "mapValueTo": "Country of destination",
+    "keys": [
+      {
+        "key": "i18n.common.countrydest",
+        "value": "Country of destination"
+      },
+      {
+        "key": "i18n.common.countryOfDestination",
+        "value": "Country of destination"
+      }
+    ]
+  },
+  {
+    "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
+    "count": 3,
+    "mapKeyTo": "i18n.common.unforeseenProblemDescription",
+    "mapValueTo": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
+    "keys": [
+      {
+        "key": "i18n.common.errorGeneralDescription",
+        "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
+      },
+      {
+        "key": "declarationOverview.unforeseenProblem.message",
+        "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
+      },
+      {
+        "key": "releaseMovement.unforeseenProblem.message",
+        "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
+      }
+    ]
+  },
+  {
+    "value": "Customs office of destination(actual)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeOfDestinationActual",
+    "mapValueTo": "Customs office of destination (actual)",
+    "keys": [
+      {
+        "key": "i18n.common.customsOfficeOfDestinationActual",
+        "value": "Customs office of destination(actual)"
+      },
+      {
+        "key": "generalInfoForm.lables.customsOfficeOfDestination(actual)",
+        "value": "Customs office of destination (actual)"
+      }
+    ]
+  },
+  {
     "value": "Customs office of destination (declared)",
     "count": 2,
     "mapKeyTo": "i18n.common.customsOfficeOfDestinationDeclared",
@@ -68,22 +120,6 @@
     ]
   },
   {
-    "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
-    "count": 2,
-    "mapKeyTo": "i18n.errors.unforeseenProblemDescription",
-    "mapValueTo": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
-    "keys": [
-      {
-        "key": "declarationOverview.unforeseenProblem.message",
-        "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
-      },
-      {
-        "key": "releaseMovement.unforeseenProblem.message",
-        "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
-      }
-    ]
-  },
-  {
     "value": "Errors will only be rectified after the resubmission of the form.",
     "count": 2,
     "mapKeyTo": "i18n.errors.errorRectificationDescription",
@@ -128,6 +164,2958 @@
       {
         "key": "registerControlResultDialog.unNumber",
         "value": "unNumber"
+      }
+    ]
+  },
+  {
+    "value": "UN/LOCODE",
+    "count": 1,
+    "mapKeyTo": "i18n.common.unlocode",
+    "mapValueTo": "UN/LOCODE",
+    "keys": [
+      {
+        "key": "i18n.common.unlocode",
+        "value": "UN/LOCODE"
+      }
+    ]
+  },
+  {
+    "value": "Advanced Search",
+    "count": 1,
+    "mapKeyTo": "i18n.common.advancedSearch",
+    "mapValueTo": "Advanced Search",
+    "keys": [
+      {
+        "key": "i18n.common.advancedSearch",
+        "value": "Advanced Search"
+      }
+    ]
+  },
+  {
+    "value": "EORI",
+    "count": 1,
+    "mapKeyTo": "i18n.common.eori",
+    "mapValueTo": "EORI",
+    "keys": [
+      {
+        "key": "i18n.common.eori",
+        "value": "EORI"
+      }
+    ]
+  },
+  {
+    "value": "LRN",
+    "count": 1,
+    "mapKeyTo": "i18n.common.lrn",
+    "mapValueTo": "LRN",
+    "keys": [
+      {
+        "key": "i18n.common.lrn",
+        "value": "LRN"
+      }
+    ]
+  },
+  {
+    "value": "MRN",
+    "count": 1,
+    "mapKeyTo": "i18n.common.mrn",
+    "mapValueTo": "MRN",
+    "keys": [
+      {
+        "key": "i18n.common.mrn",
+        "value": "MRN"
+      }
+    ]
+  },
+  {
+    "value": "MRN/CRN",
+    "count": 1,
+    "mapKeyTo": "i18n.common.mrnAndCrn",
+    "mapValueTo": "MRN/CRN",
+    "keys": [
+      {
+        "key": "i18n.common.mrnAndCrn",
+        "value": "MRN/CRN"
+      }
+    ]
+  },
+  {
+    "value": "House Consignment",
+    "count": 1,
+    "mapKeyTo": "i18n.common.houseConsignment",
+    "mapValueTo": "House Consignment",
+    "keys": [
+      {
+        "key": "i18n.common.houseConsignment",
+        "value": "House Consignment"
+      }
+    ]
+  },
+  {
+    "value": "Save As Template",
+    "count": 1,
+    "mapKeyTo": "i18n.common.saveAsTemplate",
+    "mapValueTo": "Save As Template",
+    "keys": [
+      {
+        "key": "i18n.common.saveAsTemplate",
+        "value": "Save As Template"
+      }
+    ]
+  },
+  {
+    "value": "Search",
+    "count": 1,
+    "mapKeyTo": "i18n.common.search",
+    "mapValueTo": "Search",
+    "keys": [
+      {
+        "key": "i18n.common.search",
+        "value": "Search"
+      }
+    ]
+  },
+  {
+    "value": "OK",
+    "count": 1,
+    "mapKeyTo": "i18n.common.ok",
+    "mapValueTo": "OK",
+    "keys": [
+      {
+        "key": "i18n.common.ok",
+        "value": "OK"
+      }
+    ]
+  },
+  {
+    "value": "GRN",
+    "count": 1,
+    "mapKeyTo": "i18n.common.grn",
+    "mapValueTo": "GRN",
+    "keys": [
+      {
+        "key": "i18n.common.grn",
+        "value": "GRN"
+      }
+    ]
+  },
+  {
+    "value": "View Enquiries",
+    "count": 1,
+    "mapKeyTo": "i18n.common.viewEnquiries",
+    "mapValueTo": "View Enquiries",
+    "keys": [
+      {
+        "key": "i18n.common.viewEnquiries",
+        "value": "View Enquiries"
+      }
+    ]
+  },
+  {
+    "value": "Additional Information",
+    "count": 1,
+    "mapKeyTo": "i18n.common.additionalInformationSub",
+    "mapValueTo": "Additional Information",
+    "keys": [
+      {
+        "key": "i18n.common.additionalInformationSub",
+        "value": "Additional Information"
+      }
+    ]
+  },
+  {
+    "value": "Additional Reference",
+    "count": 1,
+    "mapKeyTo": "i18n.common.additionalReferenceSub",
+    "mapValueTo": "Additional Reference",
+    "keys": [
+      {
+        "key": "i18n.common.additionalReferenceSub",
+        "value": "Additional Reference"
+      }
+    ]
+  },
+  {
+    "value": "Authorisation",
+    "count": 1,
+    "mapKeyTo": "i18n.common.authorisationSub",
+    "mapValueTo": "Authorisation",
+    "keys": [
+      {
+        "key": "i18n.common.authorisationSub",
+        "value": "Authorisation"
+      }
+    ]
+  },
+  {
+    "value": "Container",
+    "count": 1,
+    "mapKeyTo": "i18n.common.container",
+    "mapValueTo": "Container",
+    "keys": [
+      {
+        "key": "i18n.common.container",
+        "value": "Container"
+      }
+    ]
+  },
+  {
+    "value": "General Information",
+    "count": 1,
+    "mapKeyTo": "i18n.common.generalInformation",
+    "mapValueTo": "General Information",
+    "keys": [
+      {
+        "key": "i18n.common.generalInformation",
+        "value": "General Information"
+      }
+    ]
+  },
+  {
+    "value": "Guarantee Reference",
+    "count": 1,
+    "mapKeyTo": "i18n.common.guaranteeReferenceSub",
+    "mapValueTo": "Guarantee Reference",
+    "keys": [
+      {
+        "key": "i18n.common.guaranteeReferenceSub",
+        "value": "Guarantee Reference"
+      }
+    ]
+  },
+  {
+    "value": "Guarantee",
+    "count": 1,
+    "mapKeyTo": "i18n.common.guaranteeSub",
+    "mapValueTo": "Guarantee",
+    "keys": [
+      {
+        "key": "i18n.common.guaranteeSub",
+        "value": "Guarantee"
+      }
+    ]
+  },
+  {
+    "value": "Packaging",
+    "count": 1,
+    "mapKeyTo": "i18n.common.packagingSub",
+    "mapValueTo": "Packaging",
+    "keys": [
+      {
+        "key": "i18n.common.packagingSub",
+        "value": "Packaging"
+      }
+    ]
+  },
+  {
+    "value": "Previous Document",
+    "count": 1,
+    "mapKeyTo": "i18n.common.previousDocumentSub",
+    "mapValueTo": "Previous Document",
+    "keys": [
+      {
+        "key": "i18n.common.previousDocumentSub",
+        "value": "Previous Document"
+      }
+    ]
+  },
+  {
+    "value": "Supporting Document",
+    "count": 1,
+    "mapKeyTo": "i18n.common.supportingDocumentSub",
+    "mapValueTo": "Supporting Document",
+    "keys": [
+      {
+        "key": "i18n.common.supportingDocumentSub",
+        "value": "Supporting Document"
+      }
+    ]
+  },
+  {
+    "value": "Transport Document",
+    "count": 1,
+    "mapKeyTo": "i18n.common.transportDocumentSub",
+    "mapValueTo": "Transport Document",
+    "keys": [
+      {
+        "key": "i18n.common.transportDocumentSub",
+        "value": "Transport Document"
+      }
+    ]
+  },
+  {
+    "value": "Guarantees Under Registration",
+    "count": 1,
+    "mapKeyTo": "i18n.common.guaranteesUnderRegistration",
+    "mapValueTo": "Guarantees Under Registration",
+    "keys": [
+      {
+        "key": "i18n.common.guaranteesUnderRegistration",
+        "value": "Guarantees Under Registration"
+      }
+    ]
+  },
+  {
+    "value": "Item",
+    "count": 1,
+    "mapKeyTo": "i18n.common.deleteHouseConsignmentItem",
+    "mapValueTo": "Item",
+    "keys": [
+      {
+        "key": "i18n.common.deleteHouseConsignmentItem",
+        "value": "Item"
+      }
+    ]
+  },
+  {
+    "value": "Saved Drafts",
+    "count": 1,
+    "mapKeyTo": "i18n.common.drafts",
+    "mapValueTo": "Saved Drafts",
+    "keys": [
+      {
+        "key": "i18n.common.drafts",
+        "value": "Saved Drafts"
+      }
+    ]
+  },
+  {
+    "value": "View Recoveries",
+    "count": 1,
+    "mapKeyTo": "i18n.common.recovery-requests",
+    "mapValueTo": "View Recoveries",
+    "keys": [
+      {
+        "key": "i18n.common.recovery-requests",
+        "value": "View Recoveries"
+      }
+    ]
+  },
+  {
+    "value": "Home",
+    "count": 1,
+    "mapKeyTo": "i18n.common.home",
+    "mapValueTo": "Home",
+    "keys": [
+      {
+        "key": "i18n.common.home",
+        "value": "Home"
+      }
+    ]
+  },
+  {
+    "value": "Invalidation Requests",
+    "count": 1,
+    "mapKeyTo": "i18n.common.invalidation-requests",
+    "mapValueTo": "Invalidation Requests",
+    "keys": [
+      {
+        "key": "i18n.common.invalidation-requests",
+        "value": "Invalidation Requests"
+      }
+    ]
+  },
+  {
+    "value": "Movement Under Resolution",
+    "count": 1,
+    "mapKeyTo": "i18n.common.movement-under-resolution",
+    "mapValueTo": "Movement Under Resolution",
+    "keys": [
+      {
+        "key": "i18n.common.movement-under-resolution",
+        "value": "Movement Under Resolution"
+      }
+    ]
+  },
+  {
+    "value": "Office Of Departure",
+    "count": 1,
+    "mapKeyTo": "i18n.common.officeOfDeparture",
+    "mapValueTo": "Office Of Departure",
+    "keys": [
+      {
+        "key": "i18n.common.officeOfDeparture",
+        "value": "Office Of Departure"
+      }
+    ]
+  },
+  {
+    "value": "Office Of Destination",
+    "count": 1,
+    "mapKeyTo": "i18n.common.officeOfDestination",
+    "mapValueTo": "Office Of Destination",
+    "keys": [
+      {
+        "key": "i18n.common.officeOfDestination",
+        "value": "Office Of Destination"
+      }
+    ]
+  },
+  {
+    "value": "Recovery Request",
+    "count": 1,
+    "mapKeyTo": "i18n.common.recovery-request",
+    "mapValueTo": "Recovery Request",
+    "keys": [
+      {
+        "key": "i18n.common.recovery-request",
+        "value": "Recovery Request"
+      }
+    ]
+  },
+  {
+    "value": "Register Arrival Notification",
+    "count": 1,
+    "mapKeyTo": "i18n.common.registerArrivalNotification",
+    "mapValueTo": "Register Arrival Notification",
+    "keys": [
+      {
+        "key": "i18n.common.registerArrivalNotification",
+        "value": "Register Arrival Notification"
+      }
+    ]
+  },
+  {
+    "value": "Release Requests",
+    "count": 1,
+    "mapKeyTo": "i18n.common.release-requests",
+    "mapValueTo": "Release Requests",
+    "keys": [
+      {
+        "key": "i18n.common.release-requests",
+        "value": "Release Requests"
+      }
+    ]
+  },
+  {
+    "value": "Request On Non-arrived Movement",
+    "count": 1,
+    "mapKeyTo": "i18n.common.request-on-non-arrived-movement",
+    "mapValueTo": "Request On Non-arrived Movement",
+    "keys": [
+      {
+        "key": "i18n.common.request-on-non-arrived-movement",
+        "value": "Request On Non-arrived Movement"
+      }
+    ]
+  },
+  {
+    "value": "History",
+    "count": 1,
+    "mapKeyTo": "i18n.common.history",
+    "mapValueTo": "History",
+    "keys": [
+      {
+        "key": "i18n.common.history",
+        "value": "History"
+      }
+    ]
+  },
+  {
+    "value": "Risk And Control Information",
+    "count": 1,
+    "mapKeyTo": "i18n.common.riskAndControlInfo",
+    "mapValueTo": "Risk And Control Information",
+    "keys": [
+      {
+        "key": "i18n.common.riskAndControlInfo",
+        "value": "Risk And Control Information"
+      }
+    ]
+  },
+  {
+    "value": "Incidents",
+    "count": 1,
+    "mapKeyTo": "i18n.common.incidents",
+    "mapValueTo": "Incidents",
+    "keys": [
+      {
+        "key": "i18n.common.incidents",
+        "value": "Incidents"
+      }
+    ]
+  },
+  {
+    "value": "Invalidation Request",
+    "count": 1,
+    "mapKeyTo": "i18n.common.invalidation_request",
+    "mapValueTo": "Invalidation Request",
+    "keys": [
+      {
+        "key": "i18n.common.invalidation_request",
+        "value": "Invalidation Request"
+      }
+    ]
+  },
+  {
+    "value": "Address",
+    "count": 1,
+    "mapKeyTo": "i18n.common.address",
+    "mapValueTo": "Address",
+    "keys": [
+      {
+        "key": "i18n.common.address",
+        "value": "Address"
+      }
+    ]
+  },
+  {
+    "value": "City",
+    "count": 1,
+    "mapKeyTo": "i18n.common.city",
+    "mapValueTo": "City",
+    "keys": [
+      {
+        "key": "i18n.common.city",
+        "value": "City"
+      }
+    ]
+  },
+  {
+    "value": "Code",
+    "count": 1,
+    "mapKeyTo": "i18n.common.code",
+    "mapValueTo": "Code",
+    "keys": [
+      {
+        "key": "i18n.common.code",
+        "value": "Code"
+      }
+    ]
+  },
+  {
+    "value": "Container Identification Number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.containerIdentificationNumber",
+    "mapValueTo": "Container Identification Number",
+    "keys": [
+      {
+        "key": "i18n.common.containerIdentificationNumber",
+        "value": "Container Identification Number"
+      }
+    ]
+  },
+  {
+    "value": "Container Indicator",
+    "count": 1,
+    "mapKeyTo": "i18n.common.containerIndicator",
+    "mapValueTo": "Container Indicator",
+    "keys": [
+      {
+        "key": "i18n.common.containerIndicator",
+        "value": "Container Indicator"
+      }
+    ]
+  },
+  {
+    "value": "Country",
+    "count": 1,
+    "mapKeyTo": "i18n.common.country",
+    "mapValueTo": "Country",
+    "keys": [
+      {
+        "key": "i18n.common.country",
+        "value": "Country"
+      }
+    ]
+  },
+  {
+    "value": "Date",
+    "count": 1,
+    "mapKeyTo": "i18n.common.date",
+    "mapValueTo": "Date",
+    "keys": [
+      {
+        "key": "i18n.common.date",
+        "value": "Date"
+      }
+    ]
+  },
+  {
+    "value": "Identification Number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.identificationNumber",
+    "mapValueTo": "Identification Number",
+    "keys": [
+      {
+        "key": "i18n.common.identificationNumber",
+        "value": "Identification Number"
+      }
+    ]
+  },
+  {
+    "value": "Incident",
+    "count": 1,
+    "mapKeyTo": "i18n.common.incident",
+    "mapValueTo": "Incident",
+    "keys": [
+      {
+        "key": "i18n.common.incident",
+        "value": "Incident"
+      }
+    ]
+  },
+  {
+    "value": "Location",
+    "count": 1,
+    "mapKeyTo": "i18n.common.location",
+    "mapValueTo": "Location",
+    "keys": [
+      {
+        "key": "i18n.common.location",
+        "value": "Location"
+      }
+    ]
+  },
+  {
+    "value": "Nationality",
+    "count": 1,
+    "mapKeyTo": "i18n.common.nationality",
+    "mapValueTo": "Nationality",
+    "keys": [
+      {
+        "key": "i18n.common.nationality",
+        "value": "Nationality"
+      }
+    ]
+  },
+  {
+    "value": "Number of seals",
+    "count": 1,
+    "mapKeyTo": "i18n.common.numberOfSeals",
+    "mapValueTo": "Number of seals",
+    "keys": [
+      {
+        "key": "i18n.common.numberOfSeals",
+        "value": "Number of seals"
+      }
+    ]
+  },
+  {
+    "value": "Place",
+    "count": 1,
+    "mapKeyTo": "i18n.common.place",
+    "mapValueTo": "Place",
+    "keys": [
+      {
+        "key": "i18n.common.place",
+        "value": "Place"
+      }
+    ]
+  },
+  {
+    "value": "Postcode",
+    "count": 1,
+    "mapKeyTo": "i18n.common.postcode",
+    "mapValueTo": "Postcode",
+    "keys": [
+      {
+        "key": "i18n.common.postcode",
+        "value": "Postcode"
+      }
+    ]
+  },
+  {
+    "value": "Seal identifier",
+    "count": 1,
+    "mapKeyTo": "i18n.common.sealIdentifier",
+    "mapValueTo": "Seal identifier",
+    "keys": [
+      {
+        "key": "i18n.common.sealIdentifier",
+        "value": "Seal identifier"
+      }
+    ]
+  },
+  {
+    "value": "Street and number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.streetAndNumber",
+    "mapValueTo": "Street and number",
+    "keys": [
+      {
+        "key": "i18n.common.streetAndNumber",
+        "value": "Street and number"
+      }
+    ]
+  },
+  {
+    "value": "Transport Equipment",
+    "count": 1,
+    "mapKeyTo": "i18n.common.transportEquipment",
+    "mapValueTo": "Transport Equipment",
+    "keys": [
+      {
+        "key": "i18n.common.transportEquipment",
+        "value": "Transport Equipment"
+      }
+    ]
+  },
+  {
+    "value": "Type of identification",
+    "count": 1,
+    "mapKeyTo": "i18n.common.typeOfIdentification",
+    "mapValueTo": "Type of identification",
+    "keys": [
+      {
+        "key": "i18n.common.typeOfIdentification",
+        "value": "Type of identification"
+      }
+    ]
+  },
+  {
+    "value": "Release a Movement",
+    "count": 1,
+    "mapKeyTo": "i18n.common.releaseMovement",
+    "mapValueTo": "Release a Movement",
+    "keys": [
+      {
+        "key": "i18n.common.releaseMovement",
+        "value": "Release a Movement"
+      }
+    ]
+  },
+  {
+    "value": "View",
+    "count": 1,
+    "mapKeyTo": "i18n.common.view",
+    "mapValueTo": "View",
+    "keys": [
+      {
+        "key": "i18n.common.view",
+        "value": "View"
+      }
+    ]
+  },
+  {
+    "value": "Clear all",
+    "count": 1,
+    "mapKeyTo": "i18n.common.clearAll",
+    "mapValueTo": "Clear all",
+    "keys": [
+      {
+        "key": "i18n.common.clearAll",
+        "value": "Clear all"
+      }
+    ]
+  },
+  {
+    "value": "No risk",
+    "count": 1,
+    "mapKeyTo": "i18n.common.NoRisk",
+    "mapValueTo": "No risk",
+    "keys": [
+      {
+        "key": "i18n.common.NoRisk",
+        "value": "No risk"
+      }
+    ]
+  },
+  {
+    "value": "Addressed customs office",
+    "count": 1,
+    "mapKeyTo": "i18n.common.addCusOff",
+    "mapValueTo": "Addressed customs office",
+    "keys": [
+      {
+        "key": "i18n.common.addCusOff",
+        "value": "Addressed customs office"
+      }
+    ]
+  },
+  {
+    "value": "Additional supply chain actor",
+    "count": 1,
+    "mapKeyTo": "i18n.common.additionalSupplyChainActor",
+    "mapValueTo": "Additional supply chain actor",
+    "keys": [
+      {
+        "key": "i18n.common.additionalSupplyChainActor",
+        "value": "Additional supply chain actor"
+      }
+    ]
+  },
+  {
+    "value": "at",
+    "count": 1,
+    "mapKeyTo": "i18n.common.at",
+    "mapValueTo": "at",
+    "keys": [
+      {
+        "key": "i18n.common.at",
+        "value": "at"
+      }
+    ]
+  },
+  {
+    "value": "Authorisation number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.authorizationNumber",
+    "mapValueTo": "Authorisation number",
+    "keys": [
+      {
+        "key": "i18n.common.authorizationNumber",
+        "value": "Authorisation number"
+      }
+    ]
+  },
+  {
+    "value": "Carrier",
+    "count": 1,
+    "mapKeyTo": "i18n.common.carrier",
+    "mapValueTo": "Carrier",
+    "keys": [
+      {
+        "key": "i18n.common.carrier",
+        "value": "Carrier"
+      }
+    ]
+  },
+  {
+    "value": "Consignee",
+    "count": 1,
+    "mapKeyTo": "i18n.common.consignee",
+    "mapValueTo": "Consignee",
+    "keys": [
+      {
+        "key": "i18n.common.consignee",
+        "value": "Consignee"
+      }
+    ]
+  },
+  {
+    "value": "Consignor",
+    "count": 1,
+    "mapKeyTo": "i18n.common.consignor",
+    "mapValueTo": "Consignor",
+    "keys": [
+      {
+        "key": "i18n.common.consignor",
+        "value": "Consignor"
+      }
+    ]
+  },
+  {
+    "value": "Customs office",
+    "count": 1,
+    "mapKeyTo": "i18n.common.cusOffice",
+    "mapValueTo": "Customs office",
+    "keys": [
+      {
+        "key": "i18n.common.cusOffice",
+        "value": "Customs office"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of destination",
+    "count": 1,
+    "mapKeyTo": "i18n.common.customsdest",
+    "mapValueTo": "Customs office of destination",
+    "keys": [
+      {
+        "key": "i18n.common.customsdest",
+        "value": "Customs office of destination"
+      }
+    ]
+  },
+  {
+    "value": "Declaration Information",
+    "count": 1,
+    "mapKeyTo": "i18n.common.decInfo",
+    "mapValueTo": "Declaration Information",
+    "keys": [
+      {
+        "key": "i18n.common.decInfo",
+        "value": "Declaration Information"
+      }
+    ]
+  },
+  {
+    "value": "Declaration status",
+    "count": 1,
+    "mapKeyTo": "i18n.common.decStatus",
+    "mapValueTo": "Declaration status",
+    "keys": [
+      {
+        "key": "i18n.common.decStatus",
+        "value": "Declaration status"
+      }
+    ]
+  },
+  {
+    "value": "Destination",
+    "count": 1,
+    "mapKeyTo": "i18n.common.destination",
+    "mapValueTo": "Destination",
+    "keys": [
+      {
+        "key": "i18n.common.destination",
+        "value": "Destination"
+      }
+    ]
+  },
+  {
+    "value": "Export",
+    "count": 1,
+    "mapKeyTo": "i18n.common.export",
+    "mapValueTo": "Export",
+    "keys": [
+      {
+        "key": "i18n.common.export",
+        "value": "Export"
+      }
+    ]
+  },
+  {
+    "value": "Holder of transit procedure",
+    "count": 1,
+    "mapKeyTo": "i18n.common.holderOfTransitProcedure",
+    "mapValueTo": "Holder of transit procedure",
+    "keys": [
+      {
+        "key": "i18n.common.holderOfTransitProcedure",
+        "value": "Holder of transit procedure"
+      }
+    ]
+  },
+  {
+    "value": "Name",
+    "count": 1,
+    "mapKeyTo": "i18n.common.name",
+    "mapValueTo": "Name",
+    "keys": [
+      {
+        "key": "i18n.common.name",
+        "value": "Name"
+      }
+    ]
+  },
+  {
+    "value": "Parties",
+    "count": 1,
+    "mapKeyTo": "i18n.common.parties",
+    "mapValueTo": "Parties",
+    "keys": [
+      {
+        "key": "i18n.common.parties",
+        "value": "Parties"
+      }
+    ]
+  },
+  {
+    "value": "Reference Number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.refNum",
+    "mapValueTo": "Reference Number",
+    "keys": [
+      {
+        "key": "i18n.common.refNum",
+        "value": "Reference Number"
+      }
+    ]
+  },
+  {
+    "value": "Release date",
+    "count": 1,
+    "mapKeyTo": "i18n.common.releaseDateRange",
+    "mapValueTo": "Release date",
+    "keys": [
+      {
+        "key": "i18n.common.releaseDateRange",
+        "value": "Release date"
+      }
+    ]
+  },
+  {
+    "value": "Incident notification date",
+    "count": 1,
+    "mapKeyTo": "i18n.common.incidentDateRange",
+    "mapValueTo": "Incident notification date",
+    "keys": [
+      {
+        "key": "i18n.common.incidentDateRange",
+        "value": "Incident notification date"
+      }
+    ]
+  },
+  {
+    "value": "Representative",
+    "count": 1,
+    "mapKeyTo": "i18n.common.representative",
+    "mapValueTo": "Representative",
+    "keys": [
+      {
+        "key": "i18n.common.representative",
+        "value": "Representative"
+      }
+    ]
+  },
+  {
+    "value": "TIR holder",
+    "count": 1,
+    "mapKeyTo": "i18n.common.tirHolder",
+    "mapValueTo": "TIR holder",
+    "keys": [
+      {
+        "key": "i18n.common.tirHolder",
+        "value": "TIR holder"
+      }
+    ]
+  },
+  {
+    "value": "Transit Operation",
+    "count": 1,
+    "mapKeyTo": "i18n.common.transitOperation",
+    "mapValueTo": "Transit Operation",
+    "keys": [
+      {
+        "key": "i18n.common.transitOperation",
+        "value": "Transit Operation"
+      }
+    ]
+  },
+  {
+    "value": "Declaration goods item number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.declarationGoodsItemNumber",
+    "mapValueTo": "Declaration goods item number",
+    "keys": [
+      {
+        "key": "i18n.common.declarationGoodsItemNumber",
+        "value": "Declaration goods item number"
+      }
+    ]
+  },
+  {
+    "value": "Status",
+    "count": 1,
+    "mapKeyTo": "i18n.common.discrepancyStatus",
+    "mapValueTo": "Status",
+    "keys": [
+      {
+        "key": "i18n.common.discrepancyStatus",
+        "value": "Status"
+      }
+    ]
+  },
+  {
+    "value": "Added",
+    "count": 1,
+    "mapKeyTo": "i18n.common.added",
+    "mapValueTo": "Added",
+    "keys": [
+      {
+        "key": "i18n.common.added",
+        "value": "Added"
+      }
+    ]
+  },
+  {
+    "value": "Updated",
+    "count": 1,
+    "mapKeyTo": "i18n.common.updated",
+    "mapValueTo": "Updated",
+    "keys": [
+      {
+        "key": "i18n.common.updated",
+        "value": "Updated"
+      }
+    ]
+  },
+  {
+    "value": "Deleted",
+    "count": 1,
+    "mapKeyTo": "i18n.common.deleted",
+    "mapValueTo": "Deleted",
+    "keys": [
+      {
+        "key": "i18n.common.deleted",
+        "value": "Deleted"
+      }
+    ]
+  },
+  {
+    "value": "Total Packages",
+    "count": 1,
+    "mapKeyTo": "i18n.common.totalPackages",
+    "mapValueTo": "Total Packages",
+    "keys": [
+      {
+        "key": "i18n.common.totalPackages",
+        "value": "Total Packages"
+      }
+    ]
+  },
+  {
+    "value": "Type of packages",
+    "count": 1,
+    "mapKeyTo": "i18n.common.typeOfPackages",
+    "mapValueTo": "Type of packages",
+    "keys": [
+      {
+        "key": "i18n.common.typeOfPackages",
+        "value": "Type of packages"
+      }
+    ]
+  },
+  {
+    "value": "Consignment Items",
+    "count": 1,
+    "mapKeyTo": "i18n.common.consignmentItem",
+    "mapValueTo": "Consignment Items",
+    "keys": [
+      {
+        "key": "i18n.common.consignmentItem",
+        "value": "Consignment Items"
+      }
+    ]
+  },
+  {
+    "value": "Gross Mass",
+    "count": 1,
+    "mapKeyTo": "i18n.common.grossMass",
+    "mapValueTo": "Gross Mass",
+    "keys": [
+      {
+        "key": "i18n.common.grossMass",
+        "value": "Gross Mass"
+      }
+    ]
+  },
+  {
+    "value": "Net Mass",
+    "count": 1,
+    "mapKeyTo": "i18n.common.netMass",
+    "mapValueTo": "Net Mass",
+    "keys": [
+      {
+        "key": "i18n.common.netMass",
+        "value": "Net Mass"
+      }
+    ]
+  },
+  {
+    "value": "Action",
+    "count": 1,
+    "mapKeyTo": "i18n.common.action",
+    "mapValueTo": "Action",
+    "keys": [
+      {
+        "key": "i18n.common.action",
+        "value": "Action"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of departure",
+    "count": 1,
+    "mapKeyTo": "i18n.common.customsOfficeOfDeparture",
+    "mapValueTo": "Customs office of departure",
+    "keys": [
+      {
+        "key": "i18n.common.customsOfficeOfDeparture",
+        "value": "Customs office of departure"
+      }
+    ]
+  },
+  {
+    "value": "Customs Office of Incident registration",
+    "count": 1,
+    "mapKeyTo": "i18n.common.customsOfficeOfIncident",
+    "mapValueTo": "Customs Office of Incident registration",
+    "keys": [
+      {
+        "key": "i18n.common.customsOfficeOfIncident",
+        "value": "Customs Office of Incident registration"
+      }
+    ]
+  },
+  {
+    "value": "Declaration type",
+    "count": 1,
+    "mapKeyTo": "i18n.common.declarationType",
+    "mapValueTo": "Declaration type",
+    "keys": [
+      {
+        "key": "i18n.common.declarationType",
+        "value": "Declaration type"
+      }
+    ]
+  },
+  {
+    "value": "Submission date and time",
+    "count": 1,
+    "mapKeyTo": "i18n.common.submissionDate",
+    "mapValueTo": "Submission date and time",
+    "keys": [
+      {
+        "key": "i18n.common.submissionDate",
+        "value": "Submission date and time"
+      }
+    ]
+  },
+  {
+    "value": "Trader at destination",
+    "count": 1,
+    "mapKeyTo": "i18n.common.traderAtDestination",
+    "mapValueTo": "Trader at destination",
+    "keys": [
+      {
+        "key": "i18n.common.traderAtDestination",
+        "value": "Trader at destination"
+      }
+    ]
+  },
+  {
+    "value": "Cancel",
+    "count": 1,
+    "mapKeyTo": "i18n.common.cancel",
+    "mapValueTo": "Cancel",
+    "keys": [
+      {
+        "key": "i18n.common.cancel",
+        "value": "Cancel"
+      }
+    ]
+  },
+  {
+    "value": "Alternative Proof",
+    "count": 1,
+    "mapKeyTo": "i18n.common.alternativeProof",
+    "mapValueTo": "Alternative Proof",
+    "keys": [
+      {
+        "key": "i18n.common.alternativeProof",
+        "value": "Alternative Proof"
+      }
+    ]
+  },
+  {
+    "value": "Submit",
+    "count": 1,
+    "mapKeyTo": "i18n.common.submit",
+    "mapValueTo": "Submit",
+    "keys": [
+      {
+        "key": "i18n.common.submit",
+        "value": "Submit"
+      }
+    ]
+  },
+  {
+    "value": "Text",
+    "count": 1,
+    "mapKeyTo": "i18n.common.text",
+    "mapValueTo": "Text",
+    "keys": [
+      {
+        "key": "i18n.common.text",
+        "value": "Text"
+      }
+    ]
+  },
+  {
+    "value": "Add Binding Itinerary",
+    "count": 1,
+    "mapKeyTo": "i18n.common.addBindingItinerary",
+    "mapValueTo": "Add Binding Itinerary",
+    "keys": [
+      {
+        "key": "i18n.common.addBindingItinerary",
+        "value": "Add Binding Itinerary"
+      }
+    ]
+  },
+  {
+    "value": "Save",
+    "count": 1,
+    "mapKeyTo": "i18n.common.save",
+    "mapValueTo": "Save",
+    "keys": [
+      {
+        "key": "i18n.common.save",
+        "value": "Save"
+      }
+    ]
+  },
+  {
+    "value": "Country of routing of consignment",
+    "count": 1,
+    "mapKeyTo": "i18n.common.countryOfRoutingOfConsignment",
+    "mapValueTo": "Country of routing of consignment",
+    "keys": [
+      {
+        "key": "i18n.common.countryOfRoutingOfConsignment",
+        "value": "Country of routing of consignment"
+      }
+    ]
+  },
+  {
+    "value": "Country of transit",
+    "count": 1,
+    "mapKeyTo": "i18n.common.countryOfTransit",
+    "mapValueTo": "Country of transit",
+    "keys": [
+      {
+        "key": "i18n.common.countryOfTransit",
+        "value": "Country of transit"
+      }
+    ]
+  },
+  {
+    "value": "Confirm",
+    "count": 1,
+    "mapKeyTo": "i18n.common.confirm",
+    "mapValueTo": "Confirm",
+    "keys": [
+      {
+        "key": "i18n.common.confirm",
+        "value": "Confirm"
+      }
+    ]
+  },
+  {
+    "value": "Request",
+    "count": 1,
+    "mapKeyTo": "i18n.common.request",
+    "mapValueTo": "Request",
+    "keys": [
+      {
+        "key": "i18n.common.request",
+        "value": "Request"
+      }
+    ]
+  },
+  {
+    "value": "Cancel enquiry notification text",
+    "count": 1,
+    "mapKeyTo": "i18n.common.cancelEnquiryNotificationText",
+    "mapValueTo": "Cancel enquiry notification text",
+    "keys": [
+      {
+        "key": "i18n.common.cancelEnquiryNotificationText",
+        "value": "Cancel enquiry notification text"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of request",
+    "count": 1,
+    "mapKeyTo": "i18n.common.customsOfficeOfRequest",
+    "mapValueTo": "Customs office of request",
+    "keys": [
+      {
+        "key": "i18n.common.customsOfficeOfRequest",
+        "value": "Customs office of request"
+      }
+    ]
+  },
+  {
+    "value": "No",
+    "count": 1,
+    "mapKeyTo": "i18n.common.no",
+    "mapValueTo": "No",
+    "keys": [
+      {
+        "key": "i18n.common.no",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "value": "Yes",
+    "count": 1,
+    "mapKeyTo": "i18n.common.yes",
+    "mapValueTo": "Yes",
+    "keys": [
+      {
+        "key": "i18n.common.yes",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "value": "Office city",
+    "count": 1,
+    "mapKeyTo": "i18n.common.officeCity",
+    "mapValueTo": "Office city",
+    "keys": [
+      {
+        "key": "i18n.common.officeCity",
+        "value": "Office city"
+      }
+    ]
+  },
+  {
+    "value": "Office name",
+    "count": 1,
+    "mapKeyTo": "i18n.common.officeName",
+    "mapValueTo": "Office name",
+    "keys": [
+      {
+        "key": "i18n.common.officeName",
+        "value": "Office name"
+      }
+    ]
+  },
+  {
+    "value": "Email address",
+    "count": 1,
+    "mapKeyTo": "i18n.common.emailAddress",
+    "mapValueTo": "Email address",
+    "keys": [
+      {
+        "key": "i18n.common.emailAddress",
+        "value": "Email address"
+      }
+    ]
+  },
+  {
+    "value": "Phone number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.phoneNumber",
+    "mapValueTo": "Phone number",
+    "keys": [
+      {
+        "key": "i18n.common.phoneNumber",
+        "value": "Phone number"
+      }
+    ]
+  },
+  {
+    "value": "Contact Person",
+    "count": 1,
+    "mapKeyTo": "i18n.common.contactPerson",
+    "mapValueTo": "Contact Person",
+    "keys": [
+      {
+        "key": "i18n.common.contactPerson",
+        "value": "Contact Person"
+      }
+    ]
+  },
+  {
+    "value": "Currency",
+    "count": 1,
+    "mapKeyTo": "i18n.common.recovCurrency",
+    "mapValueTo": "Currency",
+    "keys": [
+      {
+        "key": "i18n.common.recovCurrency",
+        "value": "Currency"
+      }
+    ]
+  },
+  {
+    "value": "Recovery",
+    "count": 1,
+    "mapKeyTo": "i18n.common.recovery",
+    "mapValueTo": "Recovery",
+    "keys": [
+      {
+        "key": "i18n.common.recovery",
+        "value": "Recovery"
+      }
+    ]
+  },
+  {
+    "value": "Please enter a value",
+    "count": 1,
+    "mapKeyTo": "i18n.common.required",
+    "mapValueTo": "Please enter a value",
+    "keys": [
+      {
+        "key": "i18n.common.required",
+        "value": "Please enter a value"
+      }
+    ]
+  },
+  {
+    "value": "Please select a value",
+    "count": 1,
+    "mapKeyTo": "i18n.common.selectRequired",
+    "mapValueTo": "Please select a value",
+    "keys": [
+      {
+        "key": "i18n.common.selectRequired",
+        "value": "Please select a value"
+      }
+    ]
+  },
+  {
+    "value": "Maximum {{ noOfChars }} characters",
+    "count": 1,
+    "mapKeyTo": "i18n.common.hintWithLength",
+    "mapValueTo": "Maximum {{ noOfChars }} characters",
+    "keys": [
+      {
+        "key": "i18n.common.hintWithLength",
+        "value": "Maximum {{ noOfChars }} characters"
+      }
+    ]
+  },
+  {
+    "value": "Area code followed by phone number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.hintWithPhoneNumber",
+    "mapValueTo": "Area code followed by phone number",
+    "keys": [
+      {
+        "key": "i18n.common.hintWithPhoneNumber",
+        "value": "Area code followed by phone number"
+      }
+    ]
+  },
+  {
+    "value": "Name contact person",
+    "count": 1,
+    "mapKeyTo": "i18n.common.nameContactPerson",
+    "mapValueTo": "Name contact person",
+    "keys": [
+      {
+        "key": "i18n.common.nameContactPerson",
+        "value": "Name contact person"
+      }
+    ]
+  },
+  {
+    "value": "Select the actors that are involved and enter their information",
+    "count": 1,
+    "mapKeyTo": "i18n.common.partiesSub",
+    "mapValueTo": "Select the actors that are involved and enter their information",
+    "keys": [
+      {
+        "key": "i18n.common.partiesSub",
+        "value": "Select the actors that are involved and enter their information"
+      }
+    ]
+  },
+  {
+    "value": "Step 2: Parties",
+    "count": 1,
+    "mapKeyTo": "i18n.common.rootLabelParties2",
+    "mapValueTo": "Step 2: Parties",
+    "keys": [
+      {
+        "key": "i18n.common.rootLabelParties2",
+        "value": "Step 2: Parties"
+      }
+    ]
+  },
+  {
+    "value": "Additional reference(s)",
+    "count": 1,
+    "mapKeyTo": "i18n.common.additional-references",
+    "mapValueTo": "Additional reference(s)",
+    "keys": [
+      {
+        "key": "i18n.common.additional-references",
+        "value": "Additional reference(s)"
+      }
+    ]
+  },
+  {
+    "value": "Commodity",
+    "count": 1,
+    "mapKeyTo": "i18n.common.commodity",
+    "mapValueTo": "Commodity",
+    "keys": [
+      {
+        "key": "i18n.common.commodity",
+        "value": "Commodity"
+      }
+    ]
+  },
+  {
+    "value": "Commodity code",
+    "count": 1,
+    "mapKeyTo": "i18n.common.commodityCode",
+    "mapValueTo": "Commodity code",
+    "keys": [
+      {
+        "key": "i18n.common.commodityCode",
+        "value": "Commodity code"
+      }
+    ]
+  },
+  {
+    "value": "Consignment Item",
+    "count": 1,
+    "mapKeyTo": "i18n.common.Item",
+    "mapValueTo": "Consignment Item",
+    "keys": [
+      {
+        "key": "i18n.common.Item",
+        "value": "Consignment Item"
+      }
+    ]
+  },
+  {
+    "value": "Combined nomenclature code",
+    "count": 1,
+    "mapKeyTo": "i18n.common.combinedNomenclatureCode",
+    "mapValueTo": "Combined nomenclature code",
+    "keys": [
+      {
+        "key": "i18n.common.combinedNomenclatureCode",
+        "value": "Combined nomenclature code"
+      }
+    ]
+  },
+  {
+    "value": "CUS Code",
+    "count": 1,
+    "mapKeyTo": "i18n.common.cusCode",
+    "mapValueTo": "CUS Code",
+    "keys": [
+      {
+        "key": "i18n.common.cusCode",
+        "value": "CUS Code"
+      }
+    ]
+  },
+  {
+    "value": "Description of goods",
+    "count": 1,
+    "mapKeyTo": "i18n.common.descriptionOfGoods",
+    "mapValueTo": "Description of goods",
+    "keys": [
+      {
+        "key": "i18n.common.descriptionOfGoods",
+        "value": "Description of goods"
+      }
+    ]
+  },
+  {
+    "value": "Gross Mass (kg)",
+    "count": 1,
+    "mapKeyTo": "i18n.common.grossMassKilogram",
+    "mapValueTo": "Gross Mass (kg)",
+    "keys": [
+      {
+        "key": "i18n.common.grossMassKilogram",
+        "value": "Gross Mass (kg)"
+      }
+    ]
+  },
+  {
+    "value": "Harmonized System Sub Heading Code",
+    "count": 1,
+    "mapKeyTo": "i18n.common.harmonizedSystemSubHeadingCode",
+    "mapValueTo": "Harmonized System Sub Heading Code",
+    "keys": [
+      {
+        "key": "i18n.common.harmonizedSystemSubHeadingCode",
+        "value": "Harmonized System Sub Heading Code"
+      }
+    ]
+  },
+  {
+    "value": "Number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.number",
+    "mapValueTo": "Number",
+    "keys": [
+      {
+        "key": "i18n.common.number",
+        "value": "Number"
+      }
+    ]
+  },
+  {
+    "value": "Shipping Marks",
+    "count": 1,
+    "mapKeyTo": "i18n.common.shippingMarks",
+    "mapValueTo": "Shipping Marks",
+    "keys": [
+      {
+        "key": "i18n.common.shippingMarks",
+        "value": "Shipping Marks"
+      }
+    ]
+  },
+  {
+    "value": "Type",
+    "count": 1,
+    "mapKeyTo": "i18n.common.type",
+    "mapValueTo": "Type",
+    "keys": [
+      {
+        "key": "i18n.common.type",
+        "value": "Type"
+      }
+    ]
+  },
+  {
+    "value": "No.",
+    "count": 1,
+    "mapKeyTo": "i18n.common.numberShort",
+    "mapValueTo": "No.",
+    "keys": [
+      {
+        "key": "i18n.common.numberShort",
+        "value": "No."
+      }
+    ]
+  },
+  {
+    "value": "Complement of Information",
+    "count": 1,
+    "mapKeyTo": "i18n.common.complementOfInformation",
+    "mapValueTo": "Complement of Information",
+    "keys": [
+      {
+        "key": "i18n.common.complementOfInformation",
+        "value": "Complement of Information"
+      }
+    ]
+  },
+  {
+    "value": "Goods item",
+    "count": 1,
+    "mapKeyTo": "i18n.common.goodsItem",
+    "mapValueTo": "Goods item",
+    "keys": [
+      {
+        "key": "i18n.common.goodsItem",
+        "value": "Goods item"
+      }
+    ]
+  },
+  {
+    "value": "Goods Item number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.goodsItemNumber",
+    "mapValueTo": "Goods Item number",
+    "keys": [
+      {
+        "key": "i18n.common.goodsItemNumber",
+        "value": "Goods Item number"
+      }
+    ]
+  },
+  {
+    "value": "Identifier",
+    "count": 1,
+    "mapKeyTo": "i18n.common.identifier",
+    "mapValueTo": "Identifier",
+    "keys": [
+      {
+        "key": "i18n.common.identifier",
+        "value": "Identifier"
+      }
+    ]
+  },
+  {
+    "value": "Measurement unit and qualifier",
+    "count": 1,
+    "mapKeyTo": "i18n.common.measurementUnitAndQualifier",
+    "mapValueTo": "Measurement unit and qualifier",
+    "keys": [
+      {
+        "key": "i18n.common.measurementUnitAndQualifier",
+        "value": "Measurement unit and qualifier"
+      }
+    ]
+  },
+  {
+    "value": "Quantity",
+    "count": 1,
+    "mapKeyTo": "i18n.common.quantity",
+    "mapValueTo": "Quantity",
+    "keys": [
+      {
+        "key": "i18n.common.quantity",
+        "value": "Quantity"
+      }
+    ]
+  },
+  {
+    "value": "House Consignment(s)",
+    "count": 1,
+    "mapKeyTo": "i18n.common.rootLabelHouseConsignments",
+    "mapValueTo": "House Consignment(s)",
+    "keys": [
+      {
+        "key": "i18n.common.rootLabelHouseConsignments",
+        "value": "House Consignment(s)"
+      }
+    ]
+  },
+  {
+    "value": "Consignment Item(s)",
+    "count": 1,
+    "mapKeyTo": "i18n.common.rootLabelConsignmentItems",
+    "mapValueTo": "Consignment Item(s)",
+    "keys": [
+      {
+        "key": "i18n.common.rootLabelConsignmentItems",
+        "value": "Consignment Item(s)"
+      }
+    ]
+  },
+  {
+    "value": "Date and Time",
+    "count": 1,
+    "mapKeyTo": "i18n.common.dateAndTime",
+    "mapValueTo": "Date and Time",
+    "keys": [
+      {
+        "key": "i18n.common.dateAndTime",
+        "value": "Date and Time"
+      }
+    ]
+  },
+  {
+    "value": "Decision",
+    "count": 1,
+    "mapKeyTo": "i18n.common.decision",
+    "mapValueTo": "Decision",
+    "keys": [
+      {
+        "key": "i18n.common.decision",
+        "value": "Decision"
+      }
+    ]
+  },
+  {
+    "value": "Access code",
+    "count": 1,
+    "mapKeyTo": "i18n.common.accessCode",
+    "mapValueTo": "Access code",
+    "keys": [
+      {
+        "key": "i18n.common.accessCode",
+        "value": "Access code"
+      }
+    ]
+  },
+  {
+    "value": "Amount",
+    "count": 1,
+    "mapKeyTo": "i18n.common.amountToBeCovered",
+    "mapValueTo": "Amount",
+    "keys": [
+      {
+        "key": "i18n.common.amountToBeCovered",
+        "value": "Amount"
+      }
+    ]
+  },
+  {
+    "value": "Conveyance reference number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.conveyanceReferenceNumber",
+    "mapValueTo": "Conveyance reference number",
+    "keys": [
+      {
+        "key": "i18n.common.conveyanceReferenceNumber",
+        "value": "Conveyance reference number"
+      }
+    ]
+  },
+  {
+    "value": "Customs office at border",
+    "count": 1,
+    "mapKeyTo": "i18n.common.customsOfficeAtBorder",
+    "mapValueTo": "Customs office at border",
+    "keys": [
+      {
+        "key": "i18n.common.customsOfficeAtBorder",
+        "value": "Customs office at border"
+      }
+    ]
+  },
+  {
+    "value": "Document line item number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.documentLineItemNumber",
+    "mapValueTo": "Document line item number",
+    "keys": [
+      {
+        "key": "i18n.common.documentLineItemNumber",
+        "value": "Document line item number"
+      }
+    ]
+  },
+  {
+    "value": "Passage Date",
+    "count": 1,
+    "mapKeyTo": "i18n.common.passageDate",
+    "mapValueTo": "Passage Date",
+    "keys": [
+      {
+        "key": "i18n.common.passageDate",
+        "value": "Passage Date"
+      }
+    ]
+  },
+  {
+    "value": "Other guarantee reference",
+    "count": 1,
+    "mapKeyTo": "i18n.common.otherGuaranteeReference",
+    "mapValueTo": "Other guarantee reference",
+    "keys": [
+      {
+        "key": "i18n.common.otherGuaranteeReference",
+        "value": "Other guarantee reference"
+      }
+    ]
+  },
+  {
+    "value": "Reduced dataset indicator",
+    "count": 1,
+    "mapKeyTo": "i18n.common.reducedDatasetIndicator",
+    "mapValueTo": "Reduced dataset indicator",
+    "keys": [
+      {
+        "key": "i18n.common.reducedDatasetIndicator",
+        "value": "Reduced dataset indicator"
+      }
+    ]
+  },
+  {
+    "value": "Role",
+    "count": 1,
+    "mapKeyTo": "i18n.common.role",
+    "mapValueTo": "Role",
+    "keys": [
+      {
+        "key": "i18n.common.role",
+        "value": "Role"
+      }
+    ]
+  },
+  {
+    "value": "Discrepancies",
+    "count": 1,
+    "mapKeyTo": "i18n.common.discrepancies",
+    "mapValueTo": "Discrepancies",
+    "keys": [
+      {
+        "key": "i18n.common.discrepancies",
+        "value": "Discrepancies"
+      }
+    ]
+  },
+  {
+    "value": "Satisfactory",
+    "count": 1,
+    "mapKeyTo": "i18n.common.satisfactory",
+    "mapValueTo": "Satisfactory",
+    "keys": [
+      {
+        "key": "i18n.common.satisfactory",
+        "value": "Satisfactory"
+      }
+    ]
+  },
+  {
+    "value": "Requested Document(s)",
+    "count": 1,
+    "mapKeyTo": "i18n.common.Requested Document(s)",
+    "mapValueTo": "Requested Document(s)",
+    "keys": [
+      {
+        "key": "i18n.common.Requested Document(s)",
+        "value": "Requested Document(s)"
+      }
+    ]
+  },
+  {
+    "value": "Document",
+    "count": 1,
+    "mapKeyTo": "i18n.common.document",
+    "mapValueTo": "Document",
+    "keys": [
+      {
+        "key": "i18n.common.document",
+        "value": "Document"
+      }
+    ]
+  },
+  {
+    "value": "Document Type",
+    "count": 1,
+    "mapKeyTo": "i18n.common.documentType",
+    "mapValueTo": "Document Type",
+    "keys": [
+      {
+        "key": "i18n.common.documentType",
+        "value": "Document Type"
+      }
+    ]
+  },
+  {
+    "value": "Reason",
+    "count": 1,
+    "mapKeyTo": "i18n.common.reason",
+    "mapValueTo": "Reason",
+    "keys": [
+      {
+        "key": "i18n.common.reason",
+        "value": "Reason"
+      }
+    ]
+  },
+  {
+    "value": "Risk analysis",
+    "count": 1,
+    "mapKeyTo": "i18n.common.riskAnalysis",
+    "mapValueTo": "Risk analysis",
+    "keys": [
+      {
+        "key": "i18n.common.riskAnalysis",
+        "value": "Risk analysis"
+      }
+    ]
+  },
+  {
+    "value": "Submission failed",
+    "count": 1,
+    "mapKeyTo": "i18n.common.submissionFailed",
+    "mapValueTo": "Submission failed",
+    "keys": [
+      {
+        "key": "i18n.common.submissionFailed",
+        "value": "Submission failed"
+      }
+    ]
+  },
+  {
+    "value": "Transit Information",
+    "count": 1,
+    "mapKeyTo": "i18n.common.transitInformation",
+    "mapValueTo": "Transit Information",
+    "keys": [
+      {
+        "key": "i18n.common.transitInformation",
+        "value": "Transit Information"
+      }
+    ]
+  },
+  {
+    "value": "{{number}} errors found.",
+    "count": 1,
+    "mapKeyTo": "i18n.common.errorsFoundWithNumber",
+    "mapValueTo": "{{number}} errors found.",
+    "keys": [
+      {
+        "key": "i18n.common.errorsFoundWithNumber",
+        "value": "{{number}} errors found."
+      }
+    ]
+  },
+  {
+    "value": "Please review and correct errors",
+    "count": 1,
+    "mapKeyTo": "i18n.common.errorsPleaseReviewAndCorrect",
+    "mapValueTo": "Please review and correct errors",
+    "keys": [
+      {
+        "key": "i18n.common.errorsPleaseReviewAndCorrect",
+        "value": "Please review and correct errors"
+      }
+    ]
+  },
+  {
+    "value": "Unforeseen problem",
+    "count": 1,
+    "mapKeyTo": "i18n.common.unforeseenProblem",
+    "mapValueTo": "Unforeseen problem",
+    "keys": [
+      {
+        "key": "i18n.common.unforeseenProblem",
+        "value": "Unforeseen problem"
+      }
+    ]
+  },
+  {
+    "value": "Edit",
+    "count": 1,
+    "mapKeyTo": "i18n.common.edit",
+    "mapValueTo": "Edit",
+    "keys": [
+      {
+        "key": "i18n.common.edit",
+        "value": "Edit"
+      }
+    ]
+  },
+  {
+    "value": "Register Arrival Notification (IE007)",
+    "count": 1,
+    "mapKeyTo": "i18n.common.registerArrivalNotificationIE007",
+    "mapValueTo": "Register Arrival Notification (IE007)",
+    "keys": [
+      {
+        "key": "i18n.common.registerArrivalNotificationIE007",
+        "value": "Register Arrival Notification (IE007)"
+      }
+    ]
+  },
+  {
+    "value": "Authority",
+    "count": 1,
+    "mapKeyTo": "i18n.common.authority",
+    "mapValueTo": "Authority",
+    "keys": [
+      {
+        "key": "i18n.common.authority",
+        "value": "Authority"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of destination actual",
+    "count": 1,
+    "mapKeyTo": "i18n.common.customsOfficeDestActual",
+    "mapValueTo": "Customs office of destination actual",
+    "keys": [
+      {
+        "key": "i18n.common.customsOfficeDestActual",
+        "value": "Customs office of destination actual"
+      }
+    ]
+  },
+  {
+    "value": "Discharge",
+    "count": 1,
+    "mapKeyTo": "i18n.common.dischargeTitle",
+    "mapValueTo": "Discharge",
+    "keys": [
+      {
+        "key": "i18n.common.dischargeTitle",
+        "value": "Discharge"
+      }
+    ]
+  },
+  {
+    "value": "Location of goods",
+    "count": 1,
+    "mapKeyTo": "i18n.common.locationOfGoods",
+    "mapValueTo": "Location of goods",
+    "keys": [
+      {
+        "key": "i18n.common.locationOfGoods",
+        "value": "Location of goods"
+      }
+    ]
+  },
+  {
+    "value": "Qualifier of identification",
+    "count": 1,
+    "mapKeyTo": "i18n.common.qualifierOfIdentification",
+    "mapValueTo": "Qualifier of identification",
+    "keys": [
+      {
+        "key": "i18n.common.qualifierOfIdentification",
+        "value": "Qualifier of identification"
+      }
+    ]
+  },
+  {
+    "value": "Volet page number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.voletPageNumber",
+    "mapValueTo": "Volet page number",
+    "keys": [
+      {
+        "key": "i18n.common.voletPageNumber",
+        "value": "Volet page number"
+      }
+    ]
+  },
+  {
+    "value": "Register Incident Notification (IE180)",
+    "count": 1,
+    "mapKeyTo": "i18n.common.registerIncidentNotificationIE180",
+    "mapValueTo": "Register Incident Notification (IE180)",
+    "keys": [
+      {
+        "key": "i18n.common.registerIncidentNotificationIE180",
+        "value": "Register Incident Notification (IE180)"
+      }
+    ]
+  },
+  {
+    "value": "Register Incident Notification",
+    "count": 1,
+    "mapKeyTo": "i18n.common.registerIncidentNotification",
+    "mapValueTo": "Register Incident Notification",
+    "keys": [
+      {
+        "key": "i18n.common.registerIncidentNotification",
+        "value": "Register Incident Notification"
+      }
+    ]
+  },
+  {
+    "value": "Discrepancy resolution",
+    "count": 1,
+    "mapKeyTo": "i18n.common.discrepancyResolution",
+    "mapValueTo": "Discrepancy resolution",
+    "keys": [
+      {
+        "key": "i18n.common.discrepancyResolution",
+        "value": "Discrepancy resolution"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of enquiry at departure",
+    "count": 1,
+    "mapKeyTo": "i18n.common.customsOfficeOfEnquiryAtDeparture",
+    "mapValueTo": "Customs office of enquiry at departure",
+    "keys": [
+      {
+        "key": "i18n.common.customsOfficeOfEnquiryAtDeparture",
+        "value": "Customs office of enquiry at departure"
+      }
+    ]
+  },
+  {
+    "value": "Enquiry",
+    "count": 1,
+    "mapKeyTo": "i18n.common.enquiry",
+    "mapValueTo": "Enquiry",
+    "keys": [
+      {
+        "key": "i18n.common.enquiry",
+        "value": "Enquiry"
+      }
+    ]
+  },
+  {
+    "value": "Enquiry request date",
+    "count": 1,
+    "mapKeyTo": "i18n.common.enquiryRequestDate",
+    "mapValueTo": "Enquiry request date",
+    "keys": [
+      {
+        "key": "i18n.common.enquiryRequestDate",
+        "value": "Enquiry request date"
+      }
+    ]
+  },
+  {
+    "value": "Enquiry response date",
+    "count": 1,
+    "mapKeyTo": "i18n.common.enquiryResponseDate",
+    "mapValueTo": "Enquiry response date",
+    "keys": [
+      {
+        "key": "i18n.common.enquiryResponseDate",
+        "value": "Enquiry response date"
+      }
+    ]
+  },
+  {
+    "value": "Information available from trader",
+    "count": 1,
+    "mapKeyTo": "i18n.common.informationAvailableFromTrader",
+    "mapValueTo": "Information available from trader",
+    "keys": [
+      {
+        "key": "i18n.common.informationAvailableFromTrader",
+        "value": "Information available from trader"
+      }
+    ]
+  },
+  {
+    "value": "Information code",
+    "count": 1,
+    "mapKeyTo": "i18n.common.informationCode",
+    "mapValueTo": "Information code",
+    "keys": [
+      {
+        "key": "i18n.common.informationCode",
+        "value": "Information code"
+      }
+    ]
+  },
+  {
+    "value": "Office role",
+    "count": 1,
+    "mapKeyTo": "i18n.common.officeRole",
+    "mapValueTo": "Office role",
+    "keys": [
+      {
+        "key": "i18n.common.officeRole",
+        "value": "Office role"
+      }
+    ]
+  },
+  {
+    "value": "Requested Information",
+    "count": 1,
+    "mapKeyTo": "i18n.common.requestedInformation",
+    "mapValueTo": "Requested Information",
+    "keys": [
+      {
+        "key": "i18n.common.requestedInformation",
+        "value": "Requested Information"
+      }
+    ]
+  },
+  {
+    "value": "Response code",
+    "count": 1,
+    "mapKeyTo": "i18n.common.responseCode",
+    "mapValueTo": "Response code",
+    "keys": [
+      {
+        "key": "i18n.common.responseCode",
+        "value": "Response code"
+      }
+    ]
+  },
+  {
+    "value": "Response Information",
+    "count": 1,
+    "mapKeyTo": "i18n.common.responseInformation",
+    "mapValueTo": "Response Information",
+    "keys": [
+      {
+        "key": "i18n.common.responseInformation",
+        "value": "Response Information"
+      }
+    ]
+  },
+  {
+    "value": "Response text",
+    "count": 1,
+    "mapKeyTo": "i18n.common.responseText",
+    "mapValueTo": "Response text",
+    "keys": [
+      {
+        "key": "i18n.common.responseText",
+        "value": "Response text"
+      }
+    ]
+  },
+  {
+    "value": "Return copy returned date",
+    "count": 1,
+    "mapKeyTo": "i18n.common.returnCopyReturnedDate",
+    "mapValueTo": "Return copy returned date",
+    "keys": [
+      {
+        "key": "i18n.common.returnCopyReturnedDate",
+        "value": "Return copy returned date"
+      }
+    ]
+  },
+  {
+    "value": "TC11 Delivery Date",
+    "count": 1,
+    "mapKeyTo": "i18n.common.tc11DeliveryDate",
+    "mapValueTo": "TC11 Delivery Date",
+    "keys": [
+      {
+        "key": "i18n.common.tc11DeliveryDate",
+        "value": "TC11 Delivery Date"
+      }
+    ]
+  },
+  {
+    "value": "Guarantor",
+    "count": 1,
+    "mapKeyTo": "i18n.common.guarantor",
+    "mapValueTo": "Guarantor",
+    "keys": [
+      {
+        "key": "i18n.common.guarantor",
+        "value": "Guarantor"
+      }
+    ]
+  },
+  {
+    "value": "Recovery communication date",
+    "count": 1,
+    "mapKeyTo": "i18n.common.recoveryCommunicationDate",
+    "mapValueTo": "Recovery communication date",
+    "keys": [
+      {
+        "key": "i18n.common.recoveryCommunicationDate",
+        "value": "Recovery communication date"
+      }
+    ]
+  },
+  {
+    "value": "Declaration acceptance date",
+    "count": 1,
+    "mapKeyTo": "i18n.common.declarationAcceptanceDate",
+    "mapValueTo": "Declaration acceptance date",
+    "keys": [
+      {
+        "key": "i18n.common.declarationAcceptanceDate",
+        "value": "Declaration acceptance date"
+      }
+    ]
+  },
+  {
+    "value": "Requested customs office",
+    "count": 1,
+    "mapKeyTo": "i18n.common.requestedCustomsOffice",
+    "mapValueTo": "Requested customs office",
+    "keys": [
+      {
+        "key": "i18n.common.requestedCustomsOffice",
+        "value": "Requested customs office"
+      }
+    ]
+  },
+  {
+    "value": "New",
+    "count": 1,
+    "mapKeyTo": "i18n.common.new",
+    "mapValueTo": "New",
+    "keys": [
+      {
+        "key": "i18n.common.new",
+        "value": "New"
+      }
+    ]
+  },
+  {
+    "value": "Approved",
+    "count": 1,
+    "mapKeyTo": "i18n.common.Approved",
+    "mapValueTo": "Approved",
+    "keys": [
+      {
+        "key": "i18n.common.Approved",
+        "value": "Approved"
+      }
+    ]
+  },
+  {
+    "value": "Refused",
+    "count": 1,
+    "mapKeyTo": "i18n.common.Refused",
+    "mapValueTo": "Refused",
+    "keys": [
+      {
+        "key": "i18n.common.Refused",
+        "value": "Refused"
+      }
+    ]
+  },
+  {
+    "value": "Category",
+    "count": 1,
+    "mapKeyTo": "i18n.common.category",
+    "mapValueTo": "Category",
+    "keys": [
+      {
+        "key": "i18n.common.category",
+        "value": "Category"
+      }
+    ]
+  },
+  {
+    "value": "Remark",
+    "count": 1,
+    "mapKeyTo": "i18n.common.remark",
+    "mapValueTo": "Remark",
+    "keys": [
+      {
+        "key": "i18n.common.remark",
+        "value": "Remark"
+      }
+    ]
+  },
+  {
+    "value": "Request for invalidation",
+    "count": 1,
+    "mapKeyTo": "i18n.common.invalidationRequest",
+    "mapValueTo": "Request for invalidation",
+    "keys": [
+      {
+        "key": "i18n.common.invalidationRequest",
+        "value": "Request for invalidation"
+      }
+    ]
+  },
+  {
+    "value": "*Please enter a value",
+    "count": 1,
+    "mapKeyTo": "i18n.common.requiredWithAstrix",
+    "mapValueTo": "*Please enter a value",
+    "keys": [
+      {
+        "key": "i18n.common.requiredWithAstrix",
+        "value": "*Please enter a value"
+      }
+    ]
+  },
+  {
+    "value": "Maximum {{ noOfDigits }} digits with {{ noOfDecimal }} digits after decimal",
+    "count": 1,
+    "mapKeyTo": "i18n.common.hintWithDecimal",
+    "mapValueTo": "Maximum {{ noOfDigits }} digits with {{ noOfDecimal }} digits after decimal",
+    "keys": [
+      {
+        "key": "i18n.common.hintWithDecimal",
+        "value": "Maximum {{ noOfDigits }} digits with {{ noOfDecimal }} digits after decimal"
+      }
+    ]
+  },
+  {
+    "value": "Maximum {{ noOfDigits }} digits",
+    "count": 1,
+    "mapKeyTo": "i18n.common.hintWithDigits",
+    "mapValueTo": "Maximum {{ noOfDigits }} digits",
+    "keys": [
+      {
+        "key": "i18n.common.hintWithDigits",
+        "value": "Maximum {{ noOfDigits }} digits"
+      }
+    ]
+  },
+  {
+    "value": "Country of dispatch",
+    "count": 1,
+    "mapKeyTo": "i18n.common.countryOfDispatch",
+    "mapValueTo": "Country of dispatch",
+    "keys": [
+      {
+        "key": "i18n.common.countryOfDispatch",
+        "value": "Country of dispatch"
+      }
+    ]
+  },
+  {
+    "value": "EORI or identification number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.eoriOrIdentificationNumber",
+    "mapValueTo": "EORI or identification number",
+    "keys": [
+      {
+        "key": "i18n.common.eoriOrIdentificationNumber",
+        "value": "EORI or identification number"
+      }
+    ]
+  },
+  {
+    "value": "Expiration date and time",
+    "count": 1,
+    "mapKeyTo": "i18n.common.expirationDate",
+    "mapValueTo": "Expiration date and time",
+    "keys": [
+      {
+        "key": "i18n.common.expirationDate",
+        "value": "Expiration date and time"
+      }
+    ]
+  },
+  {
+    "value": "House Number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.houseNumber",
+    "mapValueTo": "House Number",
+    "keys": [
+      {
+        "key": "i18n.common.houseNumber",
+        "value": "House Number"
+      }
+    ]
+  },
+  {
+    "value": "Inland mode of transport",
+    "count": 1,
+    "mapKeyTo": "i18n.common.inlandModeOfTransport",
+    "mapValueTo": "Inland mode of transport",
+    "keys": [
+      {
+        "key": "i18n.common.inlandModeOfTransport",
+        "value": "Inland mode of transport"
+      }
+    ]
+  },
+  {
+    "value": "Control result date",
+    "count": 1,
+    "mapKeyTo": "i18n.common.lastControlResultDate",
+    "mapValueTo": "Control result date",
+    "keys": [
+      {
+        "key": "i18n.common.lastControlResultDate",
+        "value": "Control result date"
+      }
+    ]
+  },
+  {
+    "value": "Release",
+    "count": 1,
+    "mapKeyTo": "i18n.common.release",
+    "mapValueTo": "Release",
+    "keys": [
+      {
+        "key": "i18n.common.release",
+        "value": "Release"
+      }
+    ]
+  },
+  {
+    "value": "Mode of transport at the border",
+    "count": 1,
+    "mapKeyTo": "i18n.common.modeOfTransportAtTheBorder",
+    "mapValueTo": "Mode of transport at the border",
+    "keys": [
+      {
+        "key": "i18n.common.modeOfTransportAtTheBorder",
+        "value": "Mode of transport at the border"
+      }
+    ]
+  },
+  {
+    "value": "Number of packages",
+    "count": 1,
+    "mapKeyTo": "i18n.common.numberOfPackages",
+    "mapValueTo": "Number of packages",
+    "keys": [
+      {
+        "key": "i18n.common.numberOfPackages",
+        "value": "Number of packages"
+      }
+    ]
+  },
+  {
+    "value": "Reference number UCR",
+    "count": 1,
+    "mapKeyTo": "i18n.common.referenceNumberUcr",
+    "mapValueTo": "Reference number UCR",
+    "keys": [
+      {
+        "key": "i18n.common.referenceNumberUcr",
+        "value": "Reference number UCR"
+      }
+    ]
+  },
+  {
+    "value": "Step 1: Parties",
+    "count": 1,
+    "mapKeyTo": "i18n.common.rootLabelParties",
+    "mapValueTo": "Step 1: Parties",
+    "keys": [
+      {
+        "key": "i18n.common.rootLabelParties",
+        "value": "Step 1: Parties"
+      }
+    ]
+  },
+  {
+    "value": "Step 3: Parties",
+    "count": 1,
+    "mapKeyTo": "i18n.common.rootLabelParties3",
+    "mapValueTo": "Step 3: Parties",
+    "keys": [
+      {
+        "key": "i18n.common.rootLabelParties3",
+        "value": "Step 3: Parties"
+      }
+    ]
+  },
+  {
+    "value": "TIR carnet number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.tirCarnetNumber",
+    "mapValueTo": "TIR carnet number",
+    "keys": [
+      {
+        "key": "i18n.common.tirCarnetNumber",
+        "value": "TIR carnet number"
+      }
+    ]
+  },
+  {
+    "value": "No release motivation text",
+    "count": 1,
+    "mapKeyTo": "i18n.common.noReleaseMotivationText",
+    "mapValueTo": "No release motivation text",
+    "keys": [
+      {
+        "key": "i18n.common.noReleaseMotivationText",
+        "value": "No release motivation text"
+      }
+    ]
+  },
+  {
+    "value": "Latitude",
+    "count": 1,
+    "mapKeyTo": "i18n.common.latitude",
+    "mapValueTo": "Latitude",
+    "keys": [
+      {
+        "key": "i18n.common.latitude",
+        "value": "Latitude"
+      }
+    ]
+  },
+  {
+    "value": "Longitude",
+    "count": 1,
+    "mapKeyTo": "i18n.common.longitude",
+    "mapValueTo": "Longitude",
+    "keys": [
+      {
+        "key": "i18n.common.longitude",
+        "value": "Longitude"
+      }
+    ]
+  },
+  {
+    "value": "Notes",
+    "count": 1,
+    "mapKeyTo": "i18n.common.notes",
+    "mapValueTo": "Notes",
+    "keys": [
+      {
+        "key": "i18n.common.notes",
+        "value": "Notes"
+      }
+    ]
+  },
+  {
+    "value": "Refuse",
+    "count": 1,
+    "mapKeyTo": "i18n.common.refuse",
+    "mapValueTo": "Refuse",
+    "keys": [
+      {
+        "key": "i18n.common.refuse",
+        "value": "Refuse"
+      }
+    ]
+  },
+  {
+    "value": "Dangerous goods",
+    "count": 1,
+    "mapKeyTo": "i18n.common.dangerousGoods",
+    "mapValueTo": "Dangerous goods",
+    "keys": [
+      {
+        "key": "i18n.common.dangerousGoods",
+        "value": "Dangerous goods"
+      }
+    ]
+  },
+  {
+    "value": "Goods Measure",
+    "count": 1,
+    "mapKeyTo": "i18n.common.goodsMeasure",
+    "mapValueTo": "Goods Measure",
+    "keys": [
+      {
+        "key": "i18n.common.goodsMeasure",
+        "value": "Goods Measure"
+      }
+    ]
+  },
+  {
+    "value": "Approve",
+    "count": 1,
+    "mapKeyTo": "i18n.common.approve",
+    "mapValueTo": "Approve",
+    "keys": [
+      {
+        "key": "i18n.common.approve",
+        "value": "Approve"
+      }
+    ]
+  },
+  {
+    "value": "Invalidation reason",
+    "count": 1,
+    "mapKeyTo": "i18n.common.pleaseEnterReason",
+    "mapValueTo": "Invalidation reason",
+    "keys": [
+      {
+        "key": "i18n.common.pleaseEnterReason",
+        "value": "Invalidation reason"
+      }
+    ]
+  },
+  {
+    "value": "Requested on",
+    "count": 1,
+    "mapKeyTo": "i18n.common.requestedOn",
+    "mapValueTo": "Requested on",
+    "keys": [
+      {
+        "key": "i18n.common.requestedOn",
+        "value": "Requested on"
+      }
+    ]
+  },
+  {
+    "value": "Login",
+    "count": 1,
+    "mapKeyTo": "i18n.common.login",
+    "mapValueTo": "Login",
+    "keys": [
+      {
+        "key": "i18n.common.login",
+        "value": "Login"
+      }
+    ]
+  },
+  {
+    "value": "Control Result",
+    "count": 1,
+    "mapKeyTo": "i18n.common.controlResult",
+    "mapValueTo": "Control Result",
+    "keys": [
+      {
+        "key": "i18n.common.controlResult",
+        "value": "Control Result"
+      }
+    ]
+  },
+  {
+    "value": "Unloading Remarks",
+    "count": 1,
+    "mapKeyTo": "i18n.common.unloadingRemarks",
+    "mapValueTo": "Unloading Remarks",
+    "keys": [
+      {
+        "key": "i18n.common.unloadingRemarks",
+        "value": "Unloading Remarks"
+      }
+    ]
+  },
+  {
+    "value": "Manual Decision for Recovery",
+    "count": 1,
+    "mapKeyTo": "i18n.common.recommendRecovery",
+    "mapValueTo": "Manual Decision for Recovery",
+    "keys": [
+      {
+        "key": "i18n.common.recommendRecovery",
+        "value": "Manual Decision for Recovery"
+      }
+    ]
+  },
+  {
+    "value": "TIR holder identification number",
+    "count": 1,
+    "mapKeyTo": "i18n.common.tirHolderIdentificationNumber",
+    "mapValueTo": "TIR holder identification number",
+    "keys": [
+      {
+        "key": "i18n.common.tirHolderIdentificationNumber",
+        "value": "TIR holder identification number"
+      }
+    ]
+  },
+  {
+    "value": "Controlled by",
+    "count": 1,
+    "mapKeyTo": "i18n.common.controlledBy",
+    "mapValueTo": "Controlled by",
+    "keys": [
+      {
+        "key": "i18n.common.controlledBy",
+        "value": "Controlled by"
+      }
+    ]
+  },
+  {
+    "value": "Other things to report",
+    "count": 1,
+    "mapKeyTo": "i18n.common.otherThingsToReport",
+    "mapValueTo": "Other things to report",
+    "keys": [
+      {
+        "key": "i18n.common.otherThingsToReport",
+        "value": "Other things to report"
+      }
+    ]
+  },
+  {
+    "value": "State of seals",
+    "count": 1,
+    "mapKeyTo": "i18n.common.stateOfSeals",
+    "mapValueTo": "State of seals",
+    "keys": [
+      {
+        "key": "i18n.common.stateOfSeals",
+        "value": "State of seals"
+      }
+    ]
+  },
+  {
+    "value": "Decide on release for transit",
+    "count": 1,
+    "mapKeyTo": "i18n.common.decideOnReleaseForTransit",
+    "mapValueTo": "Decide on release for transit",
+    "keys": [
+      {
+        "key": "i18n.common.decideOnReleaseForTransit",
+        "value": "Decide on release for transit"
+      }
+    ]
+  },
+  {
+    "value": "Date cannot be in the future",
+    "count": 1,
+    "mapKeyTo": "i18n.common.pastDate",
+    "mapValueTo": "Date cannot be in the future",
+    "keys": [
+      {
+        "key": "i18n.common.pastDate",
+        "value": "Date cannot be in the future"
+      }
+    ]
+  },
+  {
+    "value": "Description",
+    "count": 1,
+    "mapKeyTo": "i18n.common.description",
+    "mapValueTo": "Description",
+    "keys": [
+      {
+        "key": "i18n.common.description",
+        "value": "Description"
+      }
+    ]
+  },
+  {
+    "value": "Delete",
+    "count": 1,
+    "mapKeyTo": "i18n.common.delete",
+    "mapValueTo": "Delete",
+    "keys": [
+      {
+        "key": "i18n.common.delete",
+        "value": "Delete"
+      }
+    ]
+  },
+  {
+    "value": "Last saved",
+    "count": 1,
+    "mapKeyTo": "i18n.common.lastSaved",
+    "mapValueTo": "Last saved",
+    "keys": [
+      {
+        "key": "i18n.common.lastSaved",
+        "value": "Last saved"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of transit(actual)",
+    "count": 1,
+    "mapKeyTo": "i18n.common.customsOfficeOfTransitActual",
+    "mapValueTo": "Customs office of transit(actual)",
+    "keys": [
+      {
+        "key": "i18n.common.customsOfficeOfTransitActual",
+        "value": "Customs office of transit(actual)"
       }
     ]
   },
@@ -548,18 +3536,6 @@
       {
         "key": "generalInfoForm.lables.communicationLanguageAtDeparture",
         "value": "Communication language at departure"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of destination (actual)",
-    "count": 1,
-    "mapKeyTo": "generalInfoForm.lables.customsOfficeOfDestination(actual)",
-    "mapValueTo": "Customs office of destination (actual)",
-    "keys": [
-      {
-        "key": "generalInfoForm.lables.customsOfficeOfDestination(actual)",
-        "value": "Customs office of destination (actual)"
       }
     ]
   },
@@ -9224,3006 +12200,6 @@
       {
         "key": "i18n.errors.UIERR_04",
         "value": "Incorrect date."
-      }
-    ]
-  },
-  {
-    "value": "UN/LOCODE",
-    "count": 1,
-    "mapKeyTo": "i18n.common.unlocode",
-    "mapValueTo": "UN/LOCODE",
-    "keys": [
-      {
-        "key": "i18n.common.unlocode",
-        "value": "UN/LOCODE"
-      }
-    ]
-  },
-  {
-    "value": "Advanced Search",
-    "count": 1,
-    "mapKeyTo": "i18n.common.advancedSearch",
-    "mapValueTo": "Advanced Search",
-    "keys": [
-      {
-        "key": "i18n.common.advancedSearch",
-        "value": "Advanced Search"
-      }
-    ]
-  },
-  {
-    "value": "EORI",
-    "count": 1,
-    "mapKeyTo": "i18n.common.eori",
-    "mapValueTo": "EORI",
-    "keys": [
-      {
-        "key": "i18n.common.eori",
-        "value": "EORI"
-      }
-    ]
-  },
-  {
-    "value": "LRN",
-    "count": 1,
-    "mapKeyTo": "i18n.common.lrn",
-    "mapValueTo": "LRN",
-    "keys": [
-      {
-        "key": "i18n.common.lrn",
-        "value": "LRN"
-      }
-    ]
-  },
-  {
-    "value": "MRN",
-    "count": 1,
-    "mapKeyTo": "i18n.common.mrn",
-    "mapValueTo": "MRN",
-    "keys": [
-      {
-        "key": "i18n.common.mrn",
-        "value": "MRN"
-      }
-    ]
-  },
-  {
-    "value": "MRN/CRN",
-    "count": 1,
-    "mapKeyTo": "i18n.common.mrnAndCrn",
-    "mapValueTo": "MRN/CRN",
-    "keys": [
-      {
-        "key": "i18n.common.mrnAndCrn",
-        "value": "MRN/CRN"
-      }
-    ]
-  },
-  {
-    "value": "House Consignment",
-    "count": 1,
-    "mapKeyTo": "i18n.common.houseConsignment",
-    "mapValueTo": "House Consignment",
-    "keys": [
-      {
-        "key": "i18n.common.houseConsignment",
-        "value": "House Consignment"
-      }
-    ]
-  },
-  {
-    "value": "Save As Template",
-    "count": 1,
-    "mapKeyTo": "i18n.common.saveAsTemplate",
-    "mapValueTo": "Save As Template",
-    "keys": [
-      {
-        "key": "i18n.common.saveAsTemplate",
-        "value": "Save As Template"
-      }
-    ]
-  },
-  {
-    "value": "Search",
-    "count": 1,
-    "mapKeyTo": "i18n.common.search",
-    "mapValueTo": "Search",
-    "keys": [
-      {
-        "key": "i18n.common.search",
-        "value": "Search"
-      }
-    ]
-  },
-  {
-    "value": "OK",
-    "count": 1,
-    "mapKeyTo": "i18n.common.ok",
-    "mapValueTo": "OK",
-    "keys": [
-      {
-        "key": "i18n.common.ok",
-        "value": "OK"
-      }
-    ]
-  },
-  {
-    "value": "GRN",
-    "count": 1,
-    "mapKeyTo": "i18n.common.grn",
-    "mapValueTo": "GRN",
-    "keys": [
-      {
-        "key": "i18n.common.grn",
-        "value": "GRN"
-      }
-    ]
-  },
-  {
-    "value": "View Enquiries",
-    "count": 1,
-    "mapKeyTo": "i18n.common.viewEnquiries",
-    "mapValueTo": "View Enquiries",
-    "keys": [
-      {
-        "key": "i18n.common.viewEnquiries",
-        "value": "View Enquiries"
-      }
-    ]
-  },
-  {
-    "value": "Additional Information",
-    "count": 1,
-    "mapKeyTo": "i18n.common.additionalInformationSub",
-    "mapValueTo": "Additional Information",
-    "keys": [
-      {
-        "key": "i18n.common.additionalInformationSub",
-        "value": "Additional Information"
-      }
-    ]
-  },
-  {
-    "value": "Additional Reference",
-    "count": 1,
-    "mapKeyTo": "i18n.common.additionalReferenceSub",
-    "mapValueTo": "Additional Reference",
-    "keys": [
-      {
-        "key": "i18n.common.additionalReferenceSub",
-        "value": "Additional Reference"
-      }
-    ]
-  },
-  {
-    "value": "Authorisation",
-    "count": 1,
-    "mapKeyTo": "i18n.common.authorisationSub",
-    "mapValueTo": "Authorisation",
-    "keys": [
-      {
-        "key": "i18n.common.authorisationSub",
-        "value": "Authorisation"
-      }
-    ]
-  },
-  {
-    "value": "Container",
-    "count": 1,
-    "mapKeyTo": "i18n.common.container",
-    "mapValueTo": "Container",
-    "keys": [
-      {
-        "key": "i18n.common.container",
-        "value": "Container"
-      }
-    ]
-  },
-  {
-    "value": "General Information",
-    "count": 1,
-    "mapKeyTo": "i18n.common.generalInformation",
-    "mapValueTo": "General Information",
-    "keys": [
-      {
-        "key": "i18n.common.generalInformation",
-        "value": "General Information"
-      }
-    ]
-  },
-  {
-    "value": "Guarantee Reference",
-    "count": 1,
-    "mapKeyTo": "i18n.common.guaranteeReferenceSub",
-    "mapValueTo": "Guarantee Reference",
-    "keys": [
-      {
-        "key": "i18n.common.guaranteeReferenceSub",
-        "value": "Guarantee Reference"
-      }
-    ]
-  },
-  {
-    "value": "Guarantee",
-    "count": 1,
-    "mapKeyTo": "i18n.common.guaranteeSub",
-    "mapValueTo": "Guarantee",
-    "keys": [
-      {
-        "key": "i18n.common.guaranteeSub",
-        "value": "Guarantee"
-      }
-    ]
-  },
-  {
-    "value": "Packaging",
-    "count": 1,
-    "mapKeyTo": "i18n.common.packagingSub",
-    "mapValueTo": "Packaging",
-    "keys": [
-      {
-        "key": "i18n.common.packagingSub",
-        "value": "Packaging"
-      }
-    ]
-  },
-  {
-    "value": "Previous Document",
-    "count": 1,
-    "mapKeyTo": "i18n.common.previousDocumentSub",
-    "mapValueTo": "Previous Document",
-    "keys": [
-      {
-        "key": "i18n.common.previousDocumentSub",
-        "value": "Previous Document"
-      }
-    ]
-  },
-  {
-    "value": "Supporting Document",
-    "count": 1,
-    "mapKeyTo": "i18n.common.supportingDocumentSub",
-    "mapValueTo": "Supporting Document",
-    "keys": [
-      {
-        "key": "i18n.common.supportingDocumentSub",
-        "value": "Supporting Document"
-      }
-    ]
-  },
-  {
-    "value": "Transport Document",
-    "count": 1,
-    "mapKeyTo": "i18n.common.transportDocumentSub",
-    "mapValueTo": "Transport Document",
-    "keys": [
-      {
-        "key": "i18n.common.transportDocumentSub",
-        "value": "Transport Document"
-      }
-    ]
-  },
-  {
-    "value": "Guarantees Under Registration",
-    "count": 1,
-    "mapKeyTo": "i18n.common.guaranteesUnderRegistration",
-    "mapValueTo": "Guarantees Under Registration",
-    "keys": [
-      {
-        "key": "i18n.common.guaranteesUnderRegistration",
-        "value": "Guarantees Under Registration"
-      }
-    ]
-  },
-  {
-    "value": "Item",
-    "count": 1,
-    "mapKeyTo": "i18n.common.deleteHouseConsignmentItem",
-    "mapValueTo": "Item",
-    "keys": [
-      {
-        "key": "i18n.common.deleteHouseConsignmentItem",
-        "value": "Item"
-      }
-    ]
-  },
-  {
-    "value": "Saved Drafts",
-    "count": 1,
-    "mapKeyTo": "i18n.common.drafts",
-    "mapValueTo": "Saved Drafts",
-    "keys": [
-      {
-        "key": "i18n.common.drafts",
-        "value": "Saved Drafts"
-      }
-    ]
-  },
-  {
-    "value": "View Recoveries",
-    "count": 1,
-    "mapKeyTo": "i18n.common.recovery-requests",
-    "mapValueTo": "View Recoveries",
-    "keys": [
-      {
-        "key": "i18n.common.recovery-requests",
-        "value": "View Recoveries"
-      }
-    ]
-  },
-  {
-    "value": "Home",
-    "count": 1,
-    "mapKeyTo": "i18n.common.home",
-    "mapValueTo": "Home",
-    "keys": [
-      {
-        "key": "i18n.common.home",
-        "value": "Home"
-      }
-    ]
-  },
-  {
-    "value": "Invalidation Requests",
-    "count": 1,
-    "mapKeyTo": "i18n.common.invalidation-requests",
-    "mapValueTo": "Invalidation Requests",
-    "keys": [
-      {
-        "key": "i18n.common.invalidation-requests",
-        "value": "Invalidation Requests"
-      }
-    ]
-  },
-  {
-    "value": "Movement Under Resolution",
-    "count": 1,
-    "mapKeyTo": "i18n.common.movement-under-resolution",
-    "mapValueTo": "Movement Under Resolution",
-    "keys": [
-      {
-        "key": "i18n.common.movement-under-resolution",
-        "value": "Movement Under Resolution"
-      }
-    ]
-  },
-  {
-    "value": "Office Of Departure",
-    "count": 1,
-    "mapKeyTo": "i18n.common.officeOfDeparture",
-    "mapValueTo": "Office Of Departure",
-    "keys": [
-      {
-        "key": "i18n.common.officeOfDeparture",
-        "value": "Office Of Departure"
-      }
-    ]
-  },
-  {
-    "value": "Office Of Destination",
-    "count": 1,
-    "mapKeyTo": "i18n.common.officeOfDestination",
-    "mapValueTo": "Office Of Destination",
-    "keys": [
-      {
-        "key": "i18n.common.officeOfDestination",
-        "value": "Office Of Destination"
-      }
-    ]
-  },
-  {
-    "value": "Recovery Request",
-    "count": 1,
-    "mapKeyTo": "i18n.common.recovery-request",
-    "mapValueTo": "Recovery Request",
-    "keys": [
-      {
-        "key": "i18n.common.recovery-request",
-        "value": "Recovery Request"
-      }
-    ]
-  },
-  {
-    "value": "Register Arrival Notification",
-    "count": 1,
-    "mapKeyTo": "i18n.common.registerArrivalNotification",
-    "mapValueTo": "Register Arrival Notification",
-    "keys": [
-      {
-        "key": "i18n.common.registerArrivalNotification",
-        "value": "Register Arrival Notification"
-      }
-    ]
-  },
-  {
-    "value": "Release Requests",
-    "count": 1,
-    "mapKeyTo": "i18n.common.release-requests",
-    "mapValueTo": "Release Requests",
-    "keys": [
-      {
-        "key": "i18n.common.release-requests",
-        "value": "Release Requests"
-      }
-    ]
-  },
-  {
-    "value": "Request On Non-arrived Movement",
-    "count": 1,
-    "mapKeyTo": "i18n.common.request-on-non-arrived-movement",
-    "mapValueTo": "Request On Non-arrived Movement",
-    "keys": [
-      {
-        "key": "i18n.common.request-on-non-arrived-movement",
-        "value": "Request On Non-arrived Movement"
-      }
-    ]
-  },
-  {
-    "value": "History",
-    "count": 1,
-    "mapKeyTo": "i18n.common.history",
-    "mapValueTo": "History",
-    "keys": [
-      {
-        "key": "i18n.common.history",
-        "value": "History"
-      }
-    ]
-  },
-  {
-    "value": "Risk And Control Information",
-    "count": 1,
-    "mapKeyTo": "i18n.common.riskAndControlInfo",
-    "mapValueTo": "Risk And Control Information",
-    "keys": [
-      {
-        "key": "i18n.common.riskAndControlInfo",
-        "value": "Risk And Control Information"
-      }
-    ]
-  },
-  {
-    "value": "Incidents",
-    "count": 1,
-    "mapKeyTo": "i18n.common.incidents",
-    "mapValueTo": "Incidents",
-    "keys": [
-      {
-        "key": "i18n.common.incidents",
-        "value": "Incidents"
-      }
-    ]
-  },
-  {
-    "value": "Invalidation Request",
-    "count": 1,
-    "mapKeyTo": "i18n.common.invalidation_request",
-    "mapValueTo": "Invalidation Request",
-    "keys": [
-      {
-        "key": "i18n.common.invalidation_request",
-        "value": "Invalidation Request"
-      }
-    ]
-  },
-  {
-    "value": "Address",
-    "count": 1,
-    "mapKeyTo": "i18n.common.address",
-    "mapValueTo": "Address",
-    "keys": [
-      {
-        "key": "i18n.common.address",
-        "value": "Address"
-      }
-    ]
-  },
-  {
-    "value": "City",
-    "count": 1,
-    "mapKeyTo": "i18n.common.city",
-    "mapValueTo": "City",
-    "keys": [
-      {
-        "key": "i18n.common.city",
-        "value": "City"
-      }
-    ]
-  },
-  {
-    "value": "Code",
-    "count": 1,
-    "mapKeyTo": "i18n.common.code",
-    "mapValueTo": "Code",
-    "keys": [
-      {
-        "key": "i18n.common.code",
-        "value": "Code"
-      }
-    ]
-  },
-  {
-    "value": "Container Identification Number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.containerIdentificationNumber",
-    "mapValueTo": "Container Identification Number",
-    "keys": [
-      {
-        "key": "i18n.common.containerIdentificationNumber",
-        "value": "Container Identification Number"
-      }
-    ]
-  },
-  {
-    "value": "Container Indicator",
-    "count": 1,
-    "mapKeyTo": "i18n.common.containerIndicator",
-    "mapValueTo": "Container Indicator",
-    "keys": [
-      {
-        "key": "i18n.common.containerIndicator",
-        "value": "Container Indicator"
-      }
-    ]
-  },
-  {
-    "value": "Country",
-    "count": 1,
-    "mapKeyTo": "i18n.common.country",
-    "mapValueTo": "Country",
-    "keys": [
-      {
-        "key": "i18n.common.country",
-        "value": "Country"
-      }
-    ]
-  },
-  {
-    "value": "Date",
-    "count": 1,
-    "mapKeyTo": "i18n.common.date",
-    "mapValueTo": "Date",
-    "keys": [
-      {
-        "key": "i18n.common.date",
-        "value": "Date"
-      }
-    ]
-  },
-  {
-    "value": "Identification Number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.identificationNumber",
-    "mapValueTo": "Identification Number",
-    "keys": [
-      {
-        "key": "i18n.common.identificationNumber",
-        "value": "Identification Number"
-      }
-    ]
-  },
-  {
-    "value": "Incident",
-    "count": 1,
-    "mapKeyTo": "i18n.common.incident",
-    "mapValueTo": "Incident",
-    "keys": [
-      {
-        "key": "i18n.common.incident",
-        "value": "Incident"
-      }
-    ]
-  },
-  {
-    "value": "Location",
-    "count": 1,
-    "mapKeyTo": "i18n.common.location",
-    "mapValueTo": "Location",
-    "keys": [
-      {
-        "key": "i18n.common.location",
-        "value": "Location"
-      }
-    ]
-  },
-  {
-    "value": "Nationality",
-    "count": 1,
-    "mapKeyTo": "i18n.common.nationality",
-    "mapValueTo": "Nationality",
-    "keys": [
-      {
-        "key": "i18n.common.nationality",
-        "value": "Nationality"
-      }
-    ]
-  },
-  {
-    "value": "Number of seals",
-    "count": 1,
-    "mapKeyTo": "i18n.common.numberOfSeals",
-    "mapValueTo": "Number of seals",
-    "keys": [
-      {
-        "key": "i18n.common.numberOfSeals",
-        "value": "Number of seals"
-      }
-    ]
-  },
-  {
-    "value": "Place",
-    "count": 1,
-    "mapKeyTo": "i18n.common.place",
-    "mapValueTo": "Place",
-    "keys": [
-      {
-        "key": "i18n.common.place",
-        "value": "Place"
-      }
-    ]
-  },
-  {
-    "value": "Postcode",
-    "count": 1,
-    "mapKeyTo": "i18n.common.postcode",
-    "mapValueTo": "Postcode",
-    "keys": [
-      {
-        "key": "i18n.common.postcode",
-        "value": "Postcode"
-      }
-    ]
-  },
-  {
-    "value": "Seal identifier",
-    "count": 1,
-    "mapKeyTo": "i18n.common.sealIdentifier",
-    "mapValueTo": "Seal identifier",
-    "keys": [
-      {
-        "key": "i18n.common.sealIdentifier",
-        "value": "Seal identifier"
-      }
-    ]
-  },
-  {
-    "value": "Street and number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.streetAndNumber",
-    "mapValueTo": "Street and number",
-    "keys": [
-      {
-        "key": "i18n.common.streetAndNumber",
-        "value": "Street and number"
-      }
-    ]
-  },
-  {
-    "value": "Transport Equipment",
-    "count": 1,
-    "mapKeyTo": "i18n.common.transportEquipment",
-    "mapValueTo": "Transport Equipment",
-    "keys": [
-      {
-        "key": "i18n.common.transportEquipment",
-        "value": "Transport Equipment"
-      }
-    ]
-  },
-  {
-    "value": "Type of identification",
-    "count": 1,
-    "mapKeyTo": "i18n.common.typeOfIdentification",
-    "mapValueTo": "Type of identification",
-    "keys": [
-      {
-        "key": "i18n.common.typeOfIdentification",
-        "value": "Type of identification"
-      }
-    ]
-  },
-  {
-    "value": "Release a Movement",
-    "count": 1,
-    "mapKeyTo": "i18n.common.releaseMovement",
-    "mapValueTo": "Release a Movement",
-    "keys": [
-      {
-        "key": "i18n.common.releaseMovement",
-        "value": "Release a Movement"
-      }
-    ]
-  },
-  {
-    "value": "View",
-    "count": 1,
-    "mapKeyTo": "i18n.common.view",
-    "mapValueTo": "View",
-    "keys": [
-      {
-        "key": "i18n.common.view",
-        "value": "View"
-      }
-    ]
-  },
-  {
-    "value": "Clear all",
-    "count": 1,
-    "mapKeyTo": "i18n.common.clearAll",
-    "mapValueTo": "Clear all",
-    "keys": [
-      {
-        "key": "i18n.common.clearAll",
-        "value": "Clear all"
-      }
-    ]
-  },
-  {
-    "value": "No risk",
-    "count": 1,
-    "mapKeyTo": "i18n.common.NoRisk",
-    "mapValueTo": "No risk",
-    "keys": [
-      {
-        "key": "i18n.common.NoRisk",
-        "value": "No risk"
-      }
-    ]
-  },
-  {
-    "value": "Addressed customs office",
-    "count": 1,
-    "mapKeyTo": "i18n.common.addCusOff",
-    "mapValueTo": "Addressed customs office",
-    "keys": [
-      {
-        "key": "i18n.common.addCusOff",
-        "value": "Addressed customs office"
-      }
-    ]
-  },
-  {
-    "value": "Additional supply chain actor",
-    "count": 1,
-    "mapKeyTo": "i18n.common.additionalSupplyChainActor",
-    "mapValueTo": "Additional supply chain actor",
-    "keys": [
-      {
-        "key": "i18n.common.additionalSupplyChainActor",
-        "value": "Additional supply chain actor"
-      }
-    ]
-  },
-  {
-    "value": "at",
-    "count": 1,
-    "mapKeyTo": "i18n.common.at",
-    "mapValueTo": "at",
-    "keys": [
-      {
-        "key": "i18n.common.at",
-        "value": "at"
-      }
-    ]
-  },
-  {
-    "value": "Authorisation number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.authorizationNumber",
-    "mapValueTo": "Authorisation number",
-    "keys": [
-      {
-        "key": "i18n.common.authorizationNumber",
-        "value": "Authorisation number"
-      }
-    ]
-  },
-  {
-    "value": "Carrier",
-    "count": 1,
-    "mapKeyTo": "i18n.common.carrier",
-    "mapValueTo": "Carrier",
-    "keys": [
-      {
-        "key": "i18n.common.carrier",
-        "value": "Carrier"
-      }
-    ]
-  },
-  {
-    "value": "Consignee",
-    "count": 1,
-    "mapKeyTo": "i18n.common.consignee",
-    "mapValueTo": "Consignee",
-    "keys": [
-      {
-        "key": "i18n.common.consignee",
-        "value": "Consignee"
-      }
-    ]
-  },
-  {
-    "value": "Consignor",
-    "count": 1,
-    "mapKeyTo": "i18n.common.consignor",
-    "mapValueTo": "Consignor",
-    "keys": [
-      {
-        "key": "i18n.common.consignor",
-        "value": "Consignor"
-      }
-    ]
-  },
-  {
-    "value": "Country of destination",
-    "count": 1,
-    "mapKeyTo": "i18n.common.countrydest",
-    "mapValueTo": "Country of destination",
-    "keys": [
-      {
-        "key": "i18n.common.countrydest",
-        "value": "Country of destination"
-      }
-    ]
-  },
-  {
-    "value": "Customs office",
-    "count": 1,
-    "mapKeyTo": "i18n.common.cusOffice",
-    "mapValueTo": "Customs office",
-    "keys": [
-      {
-        "key": "i18n.common.cusOffice",
-        "value": "Customs office"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of destination",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsdest",
-    "mapValueTo": "Customs office of destination",
-    "keys": [
-      {
-        "key": "i18n.common.customsdest",
-        "value": "Customs office of destination"
-      }
-    ]
-  },
-  {
-    "value": "Declaration Information",
-    "count": 1,
-    "mapKeyTo": "i18n.common.decInfo",
-    "mapValueTo": "Declaration Information",
-    "keys": [
-      {
-        "key": "i18n.common.decInfo",
-        "value": "Declaration Information"
-      }
-    ]
-  },
-  {
-    "value": "Declaration status",
-    "count": 1,
-    "mapKeyTo": "i18n.common.decStatus",
-    "mapValueTo": "Declaration status",
-    "keys": [
-      {
-        "key": "i18n.common.decStatus",
-        "value": "Declaration status"
-      }
-    ]
-  },
-  {
-    "value": "Destination",
-    "count": 1,
-    "mapKeyTo": "i18n.common.destination",
-    "mapValueTo": "Destination",
-    "keys": [
-      {
-        "key": "i18n.common.destination",
-        "value": "Destination"
-      }
-    ]
-  },
-  {
-    "value": "Export",
-    "count": 1,
-    "mapKeyTo": "i18n.common.export",
-    "mapValueTo": "Export",
-    "keys": [
-      {
-        "key": "i18n.common.export",
-        "value": "Export"
-      }
-    ]
-  },
-  {
-    "value": "Holder of transit procedure",
-    "count": 1,
-    "mapKeyTo": "i18n.common.holderOfTransitProcedure",
-    "mapValueTo": "Holder of transit procedure",
-    "keys": [
-      {
-        "key": "i18n.common.holderOfTransitProcedure",
-        "value": "Holder of transit procedure"
-      }
-    ]
-  },
-  {
-    "value": "Name",
-    "count": 1,
-    "mapKeyTo": "i18n.common.name",
-    "mapValueTo": "Name",
-    "keys": [
-      {
-        "key": "i18n.common.name",
-        "value": "Name"
-      }
-    ]
-  },
-  {
-    "value": "Parties",
-    "count": 1,
-    "mapKeyTo": "i18n.common.parties",
-    "mapValueTo": "Parties",
-    "keys": [
-      {
-        "key": "i18n.common.parties",
-        "value": "Parties"
-      }
-    ]
-  },
-  {
-    "value": "Reference Number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.refNum",
-    "mapValueTo": "Reference Number",
-    "keys": [
-      {
-        "key": "i18n.common.refNum",
-        "value": "Reference Number"
-      }
-    ]
-  },
-  {
-    "value": "Release date",
-    "count": 1,
-    "mapKeyTo": "i18n.common.releaseDateRange",
-    "mapValueTo": "Release date",
-    "keys": [
-      {
-        "key": "i18n.common.releaseDateRange",
-        "value": "Release date"
-      }
-    ]
-  },
-  {
-    "value": "Incident notification date",
-    "count": 1,
-    "mapKeyTo": "i18n.common.incidentDateRange",
-    "mapValueTo": "Incident notification date",
-    "keys": [
-      {
-        "key": "i18n.common.incidentDateRange",
-        "value": "Incident notification date"
-      }
-    ]
-  },
-  {
-    "value": "Representative",
-    "count": 1,
-    "mapKeyTo": "i18n.common.representative",
-    "mapValueTo": "Representative",
-    "keys": [
-      {
-        "key": "i18n.common.representative",
-        "value": "Representative"
-      }
-    ]
-  },
-  {
-    "value": "TIR holder",
-    "count": 1,
-    "mapKeyTo": "i18n.common.tirHolder",
-    "mapValueTo": "TIR holder",
-    "keys": [
-      {
-        "key": "i18n.common.tirHolder",
-        "value": "TIR holder"
-      }
-    ]
-  },
-  {
-    "value": "Transit Operation",
-    "count": 1,
-    "mapKeyTo": "i18n.common.transitOperation",
-    "mapValueTo": "Transit Operation",
-    "keys": [
-      {
-        "key": "i18n.common.transitOperation",
-        "value": "Transit Operation"
-      }
-    ]
-  },
-  {
-    "value": "Declaration goods item number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.declarationGoodsItemNumber",
-    "mapValueTo": "Declaration goods item number",
-    "keys": [
-      {
-        "key": "i18n.common.declarationGoodsItemNumber",
-        "value": "Declaration goods item number"
-      }
-    ]
-  },
-  {
-    "value": "Status",
-    "count": 1,
-    "mapKeyTo": "i18n.common.discrepancyStatus",
-    "mapValueTo": "Status",
-    "keys": [
-      {
-        "key": "i18n.common.discrepancyStatus",
-        "value": "Status"
-      }
-    ]
-  },
-  {
-    "value": "Added",
-    "count": 1,
-    "mapKeyTo": "i18n.common.added",
-    "mapValueTo": "Added",
-    "keys": [
-      {
-        "key": "i18n.common.added",
-        "value": "Added"
-      }
-    ]
-  },
-  {
-    "value": "Updated",
-    "count": 1,
-    "mapKeyTo": "i18n.common.updated",
-    "mapValueTo": "Updated",
-    "keys": [
-      {
-        "key": "i18n.common.updated",
-        "value": "Updated"
-      }
-    ]
-  },
-  {
-    "value": "Deleted",
-    "count": 1,
-    "mapKeyTo": "i18n.common.deleted",
-    "mapValueTo": "Deleted",
-    "keys": [
-      {
-        "key": "i18n.common.deleted",
-        "value": "Deleted"
-      }
-    ]
-  },
-  {
-    "value": "Total Packages",
-    "count": 1,
-    "mapKeyTo": "i18n.common.totalPackages",
-    "mapValueTo": "Total Packages",
-    "keys": [
-      {
-        "key": "i18n.common.totalPackages",
-        "value": "Total Packages"
-      }
-    ]
-  },
-  {
-    "value": "Type of packages",
-    "count": 1,
-    "mapKeyTo": "i18n.common.typeOfPackages",
-    "mapValueTo": "Type of packages",
-    "keys": [
-      {
-        "key": "i18n.common.typeOfPackages",
-        "value": "Type of packages"
-      }
-    ]
-  },
-  {
-    "value": "Consignment Items",
-    "count": 1,
-    "mapKeyTo": "i18n.common.consignmentItem",
-    "mapValueTo": "Consignment Items",
-    "keys": [
-      {
-        "key": "i18n.common.consignmentItem",
-        "value": "Consignment Items"
-      }
-    ]
-  },
-  {
-    "value": "Gross Mass",
-    "count": 1,
-    "mapKeyTo": "i18n.common.grossMass",
-    "mapValueTo": "Gross Mass",
-    "keys": [
-      {
-        "key": "i18n.common.grossMass",
-        "value": "Gross Mass"
-      }
-    ]
-  },
-  {
-    "value": "Net Mass",
-    "count": 1,
-    "mapKeyTo": "i18n.common.netMass",
-    "mapValueTo": "Net Mass",
-    "keys": [
-      {
-        "key": "i18n.common.netMass",
-        "value": "Net Mass"
-      }
-    ]
-  },
-  {
-    "value": "Action",
-    "count": 1,
-    "mapKeyTo": "i18n.common.action",
-    "mapValueTo": "Action",
-    "keys": [
-      {
-        "key": "i18n.common.action",
-        "value": "Action"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of departure",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeOfDeparture",
-    "mapValueTo": "Customs office of departure",
-    "keys": [
-      {
-        "key": "i18n.common.customsOfficeOfDeparture",
-        "value": "Customs office of departure"
-      }
-    ]
-  },
-  {
-    "value": "Customs Office of Incident registration",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeOfIncident",
-    "mapValueTo": "Customs Office of Incident registration",
-    "keys": [
-      {
-        "key": "i18n.common.customsOfficeOfIncident",
-        "value": "Customs Office of Incident registration"
-      }
-    ]
-  },
-  {
-    "value": "Declaration type",
-    "count": 1,
-    "mapKeyTo": "i18n.common.declarationType",
-    "mapValueTo": "Declaration type",
-    "keys": [
-      {
-        "key": "i18n.common.declarationType",
-        "value": "Declaration type"
-      }
-    ]
-  },
-  {
-    "value": "Submission date and time",
-    "count": 1,
-    "mapKeyTo": "i18n.common.submissionDate",
-    "mapValueTo": "Submission date and time",
-    "keys": [
-      {
-        "key": "i18n.common.submissionDate",
-        "value": "Submission date and time"
-      }
-    ]
-  },
-  {
-    "value": "Trader at destination",
-    "count": 1,
-    "mapKeyTo": "i18n.common.traderAtDestination",
-    "mapValueTo": "Trader at destination",
-    "keys": [
-      {
-        "key": "i18n.common.traderAtDestination",
-        "value": "Trader at destination"
-      }
-    ]
-  },
-  {
-    "value": "Cancel",
-    "count": 1,
-    "mapKeyTo": "i18n.common.cancel",
-    "mapValueTo": "Cancel",
-    "keys": [
-      {
-        "key": "i18n.common.cancel",
-        "value": "Cancel"
-      }
-    ]
-  },
-  {
-    "value": "Alternative Proof",
-    "count": 1,
-    "mapKeyTo": "i18n.common.alternativeProof",
-    "mapValueTo": "Alternative Proof",
-    "keys": [
-      {
-        "key": "i18n.common.alternativeProof",
-        "value": "Alternative Proof"
-      }
-    ]
-  },
-  {
-    "value": "Submit",
-    "count": 1,
-    "mapKeyTo": "i18n.common.submit",
-    "mapValueTo": "Submit",
-    "keys": [
-      {
-        "key": "i18n.common.submit",
-        "value": "Submit"
-      }
-    ]
-  },
-  {
-    "value": "Text",
-    "count": 1,
-    "mapKeyTo": "i18n.common.text",
-    "mapValueTo": "Text",
-    "keys": [
-      {
-        "key": "i18n.common.text",
-        "value": "Text"
-      }
-    ]
-  },
-  {
-    "value": "Add Binding Itinerary",
-    "count": 1,
-    "mapKeyTo": "i18n.common.addBindingItinerary",
-    "mapValueTo": "Add Binding Itinerary",
-    "keys": [
-      {
-        "key": "i18n.common.addBindingItinerary",
-        "value": "Add Binding Itinerary"
-      }
-    ]
-  },
-  {
-    "value": "Save",
-    "count": 1,
-    "mapKeyTo": "i18n.common.save",
-    "mapValueTo": "Save",
-    "keys": [
-      {
-        "key": "i18n.common.save",
-        "value": "Save"
-      }
-    ]
-  },
-  {
-    "value": "Country of routing of consignment",
-    "count": 1,
-    "mapKeyTo": "i18n.common.countryOfRoutingOfConsignment",
-    "mapValueTo": "Country of routing of consignment",
-    "keys": [
-      {
-        "key": "i18n.common.countryOfRoutingOfConsignment",
-        "value": "Country of routing of consignment"
-      }
-    ]
-  },
-  {
-    "value": "Country of destination",
-    "count": 1,
-    "mapKeyTo": "i18n.common.countryOfDestination",
-    "mapValueTo": "Country of destination",
-    "keys": [
-      {
-        "key": "i18n.common.countryOfDestination",
-        "value": "Country of destination"
-      }
-    ]
-  },
-  {
-    "value": "Country of transit",
-    "count": 1,
-    "mapKeyTo": "i18n.common.countryOfTransit",
-    "mapValueTo": "Country of transit",
-    "keys": [
-      {
-        "key": "i18n.common.countryOfTransit",
-        "value": "Country of transit"
-      }
-    ]
-  },
-  {
-    "value": "Confirm",
-    "count": 1,
-    "mapKeyTo": "i18n.common.confirm",
-    "mapValueTo": "Confirm",
-    "keys": [
-      {
-        "key": "i18n.common.confirm",
-        "value": "Confirm"
-      }
-    ]
-  },
-  {
-    "value": "Request",
-    "count": 1,
-    "mapKeyTo": "i18n.common.request",
-    "mapValueTo": "Request",
-    "keys": [
-      {
-        "key": "i18n.common.request",
-        "value": "Request"
-      }
-    ]
-  },
-  {
-    "value": "Cancel enquiry notification text",
-    "count": 1,
-    "mapKeyTo": "i18n.common.cancelEnquiryNotificationText",
-    "mapValueTo": "Cancel enquiry notification text",
-    "keys": [
-      {
-        "key": "i18n.common.cancelEnquiryNotificationText",
-        "value": "Cancel enquiry notification text"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of request",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeOfRequest",
-    "mapValueTo": "Customs office of request",
-    "keys": [
-      {
-        "key": "i18n.common.customsOfficeOfRequest",
-        "value": "Customs office of request"
-      }
-    ]
-  },
-  {
-    "value": "No",
-    "count": 1,
-    "mapKeyTo": "i18n.common.no",
-    "mapValueTo": "No",
-    "keys": [
-      {
-        "key": "i18n.common.no",
-        "value": "No"
-      }
-    ]
-  },
-  {
-    "value": "Yes",
-    "count": 1,
-    "mapKeyTo": "i18n.common.yes",
-    "mapValueTo": "Yes",
-    "keys": [
-      {
-        "key": "i18n.common.yes",
-        "value": "Yes"
-      }
-    ]
-  },
-  {
-    "value": "Office city",
-    "count": 1,
-    "mapKeyTo": "i18n.common.officeCity",
-    "mapValueTo": "Office city",
-    "keys": [
-      {
-        "key": "i18n.common.officeCity",
-        "value": "Office city"
-      }
-    ]
-  },
-  {
-    "value": "Office name",
-    "count": 1,
-    "mapKeyTo": "i18n.common.officeName",
-    "mapValueTo": "Office name",
-    "keys": [
-      {
-        "key": "i18n.common.officeName",
-        "value": "Office name"
-      }
-    ]
-  },
-  {
-    "value": "Email address",
-    "count": 1,
-    "mapKeyTo": "i18n.common.emailAddress",
-    "mapValueTo": "Email address",
-    "keys": [
-      {
-        "key": "i18n.common.emailAddress",
-        "value": "Email address"
-      }
-    ]
-  },
-  {
-    "value": "Phone number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.phoneNumber",
-    "mapValueTo": "Phone number",
-    "keys": [
-      {
-        "key": "i18n.common.phoneNumber",
-        "value": "Phone number"
-      }
-    ]
-  },
-  {
-    "value": "Contact Person",
-    "count": 1,
-    "mapKeyTo": "i18n.common.contactPerson",
-    "mapValueTo": "Contact Person",
-    "keys": [
-      {
-        "key": "i18n.common.contactPerson",
-        "value": "Contact Person"
-      }
-    ]
-  },
-  {
-    "value": "Currency",
-    "count": 1,
-    "mapKeyTo": "i18n.common.recovCurrency",
-    "mapValueTo": "Currency",
-    "keys": [
-      {
-        "key": "i18n.common.recovCurrency",
-        "value": "Currency"
-      }
-    ]
-  },
-  {
-    "value": "Recovery",
-    "count": 1,
-    "mapKeyTo": "i18n.common.recovery",
-    "mapValueTo": "Recovery",
-    "keys": [
-      {
-        "key": "i18n.common.recovery",
-        "value": "Recovery"
-      }
-    ]
-  },
-  {
-    "value": "Please enter a value",
-    "count": 1,
-    "mapKeyTo": "i18n.common.required",
-    "mapValueTo": "Please enter a value",
-    "keys": [
-      {
-        "key": "i18n.common.required",
-        "value": "Please enter a value"
-      }
-    ]
-  },
-  {
-    "value": "Please select a value",
-    "count": 1,
-    "mapKeyTo": "i18n.common.selectRequired",
-    "mapValueTo": "Please select a value",
-    "keys": [
-      {
-        "key": "i18n.common.selectRequired",
-        "value": "Please select a value"
-      }
-    ]
-  },
-  {
-    "value": "Maximum {{ noOfChars }} characters",
-    "count": 1,
-    "mapKeyTo": "i18n.common.hintWithLength",
-    "mapValueTo": "Maximum {{ noOfChars }} characters",
-    "keys": [
-      {
-        "key": "i18n.common.hintWithLength",
-        "value": "Maximum {{ noOfChars }} characters"
-      }
-    ]
-  },
-  {
-    "value": "Area code followed by phone number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.hintWithPhoneNumber",
-    "mapValueTo": "Area code followed by phone number",
-    "keys": [
-      {
-        "key": "i18n.common.hintWithPhoneNumber",
-        "value": "Area code followed by phone number"
-      }
-    ]
-  },
-  {
-    "value": "Name contact person",
-    "count": 1,
-    "mapKeyTo": "i18n.common.nameContactPerson",
-    "mapValueTo": "Name contact person",
-    "keys": [
-      {
-        "key": "i18n.common.nameContactPerson",
-        "value": "Name contact person"
-      }
-    ]
-  },
-  {
-    "value": "Select the actors that are involved and enter their information",
-    "count": 1,
-    "mapKeyTo": "i18n.common.partiesSub",
-    "mapValueTo": "Select the actors that are involved and enter their information",
-    "keys": [
-      {
-        "key": "i18n.common.partiesSub",
-        "value": "Select the actors that are involved and enter their information"
-      }
-    ]
-  },
-  {
-    "value": "Step 2: Parties",
-    "count": 1,
-    "mapKeyTo": "i18n.common.rootLabelParties2",
-    "mapValueTo": "Step 2: Parties",
-    "keys": [
-      {
-        "key": "i18n.common.rootLabelParties2",
-        "value": "Step 2: Parties"
-      }
-    ]
-  },
-  {
-    "value": "Additional reference(s)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.additional-references",
-    "mapValueTo": "Additional reference(s)",
-    "keys": [
-      {
-        "key": "i18n.common.additional-references",
-        "value": "Additional reference(s)"
-      }
-    ]
-  },
-  {
-    "value": "Commodity",
-    "count": 1,
-    "mapKeyTo": "i18n.common.commodity",
-    "mapValueTo": "Commodity",
-    "keys": [
-      {
-        "key": "i18n.common.commodity",
-        "value": "Commodity"
-      }
-    ]
-  },
-  {
-    "value": "Commodity code",
-    "count": 1,
-    "mapKeyTo": "i18n.common.commodityCode",
-    "mapValueTo": "Commodity code",
-    "keys": [
-      {
-        "key": "i18n.common.commodityCode",
-        "value": "Commodity code"
-      }
-    ]
-  },
-  {
-    "value": "Consignment Item",
-    "count": 1,
-    "mapKeyTo": "i18n.common.Item",
-    "mapValueTo": "Consignment Item",
-    "keys": [
-      {
-        "key": "i18n.common.Item",
-        "value": "Consignment Item"
-      }
-    ]
-  },
-  {
-    "value": "Combined nomenclature code",
-    "count": 1,
-    "mapKeyTo": "i18n.common.combinedNomenclatureCode",
-    "mapValueTo": "Combined nomenclature code",
-    "keys": [
-      {
-        "key": "i18n.common.combinedNomenclatureCode",
-        "value": "Combined nomenclature code"
-      }
-    ]
-  },
-  {
-    "value": "CUS Code",
-    "count": 1,
-    "mapKeyTo": "i18n.common.cusCode",
-    "mapValueTo": "CUS Code",
-    "keys": [
-      {
-        "key": "i18n.common.cusCode",
-        "value": "CUS Code"
-      }
-    ]
-  },
-  {
-    "value": "Description of goods",
-    "count": 1,
-    "mapKeyTo": "i18n.common.descriptionOfGoods",
-    "mapValueTo": "Description of goods",
-    "keys": [
-      {
-        "key": "i18n.common.descriptionOfGoods",
-        "value": "Description of goods"
-      }
-    ]
-  },
-  {
-    "value": "Gross Mass (kg)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.grossMassKilogram",
-    "mapValueTo": "Gross Mass (kg)",
-    "keys": [
-      {
-        "key": "i18n.common.grossMassKilogram",
-        "value": "Gross Mass (kg)"
-      }
-    ]
-  },
-  {
-    "value": "Harmonized System Sub Heading Code",
-    "count": 1,
-    "mapKeyTo": "i18n.common.harmonizedSystemSubHeadingCode",
-    "mapValueTo": "Harmonized System Sub Heading Code",
-    "keys": [
-      {
-        "key": "i18n.common.harmonizedSystemSubHeadingCode",
-        "value": "Harmonized System Sub Heading Code"
-      }
-    ]
-  },
-  {
-    "value": "Number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.number",
-    "mapValueTo": "Number",
-    "keys": [
-      {
-        "key": "i18n.common.number",
-        "value": "Number"
-      }
-    ]
-  },
-  {
-    "value": "Shipping Marks",
-    "count": 1,
-    "mapKeyTo": "i18n.common.shippingMarks",
-    "mapValueTo": "Shipping Marks",
-    "keys": [
-      {
-        "key": "i18n.common.shippingMarks",
-        "value": "Shipping Marks"
-      }
-    ]
-  },
-  {
-    "value": "Type",
-    "count": 1,
-    "mapKeyTo": "i18n.common.type",
-    "mapValueTo": "Type",
-    "keys": [
-      {
-        "key": "i18n.common.type",
-        "value": "Type"
-      }
-    ]
-  },
-  {
-    "value": "No.",
-    "count": 1,
-    "mapKeyTo": "i18n.common.numberShort",
-    "mapValueTo": "No.",
-    "keys": [
-      {
-        "key": "i18n.common.numberShort",
-        "value": "No."
-      }
-    ]
-  },
-  {
-    "value": "Complement of Information",
-    "count": 1,
-    "mapKeyTo": "i18n.common.complementOfInformation",
-    "mapValueTo": "Complement of Information",
-    "keys": [
-      {
-        "key": "i18n.common.complementOfInformation",
-        "value": "Complement of Information"
-      }
-    ]
-  },
-  {
-    "value": "Goods item",
-    "count": 1,
-    "mapKeyTo": "i18n.common.goodsItem",
-    "mapValueTo": "Goods item",
-    "keys": [
-      {
-        "key": "i18n.common.goodsItem",
-        "value": "Goods item"
-      }
-    ]
-  },
-  {
-    "value": "Goods Item number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.goodsItemNumber",
-    "mapValueTo": "Goods Item number",
-    "keys": [
-      {
-        "key": "i18n.common.goodsItemNumber",
-        "value": "Goods Item number"
-      }
-    ]
-  },
-  {
-    "value": "Identifier",
-    "count": 1,
-    "mapKeyTo": "i18n.common.identifier",
-    "mapValueTo": "Identifier",
-    "keys": [
-      {
-        "key": "i18n.common.identifier",
-        "value": "Identifier"
-      }
-    ]
-  },
-  {
-    "value": "Measurement unit and qualifier",
-    "count": 1,
-    "mapKeyTo": "i18n.common.measurementUnitAndQualifier",
-    "mapValueTo": "Measurement unit and qualifier",
-    "keys": [
-      {
-        "key": "i18n.common.measurementUnitAndQualifier",
-        "value": "Measurement unit and qualifier"
-      }
-    ]
-  },
-  {
-    "value": "Quantity",
-    "count": 1,
-    "mapKeyTo": "i18n.common.quantity",
-    "mapValueTo": "Quantity",
-    "keys": [
-      {
-        "key": "i18n.common.quantity",
-        "value": "Quantity"
-      }
-    ]
-  },
-  {
-    "value": "House Consignment(s)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.rootLabelHouseConsignments",
-    "mapValueTo": "House Consignment(s)",
-    "keys": [
-      {
-        "key": "i18n.common.rootLabelHouseConsignments",
-        "value": "House Consignment(s)"
-      }
-    ]
-  },
-  {
-    "value": "Consignment Item(s)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.rootLabelConsignmentItems",
-    "mapValueTo": "Consignment Item(s)",
-    "keys": [
-      {
-        "key": "i18n.common.rootLabelConsignmentItems",
-        "value": "Consignment Item(s)"
-      }
-    ]
-  },
-  {
-    "value": "Date and Time",
-    "count": 1,
-    "mapKeyTo": "i18n.common.dateAndTime",
-    "mapValueTo": "Date and Time",
-    "keys": [
-      {
-        "key": "i18n.common.dateAndTime",
-        "value": "Date and Time"
-      }
-    ]
-  },
-  {
-    "value": "Decision",
-    "count": 1,
-    "mapKeyTo": "i18n.common.decision",
-    "mapValueTo": "Decision",
-    "keys": [
-      {
-        "key": "i18n.common.decision",
-        "value": "Decision"
-      }
-    ]
-  },
-  {
-    "value": "Access code",
-    "count": 1,
-    "mapKeyTo": "i18n.common.accessCode",
-    "mapValueTo": "Access code",
-    "keys": [
-      {
-        "key": "i18n.common.accessCode",
-        "value": "Access code"
-      }
-    ]
-  },
-  {
-    "value": "Amount",
-    "count": 1,
-    "mapKeyTo": "i18n.common.amountToBeCovered",
-    "mapValueTo": "Amount",
-    "keys": [
-      {
-        "key": "i18n.common.amountToBeCovered",
-        "value": "Amount"
-      }
-    ]
-  },
-  {
-    "value": "Conveyance reference number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.conveyanceReferenceNumber",
-    "mapValueTo": "Conveyance reference number",
-    "keys": [
-      {
-        "key": "i18n.common.conveyanceReferenceNumber",
-        "value": "Conveyance reference number"
-      }
-    ]
-  },
-  {
-    "value": "Customs office at border",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeAtBorder",
-    "mapValueTo": "Customs office at border",
-    "keys": [
-      {
-        "key": "i18n.common.customsOfficeAtBorder",
-        "value": "Customs office at border"
-      }
-    ]
-  },
-  {
-    "value": "Document line item number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.documentLineItemNumber",
-    "mapValueTo": "Document line item number",
-    "keys": [
-      {
-        "key": "i18n.common.documentLineItemNumber",
-        "value": "Document line item number"
-      }
-    ]
-  },
-  {
-    "value": "Passage Date",
-    "count": 1,
-    "mapKeyTo": "i18n.common.passageDate",
-    "mapValueTo": "Passage Date",
-    "keys": [
-      {
-        "key": "i18n.common.passageDate",
-        "value": "Passage Date"
-      }
-    ]
-  },
-  {
-    "value": "Other guarantee reference",
-    "count": 1,
-    "mapKeyTo": "i18n.common.otherGuaranteeReference",
-    "mapValueTo": "Other guarantee reference",
-    "keys": [
-      {
-        "key": "i18n.common.otherGuaranteeReference",
-        "value": "Other guarantee reference"
-      }
-    ]
-  },
-  {
-    "value": "Reduced dataset indicator",
-    "count": 1,
-    "mapKeyTo": "i18n.common.reducedDatasetIndicator",
-    "mapValueTo": "Reduced dataset indicator",
-    "keys": [
-      {
-        "key": "i18n.common.reducedDatasetIndicator",
-        "value": "Reduced dataset indicator"
-      }
-    ]
-  },
-  {
-    "value": "Role",
-    "count": 1,
-    "mapKeyTo": "i18n.common.role",
-    "mapValueTo": "Role",
-    "keys": [
-      {
-        "key": "i18n.common.role",
-        "value": "Role"
-      }
-    ]
-  },
-  {
-    "value": "Discrepancies",
-    "count": 1,
-    "mapKeyTo": "i18n.common.discrepancies",
-    "mapValueTo": "Discrepancies",
-    "keys": [
-      {
-        "key": "i18n.common.discrepancies",
-        "value": "Discrepancies"
-      }
-    ]
-  },
-  {
-    "value": "Satisfactory",
-    "count": 1,
-    "mapKeyTo": "i18n.common.satisfactory",
-    "mapValueTo": "Satisfactory",
-    "keys": [
-      {
-        "key": "i18n.common.satisfactory",
-        "value": "Satisfactory"
-      }
-    ]
-  },
-  {
-    "value": "Requested Document(s)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.Requested Document(s)",
-    "mapValueTo": "Requested Document(s)",
-    "keys": [
-      {
-        "key": "i18n.common.Requested Document(s)",
-        "value": "Requested Document(s)"
-      }
-    ]
-  },
-  {
-    "value": "Document",
-    "count": 1,
-    "mapKeyTo": "i18n.common.document",
-    "mapValueTo": "Document",
-    "keys": [
-      {
-        "key": "i18n.common.document",
-        "value": "Document"
-      }
-    ]
-  },
-  {
-    "value": "Document Type",
-    "count": 1,
-    "mapKeyTo": "i18n.common.documentType",
-    "mapValueTo": "Document Type",
-    "keys": [
-      {
-        "key": "i18n.common.documentType",
-        "value": "Document Type"
-      }
-    ]
-  },
-  {
-    "value": "Reason",
-    "count": 1,
-    "mapKeyTo": "i18n.common.reason",
-    "mapValueTo": "Reason",
-    "keys": [
-      {
-        "key": "i18n.common.reason",
-        "value": "Reason"
-      }
-    ]
-  },
-  {
-    "value": "Risk analysis",
-    "count": 1,
-    "mapKeyTo": "i18n.common.riskAnalysis",
-    "mapValueTo": "Risk analysis",
-    "keys": [
-      {
-        "key": "i18n.common.riskAnalysis",
-        "value": "Risk analysis"
-      }
-    ]
-  },
-  {
-    "value": "Submission failed",
-    "count": 1,
-    "mapKeyTo": "i18n.common.submissionFailed",
-    "mapValueTo": "Submission failed",
-    "keys": [
-      {
-        "key": "i18n.common.submissionFailed",
-        "value": "Submission failed"
-      }
-    ]
-  },
-  {
-    "value": "Transit Information",
-    "count": 1,
-    "mapKeyTo": "i18n.common.transitInformation",
-    "mapValueTo": "Transit Information",
-    "keys": [
-      {
-        "key": "i18n.common.transitInformation",
-        "value": "Transit Information"
-      }
-    ]
-  },
-  {
-    "value": "{{number}} errors found.",
-    "count": 1,
-    "mapKeyTo": "i18n.common.errorsFoundWithNumber",
-    "mapValueTo": "{{number}} errors found.",
-    "keys": [
-      {
-        "key": "i18n.common.errorsFoundWithNumber",
-        "value": "{{number}} errors found."
-      }
-    ]
-  },
-  {
-    "value": "Please review and correct errors",
-    "count": 1,
-    "mapKeyTo": "i18n.common.errorsPleaseReviewAndCorrect",
-    "mapValueTo": "Please review and correct errors",
-    "keys": [
-      {
-        "key": "i18n.common.errorsPleaseReviewAndCorrect",
-        "value": "Please review and correct errors"
-      }
-    ]
-  },
-  {
-    "value": "Unforeseen problem",
-    "count": 1,
-    "mapKeyTo": "i18n.common.unforeseenProblem",
-    "mapValueTo": "Unforeseen problem",
-    "keys": [
-      {
-        "key": "i18n.common.unforeseenProblem",
-        "value": "Unforeseen problem"
-      }
-    ]
-  },
-  {
-    "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
-    "count": 1,
-    "mapKeyTo": "i18n.common.errorGeneralDescription",
-    "mapValueTo": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
-    "keys": [
-      {
-        "key": "i18n.common.errorGeneralDescription",
-        "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
-      }
-    ]
-  },
-  {
-    "value": "Edit",
-    "count": 1,
-    "mapKeyTo": "i18n.common.edit",
-    "mapValueTo": "Edit",
-    "keys": [
-      {
-        "key": "i18n.common.edit",
-        "value": "Edit"
-      }
-    ]
-  },
-  {
-    "value": "Register Arrival Notification (IE007)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.registerArrivalNotificationIE007",
-    "mapValueTo": "Register Arrival Notification (IE007)",
-    "keys": [
-      {
-        "key": "i18n.common.registerArrivalNotificationIE007",
-        "value": "Register Arrival Notification (IE007)"
-      }
-    ]
-  },
-  {
-    "value": "Authority",
-    "count": 1,
-    "mapKeyTo": "i18n.common.authority",
-    "mapValueTo": "Authority",
-    "keys": [
-      {
-        "key": "i18n.common.authority",
-        "value": "Authority"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of destination actual",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeDestActual",
-    "mapValueTo": "Customs office of destination actual",
-    "keys": [
-      {
-        "key": "i18n.common.customsOfficeDestActual",
-        "value": "Customs office of destination actual"
-      }
-    ]
-  },
-  {
-    "value": "Discharge",
-    "count": 1,
-    "mapKeyTo": "i18n.common.dischargeTitle",
-    "mapValueTo": "Discharge",
-    "keys": [
-      {
-        "key": "i18n.common.dischargeTitle",
-        "value": "Discharge"
-      }
-    ]
-  },
-  {
-    "value": "Location of goods",
-    "count": 1,
-    "mapKeyTo": "i18n.common.locationOfGoods",
-    "mapValueTo": "Location of goods",
-    "keys": [
-      {
-        "key": "i18n.common.locationOfGoods",
-        "value": "Location of goods"
-      }
-    ]
-  },
-  {
-    "value": "Qualifier of identification",
-    "count": 1,
-    "mapKeyTo": "i18n.common.qualifierOfIdentification",
-    "mapValueTo": "Qualifier of identification",
-    "keys": [
-      {
-        "key": "i18n.common.qualifierOfIdentification",
-        "value": "Qualifier of identification"
-      }
-    ]
-  },
-  {
-    "value": "Volet page number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.voletPageNumber",
-    "mapValueTo": "Volet page number",
-    "keys": [
-      {
-        "key": "i18n.common.voletPageNumber",
-        "value": "Volet page number"
-      }
-    ]
-  },
-  {
-    "value": "Register Incident Notification (IE180)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.registerIncidentNotificationIE180",
-    "mapValueTo": "Register Incident Notification (IE180)",
-    "keys": [
-      {
-        "key": "i18n.common.registerIncidentNotificationIE180",
-        "value": "Register Incident Notification (IE180)"
-      }
-    ]
-  },
-  {
-    "value": "Register Incident Notification",
-    "count": 1,
-    "mapKeyTo": "i18n.common.registerIncidentNotification",
-    "mapValueTo": "Register Incident Notification",
-    "keys": [
-      {
-        "key": "i18n.common.registerIncidentNotification",
-        "value": "Register Incident Notification"
-      }
-    ]
-  },
-  {
-    "value": "Discrepancy resolution",
-    "count": 1,
-    "mapKeyTo": "i18n.common.discrepancyResolution",
-    "mapValueTo": "Discrepancy resolution",
-    "keys": [
-      {
-        "key": "i18n.common.discrepancyResolution",
-        "value": "Discrepancy resolution"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of enquiry at departure",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeOfEnquiryAtDeparture",
-    "mapValueTo": "Customs office of enquiry at departure",
-    "keys": [
-      {
-        "key": "i18n.common.customsOfficeOfEnquiryAtDeparture",
-        "value": "Customs office of enquiry at departure"
-      }
-    ]
-  },
-  {
-    "value": "Enquiry",
-    "count": 1,
-    "mapKeyTo": "i18n.common.enquiry",
-    "mapValueTo": "Enquiry",
-    "keys": [
-      {
-        "key": "i18n.common.enquiry",
-        "value": "Enquiry"
-      }
-    ]
-  },
-  {
-    "value": "Enquiry request date",
-    "count": 1,
-    "mapKeyTo": "i18n.common.enquiryRequestDate",
-    "mapValueTo": "Enquiry request date",
-    "keys": [
-      {
-        "key": "i18n.common.enquiryRequestDate",
-        "value": "Enquiry request date"
-      }
-    ]
-  },
-  {
-    "value": "Enquiry response date",
-    "count": 1,
-    "mapKeyTo": "i18n.common.enquiryResponseDate",
-    "mapValueTo": "Enquiry response date",
-    "keys": [
-      {
-        "key": "i18n.common.enquiryResponseDate",
-        "value": "Enquiry response date"
-      }
-    ]
-  },
-  {
-    "value": "Information available from trader",
-    "count": 1,
-    "mapKeyTo": "i18n.common.informationAvailableFromTrader",
-    "mapValueTo": "Information available from trader",
-    "keys": [
-      {
-        "key": "i18n.common.informationAvailableFromTrader",
-        "value": "Information available from trader"
-      }
-    ]
-  },
-  {
-    "value": "Information code",
-    "count": 1,
-    "mapKeyTo": "i18n.common.informationCode",
-    "mapValueTo": "Information code",
-    "keys": [
-      {
-        "key": "i18n.common.informationCode",
-        "value": "Information code"
-      }
-    ]
-  },
-  {
-    "value": "Office role",
-    "count": 1,
-    "mapKeyTo": "i18n.common.officeRole",
-    "mapValueTo": "Office role",
-    "keys": [
-      {
-        "key": "i18n.common.officeRole",
-        "value": "Office role"
-      }
-    ]
-  },
-  {
-    "value": "Requested Information",
-    "count": 1,
-    "mapKeyTo": "i18n.common.requestedInformation",
-    "mapValueTo": "Requested Information",
-    "keys": [
-      {
-        "key": "i18n.common.requestedInformation",
-        "value": "Requested Information"
-      }
-    ]
-  },
-  {
-    "value": "Response code",
-    "count": 1,
-    "mapKeyTo": "i18n.common.responseCode",
-    "mapValueTo": "Response code",
-    "keys": [
-      {
-        "key": "i18n.common.responseCode",
-        "value": "Response code"
-      }
-    ]
-  },
-  {
-    "value": "Response Information",
-    "count": 1,
-    "mapKeyTo": "i18n.common.responseInformation",
-    "mapValueTo": "Response Information",
-    "keys": [
-      {
-        "key": "i18n.common.responseInformation",
-        "value": "Response Information"
-      }
-    ]
-  },
-  {
-    "value": "Response text",
-    "count": 1,
-    "mapKeyTo": "i18n.common.responseText",
-    "mapValueTo": "Response text",
-    "keys": [
-      {
-        "key": "i18n.common.responseText",
-        "value": "Response text"
-      }
-    ]
-  },
-  {
-    "value": "Return copy returned date",
-    "count": 1,
-    "mapKeyTo": "i18n.common.returnCopyReturnedDate",
-    "mapValueTo": "Return copy returned date",
-    "keys": [
-      {
-        "key": "i18n.common.returnCopyReturnedDate",
-        "value": "Return copy returned date"
-      }
-    ]
-  },
-  {
-    "value": "TC11 Delivery Date",
-    "count": 1,
-    "mapKeyTo": "i18n.common.tc11DeliveryDate",
-    "mapValueTo": "TC11 Delivery Date",
-    "keys": [
-      {
-        "key": "i18n.common.tc11DeliveryDate",
-        "value": "TC11 Delivery Date"
-      }
-    ]
-  },
-  {
-    "value": "Guarantor",
-    "count": 1,
-    "mapKeyTo": "i18n.common.guarantor",
-    "mapValueTo": "Guarantor",
-    "keys": [
-      {
-        "key": "i18n.common.guarantor",
-        "value": "Guarantor"
-      }
-    ]
-  },
-  {
-    "value": "Recovery communication date",
-    "count": 1,
-    "mapKeyTo": "i18n.common.recoveryCommunicationDate",
-    "mapValueTo": "Recovery communication date",
-    "keys": [
-      {
-        "key": "i18n.common.recoveryCommunicationDate",
-        "value": "Recovery communication date"
-      }
-    ]
-  },
-  {
-    "value": "Declaration acceptance date",
-    "count": 1,
-    "mapKeyTo": "i18n.common.declarationAcceptanceDate",
-    "mapValueTo": "Declaration acceptance date",
-    "keys": [
-      {
-        "key": "i18n.common.declarationAcceptanceDate",
-        "value": "Declaration acceptance date"
-      }
-    ]
-  },
-  {
-    "value": "Requested customs office",
-    "count": 1,
-    "mapKeyTo": "i18n.common.requestedCustomsOffice",
-    "mapValueTo": "Requested customs office",
-    "keys": [
-      {
-        "key": "i18n.common.requestedCustomsOffice",
-        "value": "Requested customs office"
-      }
-    ]
-  },
-  {
-    "value": "New",
-    "count": 1,
-    "mapKeyTo": "i18n.common.new",
-    "mapValueTo": "New",
-    "keys": [
-      {
-        "key": "i18n.common.new",
-        "value": "New"
-      }
-    ]
-  },
-  {
-    "value": "Approved",
-    "count": 1,
-    "mapKeyTo": "i18n.common.Approved",
-    "mapValueTo": "Approved",
-    "keys": [
-      {
-        "key": "i18n.common.Approved",
-        "value": "Approved"
-      }
-    ]
-  },
-  {
-    "value": "Refused",
-    "count": 1,
-    "mapKeyTo": "i18n.common.Refused",
-    "mapValueTo": "Refused",
-    "keys": [
-      {
-        "key": "i18n.common.Refused",
-        "value": "Refused"
-      }
-    ]
-  },
-  {
-    "value": "Category",
-    "count": 1,
-    "mapKeyTo": "i18n.common.category",
-    "mapValueTo": "Category",
-    "keys": [
-      {
-        "key": "i18n.common.category",
-        "value": "Category"
-      }
-    ]
-  },
-  {
-    "value": "Remark",
-    "count": 1,
-    "mapKeyTo": "i18n.common.remark",
-    "mapValueTo": "Remark",
-    "keys": [
-      {
-        "key": "i18n.common.remark",
-        "value": "Remark"
-      }
-    ]
-  },
-  {
-    "value": "Request for invalidation",
-    "count": 1,
-    "mapKeyTo": "i18n.common.invalidationRequest",
-    "mapValueTo": "Request for invalidation",
-    "keys": [
-      {
-        "key": "i18n.common.invalidationRequest",
-        "value": "Request for invalidation"
-      }
-    ]
-  },
-  {
-    "value": "*Please enter a value",
-    "count": 1,
-    "mapKeyTo": "i18n.common.requiredWithAstrix",
-    "mapValueTo": "*Please enter a value",
-    "keys": [
-      {
-        "key": "i18n.common.requiredWithAstrix",
-        "value": "*Please enter a value"
-      }
-    ]
-  },
-  {
-    "value": "Maximum {{ noOfDigits }} digits with {{ noOfDecimal }} digits after decimal",
-    "count": 1,
-    "mapKeyTo": "i18n.common.hintWithDecimal",
-    "mapValueTo": "Maximum {{ noOfDigits }} digits with {{ noOfDecimal }} digits after decimal",
-    "keys": [
-      {
-        "key": "i18n.common.hintWithDecimal",
-        "value": "Maximum {{ noOfDigits }} digits with {{ noOfDecimal }} digits after decimal"
-      }
-    ]
-  },
-  {
-    "value": "Maximum {{ noOfDigits }} digits",
-    "count": 1,
-    "mapKeyTo": "i18n.common.hintWithDigits",
-    "mapValueTo": "Maximum {{ noOfDigits }} digits",
-    "keys": [
-      {
-        "key": "i18n.common.hintWithDigits",
-        "value": "Maximum {{ noOfDigits }} digits"
-      }
-    ]
-  },
-  {
-    "value": "Country of dispatch",
-    "count": 1,
-    "mapKeyTo": "i18n.common.countryOfDispatch",
-    "mapValueTo": "Country of dispatch",
-    "keys": [
-      {
-        "key": "i18n.common.countryOfDispatch",
-        "value": "Country of dispatch"
-      }
-    ]
-  },
-  {
-    "value": "EORI or identification number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.eoriOrIdentificationNumber",
-    "mapValueTo": "EORI or identification number",
-    "keys": [
-      {
-        "key": "i18n.common.eoriOrIdentificationNumber",
-        "value": "EORI or identification number"
-      }
-    ]
-  },
-  {
-    "value": "Expiration date and time",
-    "count": 1,
-    "mapKeyTo": "i18n.common.expirationDate",
-    "mapValueTo": "Expiration date and time",
-    "keys": [
-      {
-        "key": "i18n.common.expirationDate",
-        "value": "Expiration date and time"
-      }
-    ]
-  },
-  {
-    "value": "House Number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.houseNumber",
-    "mapValueTo": "House Number",
-    "keys": [
-      {
-        "key": "i18n.common.houseNumber",
-        "value": "House Number"
-      }
-    ]
-  },
-  {
-    "value": "Inland mode of transport",
-    "count": 1,
-    "mapKeyTo": "i18n.common.inlandModeOfTransport",
-    "mapValueTo": "Inland mode of transport",
-    "keys": [
-      {
-        "key": "i18n.common.inlandModeOfTransport",
-        "value": "Inland mode of transport"
-      }
-    ]
-  },
-  {
-    "value": "Control result date",
-    "count": 1,
-    "mapKeyTo": "i18n.common.lastControlResultDate",
-    "mapValueTo": "Control result date",
-    "keys": [
-      {
-        "key": "i18n.common.lastControlResultDate",
-        "value": "Control result date"
-      }
-    ]
-  },
-  {
-    "value": "Release",
-    "count": 1,
-    "mapKeyTo": "i18n.common.release",
-    "mapValueTo": "Release",
-    "keys": [
-      {
-        "key": "i18n.common.release",
-        "value": "Release"
-      }
-    ]
-  },
-  {
-    "value": "Mode of transport at the border",
-    "count": 1,
-    "mapKeyTo": "i18n.common.modeOfTransportAtTheBorder",
-    "mapValueTo": "Mode of transport at the border",
-    "keys": [
-      {
-        "key": "i18n.common.modeOfTransportAtTheBorder",
-        "value": "Mode of transport at the border"
-      }
-    ]
-  },
-  {
-    "value": "Number of packages",
-    "count": 1,
-    "mapKeyTo": "i18n.common.numberOfPackages",
-    "mapValueTo": "Number of packages",
-    "keys": [
-      {
-        "key": "i18n.common.numberOfPackages",
-        "value": "Number of packages"
-      }
-    ]
-  },
-  {
-    "value": "Reference number UCR",
-    "count": 1,
-    "mapKeyTo": "i18n.common.referenceNumberUcr",
-    "mapValueTo": "Reference number UCR",
-    "keys": [
-      {
-        "key": "i18n.common.referenceNumberUcr",
-        "value": "Reference number UCR"
-      }
-    ]
-  },
-  {
-    "value": "Step 1: Parties",
-    "count": 1,
-    "mapKeyTo": "i18n.common.rootLabelParties",
-    "mapValueTo": "Step 1: Parties",
-    "keys": [
-      {
-        "key": "i18n.common.rootLabelParties",
-        "value": "Step 1: Parties"
-      }
-    ]
-  },
-  {
-    "value": "Step 3: Parties",
-    "count": 1,
-    "mapKeyTo": "i18n.common.rootLabelParties3",
-    "mapValueTo": "Step 3: Parties",
-    "keys": [
-      {
-        "key": "i18n.common.rootLabelParties3",
-        "value": "Step 3: Parties"
-      }
-    ]
-  },
-  {
-    "value": "TIR carnet number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.tirCarnetNumber",
-    "mapValueTo": "TIR carnet number",
-    "keys": [
-      {
-        "key": "i18n.common.tirCarnetNumber",
-        "value": "TIR carnet number"
-      }
-    ]
-  },
-  {
-    "value": "No release motivation text",
-    "count": 1,
-    "mapKeyTo": "i18n.common.noReleaseMotivationText",
-    "mapValueTo": "No release motivation text",
-    "keys": [
-      {
-        "key": "i18n.common.noReleaseMotivationText",
-        "value": "No release motivation text"
-      }
-    ]
-  },
-  {
-    "value": "Latitude",
-    "count": 1,
-    "mapKeyTo": "i18n.common.latitude",
-    "mapValueTo": "Latitude",
-    "keys": [
-      {
-        "key": "i18n.common.latitude",
-        "value": "Latitude"
-      }
-    ]
-  },
-  {
-    "value": "Longitude",
-    "count": 1,
-    "mapKeyTo": "i18n.common.longitude",
-    "mapValueTo": "Longitude",
-    "keys": [
-      {
-        "key": "i18n.common.longitude",
-        "value": "Longitude"
-      }
-    ]
-  },
-  {
-    "value": "Notes",
-    "count": 1,
-    "mapKeyTo": "i18n.common.notes",
-    "mapValueTo": "Notes",
-    "keys": [
-      {
-        "key": "i18n.common.notes",
-        "value": "Notes"
-      }
-    ]
-  },
-  {
-    "value": "Refuse",
-    "count": 1,
-    "mapKeyTo": "i18n.common.refuse",
-    "mapValueTo": "Refuse",
-    "keys": [
-      {
-        "key": "i18n.common.refuse",
-        "value": "Refuse"
-      }
-    ]
-  },
-  {
-    "value": "Dangerous goods",
-    "count": 1,
-    "mapKeyTo": "i18n.common.dangerousGoods",
-    "mapValueTo": "Dangerous goods",
-    "keys": [
-      {
-        "key": "i18n.common.dangerousGoods",
-        "value": "Dangerous goods"
-      }
-    ]
-  },
-  {
-    "value": "Goods Measure",
-    "count": 1,
-    "mapKeyTo": "i18n.common.goodsMeasure",
-    "mapValueTo": "Goods Measure",
-    "keys": [
-      {
-        "key": "i18n.common.goodsMeasure",
-        "value": "Goods Measure"
-      }
-    ]
-  },
-  {
-    "value": "Approve",
-    "count": 1,
-    "mapKeyTo": "i18n.common.approve",
-    "mapValueTo": "Approve",
-    "keys": [
-      {
-        "key": "i18n.common.approve",
-        "value": "Approve"
-      }
-    ]
-  },
-  {
-    "value": "Invalidation reason",
-    "count": 1,
-    "mapKeyTo": "i18n.common.pleaseEnterReason",
-    "mapValueTo": "Invalidation reason",
-    "keys": [
-      {
-        "key": "i18n.common.pleaseEnterReason",
-        "value": "Invalidation reason"
-      }
-    ]
-  },
-  {
-    "value": "Requested on",
-    "count": 1,
-    "mapKeyTo": "i18n.common.requestedOn",
-    "mapValueTo": "Requested on",
-    "keys": [
-      {
-        "key": "i18n.common.requestedOn",
-        "value": "Requested on"
-      }
-    ]
-  },
-  {
-    "value": "Login",
-    "count": 1,
-    "mapKeyTo": "i18n.common.login",
-    "mapValueTo": "Login",
-    "keys": [
-      {
-        "key": "i18n.common.login",
-        "value": "Login"
-      }
-    ]
-  },
-  {
-    "value": "Control Result",
-    "count": 1,
-    "mapKeyTo": "i18n.common.controlResult",
-    "mapValueTo": "Control Result",
-    "keys": [
-      {
-        "key": "i18n.common.controlResult",
-        "value": "Control Result"
-      }
-    ]
-  },
-  {
-    "value": "Unloading Remarks",
-    "count": 1,
-    "mapKeyTo": "i18n.common.unloadingRemarks",
-    "mapValueTo": "Unloading Remarks",
-    "keys": [
-      {
-        "key": "i18n.common.unloadingRemarks",
-        "value": "Unloading Remarks"
-      }
-    ]
-  },
-  {
-    "value": "Manual Decision for Recovery",
-    "count": 1,
-    "mapKeyTo": "i18n.common.recommendRecovery",
-    "mapValueTo": "Manual Decision for Recovery",
-    "keys": [
-      {
-        "key": "i18n.common.recommendRecovery",
-        "value": "Manual Decision for Recovery"
-      }
-    ]
-  },
-  {
-    "value": "TIR holder identification number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.tirHolderIdentificationNumber",
-    "mapValueTo": "TIR holder identification number",
-    "keys": [
-      {
-        "key": "i18n.common.tirHolderIdentificationNumber",
-        "value": "TIR holder identification number"
-      }
-    ]
-  },
-  {
-    "value": "Controlled by",
-    "count": 1,
-    "mapKeyTo": "i18n.common.controlledBy",
-    "mapValueTo": "Controlled by",
-    "keys": [
-      {
-        "key": "i18n.common.controlledBy",
-        "value": "Controlled by"
-      }
-    ]
-  },
-  {
-    "value": "Other things to report",
-    "count": 1,
-    "mapKeyTo": "i18n.common.otherThingsToReport",
-    "mapValueTo": "Other things to report",
-    "keys": [
-      {
-        "key": "i18n.common.otherThingsToReport",
-        "value": "Other things to report"
-      }
-    ]
-  },
-  {
-    "value": "State of seals",
-    "count": 1,
-    "mapKeyTo": "i18n.common.stateOfSeals",
-    "mapValueTo": "State of seals",
-    "keys": [
-      {
-        "key": "i18n.common.stateOfSeals",
-        "value": "State of seals"
-      }
-    ]
-  },
-  {
-    "value": "Decide on release for transit",
-    "count": 1,
-    "mapKeyTo": "i18n.common.decideOnReleaseForTransit",
-    "mapValueTo": "Decide on release for transit",
-    "keys": [
-      {
-        "key": "i18n.common.decideOnReleaseForTransit",
-        "value": "Decide on release for transit"
-      }
-    ]
-  },
-  {
-    "value": "Date cannot be in the future",
-    "count": 1,
-    "mapKeyTo": "i18n.common.pastDate",
-    "mapValueTo": "Date cannot be in the future",
-    "keys": [
-      {
-        "key": "i18n.common.pastDate",
-        "value": "Date cannot be in the future"
-      }
-    ]
-  },
-  {
-    "value": "Description",
-    "count": 1,
-    "mapKeyTo": "i18n.common.description",
-    "mapValueTo": "Description",
-    "keys": [
-      {
-        "key": "i18n.common.description",
-        "value": "Description"
-      }
-    ]
-  },
-  {
-    "value": "Delete",
-    "count": 1,
-    "mapKeyTo": "i18n.common.delete",
-    "mapValueTo": "Delete",
-    "keys": [
-      {
-        "key": "i18n.common.delete",
-        "value": "Delete"
-      }
-    ]
-  },
-  {
-    "value": "Last saved",
-    "count": 1,
-    "mapKeyTo": "i18n.common.lastSaved",
-    "mapValueTo": "Last saved",
-    "keys": [
-      {
-        "key": "i18n.common.lastSaved",
-        "value": "Last saved"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of destination(actual)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeOfDestinationActual",
-    "mapValueTo": "Customs office of destination(actual)",
-    "keys": [
-      {
-        "key": "i18n.common.customsOfficeOfDestinationActual",
-        "value": "Customs office of destination(actual)"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of transit(actual)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeOfTransitActual",
-    "mapValueTo": "Customs office of transit(actual)",
-    "keys": [
-      {
-        "key": "i18n.common.customsOfficeOfTransitActual",
-        "value": "Customs office of transit(actual)"
       }
     ]
   }

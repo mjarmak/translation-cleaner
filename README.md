@@ -99,7 +99,14 @@ For example, these values would be merged into a single group:
 
 This helps identify translation keys that are semantically identical but have different spacing.
 
-**Note:** Keys that are already in the `i18n` namespace are NOT merged/deduplicated. They are included in the output with `count: 1` and `mapKeyTo` set to the original key itself, preventing any remapping.
+**Protected Namespaces:** Keys in the following namespaces are NOT merged/deduplicated:
+- `i18n.errors.*`
+- `i18n.options.*`
+- `i18n.status.*`
+
+These protected keys are included in the output with `count: 1` and `mapKeyTo` set to the original key itself, preventing any remapping.
+
+All other keys (including those in `i18n.common.*` and other `i18n.*` namespaces) will be deduplicated if they have the same normalized value.
 
 #### case insensitive
 
