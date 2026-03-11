@@ -83,9 +83,22 @@ def main():
 
     log(f"Loaded {len(data)} total keys")
 
-    # Group keys by value
-    value_to_keys = defaultdict(list)
+    # Separate keys that are already in i18n namespace
+    i18n_keys = {}
+    non_i18n_keys = {}
+
     for key, value in data.items():
+        if key.startswith("i18n."):
+            i18n_keys[key] = value
+        else:
+            non_i18n_keys[key] = value
+
+    log(f"Found {len(i18n_keys)} keys already in i18n namespace (will not be merged)")
+    log(f"Found {len(non_i18n_keys)} keys outside i18n namespace (will be deduplicated)")
+
+    # Group keys by value (only non-i18n keys)
+    value_to_keys = defaultdict(list)
+    for key, value in non_i18n_keys.items():
         str_value = str(value)
         # Use lowercase value as the grouping key if ignore_case is True
         group_key = str_value.lower() if ignore_case else str_value
@@ -168,7 +181,32 @@ def main():
 
         all_entries_array.append(entry_obj)
 
-    # Third pass: resolve mapKeyTo conflicts by adding hash suffix (only for duplicates)
+    # Third pass: add i18n namespace keys as non-mergeable entries
+    for key, value in i18n_keys.items():
+        original_value = str(value)
+
+        # For i18n keys, mapKeyTo and mapValueTo remain the same (no remapping)
+        map_to = key
+        map_value_to = original_value
+
+        # Build keys array with single entry
+        keys_array = [{
+            "key": key,
+            "value": original_value
+        }]
+
+        # Build entry object
+        entry_obj = {
+            "value": original_value,
+            "count": 1,
+            "mapKeyTo": map_to,
+            "mapValueTo": map_value_to,
+            "keys": keys_array
+        }
+
+        all_entries_array.append(entry_obj)
+
+    # Fourth pass: resolve mapKeyTo conflicts by adding hash suffix (only for duplicates)
     for map_key, entries in map_to_tracker.items():
         if len(entries) > 1:  # Conflict detected
             for i, entry in enumerate(entries):
@@ -184,8 +222,9 @@ def main():
 
     duplicates_count = len(duplicates)
     non_duplicates_count = len(non_duplicates)
+    i18n_count = len(i18n_keys)
     total_keys = sum(len(d['keys']) for d in all_entries_array)
-    log(f"Wrote {len(all_entries_array)} total entries ({duplicates_count} duplicates, {non_duplicates_count} unique) with {total_keys} total keys")
+    log(f"Wrote {len(all_entries_array)} total entries ({duplicates_count} duplicates, {non_duplicates_count} unique, {i18n_count} i18n) with {total_keys} total keys")
     log("✅ Done")
 
 if __name__ == "__main__":

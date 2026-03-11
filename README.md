@@ -59,7 +59,7 @@ Case checking is for translation keys. So best not to ignore case.
 #### case sensitive with language values:
 `python ./scripts/usage_report.py ./output/flat/en.flat.json --src C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src --out ./output/usage.report.csv --languages "./output/flat/fr.flat.json,./output/flat/nl.flat.json,./output/flat/de.flat.json"`,
 
-## 3. create mapping of duplicate keys to their canonical key:
+## 3.1. create mapping of duplicate keys to their canonical key:
 **Files:** `FLAT_JSON` → `DUPLICATES.JSON`
 
 Only en is needed to create the mapping. The output is a JSON file with duplicate values and their corresponding keys.
@@ -87,9 +87,11 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 - `mapValueTo`: The value in PascalCase (every word starts with uppercase) selected from the duplicate group. If no PascalCase value exists, uses the original value
 - `keys`: Array of all keys and their values
 
+**Note:** Keys that are already in the `i18n` namespace are NOT merged/deduplicated. They are included in the output with `count: 1` and `mapKeyTo` set to the original key itself, preventing any remapping.
+
 #### case insensitive
 
-`python ./scripts/canonical_map.py ./output/result/en.flat.filtered.json --duplicates-out ./output/remap/en_mapping.json --prefix i18n.common. --ignore-case`
+`python ./scripts/canonical_map.py ./output/flat/en.flat.json --duplicates-out ./output/remap/en_mapping.json --prefix i18n.common. --ignore-case`
 
 [//]: # (#### case sensitive)
 
@@ -107,6 +109,23 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 
 **Note:** The `canonical_map.py` script automatically resolves duplicate `mapKeyTo` conflicts by appending hash suffixes (e.g., `mapKeyTo_hash123`), so this validation should pass if the script ran correctly.
 
+## 3.2. reorganize mapping by word count:
+**Files:** `MAPPING_JSON` → Reorganized `MAPPING_JSON`
+
+Improves the mapping file by moving keys with values below 6 words to `i18n.common` namespace. This helps organize short, commonly-used translations (like buttons, labels, etc.) into a central location.
+
+**Rules:**
+- Keys with values containing less than 6 words are moved to `i18n.common.<last_key_part>`
+- Keys already under `i18n` namespace are ignored (not moved)
+- Output replaces the input file or can be saved to a new file
+
+`python ./scripts/reorganize_mapping_by_word_count.py ./output/remap/en_mapping.json -o ./output/remap/en_mapping_reorganized.json`
+
+**Example transformations:**
+- `advanceSearch.labels.containerIndicator` (value: "Container Indicator" - 2 words) → `i18n.common.containerIndicator`
+- `form.labels.submit` (value: "Submit" - 1 word) → `i18n.common.submit`
+- `helpText.invalidEmail` (value: "Please enter a valid email address" - 6 words, not moved)
+- 
 ## 4. rename keys (in project and translation files):
 **Files:** `FLAT_JSON` + `DUPLICATES.JSON` → `FLAT_JSON_MAPPED` + Updated Project Files
 
