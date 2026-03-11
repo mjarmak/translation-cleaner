@@ -72,7 +72,8 @@ def main():
     ts_extensions = {".ts", ".js", ".tsx", ".jsx"}
     html_extensions = {".html", ".htm"}
     json_extensions = {".json"}
-    all_extensions = ts_extensions | html_extensions | json_extensions
+    feature_extensions = {".feature"}
+    all_extensions = ts_extensions | html_extensions | json_extensions | feature_extensions
     project_files = []
 
     for project_file in src_path.rglob("*"):

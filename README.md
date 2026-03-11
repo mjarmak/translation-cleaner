@@ -131,9 +131,9 @@ The `apply_mapping_flat_json.py` script does the following in one pass:
 2. **Applies mapping** - renames keys to `mapKeyTo` and optionally values to `mapValueTo`
 3. **Removes duplicates** - keeps only the first (mapped) key and removes all other duplicate keys from the same value group
 
-#### Apply on project files (TypeScript/JavaScript/HTML/JSON)
+## Apply on project files (TypeScript/JavaScript/HTML/JSON/FEATURE)
 
-Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, `.htm`, and `.json` files in the project.
+Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, `.htm`, `.feature` and `.json` files in the project.
 
 ### Dry-Run mapping:
 
@@ -160,7 +160,7 @@ To prepend a prefix to all replaced keys, use the `--prefix` option:
 ## 5. find unused translation keys:
 **Files:** `MAPPING_JSON` + `PROJECT_SRC` → `UNUSED_MAPPED_KEYS_LIST`
 
-Scans all TypeScript/JavaScript/HTML files in the project to find which translation keys are NOT used anywhere.
+Scans all TypeScript/JavaScript/HTML/JSON/FEATURE files in the project to find which translation keys are NOT used anywhere.
 
 Manually review the list of unused keys before deletion, as some keys may be used dynamically or in ways that static analysis cannot detect.
 
@@ -227,12 +227,12 @@ Or unflatten them individually:
 
 # Extras:
 
-## convert flat to csv:
+- ## convert flat to csv:
 **Files:** `FLAT_JSON` → `FLAT_CSV`
 
 `python ./scripts/flat_to_csv.py ./output/flat/en.flat.json --out ./output/en.flat.csv`
 
-## validate flatten ↔ unflatten:
+- ## validate flatten ↔ unflatten:
 **Files:** Original JSON + Unflattened → Validation
 
 Validate that the original JSON file is the same as the unflattened file (ensuring no data loss during the flatten/unflatten process):

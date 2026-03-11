@@ -5218,7 +5218,7 @@
   {
     "value": "Timer Expired",
     "count": 3,
-    "mapKeyTo": "i18n.common.Timer Expired",
+    "mapKeyTo": "i18n.common.timeExpired",
     "mapValueTo": "Timer Expired",
     "keys": [
       {
