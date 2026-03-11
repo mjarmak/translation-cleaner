@@ -109,7 +109,18 @@ Only en is needed to create the mapping. The output is a JSON file with duplicat
 
 **Note:** The `canonical_map.py` script automatically resolves duplicate `mapKeyTo` conflicts by appending hash suffixes (e.g., `mapKeyTo_hash123`), so this validation should pass if the script ran correctly.
 
-## 3.2. reorganize mapping by word count:
+### 3.2. sort mapping by value:
+**Files:** `MAPPING_JSON` → Sorted `MAPPING_JSON`
+
+Sorts the mapping JSON file alphabetically by the `value` field (case-insensitive). This is useful for:
+- Easy review of all translations
+- Identifying similar values
+- Better organization for readability
+
+`python ./scripts/sort_mapping_by_value.py ./output/remap/en_mapping.json -o ./output/remap/en_mapping_sorted.json`
+
+## 3.3. reorganize mapping by word count:
+
 **Files:** `MAPPING_JSON` → Reorganized `MAPPING_JSON`
 
 Improves the mapping file by moving keys with values below 6 words to `i18n.common` namespace. This helps organize short, commonly-used translations (like buttons, labels, etc.) into a central location.
