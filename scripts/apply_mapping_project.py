@@ -10,11 +10,11 @@ def log(msg: str):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Apply canonical mapping to TypeScript/JavaScript project files"
+        description="Apply canonical mapping to TypeScript/JavaScript/HTML/JSON/FEATURE project files"
     )
     parser.add_argument(
         "src_dir",
-        help="Source directory containing TypeScript/JavaScript files"
+        help="Source directory containing TypeScript/JavaScript/HTML/JSON/FEATURE files"
     )
     parser.add_argument(
         "mapping_json",
@@ -28,7 +28,7 @@ def main():
     parser.add_argument(
         "--prefix",
         default="",
-        help="Prefix to prepend to all replaced keys (default: empty)"
+        help="Comma-separated list of prefixes to prepend to old keys when searching (e.g., 'label-,input-')"
     )
 
     args = parser.parse_args()
@@ -36,13 +36,16 @@ def main():
     src_path = Path(args.src_dir)
     mapping_path = Path(args.mapping_json)
     dry_run = args.dry_run
-    prefix = args.prefix
+    prefix_str = args.prefix
 
     if not src_path.exists():
         parser.error(f"Source directory not found: {src_path}")
 
     if not mapping_path.exists():
         parser.error(f"Mapping JSON file not found: {mapping_path}")
+
+    # Parse prefixes (comma-separated)
+    prefixes = [p.strip() for p in prefix_str.split(",")] if prefix_str else [""]
 
     log(f"Loading mapping JSON: {mapping_path}")
     with open(mapping_path, encoding="utf-8") as f:
@@ -51,22 +54,24 @@ def main():
     log(f"Loaded {len(mapping_array)} mapping entries")
 
     # Build mapping dictionary: old_key -> new_key
+    # Create multiple mappings for each prefix combination
     key_mapping = {}
 
-    for entry in mapping_array:
-        for key_entry in entry["keys"]:
-            old_key = key_entry["key"]
-            map_key_to = entry["mapKeyTo"]
+    for prefix in prefixes:
+        for entry in mapping_array:
+            for key_entry in entry["keys"]:
+                old_key = key_entry["key"]
+                map_key_to = entry["mapKeyTo"]
 
-            # Apply prefix to the old key for searching if provided
-            search_key = f"{prefix}{old_key}" if prefix else old_key
-            new_key = f"{prefix}{map_key_to}" if prefix else map_key_to
+                # Apply prefix to the old key for searching if provided
+                search_key = f"{prefix}{old_key}" if prefix else old_key
+                new_key = f"{prefix}{map_key_to}" if prefix else map_key_to
 
-            key_mapping[search_key] = new_key
+                key_mapping[search_key] = new_key
 
     log(f"Built mapping for {len(key_mapping)} keys")
-    if prefix:
-        log(f"Searching for keys with prefix: '{prefix}'")
+    if prefixes and prefixes != [""]:
+        log(f"Searching for keys with prefixes: {', '.join(repr(p) for p in prefixes)}")
 
     # Find all TypeScript/JavaScript, HTML, and JSON files
     ts_extensions = {".ts", ".js", ".tsx", ".jsx"}
@@ -80,7 +85,7 @@ def main():
         if project_file.is_file() and project_file.suffix in all_extensions:
             project_files.append(project_file)
 
-    log(f"Found {len(project_files)} TypeScript/JavaScript/HTML/JSON files")
+    log(f"Found {len(project_files)} TypeScript/JavaScript/HTML/JSON/FEATURE files to process")
 
     # Apply mapping to each file
     total_replacements = 0

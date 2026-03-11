@@ -145,17 +145,21 @@ Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, `.htm`, `.feature`
 
 ### Mapping on tests:
 
+#### Playwright
 `python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/remap/en_mapping.json`
 
+#### Cypress
 `python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/remap/en_mapping.json`
 
 ### Mapping on tests with label prefix:
 
-To prepend a prefix to all replaced keys, use the `--prefix` option:
+To prepend prefixes to all keys being searched, use the `--prefix` option with comma-separated values:
 
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/remap/en_mapping.json --prefix label-`
+#### Playwright
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/remap/en_mapping.json --prefix "label-,input-,mat-select-,textarea-"`
 
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/remap/en_mapping.json --prefix label-`
+#### Cypress
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/remap/en_mapping.json --prefix "label-,input-,mat-select-,textarea-"`
 
 ## 5. find unused translation keys:
 **Files:** `MAPPING_JSON` + `PROJECT_SRC` → `UNUSED_MAPPED_KEYS_LIST`
