@@ -153,10 +153,10 @@ Improves the mapping file by moving keys with values below 6 words to `i18n.comm
 
 - After creating the duplicates JSON file, validate that there are no duplicate `mapKeyTo` values:
 
-`python ./scripts/validate_duplicates.py ./output/remap/en_mapping.json`
+`python ./scripts/validate_duplicates.py ./output/remap/en_mapping_reorganized.json`
 - Ensure that the mapping file contains all keys from the flat JSON file (no keys are missing):
 
-`python ./scripts/validate_mapping_coverage.py ./output/flat/en.flat.json ./output/remap/en_mapping.json`
+`python ./scripts/validate_mapping_coverage.py ./output/flat/en.flat.json ./output/remap/en_mapping_reorganized.json`
 
 **Note:** The `canonical_map.py` script automatically resolves duplicate `mapKeyTo` conflicts by appending hash suffixes (e.g., `mapKeyTo_hash123`), so this validation should pass if the script ran correctly.
 
@@ -266,21 +266,21 @@ Uppercase keys should have been copied back after the manual CSS updates in 1.3.
 - Unflatten all language files at once:
 
 `python ./scripts/unflatten_json.py
-./output/remove_unused/en.flat.clean.json ./output/unflat/en.json
-./output/remove_unused/fr.flat.clean.json ./output/unflat/fr.json
-./output/remove_unused/nl.flat.clean.json ./output/unflat/nl.json
-./output/remove_unused/de.flat.clean.json ./output/unflat/de.json
+./output/flat/en.mapped.mapped.json ./output/unflat/en.json
+./output/flat/fr.mapped.mapped.json ./output/unflat/fr.json
+./output/flat/nl.mapped.mapped.json ./output/unflat/nl.json
+./output/flat/de.mapped.mapped.json ./output/unflat/de.json
 `
 
 Or unflatten them individually:
 
-`python ./scripts/unflatten_json.py ./output/remove_unused/en.flat.clean.json ./output/unflat/en.json`
+`python ./scripts/unflatten_json.py ./output/mapped/en.flat.mapped.json ./output/unflat/en.json`
 
-`python ./scripts/unflatten_json.py ./output/remove_unused/fr.flat.clean.json ./output/unflat/fr.json`
+`python ./scripts/unflatten_json.py ./output/mapped/fr.flat.mapped.json ./output/unflat/fr.json`
 
-`python ./scripts/unflatten_json.py ./output/remove_unused/nl.flat.clean.json ./output/unflat/nl.json`
+`python ./scripts/unflatten_json.py ./output/mapped/nl.flat.mapped.json ./output/unflat/nl.json`
 
-`python ./scripts/unflatten_json.py ./output/remove_unused/de.flat.clean.json ./output/unflat/de.json`
+`python ./scripts/unflatten_json.py ./output/mapped/de.flat.mapped.json ./output/unflat/de.json`
 
 # Extras:
 

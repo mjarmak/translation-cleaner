@@ -4982,7 +4982,7 @@
   {
     "value": "Submitting control results...",
     "count": 1,
-    "mapKeyTo": "i18n.common.submitting",
+    "mapKeyTo": "i18n.common.submittingControlResults",
     "mapValueTo": "Submitting control results...",
     "keys": [
       {
@@ -4994,8 +4994,8 @@
   {
     "value": "Submitting the declaration",
     "count": 1,
-    "mapKeyTo": "i18n.common.submitting",
-    "mapValueTo": "Submitting the declaration",
+    "mapKeyTo": "i18n.common.submittingDeclaration",
+    "mapValueTo": "Submitting the declaration...",
     "keys": [
       {
         "key": "declarationOverview.progressBar.submitting",
@@ -5006,7 +5006,7 @@
   {
     "value": "Submitting unloading remarks...",
     "count": 1,
-    "mapKeyTo": "i18n.common.submitting",
+    "mapKeyTo": "i18n.common.submittingUnloadingRemarks",
     "mapValueTo": "Submitting unloading remarks...",
     "keys": [
       {
@@ -8010,7 +8010,7 @@
   {
     "value": "House Consignment :houseConsignmentNbr - General Information",
     "count": 1,
-    "mapKeyTo": "matStepper.label.houseConsignmentGeneralInformationWithNbr",
+    "mapKeyTo": "i18n.common.houseConsignmentGeneralInformationWithNbr",
     "mapValueTo": "House Consignment :houseConsignmentNbr - General Information",
     "keys": [
       {
