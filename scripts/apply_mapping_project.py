@@ -25,12 +25,18 @@ def main():
         action="store_true",
         help="Preview changes without modifying files"
     )
+    parser.add_argument(
+        "--prefix",
+        default="",
+        help="Prefix to prepend to all replaced keys (default: empty)"
+    )
 
     args = parser.parse_args()
 
     src_path = Path(args.src_dir)
     mapping_path = Path(args.mapping_json)
     dry_run = args.dry_run
+    prefix = args.prefix
 
     if not src_path.exists():
         parser.error(f"Source directory not found: {src_path}")
@@ -51,9 +57,16 @@ def main():
         for key_entry in entry["keys"]:
             old_key = key_entry["key"]
             map_key_to = entry["mapKeyTo"]
-            key_mapping[old_key] = map_key_to
+
+            # Apply prefix to the old key for searching if provided
+            search_key = f"{prefix}{old_key}" if prefix else old_key
+            new_key = f"{prefix}{map_key_to}" if prefix else map_key_to
+
+            key_mapping[search_key] = new_key
 
     log(f"Built mapping for {len(key_mapping)} keys")
+    if prefix:
+        log(f"Searching for keys with prefix: '{prefix}'")
 
     # Find all TypeScript/JavaScript, HTML, and JSON files
     ts_extensions = {".ts", ".js", ".tsx", ".jsx"}

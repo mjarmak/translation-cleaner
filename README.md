@@ -143,11 +143,19 @@ Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, `.htm`, and `.json
 
 `python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_mapping.json`
 
-### Actual mapping on tests:
+### Mapping on tests:
 
 `python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/remap/en_mapping.json`
 
 `python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/remap/en_mapping.json`
+
+### Mapping on tests with label prefix:
+
+To prepend a prefix to all replaced keys, use the `--prefix` option:
+
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/remap/en_mapping.json --prefix label-`
+
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/remap/en_mapping.json --prefix label-`
 
 ## 5. find unused translation keys:
 **Files:** `MAPPING_JSON` + `PROJECT_SRC` → `UNUSED_MAPPED_KEYS_LIST`
