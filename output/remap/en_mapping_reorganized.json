@@ -1392,42 +1392,6 @@
     ]
   },
   {
-    "value": "Customs office of destination (actual)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsofficeofdestination(actual)",
-    "mapValueTo": "Customs office of destination (actual)",
-    "keys": [
-      {
-        "key": "generalInfoForm.lables.customsOfficeOfDestination(actual)",
-        "value": "Customs office of destination (actual)"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of destination (declared)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsofficeofdestination(declared)",
-    "mapValueTo": "Customs office of destination (declared)",
-    "keys": [
-      {
-        "key": "generalInfoForm.lables.customsOfficeOfDestination(declared)",
-        "value": "Customs office of destination (declared)"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of destination(declared)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsofficeofdestinationdeclared",
-    "mapValueTo": "Customs office of destination(declared)",
-    "keys": [
-      {
-        "key": "statusRequest.customsOfficeOfDestinationDeclared",
-        "value": "Customs office of destination(declared)"
-      }
-    ]
-  },
-  {
     "value": "Customs office of incident",
     "count": 1,
     "mapKeyTo": "i18n.common.advancedsearchinc",
@@ -1496,30 +1460,6 @@
       {
         "key": "layout.officeFilter.advancedSearchTra",
         "value": "Customs office of transit"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of transit (declared)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsofficeoftransitdeclared",
-    "mapValueTo": "Customs office of transit (declared)",
-    "keys": [
-      {
-        "key": "generalInfoForm.lables.customsOfficeOfTransitDeclared",
-        "value": "Customs office of transit (declared)"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of transit(declared)",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsofficeoftransitdeclared",
-    "mapValueTo": "Customs office of transit(declared)",
-    "keys": [
-      {
-        "key": "statusRequest.customsOfficeOfTransitDeclared",
-        "value": "Customs office of transit(declared)"
       }
     ]
   },
@@ -5412,18 +5352,6 @@
     ]
   },
   {
-    "value": "UN number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.unnumber",
-    "mapValueTo": "UN number",
-    "keys": [
-      {
-        "key": "houseConsignItem.lables.unNumber",
-        "value": "UN number"
-      }
-    ]
-  },
-  {
     "value": "Unable to save",
     "count": 1,
     "mapKeyTo": "i18n.common.title",
@@ -5480,18 +5408,6 @@
       {
         "key": "unloadingRemark.unloadingRemark",
         "value": "Unloading remark"
-      }
-    ]
-  },
-  {
-    "value": "unNumber",
-    "count": 1,
-    "mapKeyTo": "i18n.common.unnumber",
-    "mapValueTo": "unNumber",
-    "keys": [
-      {
-        "key": "registerControlResultDialog.unNumber",
-        "value": "unNumber"
       }
     ]
   },
@@ -6049,22 +5965,14 @@
   },
   {
     "value": "Approved",
-    "count": 1,
+    "count": 2,
     "mapKeyTo": "i18n.status.APPROVED",
     "mapValueTo": "Approved",
     "keys": [
       {
         "key": "i18n.status.APPROVED",
         "value": "Approved"
-      }
-    ]
-  },
-  {
-    "value": "Approved",
-    "count": 1,
-    "mapKeyTo": "i18n.common.Approved",
-    "mapValueTo": "Approved",
-    "keys": [
+      },
       {
         "key": "i18n.common.Approved",
         "value": "Approved"
@@ -6661,22 +6569,14 @@
   },
   {
     "value": "Country of destination",
-    "count": 1,
-    "mapKeyTo": "i18n.common.countrydest",
+    "count": 2,
+    "mapKeyTo": "i18n.common.countryOfDestination",
     "mapValueTo": "Country of destination",
     "keys": [
       {
         "key": "i18n.common.countrydest",
         "value": "Country of destination"
-      }
-    ]
-  },
-  {
-    "value": "Country of destination",
-    "count": 1,
-    "mapKeyTo": "i18n.common.countryOfDestination",
-    "mapValueTo": "Country of destination",
-    "keys": [
+      },
       {
         "key": "i18n.common.countryOfDestination",
         "value": "Country of destination"
@@ -6816,6 +6716,26 @@
     ]
   },
   {
+    "value": "Customs office of destination (declared)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeOfDestinationDeclared",
+    "mapValueTo": "Customs office of destination (declared)",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.customsOfficeOfDestination(declared)",
+        "value": "Customs office of destination (declared)"
+      },
+      {
+        "key": "statusRequest.customsOfficeOfDestinationDeclared",
+        "value": "Customs office of destination(declared)"
+      },
+      {
+        "key": "i18n.common.customsOfficeOfDestinationDeclared",
+        "value": "Declared customs office of destination"
+      }
+    ]
+  },
+  {
     "value": "Customs office of destination actual",
     "count": 1,
     "mapKeyTo": "i18n.common.customsOfficeDestActual",
@@ -6829,13 +6749,17 @@
   },
   {
     "value": "Customs office of destination(actual)",
-    "count": 1,
+    "count": 2,
     "mapKeyTo": "i18n.common.customsOfficeOfDestinationActual",
-    "mapValueTo": "Customs office of destination(actual)",
+    "mapValueTo": "Customs office of destination (actual)",
     "keys": [
       {
         "key": "i18n.common.customsOfficeOfDestinationActual",
         "value": "Customs office of destination(actual)"
+      },
+      {
+        "key": "generalInfoForm.lables.customsOfficeOfDestination(actual)",
+        "value": "Customs office of destination (actual)"
       }
     ]
   },
@@ -6853,37 +6777,29 @@
   },
   {
     "value": "Customs office of exit for transit (declared)",
-    "count": 1,
-    "mapKeyTo": "generalInfoForm.lables.customsOfficeOfExitForTransitDeclared",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeOfExitForTransitDeclared",
     "mapValueTo": "Customs office of exit for transit (declared)",
     "keys": [
       {
         "key": "generalInfoForm.lables.customsOfficeOfExitForTransitDeclared",
         "value": "Customs office of exit for transit (declared)"
+      },
+      {
+        "key": "statusRequest.customsOfficeOfExitForTransitDeclared",
+        "value": "Customs office of exit for transit(declared)"
       }
     ]
   },
   {
     "value": "Customs office of exit for transit(actual)",
     "count": 1,
-    "mapKeyTo": "statusRequest.customsOfficeOfExitForTransitActual",
+    "mapKeyTo": "i18n.common.customsOfficeOfExitForTransitActual",
     "mapValueTo": "Customs office of exit for transit(actual)",
     "keys": [
       {
         "key": "statusRequest.customsOfficeOfExitForTransitActual",
         "value": "Customs office of exit for transit(actual)"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of exit for transit(declared)",
-    "count": 1,
-    "mapKeyTo": "statusRequest.customsOfficeOfExitForTransitDeclared",
-    "mapValueTo": "Customs office of exit for transit(declared)",
-    "keys": [
-      {
-        "key": "statusRequest.customsOfficeOfExitForTransitDeclared",
-        "value": "Customs office of exit for transit(declared)"
       }
     ]
   },
@@ -6932,6 +6848,22 @@
       {
         "key": "i18n.common.customsOfficeOfRequest",
         "value": "Customs office of request"
+      }
+    ]
+  },
+  {
+    "value": "Customs office of transit (declared)",
+    "count": 2,
+    "mapKeyTo": "i18n.common.customsOfficeOfTransitDeclared",
+    "mapValueTo": "Customs office of transit (declared)",
+    "keys": [
+      {
+        "key": "generalInfoForm.lables.customsOfficeOfTransitDeclared",
+        "value": "Customs office of transit (declared)"
+      },
+      {
+        "key": "statusRequest.customsOfficeOfTransitDeclared",
+        "value": "Customs office of transit(declared)"
       }
     ]
   },
@@ -7100,18 +7032,6 @@
       {
         "key": "i18n.common.declarationType",
         "value": "Declaration type"
-      }
-    ]
-  },
-  {
-    "value": "Declared customs office of destination",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeOfDestinationDeclared",
-    "mapValueTo": "Declared customs office of destination",
-    "keys": [
-      {
-        "key": "i18n.common.customsOfficeOfDestinationDeclared",
-        "value": "Declared customs office of destination"
       }
     ]
   },
@@ -7405,28 +7325,20 @@
   },
   {
     "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
-    "count": 2,
-    "mapKeyTo": "i18n.errors.unforeseenProblemDescription",
+    "count": 3,
+    "mapKeyTo": "i18n.common.unforeseenProblemDescription",
     "mapValueTo": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
     "keys": [
+      {
+        "key": "i18n.common.errorGeneralDescription",
+        "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
+      },
       {
         "key": "declarationOverview.unforeseenProblem.message",
         "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
       },
       {
         "key": "releaseMovement.unforeseenProblem.message",
-        "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
-      }
-    ]
-  },
-  {
-    "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
-    "count": 1,
-    "mapKeyTo": "i18n.common.errorGeneralDescription",
-    "mapValueTo": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
-    "keys": [
-      {
-        "key": "i18n.common.errorGeneralDescription",
         "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later."
       }
     ]
@@ -8900,6 +8812,18 @@
     ]
   },
   {
+    "value": "Movement Under Resolution",
+    "count": 1,
+    "mapKeyTo": "i18n.common.movement-under-resolution",
+    "mapValueTo": "Movement Under Resolution",
+    "keys": [
+      {
+        "key": "i18n.common.movement-under-resolution",
+        "value": "Movement Under Resolution"
+      }
+    ]
+  },
+  {
     "value": "Movement under resolution",
     "count": 1,
     "mapKeyTo": "i18n.status.MOVEMENT_UNDER_RESOLUTION",
@@ -8920,18 +8844,6 @@
       {
         "key": "i18n.options.MOVEMENT_UNDER_RESOLUTION",
         "value": "Movement under resolution"
-      }
-    ]
-  },
-  {
-    "value": "Movement Under Resolution",
-    "count": 1,
-    "mapKeyTo": "i18n.common.movement-under-resolution",
-    "mapValueTo": "Movement Under Resolution",
-    "keys": [
-      {
-        "key": "i18n.common.movement-under-resolution",
-        "value": "Movement Under Resolution"
       }
     ]
   },
@@ -10426,11 +10338,11 @@
   {
     "value": "Refused",
     "count": 1,
-    "mapKeyTo": "i18n.status.REFUSED",
+    "mapKeyTo": "i18n.common.Refused",
     "mapValueTo": "Refused",
     "keys": [
       {
-        "key": "i18n.status.REFUSED",
+        "key": "i18n.common.Refused",
         "value": "Refused"
       }
     ]
@@ -10438,11 +10350,11 @@
   {
     "value": "Refused",
     "count": 1,
-    "mapKeyTo": "i18n.common.Refused",
+    "mapKeyTo": "i18n.status.REFUSED",
     "mapValueTo": "Refused",
     "keys": [
       {
-        "key": "i18n.common.Refused",
+        "key": "i18n.status.REFUSED",
         "value": "Refused"
       }
     ]
@@ -11265,22 +11177,14 @@
   },
   {
     "value": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg, — from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level.",
-    "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.weight",
+    "count": 2,
+    "mapKeyTo": "i18n.common.weight",
     "mapValueTo": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg, — from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level.",
     "keys": [
       {
         "key": "generalInfoForm.tooltips.weight",
         "value": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg, — from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level."
-      }
-    ]
-  },
-  {
-    "value": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg,— from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level.",
-    "count": 1,
-    "mapKeyTo": "houseConsignItem.tooltip.grossMass",
-    "mapValueTo": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg,— from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level.",
-    "keys": [
+      },
       {
         "key": "houseConsignItem.tooltip.grossMass",
         "value": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg,— from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level."
@@ -11840,6 +11744,22 @@
     ]
   },
   {
+    "value": "UN number",
+    "count": 2,
+    "mapKeyTo": "i18n.common.unNumber",
+    "mapValueTo": "UN Number",
+    "keys": [
+      {
+        "key": "houseConsignItem.lables.unNumber",
+        "value": "UN number"
+      },
+      {
+        "key": "registerControlResultDialog.unNumber",
+        "value": "unNumber"
+      }
+    ]
+  },
+  {
     "value": "UN/LOCODE",
     "count": 1,
     "mapKeyTo": "i18n.common.unlocode",
@@ -12008,18 +11928,6 @@
     ]
   },
   {
-    "value": "Unloading remarks",
-    "count": 1,
-    "mapKeyTo": "i18n.status.UNLOADING_REMARKS",
-    "mapValueTo": "Unloading remarks",
-    "keys": [
-      {
-        "key": "i18n.status.UNLOADING_REMARKS",
-        "value": "Unloading remarks"
-      }
-    ]
-  },
-  {
     "value": "Unloading Remarks",
     "count": 1,
     "mapKeyTo": "i18n.common.unloadingRemarks",
@@ -12028,6 +11936,18 @@
       {
         "key": "i18n.common.unloadingRemarks",
         "value": "Unloading Remarks"
+      }
+    ]
+  },
+  {
+    "value": "Unloading remarks",
+    "count": 1,
+    "mapKeyTo": "i18n.status.UNLOADING_REMARKS",
+    "mapValueTo": "Unloading remarks",
+    "keys": [
+      {
+        "key": "i18n.status.UNLOADING_REMARKS",
+        "value": "Unloading remarks"
       }
     ]
   },
@@ -12070,7 +11990,7 @@
   {
     "value": "Validation request could not be processed",
     "count": 1,
-    "mapKeyTo": "unforeseenProblemTitle",
+    "mapKeyTo": "declarationOverview.unforeseenProblem.title",
     "mapValueTo": "Validation request could not be processed",
     "keys": [
       {
