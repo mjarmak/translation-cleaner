@@ -2,7 +2,7 @@
   {
     "value": " Customs Offices",
     "count": 1,
-    "mapKeyTo": "i18n.common.customsoffices",
+    "mapKeyTo": "i18n.common.customsOffices",
     "mapValueTo": " Customs Offices",
     "keys": [
       {
@@ -26,7 +26,7 @@
   {
     "value": "*Invalid MRN",
     "count": 1,
-    "mapKeyTo": "i18n.common.invalidmrn",
+    "mapKeyTo": "i18n.common.invalidMRN",
     "mapValueTo": "*Invalid MRN",
     "keys": [
       {
@@ -38,7 +38,7 @@
   {
     "value": "*Invalid value or crs issue",
     "count": 1,
-    "mapKeyTo": "i18n.common.hascrsissue",
+    "mapKeyTo": "i18n.common.hasCrsIssue",
     "mapValueTo": "*Invalid value or crs issue",
     "keys": [
       {
@@ -50,7 +50,7 @@
   {
     "value": "*Please select a valid value",
     "count": 1,
-    "mapKeyTo": "i18n.common.iswrongselection",
+    "mapKeyTo": "i18n.common.isWrongSelection",
     "mapValueTo": "*Please select a valid value",
     "keys": [
       {
@@ -62,7 +62,7 @@
   {
     "value": "*Please select a value",
     "count": 1,
-    "mapKeyTo": "i18n.common.selectrequired",
+    "mapKeyTo": "i18n.common.selectRequired",
     "mapValueTo": "*Please select a value",
     "keys": [
       {
@@ -86,7 +86,7 @@
   {
     "value": "Acceptance date",
     "count": 1,
-    "mapKeyTo": "i18n.common.acceptancedate",
+    "mapKeyTo": "i18n.common.acceptanceDate",
     "mapValueTo": "Acceptance date",
     "keys": [
       {
@@ -110,7 +110,7 @@
   {
     "value": "Action menu button",
     "count": 1,
-    "mapKeyTo": "i18n.common.actionmenu",
+    "mapKeyTo": "i18n.common.actionMenu",
     "mapValueTo": "Action menu button",
     "keys": [
       {
@@ -122,7 +122,7 @@
   {
     "value": "Active border transport mean",
     "count": 1,
-    "mapKeyTo": "i18n.common.activebordertransportmean",
+    "mapKeyTo": "i18n.common.activeBorderTransportMean",
     "mapValueTo": "Active border transport mean",
     "keys": [
       {
@@ -134,7 +134,7 @@
   {
     "value": "Active border transport mean(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.activebordertransportmeans",
+    "mapKeyTo": "i18n.common.activeBorderTransportMeans",
     "mapValueTo": "Active border transport mean(s)",
     "keys": [
       {
@@ -158,7 +158,7 @@
   {
     "value": "Actual city",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualcity",
+    "mapKeyTo": "i18n.common.actualCity",
     "mapValueTo": "Actual city",
     "keys": [
       {
@@ -170,7 +170,7 @@
   {
     "value": "Actual country",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualcountry",
+    "mapKeyTo": "i18n.common.actualCountry",
     "mapValueTo": "Actual country",
     "keys": [
       {
@@ -182,7 +182,7 @@
   {
     "value": "Actual customs office of destination",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualcustomofficeofdestination",
+    "mapKeyTo": "i18n.common.actualCustomOfficeOfDestination",
     "mapValueTo": "Actual customs office of destination",
     "keys": [
       {
@@ -194,7 +194,7 @@
   {
     "value": "Actual identification number",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualidentificationnumber",
+    "mapKeyTo": "i18n.common.actualIdentificationNumber",
     "mapValueTo": "Actual identification number",
     "keys": [
       {
@@ -206,7 +206,7 @@
   {
     "value": "Actual name",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualname",
+    "mapKeyTo": "i18n.common.actualName",
     "mapValueTo": "Actual name",
     "keys": [
       {
@@ -218,7 +218,7 @@
   {
     "value": "Actual office of destination",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualofficeofdestination",
+    "mapKeyTo": "i18n.common.actualOfficeOfDestination",
     "mapValueTo": "Actual office of destination",
     "keys": [
       {
@@ -230,7 +230,7 @@
   {
     "value": "Actual OoDes",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualcustomofficeofdestination",
+    "mapKeyTo": "i18n.common.actualCustomOfficeOfDestination",
     "mapValueTo": "Actual OoDes",
     "keys": [
       {
@@ -242,7 +242,7 @@
   {
     "value": "Actual OoExtTra",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualcustomsofficeofexittransit",
+    "mapKeyTo": "i18n.common.actualCustomsOfficeOfExitTransit",
     "mapValueTo": "Actual OoExtTra",
     "keys": [
       {
@@ -254,7 +254,7 @@
   {
     "value": "Actual OoTra",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualcustomsofficeoftransit",
+    "mapKeyTo": "i18n.common.actualCustomsOfficeOfTransit",
     "mapValueTo": "Actual OoTra",
     "keys": [
       {
@@ -266,7 +266,7 @@
   {
     "value": "Actual postcode",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualpostcode",
+    "mapKeyTo": "i18n.common.actualPostcode",
     "mapValueTo": "Actual postcode",
     "keys": [
       {
@@ -278,7 +278,7 @@
   {
     "value": "Actual street and number",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualstreetandnumber",
+    "mapKeyTo": "i18n.common.actualStreetAndNumber",
     "mapValueTo": "Actual street and number",
     "keys": [
       {
@@ -302,7 +302,7 @@
   {
     "value": "Add an authorization",
     "count": 1,
-    "mapKeyTo": "i18n.common.addauthorisation",
+    "mapKeyTo": "i18n.common.addAuthorisation",
     "mapValueTo": "Add an authorization",
     "keys": [
       {
@@ -314,7 +314,7 @@
   {
     "value": "Add discrepancy resolution",
     "count": 1,
-    "mapKeyTo": "i18n.common.adddiscrepancyresolution",
+    "mapKeyTo": "i18n.common.addDiscrepancyResolution",
     "mapValueTo": "Add discrepancy resolution",
     "keys": [
       {
@@ -326,7 +326,7 @@
   {
     "value": "Add endorsement",
     "count": 1,
-    "mapKeyTo": "i18n.common.addendorsement",
+    "mapKeyTo": "i18n.common.addEndorsement",
     "mapValueTo": "Add endorsement",
     "keys": [
       {
@@ -338,7 +338,7 @@
   {
     "value": "Add goods item",
     "count": 1,
-    "mapKeyTo": "i18n.common.addgoodsitem",
+    "mapKeyTo": "i18n.common.addGoodsItem",
     "mapValueTo": "Add goods item",
     "keys": [
       {
@@ -350,7 +350,7 @@
   {
     "value": "Add house consignment",
     "count": 1,
-    "mapKeyTo": "i18n.common.addhouseconsignment",
+    "mapKeyTo": "i18n.common.addHouseConsignment",
     "mapValueTo": "Add house consignment",
     "keys": [
       {
@@ -362,7 +362,7 @@
   {
     "value": "Add seal",
     "count": 1,
-    "mapKeyTo": "i18n.common.addseal",
+    "mapKeyTo": "i18n.common.addSeal",
     "mapValueTo": "Add seal",
     "keys": [
       {
@@ -374,7 +374,7 @@
   {
     "value": "Additional declaration type",
     "count": 1,
-    "mapKeyTo": "i18n.common.additionaldeclarationtype",
+    "mapKeyTo": "i18n.common.additionalDeclarationType",
     "mapValueTo": "Additional declaration type",
     "keys": [
       {
@@ -386,7 +386,7 @@
   {
     "value": "Additional Identifier",
     "count": 1,
-    "mapKeyTo": "i18n.common.additionalidentifierfield",
+    "mapKeyTo": "i18n.common.additionalIdentifierField",
     "mapValueTo": "Additional Identifier",
     "keys": [
       {
@@ -398,7 +398,7 @@
   {
     "value": "Additional Identifier (optional)",
     "count": 1,
-    "mapKeyTo": "i18n.common.additionalidentifierbutton",
+    "mapKeyTo": "i18n.common.additionalIdentifierButton",
     "mapValueTo": "Additional Identifier (optional)",
     "keys": [
       {
@@ -410,7 +410,7 @@
   {
     "value": "Additional information(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.additionalinformations",
+    "mapKeyTo": "i18n.common.additionalInformations",
     "mapValueTo": "Additional information(s)",
     "keys": [
       {
@@ -422,7 +422,7 @@
   {
     "value": "Additional supply chain actor(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.additionalsupplychainactors",
+    "mapKeyTo": "i18n.common.additionalSupplyChainActors",
     "mapValueTo": "Additional supply chain actor(s)",
     "keys": [
       {
@@ -446,7 +446,7 @@
   {
     "value": "All offices",
     "count": 1,
-    "mapKeyTo": "i18n.common.alloffices",
+    "mapKeyTo": "i18n.common.allOffices",
     "mapValueTo": "All offices",
     "keys": [
       {
@@ -458,7 +458,7 @@
   {
     "value": "Alternative proof date",
     "count": 1,
-    "mapKeyTo": "i18n.common.alternativeproofdate",
+    "mapKeyTo": "i18n.common.alternativeProofDate",
     "mapValueTo": "Alternative proof date",
     "keys": [
       {
@@ -470,7 +470,7 @@
   {
     "value": "Alternative proof text",
     "count": 1,
-    "mapKeyTo": "i18n.common.alternativeprooftext",
+    "mapKeyTo": "i18n.common.alternativeProofText",
     "mapValueTo": "Alternative proof text",
     "keys": [
       {
@@ -482,7 +482,7 @@
   {
     "value": "Amend Declaration (IE013)",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestforamendment",
+    "mapKeyTo": "i18n.common.requestForAmendment",
     "mapValueTo": "Amend Declaration (IE013)",
     "keys": [
       {
@@ -494,7 +494,7 @@
   {
     "value": "Amount Claimed",
     "count": 1,
-    "mapKeyTo": "i18n.common.amountclaimed",
+    "mapKeyTo": "i18n.common.amountClaimed",
     "mapValueTo": "Amount Claimed",
     "keys": [
       {
@@ -506,7 +506,7 @@
   {
     "value": "Anticipated transit request",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendanticipatedtransitrequest",
+    "mapKeyTo": "i18n.common.sendAnticipatedTransitRequest",
     "mapValueTo": "Anticipated transit request",
     "keys": [
       {
@@ -518,7 +518,7 @@
   {
     "value": "Approve invalidation",
     "count": 1,
-    "mapKeyTo": "i18n.common.approveoption",
+    "mapKeyTo": "i18n.common.approveOption",
     "mapValueTo": "Approve invalidation",
     "keys": [
       {
@@ -530,7 +530,7 @@
   {
     "value": "Approve invalidation request(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.approveinv",
+    "mapKeyTo": "i18n.common.approveInv",
     "mapValueTo": "Approve invalidation request(s)",
     "keys": [
       {
@@ -542,7 +542,7 @@
   {
     "value": "Approve release request",
     "count": 1,
-    "mapKeyTo": "i18n.common.approveoption",
+    "mapKeyTo": "i18n.common.approveOption",
     "mapValueTo": "Approve release request",
     "keys": [
       {
@@ -554,7 +554,7 @@
   {
     "value": "Approved on",
     "count": 1,
-    "mapKeyTo": "i18n.common.approvedon",
+    "mapKeyTo": "i18n.common.approvedOn",
     "mapValueTo": "Approved on",
     "keys": [
       {
@@ -566,7 +566,7 @@
   {
     "value": "Arrival date",
     "count": 1,
-    "mapKeyTo": "i18n.common.arrivaldate",
+    "mapKeyTo": "i18n.common.arrivalDate",
     "mapValueTo": "Arrival date",
     "keys": [
       {
@@ -578,7 +578,7 @@
   {
     "value": "Arrival date and time (actual)",
     "count": 1,
-    "mapKeyTo": "i18n.common.arrivaldateandtimeactual",
+    "mapKeyTo": "i18n.common.arrivalDateAndTimeActual",
     "mapValueTo": "Arrival date and time (actual)",
     "keys": [
       {
@@ -590,7 +590,7 @@
   {
     "value": "Arrival date range",
     "count": 1,
-    "mapKeyTo": "i18n.common.arrivaldaterange",
+    "mapKeyTo": "i18n.common.arrivalDateRange",
     "mapValueTo": "Arrival date range",
     "keys": [
       {
@@ -602,7 +602,7 @@
   {
     "value": "Arrival limit date",
     "count": 1,
-    "mapKeyTo": "i18n.common.arrivallimitdate",
+    "mapKeyTo": "i18n.common.arrivalLimitDate",
     "mapValueTo": "Arrival limit date",
     "keys": [
       {
@@ -614,7 +614,7 @@
   {
     "value": "Arrival time",
     "count": 1,
-    "mapKeyTo": "i18n.common.arrivaltime",
+    "mapKeyTo": "i18n.common.arrivalTime",
     "mapValueTo": "Arrival time",
     "keys": [
       {
@@ -686,7 +686,7 @@
   {
     "value": "Binding itinerary",
     "count": 1,
-    "mapKeyTo": "i18n.common.bindingitinerary",
+    "mapKeyTo": "i18n.common.bindingItinerary",
     "mapValueTo": "Binding itinerary",
     "keys": [
       {
@@ -710,7 +710,7 @@
   {
     "value": "Cancel declaration",
     "count": 1,
-    "mapKeyTo": "i18n.common.canceldeclaration",
+    "mapKeyTo": "i18n.common.cancelDeclaration",
     "mapValueTo": "Cancel declaration",
     "keys": [
       {
@@ -734,7 +734,7 @@
   {
     "value": "Cancel Open Enquiry (IE059)",
     "count": 1,
-    "mapKeyTo": "i18n.common.cancelenquiry",
+    "mapKeyTo": "i18n.common.cancelEnquiry",
     "mapValueTo": "Cancel Open Enquiry (IE059)",
     "keys": [
       {
@@ -746,7 +746,7 @@
   {
     "value": "cancel without saving",
     "count": 1,
-    "mapKeyTo": "i18n.common.cancelwithoutsaving",
+    "mapKeyTo": "i18n.common.cancelWithoutSaving",
     "mapValueTo": "cancel without saving",
     "keys": [
       {
@@ -758,7 +758,7 @@
   {
     "value": "Changed from",
     "count": 1,
-    "mapKeyTo": "i18n.common.changedfrom",
+    "mapKeyTo": "i18n.common.changedFrom",
     "mapValueTo": "Changed from",
     "keys": [
       {
@@ -770,7 +770,7 @@
   {
     "value": "Cleared. Was",
     "count": 1,
-    "mapKeyTo": "i18n.common.clearedwas",
+    "mapKeyTo": "i18n.common.clearedWas",
     "mapValueTo": "Cleared. Was",
     "keys": [
       {
@@ -782,7 +782,7 @@
   {
     "value": "Collection date",
     "count": 1,
-    "mapKeyTo": "i18n.common.collectiondate",
+    "mapKeyTo": "i18n.common.collectionDate",
     "mapValueTo": "Collection date",
     "keys": [
       {
@@ -794,7 +794,7 @@
   {
     "value": "Color code",
     "count": 1,
-    "mapKeyTo": "i18n.common.colorcode",
+    "mapKeyTo": "i18n.common.colorCode",
     "mapValueTo": "Color code",
     "keys": [
       {
@@ -806,7 +806,7 @@
   {
     "value": "Commodity, Description of Goods",
     "count": 1,
-    "mapKeyTo": "i18n.common.searchplaceholderconsignmentitem",
+    "mapKeyTo": "i18n.common.searchPlaceholderConsignmentItem",
     "mapValueTo": "Commodity, Description of Goods",
     "keys": [
       {
@@ -818,7 +818,7 @@
   {
     "value": "Communication language at departure",
     "count": 1,
-    "mapKeyTo": "i18n.common.communicationlanguageatdeparture",
+    "mapKeyTo": "i18n.common.communicationLanguageAtDeparture",
     "mapValueTo": "Communication language at departure",
     "keys": [
       {
@@ -830,7 +830,7 @@
   {
     "value": "Communication language at destination",
     "count": 1,
-    "mapKeyTo": "i18n.common.communicationlanguageatdestination",
+    "mapKeyTo": "i18n.common.communicationLanguageAtDestination",
     "mapValueTo": "Communication language at destination",
     "keys": [
       {
@@ -842,7 +842,7 @@
   {
     "value": "Competent authority of departure",
     "count": 1,
-    "mapKeyTo": "i18n.common.customsofficeofenquiryatdeparture",
+    "mapKeyTo": "i18n.common.customsOfficeOfEnquiryAtDeparture",
     "mapValueTo": "Competent authority of departure",
     "keys": [
       {
@@ -854,7 +854,7 @@
   {
     "value": "Competent customs office at departure",
     "count": 1,
-    "mapKeyTo": "i18n.common.competentcustomsofficeatdeparture",
+    "mapKeyTo": "i18n.common.competentCustomsOfficeAtDeparture",
     "mapValueTo": "Competent customs office at departure",
     "keys": [
       {
@@ -866,7 +866,7 @@
   {
     "value": "Competent customs office at destination",
     "count": 1,
-    "mapKeyTo": "i18n.common.competentcustomsofficeatdestination",
+    "mapKeyTo": "i18n.common.competentCustomsOfficeAtDestination",
     "mapValueTo": "Competent customs office at destination",
     "keys": [
       {
@@ -878,7 +878,7 @@
   {
     "value": "Competent office at departure",
     "count": 1,
-    "mapKeyTo": "i18n.common.competentofficeatdeparture",
+    "mapKeyTo": "i18n.common.competentOfficeAtDeparture",
     "mapValueTo": "Competent office at departure",
     "keys": [
       {
@@ -890,7 +890,7 @@
   {
     "value": "Competent office at destination",
     "count": 1,
-    "mapKeyTo": "i18n.common.competentofficeatdestination",
+    "mapKeyTo": "i18n.common.competentOfficeAtDestination",
     "mapValueTo": "Competent office at destination",
     "keys": [
       {
@@ -902,7 +902,7 @@
   {
     "value": "Complete control",
     "count": 1,
-    "mapKeyTo": "i18n.common.completecontrol",
+    "mapKeyTo": "i18n.common.completeControl",
     "mapValueTo": "Complete control",
     "keys": [
       {
@@ -914,7 +914,7 @@
   {
     "value": "Complete Recovery",
     "count": 1,
-    "mapKeyTo": "i18n.common.modaltitle",
+    "mapKeyTo": "i18n.common.modalTitle",
     "mapValueTo": "Complete Recovery",
     "keys": [
       {
@@ -938,7 +938,7 @@
   {
     "value": "comptetent authority of departure",
     "count": 1,
-    "mapKeyTo": "i18n.common.comptetentauthorityofdeparture",
+    "mapKeyTo": "i18n.common.comptetentAuthorityOfDeparture",
     "mapValueTo": "comptetent authority of departure",
     "keys": [
       {
@@ -986,7 +986,7 @@
   {
     "value": "Confirm for {{numberOfSelectedRows}} element(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.confirmactiona1",
+    "mapKeyTo": "i18n.common.confirmActionA1",
     "mapValueTo": "Confirm for {{numberOfSelectedRows}} element(s)",
     "keys": [
       {
@@ -1010,7 +1010,7 @@
   {
     "value": "Consignee (actual)",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualconsignee",
+    "mapKeyTo": "i18n.common.actualConsignee",
     "mapValueTo": "Consignee (actual)",
     "keys": [
       {
@@ -1022,7 +1022,7 @@
   {
     "value": "Consignee actual",
     "count": 1,
-    "mapKeyTo": "i18n.common.consigneeactual",
+    "mapKeyTo": "i18n.common.consigneeActual",
     "mapValueTo": "Consignee actual",
     "keys": [
       {
@@ -1034,7 +1034,7 @@
   {
     "value": "Consignee id",
     "count": 1,
-    "mapKeyTo": "i18n.common.consigneeid",
+    "mapKeyTo": "i18n.common.consigneeId",
     "mapValueTo": "Consignee id",
     "keys": [
       {
@@ -1046,7 +1046,7 @@
   {
     "value": "Consignee name",
     "count": 1,
-    "mapKeyTo": "i18n.common.consigneename",
+    "mapKeyTo": "i18n.common.consigneeName",
     "mapValueTo": "Consignee name",
     "keys": [
       {
@@ -1082,7 +1082,7 @@
   {
     "value": "Consignment Information - General Information",
     "count": 1,
-    "mapKeyTo": "i18n.common.consignmentgeneralinformation",
+    "mapKeyTo": "i18n.common.consignmentGeneralInformation",
     "mapValueTo": "Consignment Information - General Information",
     "keys": [
       {
@@ -1094,7 +1094,7 @@
   {
     "value": "Consignment Information - Parties",
     "count": 1,
-    "mapKeyTo": "i18n.common.consignmentparties",
+    "mapKeyTo": "i18n.common.consignmentParties",
     "mapValueTo": "Consignment Information - Parties",
     "keys": [
       {
@@ -1106,7 +1106,7 @@
   {
     "value": "Consignment Item :goodsItemNbr",
     "count": 1,
-    "mapKeyTo": "i18n.common.consignmentitemwithnbr",
+    "mapKeyTo": "i18n.common.consignmentItemWithNbr",
     "mapValueTo": "Consignment Item :goodsItemNbr",
     "keys": [
       {
@@ -1118,7 +1118,7 @@
   {
     "value": "Consignor id",
     "count": 1,
-    "mapKeyTo": "i18n.common.consignorid",
+    "mapKeyTo": "i18n.common.consignorId",
     "mapValueTo": "Consignor id",
     "keys": [
       {
@@ -1130,7 +1130,7 @@
   {
     "value": "Consignor name",
     "count": 1,
-    "mapKeyTo": "i18n.common.consignorname",
+    "mapKeyTo": "i18n.common.consignorName",
     "mapValueTo": "Consignor name",
     "keys": [
       {
@@ -1166,7 +1166,7 @@
   {
     "value": "Container Number, Consignee, Consignor",
     "count": 1,
-    "mapKeyTo": "i18n.common.searchplaceholderhouseconsignment",
+    "mapKeyTo": "i18n.common.searchPlaceholderHouseConsignment",
     "mapValueTo": "Container Number, Consignee, Consignor",
     "keys": [
       {
@@ -1178,7 +1178,7 @@
   {
     "value": "Continue control result",
     "count": 1,
-    "mapKeyTo": "i18n.common.continuecontrolresultdep",
+    "mapKeyTo": "i18n.common.continueControlResultDep",
     "mapValueTo": "Continue control result",
     "keys": [
       {
@@ -1190,7 +1190,7 @@
   {
     "value": "Continue control result (IE018)",
     "count": 1,
-    "mapKeyTo": "i18n.common.continuecontrolresultdes",
+    "mapKeyTo": "i18n.common.continueControlResultDes",
     "mapValueTo": "Continue control result (IE018)",
     "keys": [
       {
@@ -1202,7 +1202,7 @@
   {
     "value": "Continue Unloading remarks registration",
     "count": 1,
-    "mapKeyTo": "i18n.common.continueunloadingremarkdes",
+    "mapKeyTo": "i18n.common.continueUnloadingRemarkDes",
     "mapValueTo": "Continue Unloading remarks registration",
     "keys": [
       {
@@ -1226,7 +1226,7 @@
   {
     "value": "Control date",
     "count": 1,
-    "mapKeyTo": "i18n.common.controldate",
+    "mapKeyTo": "i18n.common.controlDate",
     "mapValueTo": "Control date",
     "keys": [
       {
@@ -1238,7 +1238,7 @@
   {
     "value": "Control Decision",
     "count": 1,
-    "mapKeyTo": "i18n.common.controldecision",
+    "mapKeyTo": "i18n.common.controlDecision",
     "mapValueTo": "Control Decision",
     "keys": [
       {
@@ -1250,7 +1250,7 @@
   {
     "value": "Control Recommendations",
     "count": 1,
-    "mapKeyTo": "i18n.common.controlrecommendations",
+    "mapKeyTo": "i18n.common.controlRecommendations",
     "mapValueTo": "Control Recommendations",
     "keys": [
       {
@@ -1262,7 +1262,7 @@
   {
     "value": "Control result limit date",
     "count": 1,
-    "mapKeyTo": "i18n.common.controlresultlimitdate",
+    "mapKeyTo": "i18n.common.controlResultLimitDate",
     "mapValueTo": "Control result limit date",
     "keys": [
       {
@@ -1286,7 +1286,7 @@
   {
     "value": "Controlled on",
     "count": 1,
-    "mapKeyTo": "i18n.common.controlledon",
+    "mapKeyTo": "i18n.common.controlledOn",
     "mapValueTo": "Controlled on",
     "keys": [
       {
@@ -1310,7 +1310,7 @@
   {
     "value": "Country of routing consignment",
     "count": 1,
-    "mapKeyTo": "i18n.common.countryofroutingconsignment",
+    "mapKeyTo": "i18n.common.countryOfRoutingConsignment",
     "mapValueTo": "Country of routing consignment",
     "keys": [
       {
@@ -1334,7 +1334,7 @@
   {
     "value": "Create consignment",
     "count": 1,
-    "mapKeyTo": "i18n.common.createconsignment",
+    "mapKeyTo": "i18n.common.createConsignment",
     "mapValueTo": "Create consignment",
     "keys": [
       {
@@ -1346,7 +1346,7 @@
   {
     "value": "Create new declaration from template",
     "count": 1,
-    "mapKeyTo": "i18n.common.createnewdeclaration",
+    "mapKeyTo": "i18n.common.createNewDeclaration",
     "mapValueTo": "Create new declaration from template",
     "keys": [
       {
@@ -1370,7 +1370,7 @@
   {
     "value": "Current situation",
     "count": 1,
-    "mapKeyTo": "i18n.common.currentsituation",
+    "mapKeyTo": "i18n.common.currentSituation",
     "mapValueTo": "Current situation",
     "keys": [
       {
@@ -1394,7 +1394,7 @@
   {
     "value": "Customs office of incident",
     "count": 1,
-    "mapKeyTo": "i18n.common.advancedsearchinc",
+    "mapKeyTo": "i18n.common.advancedSearchInc",
     "mapValueTo": "Customs office of incident",
     "keys": [
       {
@@ -1418,7 +1418,7 @@
   {
     "value": "Customs office of recovery requested",
     "count": 1,
-    "mapKeyTo": "i18n.common.customsofficeofrecoveryrequested",
+    "mapKeyTo": "i18n.common.customsOfficeOfRecoveryRequested",
     "mapValueTo": "Customs office of recovery requested",
     "keys": [
       {
@@ -1430,7 +1430,7 @@
   {
     "value": "Customs office of recovery requesting",
     "count": 1,
-    "mapKeyTo": "i18n.common.customsofficeofrecoveryrequesting",
+    "mapKeyTo": "i18n.common.customsOfficeOfRecoveryRequesting",
     "mapValueTo": "Customs office of recovery requesting",
     "keys": [
       {
@@ -1442,7 +1442,7 @@
   {
     "value": "Customs office of request (Destination)",
     "count": 1,
-    "mapKeyTo": "i18n.common.cusuomsofficeofrequest",
+    "mapKeyTo": "i18n.common.cusuomsOfficeOfRequest",
     "mapValueTo": "Customs office of request (Destination)",
     "keys": [
       {
@@ -1454,7 +1454,7 @@
   {
     "value": "Customs office of transit",
     "count": 1,
-    "mapKeyTo": "i18n.common.advancedsearchtra",
+    "mapKeyTo": "i18n.common.advancedSearchTra",
     "mapValueTo": "Customs office of transit",
     "keys": [
       {
@@ -1466,7 +1466,7 @@
   {
     "value": "Date & Time",
     "count": 1,
-    "mapKeyTo": "i18n.common.datetime",
+    "mapKeyTo": "i18n.common.dateTime",
     "mapValueTo": "Date & Time",
     "keys": [
       {
@@ -1478,7 +1478,7 @@
   {
     "value": "Date of enquiry request",
     "count": 1,
-    "mapKeyTo": "i18n.common.enquirydate",
+    "mapKeyTo": "i18n.common.enquiryDate",
     "mapValueTo": "Date of enquiry request",
     "keys": [
       {
@@ -1526,7 +1526,7 @@
   {
     "value": "Decl. goods item number",
     "count": 1,
-    "mapKeyTo": "i18n.common.declgoodsitemnumber",
+    "mapKeyTo": "i18n.common.declGoodsItemNumber",
     "mapValueTo": "Decl. goods item number",
     "keys": [
       {
@@ -1538,7 +1538,7 @@
   {
     "value": "Declaration goods items",
     "count": 1,
-    "mapKeyTo": "i18n.common.declarationgoodsitems",
+    "mapKeyTo": "i18n.common.declarationGoodsItems",
     "mapValueTo": "Declaration goods items",
     "keys": [
       {
@@ -1550,7 +1550,7 @@
   {
     "value": "Declaration goods items number",
     "count": 1,
-    "mapKeyTo": "i18n.common.declarationgoodsitemsnumber",
+    "mapKeyTo": "i18n.common.declarationGoodsItemsNumber",
     "mapValueTo": "Declaration goods items number",
     "keys": [
       {
@@ -1562,7 +1562,7 @@
   {
     "value": "Declared arrival date and time",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredarrivaldateandtime",
+    "mapKeyTo": "i18n.common.declaredArrivalDateAndTime",
     "mapValueTo": "Declared arrival date and time",
     "keys": [
       {
@@ -1574,7 +1574,7 @@
   {
     "value": "Declared city",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredcity",
+    "mapKeyTo": "i18n.common.declaredCity",
     "mapValueTo": "Declared city",
     "keys": [
       {
@@ -1586,7 +1586,7 @@
   {
     "value": "Declared country",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredcountry",
+    "mapKeyTo": "i18n.common.declaredCountry",
     "mapValueTo": "Declared country",
     "keys": [
       {
@@ -1598,7 +1598,7 @@
   {
     "value": "Declared identification number",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredidentificationnumber",
+    "mapKeyTo": "i18n.common.declaredIdentificationNumber",
     "mapValueTo": "Declared identification number",
     "keys": [
       {
@@ -1610,7 +1610,7 @@
   {
     "value": "Declared location of goods",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredlocationofgoods",
+    "mapKeyTo": "i18n.common.declaredLocationOfGoods",
     "mapValueTo": "Declared location of goods",
     "keys": [
       {
@@ -1622,7 +1622,7 @@
   {
     "value": "Declared name",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredname",
+    "mapKeyTo": "i18n.common.declaredName",
     "mapValueTo": "Declared name",
     "keys": [
       {
@@ -1634,7 +1634,7 @@
   {
     "value": "Declared OoDes",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredcustomofficeofdestination",
+    "mapKeyTo": "i18n.common.declaredCustomOfficeOfDestination",
     "mapValueTo": "Declared OoDes",
     "keys": [
       {
@@ -1646,7 +1646,7 @@
   {
     "value": "Declared OoExtTra",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredcustomsofficeofexittransit",
+    "mapKeyTo": "i18n.common.declaredCustomsOfficeOfExitTransit",
     "mapValueTo": "Declared OoExtTra",
     "keys": [
       {
@@ -1658,7 +1658,7 @@
   {
     "value": "Declared OoTra",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredcustomsofficeoftransit",
+    "mapKeyTo": "i18n.common.declaredCustomsOfficeOfTransit",
     "mapValueTo": "Declared OoTra",
     "keys": [
       {
@@ -1670,7 +1670,7 @@
   {
     "value": "Declared postcode",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredpostcode",
+    "mapKeyTo": "i18n.common.declaredPostcode",
     "mapValueTo": "Declared postcode",
     "keys": [
       {
@@ -1682,7 +1682,7 @@
   {
     "value": "Declared street and number",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredstreetandnumber",
+    "mapKeyTo": "i18n.common.declaredStreetAndNumber",
     "mapValueTo": "Declared street and number",
     "keys": [
       {
@@ -1694,7 +1694,7 @@
   {
     "value": "Default amount",
     "count": 1,
-    "mapKeyTo": "i18n.common.defaultamount",
+    "mapKeyTo": "i18n.common.defaultAmount",
     "mapValueTo": "Default amount",
     "keys": [
       {
@@ -1706,7 +1706,7 @@
   {
     "value": "Delete consignment",
     "count": 1,
-    "mapKeyTo": "i18n.common.deleteconsignment",
+    "mapKeyTo": "i18n.common.deleteConsignment",
     "mapValueTo": "Delete consignment",
     "keys": [
       {
@@ -1718,7 +1718,7 @@
   {
     "value": "Delivery date",
     "count": 1,
-    "mapKeyTo": "i18n.common.enquirydate",
+    "mapKeyTo": "i18n.common.enquiryDate",
     "mapValueTo": "Delivery date",
     "keys": [
       {
@@ -1742,7 +1742,7 @@
   {
     "value": "Departure transport mean",
     "count": 1,
-    "mapKeyTo": "i18n.common.departuretransportmean",
+    "mapKeyTo": "i18n.common.departureTransportMean",
     "mapValueTo": "Departure transport mean",
     "keys": [
       {
@@ -1754,7 +1754,7 @@
   {
     "value": "Departure transport mean(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.departuretransportmeans",
+    "mapKeyTo": "i18n.common.departureTransportMeans",
     "mapValueTo": "Departure transport mean(s)",
     "keys": [
       {
@@ -1766,7 +1766,7 @@
   {
     "value": "Departure transport means",
     "count": 1,
-    "mapKeyTo": "i18n.common.departuretransportmeans",
+    "mapKeyTo": "i18n.common.departureTransportMeans",
     "mapValueTo": "Departure transport means",
     "keys": [
       {
@@ -1826,7 +1826,7 @@
   {
     "value": "Discrepancies resolved",
     "count": 1,
-    "mapKeyTo": "i18n.common.discrepanciesresolved",
+    "mapKeyTo": "i18n.common.discrepanciesResolved",
     "mapValueTo": "Discrepancies resolved",
     "keys": [
       {
@@ -1850,7 +1850,7 @@
   {
     "value": "Document Description",
     "count": 1,
-    "mapKeyTo": "i18n.common.documentdescription",
+    "mapKeyTo": "i18n.common.documentDescription",
     "mapValueTo": "Document Description",
     "keys": [
       {
@@ -1862,7 +1862,7 @@
   {
     "value": "Document(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.subtitle",
+    "mapKeyTo": "i18n.common.subTitle",
     "mapValueTo": "Document(s)",
     "keys": [
       {
@@ -1898,7 +1898,7 @@
   {
     "value": "E-mail address contact person",
     "count": 1,
-    "mapKeyTo": "i18n.common.emailaddress",
+    "mapKeyTo": "i18n.common.emailAddress",
     "mapValueTo": "E-mail address contact person",
     "keys": [
       {
@@ -1910,7 +1910,7 @@
   {
     "value": "Edit name and description",
     "count": 1,
-    "mapKeyTo": "i18n.common.editnameanddescription",
+    "mapKeyTo": "i18n.common.editNameAndDescription",
     "mapValueTo": "Edit name and description",
     "keys": [
       {
@@ -1946,7 +1946,7 @@
   {
     "value": "ENQUIRY & RECOVERY",
     "count": 1,
-    "mapKeyTo": "i18n.common.enquiryandrecovery",
+    "mapKeyTo": "i18n.common.enquiryAndRecovery",
     "mapValueTo": "ENQUIRY & RECOVERY",
     "keys": [
       {
@@ -1958,7 +1958,7 @@
   {
     "value": "Enquiry delivery date",
     "count": 1,
-    "mapKeyTo": "i18n.common.enquiryresponsedate",
+    "mapKeyTo": "i18n.common.enquiryResponseDate",
     "mapValueTo": "Enquiry delivery date",
     "keys": [
       {
@@ -1982,7 +1982,7 @@
   {
     "value": "Enquiry request (IE142) sent",
     "count": 1,
-    "mapKeyTo": "i18n.common.ie142sent",
+    "mapKeyTo": "i18n.common.ie142Sent",
     "mapValueTo": "Enquiry request (IE142) sent",
     "keys": [
       {
@@ -1994,7 +1994,7 @@
   {
     "value": "Enquiry status",
     "count": 1,
-    "mapKeyTo": "i18n.common.enquirystatus",
+    "mapKeyTo": "i18n.common.enquiryStatus",
     "mapValueTo": "Enquiry status",
     "keys": [
       {
@@ -2006,7 +2006,7 @@
   {
     "value": "Enquiry text",
     "count": 1,
-    "mapKeyTo": "i18n.common.enquirytext",
+    "mapKeyTo": "i18n.common.enquiryText",
     "mapValueTo": "Enquiry text",
     "keys": [
       {
@@ -2018,7 +2018,7 @@
   {
     "value": "EORI/Identification number",
     "count": 1,
-    "mapKeyTo": "i18n.common.eoriidnumber",
+    "mapKeyTo": "i18n.common.eoriIdNumber",
     "mapValueTo": "EORI/Identification number",
     "keys": [
       {
@@ -2054,7 +2054,7 @@
   {
     "value": "Expected arrival date",
     "count": 1,
-    "mapKeyTo": "i18n.common.expectedarrivaldate",
+    "mapKeyTo": "i18n.common.expectedArrivalDate",
     "mapValueTo": "Expected arrival date",
     "keys": [
       {
@@ -2066,7 +2066,7 @@
   {
     "value": "Expected control date",
     "count": 1,
-    "mapKeyTo": "i18n.common.expectedcontroldate",
+    "mapKeyTo": "i18n.common.expectedControlDate",
     "mapValueTo": "Expected control date",
     "keys": [
       {
@@ -2090,7 +2090,7 @@
   {
     "value": "Export declaration",
     "count": 1,
-    "mapKeyTo": "i18n.common.exportdec",
+    "mapKeyTo": "i18n.common.exportDec",
     "mapValueTo": "Export declaration",
     "keys": [
       {
@@ -2102,7 +2102,7 @@
   {
     "value": "Extra infos",
     "count": 1,
-    "mapKeyTo": "i18n.common.extrainfo",
+    "mapKeyTo": "i18n.common.extraInfo",
     "mapValueTo": "Extra infos",
     "keys": [
       {
@@ -2138,7 +2138,7 @@
   {
     "value": "Filter on MRN",
     "count": 1,
-    "mapKeyTo": "i18n.common.filteronmrn",
+    "mapKeyTo": "i18n.common.filterOnMRN",
     "mapValueTo": "Filter on MRN",
     "keys": [
       {
@@ -2150,7 +2150,7 @@
   {
     "value": "Finish Discrepancies",
     "count": 1,
-    "mapKeyTo": "i18n.common.finishdiscrepancies",
+    "mapKeyTo": "i18n.common.finishDiscrepancies",
     "mapValueTo": "Finish Discrepancies",
     "keys": [
       {
@@ -2174,7 +2174,7 @@
   {
     "value": "Generate Follow Letter",
     "count": 1,
-    "mapKeyTo": "i18n.common.generatefollowletter",
+    "mapKeyTo": "i18n.common.generateFollowLetter",
     "mapValueTo": "Generate Follow Letter",
     "keys": [
       {
@@ -2186,7 +2186,7 @@
   {
     "value": "Generate T(S)AD",
     "count": 1,
-    "mapKeyTo": "i18n.common.generatetad",
+    "mapKeyTo": "i18n.common.generateTAD",
     "mapValueTo": "Generate T(S)AD",
     "keys": [
       {
@@ -2198,7 +2198,7 @@
   {
     "value": "Generate T(S)AD (office copy)",
     "count": 1,
-    "mapKeyTo": "i18n.common.generatetadofficecopy",
+    "mapKeyTo": "i18n.common.generateTADOfficeCopy",
     "mapValueTo": "Generate T(S)AD (office copy)",
     "keys": [
       {
@@ -2210,7 +2210,7 @@
   {
     "value": "GMS Guarantees",
     "count": 1,
-    "mapKeyTo": "i18n.common.gmsguarantees",
+    "mapKeyTo": "i18n.common.gmsGuarantees",
     "mapValueTo": "GMS Guarantees",
     "keys": [
       {
@@ -2234,7 +2234,7 @@
   {
     "value": "Goods items",
     "count": 1,
-    "mapKeyTo": "i18n.common.goodsitems",
+    "mapKeyTo": "i18n.common.goodsItems",
     "mapValueTo": "Goods items",
     "keys": [
       {
@@ -2246,7 +2246,7 @@
   {
     "value": "Goods references",
     "count": 1,
-    "mapKeyTo": "i18n.common.goodsreferences",
+    "mapKeyTo": "i18n.common.goodsReferences",
     "mapValueTo": "Goods references",
     "keys": [
       {
@@ -2282,7 +2282,7 @@
   {
     "value": "Harmonised system sub heading code",
     "count": 1,
-    "mapKeyTo": "i18n.common.harmonisedsystemsubheadingcode",
+    "mapKeyTo": "i18n.common.harmonisedSystemSubHeadingCode",
     "mapValueTo": "Harmonised system sub heading code",
     "keys": [
       {
@@ -2294,7 +2294,7 @@
   {
     "value": "Has errors",
     "count": 1,
-    "mapKeyTo": "i18n.common.haserrors",
+    "mapKeyTo": "i18n.common.hasErrors",
     "mapValueTo": "Has errors",
     "keys": [
       {
@@ -2306,7 +2306,7 @@
   {
     "value": "Holder identification number",
     "count": 1,
-    "mapKeyTo": "i18n.common.holderidentificationnumber",
+    "mapKeyTo": "i18n.common.holderIdentificationNumber",
     "mapValueTo": "Holder identification number",
     "keys": [
       {
@@ -2318,7 +2318,7 @@
   {
     "value": "Holder of the transit procedure",
     "count": 1,
-    "mapKeyTo": "i18n.common.holderofthetransitprocedure",
+    "mapKeyTo": "i18n.common.holderOfTheTransitProcedure",
     "mapValueTo": "Holder of the transit procedure",
     "keys": [
       {
@@ -2330,7 +2330,7 @@
   {
     "value": "House Consignment :houseConsignmentNbr",
     "count": 1,
-    "mapKeyTo": "i18n.common.houseconsignmentwithnbr",
+    "mapKeyTo": "i18n.common.houseConsignmentWithNbr",
     "mapValueTo": "House Consignment :houseConsignmentNbr",
     "keys": [
       {
@@ -2342,7 +2342,7 @@
   {
     "value": "House Consignment :houseConsignmentNbr - Parties",
     "count": 1,
-    "mapKeyTo": "i18n.common.houseconsignmentpartieswithnbr",
+    "mapKeyTo": "i18n.common.houseConsignmentPartiesWithNbr",
     "mapValueTo": "House Consignment :houseConsignmentNbr - Parties",
     "keys": [
       {
@@ -2354,7 +2354,7 @@
   {
     "value": "House Consignment{{hcNumber}}- Consignment Item(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.consignmentitemtabletitle",
+    "mapKeyTo": "i18n.common.consignmentItemTableTitle",
     "mapValueTo": "House Consignment{{hcNumber}}- Consignment Item(s)",
     "keys": [
       {
@@ -2366,7 +2366,7 @@
   {
     "value": "House Consignment{{hcNumber}}- Consignment Item{{hciNumber}}",
     "count": 1,
-    "mapKeyTo": "i18n.common.consignmentitemtitle",
+    "mapKeyTo": "i18n.common.consignmentItemTitle",
     "mapValueTo": "House Consignment{{hcNumber}}- Consignment Item{{hciNumber}}",
     "keys": [
       {
@@ -2378,7 +2378,7 @@
   {
     "value": "House Consignment{{number}}- General Information",
     "count": 1,
-    "mapKeyTo": "i18n.common.houseconsignmentinformationtitle",
+    "mapKeyTo": "i18n.common.houseConsignmentInformationTitle",
     "mapValueTo": "House Consignment{{number}}- General Information",
     "keys": [
       {
@@ -2390,7 +2390,7 @@
   {
     "value": "House Consignment{{number}}- Parties",
     "count": 1,
-    "mapKeyTo": "i18n.common.houseconsignmentpartiestitle",
+    "mapKeyTo": "i18n.common.houseConsignmentPartiesTitle",
     "mapValueTo": "House Consignment{{number}}- Parties",
     "keys": [
       {
@@ -2474,7 +2474,7 @@
   {
     "value": "IE144 received",
     "count": 1,
-    "mapKeyTo": "i18n.common.ie144received",
+    "mapKeyTo": "i18n.common.ie144Received",
     "mapValueTo": "IE144 received",
     "keys": [
       {
@@ -2486,7 +2486,7 @@
   {
     "value": "IE144 sent",
     "count": 1,
-    "mapKeyTo": "i18n.common.ie144sent",
+    "mapKeyTo": "i18n.common.ie144Sent",
     "mapValueTo": "IE144 sent",
     "keys": [
       {
@@ -2498,7 +2498,7 @@
   {
     "value": "IE145 received",
     "count": 1,
-    "mapKeyTo": "i18n.common.ie145received",
+    "mapKeyTo": "i18n.common.ie145Received",
     "mapValueTo": "IE145 received",
     "keys": [
       {
@@ -2510,7 +2510,7 @@
   {
     "value": "IE145 sent",
     "count": 1,
-    "mapKeyTo": "i18n.common.ie145sent",
+    "mapKeyTo": "i18n.common.ie145Sent",
     "mapValueTo": "IE145 sent",
     "keys": [
       {
@@ -2522,7 +2522,7 @@
   {
     "value": "Incident flag",
     "count": 1,
-    "mapKeyTo": "i18n.common.incidentflag",
+    "mapKeyTo": "i18n.common.incidentFlag",
     "mapValueTo": "Incident flag",
     "keys": [
       {
@@ -2546,7 +2546,7 @@
   {
     "value": "Invalidate (IE009)",
     "count": 1,
-    "mapKeyTo": "i18n.common.buttonie009",
+    "mapKeyTo": "i18n.common.buttonIE009",
     "mapValueTo": "Invalidate (IE009)",
     "keys": [
       {
@@ -2558,7 +2558,7 @@
   {
     "value": "Invalidate declaration",
     "count": 1,
-    "mapKeyTo": "i18n.common.invaldecl",
+    "mapKeyTo": "i18n.common.invalDecl",
     "mapValueTo": "Invalidate declaration",
     "keys": [
       {
@@ -2570,7 +2570,7 @@
   {
     "value": "Invalidate Declaration (IE009)",
     "count": 1,
-    "mapKeyTo": "i18n.common.reqforinvbyco",
+    "mapKeyTo": "i18n.common.reqForInvbyCO",
     "mapValueTo": "Invalidate Declaration (IE009)",
     "keys": [
       {
@@ -2582,7 +2582,7 @@
   {
     "value": "Involved countries",
     "count": 1,
-    "mapKeyTo": "i18n.common.involvedcountries",
+    "mapKeyTo": "i18n.common.involvedCountries",
     "mapValueTo": "Involved countries",
     "keys": [
       {
@@ -2606,7 +2606,7 @@
   {
     "value": "kg",
     "count": 1,
-    "mapKeyTo": "i18n.common.weightunit",
+    "mapKeyTo": "i18n.common.weightUnit",
     "mapValueTo": "kg",
     "keys": [
       {
@@ -2630,7 +2630,7 @@
   {
     "value": "Limit date",
     "count": 1,
-    "mapKeyTo": "i18n.common.limitdate",
+    "mapKeyTo": "i18n.common.limitDate",
     "mapValueTo": "Limit date",
     "keys": [
       {
@@ -2642,7 +2642,7 @@
   {
     "value": "Limit date (Declaration)",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredlimitdate",
+    "mapKeyTo": "i18n.common.declaredLimitDate",
     "mapValueTo": "Limit date (Declaration)",
     "keys": [
       {
@@ -2654,7 +2654,7 @@
   {
     "value": "Limit dates",
     "count": 1,
-    "mapKeyTo": "i18n.common.limitdates",
+    "mapKeyTo": "i18n.common.limitDates",
     "mapValueTo": "Limit dates",
     "keys": [
       {
@@ -2666,7 +2666,7 @@
   {
     "value": "Limit for response date",
     "count": 1,
-    "mapKeyTo": "i18n.common.limitforresponsedate",
+    "mapKeyTo": "i18n.common.limitForResponseDate",
     "mapValueTo": "Limit for response date",
     "keys": [
       {
@@ -2678,7 +2678,7 @@
   {
     "value": "Limit for the enquiry response",
     "count": 1,
-    "mapKeyTo": "i18n.common.limitforenquiryresponse",
+    "mapKeyTo": "i18n.common.limitForEnquiryResponse",
     "mapValueTo": "Limit for the enquiry response",
     "keys": [
       {
@@ -2690,7 +2690,7 @@
   {
     "value": "Load copy of consignment",
     "count": 1,
-    "mapKeyTo": "i18n.common.loadconsignment",
+    "mapKeyTo": "i18n.common.loadConsignment",
     "mapValueTo": "Load copy of consignment",
     "keys": [
       {
@@ -2714,7 +2714,7 @@
   {
     "value": "Location type",
     "count": 1,
-    "mapKeyTo": "i18n.common.locationtype",
+    "mapKeyTo": "i18n.common.locationType",
     "mapValueTo": "Location type",
     "keys": [
       {
@@ -2726,7 +2726,7 @@
   {
     "value": "Manage Guarantees",
     "count": 1,
-    "mapKeyTo": "i18n.common.manageguarantees",
+    "mapKeyTo": "i18n.common.manageGuarantees",
     "mapValueTo": "Manage Guarantees",
     "keys": [
       {
@@ -2738,7 +2738,7 @@
   {
     "value": "Manage Invalidation request (IE009)",
     "count": 1,
-    "mapKeyTo": "i18n.common.managereqforinv",
+    "mapKeyTo": "i18n.common.manageReqForInv",
     "mapValueTo": "Manage Invalidation request (IE009)",
     "keys": [
       {
@@ -2750,7 +2750,7 @@
   {
     "value": "Manual Closure",
     "count": 1,
-    "mapKeyTo": "i18n.common.alternativeproof",
+    "mapKeyTo": "i18n.common.alternativeProof",
     "mapValueTo": "Manual Closure",
     "keys": [
       {
@@ -2762,7 +2762,7 @@
   {
     "value": "Manual Start for Recovery",
     "count": 1,
-    "mapKeyTo": "i18n.common.submitmanualrecovery",
+    "mapKeyTo": "i18n.common.submitManualRecovery",
     "mapValueTo": "Manual Start for Recovery",
     "keys": [
       {
@@ -2798,7 +2798,7 @@
   {
     "value": "Mass of",
     "count": 1,
-    "mapKeyTo": "i18n.common.massof",
+    "mapKeyTo": "i18n.common.massOf",
     "mapValueTo": "Mass of",
     "keys": [
       {
@@ -2822,7 +2822,7 @@
   {
     "value": "Maximum of {{maxCount}} items reached",
     "count": 1,
-    "mapKeyTo": "i18n.common.maxcountreached",
+    "mapKeyTo": "i18n.common.maxCountReached",
     "mapValueTo": "Maximum of {{maxCount}} items reached",
     "keys": [
       {
@@ -2846,7 +2846,7 @@
   {
     "value": "Message Type",
     "count": 1,
-    "mapKeyTo": "i18n.common.messagetype",
+    "mapKeyTo": "i18n.common.messageType",
     "mapValueTo": "Message Type",
     "keys": [
       {
@@ -2870,7 +2870,7 @@
   {
     "value": "Method of payment",
     "count": 1,
-    "mapKeyTo": "i18n.common.methodofpayment",
+    "mapKeyTo": "i18n.common.methodOfPayment",
     "mapValueTo": "Method of payment",
     "keys": [
       {
@@ -2894,7 +2894,7 @@
   {
     "value": "Mode of transport",
     "count": 1,
-    "mapKeyTo": "i18n.common.modeoftransport",
+    "mapKeyTo": "i18n.common.modeOfTransport",
     "mapValueTo": "Mode of transport",
     "keys": [
       {
@@ -2906,7 +2906,7 @@
   {
     "value": "Motivation for not releasing transit",
     "count": 1,
-    "mapKeyTo": "i18n.common.noreleasemotivationtitle",
+    "mapKeyTo": "i18n.common.noReleaseMotivationTitle",
     "mapValueTo": "Motivation for not releasing transit",
     "keys": [
       {
@@ -2918,7 +2918,7 @@
   {
     "value": "Movement continues",
     "count": 1,
-    "mapKeyTo": "i18n.common.continuemovement",
+    "mapKeyTo": "i18n.common.continueMovement",
     "mapValueTo": "Movement continues",
     "keys": [
       {
@@ -2930,7 +2930,7 @@
   {
     "value": "Movement Query",
     "count": 1,
-    "mapKeyTo": "i18n.common.movementquery",
+    "mapKeyTo": "i18n.common.movementQuery",
     "mapValueTo": "Movement Query",
     "keys": [
       {
@@ -2942,7 +2942,7 @@
   {
     "value": "Movement stopped Date and time",
     "count": 1,
-    "mapKeyTo": "i18n.common.movementstoppeddateandtime",
+    "mapKeyTo": "i18n.common.movementStoppedDateAndTime",
     "mapValueTo": "Movement stopped Date and time",
     "keys": [
       {
@@ -2954,7 +2954,7 @@
   {
     "value": "Movement stops",
     "count": 1,
-    "mapKeyTo": "i18n.common.stopmovement",
+    "mapKeyTo": "i18n.common.stopMovement",
     "mapValueTo": "Movement stops",
     "keys": [
       {
@@ -2978,7 +2978,7 @@
   {
     "value": "My offices",
     "count": 1,
-    "mapKeyTo": "i18n.common.myoffices",
+    "mapKeyTo": "i18n.common.myOffices",
     "mapValueTo": "My offices",
     "keys": [
       {
@@ -2990,7 +2990,7 @@
   {
     "value": "Name holder of transit procedure",
     "count": 1,
-    "mapKeyTo": "i18n.common.nameholderoftransitprocedure",
+    "mapKeyTo": "i18n.common.nameHolderOfTransitProcedure",
     "mapValueTo": "Name holder of transit procedure",
     "keys": [
       {
@@ -3014,7 +3014,7 @@
   {
     "value": "Net mass (kg)",
     "count": 1,
-    "mapKeyTo": "i18n.common.netmass",
+    "mapKeyTo": "i18n.common.netMass",
     "mapValueTo": "Net mass (kg)",
     "keys": [
       {
@@ -3038,7 +3038,7 @@
   {
     "value": "NEW DECLARATION",
     "count": 1,
-    "mapKeyTo": "i18n.common.newdeclaration",
+    "mapKeyTo": "i18n.common.newDeclaration",
     "mapValueTo": "NEW DECLARATION",
     "keys": [
       {
@@ -3050,7 +3050,7 @@
   {
     "value": "New template description",
     "count": 1,
-    "mapKeyTo": "i18n.common.newtemplatedescription",
+    "mapKeyTo": "i18n.common.newTemplateDescription",
     "mapValueTo": "New template description",
     "keys": [
       {
@@ -3062,7 +3062,7 @@
   {
     "value": "New template name",
     "count": 1,
-    "mapKeyTo": "i18n.common.newtemplatename",
+    "mapKeyTo": "i18n.common.newTemplateName",
     "mapValueTo": "New template name",
     "keys": [
       {
@@ -3098,7 +3098,7 @@
   {
     "value": "No control decisions found.",
     "count": 1,
-    "mapKeyTo": "i18n.common.noresults",
+    "mapKeyTo": "i18n.common.noResults",
     "mapValueTo": "No control decisions found.",
     "keys": [
       {
@@ -3110,7 +3110,7 @@
   {
     "value": "No Control Needed",
     "count": 1,
-    "mapKeyTo": "i18n.common.nocontrolneeded",
+    "mapKeyTo": "i18n.common.noControlNeeded",
     "mapValueTo": "No Control Needed",
     "keys": [
       {
@@ -3134,7 +3134,7 @@
   {
     "value": "No control result found.",
     "count": 1,
-    "mapKeyTo": "i18n.common.noresults",
+    "mapKeyTo": "i18n.common.noResults",
     "mapValueTo": "No control result found.",
     "keys": [
       {
@@ -3146,7 +3146,7 @@
   {
     "value": "No data",
     "count": 1,
-    "mapKeyTo": "i18n.common.nodata",
+    "mapKeyTo": "i18n.common.noData",
     "mapValueTo": "No data",
     "keys": [
       {
@@ -3158,7 +3158,7 @@
   {
     "value": "No data for filter",
     "count": 1,
-    "mapKeyTo": "i18n.common.nodataforfilter",
+    "mapKeyTo": "i18n.common.noDataForFilter",
     "mapValueTo": "No data for filter",
     "keys": [
       {
@@ -3170,7 +3170,7 @@
   {
     "value": "No guarantees under registration found.",
     "count": 1,
-    "mapKeyTo": "i18n.common.noresults",
+    "mapKeyTo": "i18n.common.noResults",
     "mapValueTo": "No guarantees under registration found.",
     "keys": [
       {
@@ -3182,7 +3182,7 @@
   {
     "value": "No invalidation requests.",
     "count": 1,
-    "mapKeyTo": "i18n.common.noinvalidation",
+    "mapKeyTo": "i18n.common.noInvalidation",
     "mapValueTo": "No invalidation requests.",
     "keys": [
       {
@@ -3194,7 +3194,7 @@
   {
     "value": "No movements under resolution found.",
     "count": 1,
-    "mapKeyTo": "i18n.common.nomovementunderresolution",
+    "mapKeyTo": "i18n.common.noMovementUnderResolution",
     "mapValueTo": "No movements under resolution found.",
     "keys": [
       {
@@ -3206,7 +3206,7 @@
   {
     "value": "No opposition",
     "count": 1,
-    "mapKeyTo": "i18n.common.noopposition",
+    "mapKeyTo": "i18n.common.noOpposition",
     "mapValueTo": "No opposition",
     "keys": [
       {
@@ -3218,7 +3218,7 @@
   {
     "value": "no release motivation",
     "count": 1,
-    "mapKeyTo": "i18n.common.noreleasemotivation",
+    "mapKeyTo": "i18n.common.noReleaseMotivation",
     "mapValueTo": "no release motivation",
     "keys": [
       {
@@ -3230,7 +3230,7 @@
   {
     "value": "No release motivation code",
     "count": 1,
-    "mapKeyTo": "i18n.common.noreleasemotivationcode",
+    "mapKeyTo": "i18n.common.noReleaseMotivationCode",
     "mapValueTo": "No release motivation code",
     "keys": [
       {
@@ -3242,7 +3242,7 @@
   {
     "value": "No release requests.",
     "count": 1,
-    "mapKeyTo": "i18n.common.noreleaserequest",
+    "mapKeyTo": "i18n.common.noReleaseRequest",
     "mapValueTo": "No release requests.",
     "keys": [
       {
@@ -3254,7 +3254,7 @@
   {
     "value": "No remark",
     "count": 1,
-    "mapKeyTo": "i18n.common.noremark",
+    "mapKeyTo": "i18n.common.noRemark",
     "mapValueTo": "No remark",
     "keys": [
       {
@@ -3266,7 +3266,7 @@
   {
     "value": "No results found",
     "count": 1,
-    "mapKeyTo": "i18n.common.noresults",
+    "mapKeyTo": "i18n.common.noResults",
     "mapValueTo": "No results found",
     "keys": [
       {
@@ -3278,7 +3278,7 @@
   {
     "value": "No results found.",
     "count": 1,
-    "mapKeyTo": "i18n.common.noresults",
+    "mapKeyTo": "i18n.common.noResults",
     "mapValueTo": "No results found.",
     "keys": [
       {
@@ -3290,7 +3290,7 @@
   {
     "value": "No seals",
     "count": 1,
-    "mapKeyTo": "i18n.common.noseals",
+    "mapKeyTo": "i18n.common.noSeals",
     "mapValueTo": "No seals",
     "keys": [
       {
@@ -3302,7 +3302,7 @@
   {
     "value": "Non GMS Guarantees",
     "count": 1,
-    "mapKeyTo": "i18n.common.nongmsguarantees",
+    "mapKeyTo": "i18n.common.nonGmsGuarantees",
     "mapValueTo": "Non GMS Guarantees",
     "keys": [
       {
@@ -3326,7 +3326,7 @@
   {
     "value": "Not OK",
     "count": 1,
-    "mapKeyTo": "i18n.common.notok",
+    "mapKeyTo": "i18n.common.notOk",
     "mapValueTo": "Not OK",
     "keys": [
       {
@@ -3338,7 +3338,7 @@
   {
     "value": "Not satisfactory",
     "count": 1,
-    "mapKeyTo": "i18n.common.notsatisfactory",
+    "mapKeyTo": "i18n.common.notSatisfactory",
     "mapValueTo": "Not satisfactory",
     "keys": [
       {
@@ -3350,7 +3350,7 @@
   {
     "value": "Not valid in",
     "count": 1,
-    "mapKeyTo": "i18n.common.notvalidin",
+    "mapKeyTo": "i18n.common.notValidIn",
     "mapValueTo": "Not valid in",
     "keys": [
       {
@@ -3362,7 +3362,7 @@
   {
     "value": "Notification date",
     "count": 1,
-    "mapKeyTo": "i18n.common.notificationdate",
+    "mapKeyTo": "i18n.common.notificationDate",
     "mapValueTo": "Notification date",
     "keys": [
       {
@@ -3386,7 +3386,7 @@
   {
     "value": "Office of guarantee",
     "count": 1,
-    "mapKeyTo": "i18n.common.officeofguarantee",
+    "mapKeyTo": "i18n.common.officeOfGuarantee",
     "mapValueTo": "Office of guarantee",
     "keys": [
       {
@@ -3398,7 +3398,7 @@
   {
     "value": "Office of Incident registration",
     "count": 1,
-    "mapKeyTo": "i18n.common.customsofficeofincidentregistration",
+    "mapKeyTo": "i18n.common.customsOfficeOfIncidentRegistration",
     "mapValueTo": "Office of Incident registration",
     "keys": [
       {
@@ -3422,7 +3422,7 @@
   {
     "value": "Other guarantee reference(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.otherguaranteereference",
+    "mapKeyTo": "i18n.common.otherGuaranteeReference",
     "mapValueTo": "Other guarantee reference(s)",
     "keys": [
       {
@@ -3470,7 +3470,7 @@
   {
     "value": "Passage not confirmed",
     "count": 1,
-    "mapKeyTo": "i18n.common.passagenotconfirmed",
+    "mapKeyTo": "i18n.common.passageNotConfirmed",
     "mapValueTo": "Passage not confirmed",
     "keys": [
       {
@@ -3482,7 +3482,7 @@
   {
     "value": "Passage Refusal Date",
     "count": 1,
-    "mapKeyTo": "i18n.common.passagerefusaldate",
+    "mapKeyTo": "i18n.common.passageRefusalDate",
     "mapValueTo": "Passage Refusal Date",
     "keys": [
       {
@@ -3494,7 +3494,7 @@
   {
     "value": "Passage Refusal Reason Code",
     "count": 1,
-    "mapKeyTo": "i18n.common.passagerefusalreasoncode",
+    "mapKeyTo": "i18n.common.passageRefusalReasonCode",
     "mapValueTo": "Passage Refusal Reason Code",
     "keys": [
       {
@@ -3506,7 +3506,7 @@
   {
     "value": "Passage Text",
     "count": 1,
-    "mapKeyTo": "i18n.common.passagetext",
+    "mapKeyTo": "i18n.common.passageText",
     "mapValueTo": "Passage Text",
     "keys": [
       {
@@ -3518,7 +3518,7 @@
   {
     "value": "Perform Control",
     "count": 1,
-    "mapKeyTo": "i18n.common.performcontrol",
+    "mapKeyTo": "i18n.common.performControl",
     "mapValueTo": "Perform Control",
     "keys": [
       {
@@ -3530,7 +3530,7 @@
   {
     "value": "Phone number contact person",
     "count": 1,
-    "mapKeyTo": "i18n.common.phonenumber",
+    "mapKeyTo": "i18n.common.phoneNumber",
     "mapValueTo": "Phone number contact person",
     "keys": [
       {
@@ -3542,7 +3542,7 @@
   {
     "value": "Place of loading",
     "count": 1,
-    "mapKeyTo": "i18n.common.placeofloading",
+    "mapKeyTo": "i18n.common.placeOfLoading",
     "mapValueTo": "Place of loading",
     "keys": [
       {
@@ -3554,7 +3554,7 @@
   {
     "value": "Place of unloading",
     "count": 1,
-    "mapKeyTo": "i18n.common.placeofunloading",
+    "mapKeyTo": "i18n.common.placeOfUnloading",
     "mapValueTo": "Place of unloading",
     "keys": [
       {
@@ -3566,7 +3566,7 @@
   {
     "value": "Please enter approval reason here",
     "count": 1,
-    "mapKeyTo": "i18n.common.placeholderapprove",
+    "mapKeyTo": "i18n.common.placeholderApprove",
     "mapValueTo": "Please enter approval reason here",
     "keys": [
       {
@@ -3578,7 +3578,7 @@
   {
     "value": "Please enter refusal reason here",
     "count": 1,
-    "mapKeyTo": "i18n.common.placeholderrefuse",
+    "mapKeyTo": "i18n.common.placeholderRefuse",
     "mapValueTo": "Please enter refusal reason here",
     "keys": [
       {
@@ -3602,7 +3602,7 @@
   {
     "value": "Please select a valid reason",
     "count": 1,
-    "mapKeyTo": "i18n.common.noreleasemotivationcaption",
+    "mapKeyTo": "i18n.common.noReleaseMotivationCaption",
     "mapValueTo": "Please select a valid reason",
     "keys": [
       {
@@ -3614,7 +3614,7 @@
   {
     "value": "Please select a value.",
     "count": 1,
-    "mapKeyTo": "i18n.common.selectrequired",
+    "mapKeyTo": "i18n.common.selectRequired",
     "mapValueTo": "Please select a value.",
     "keys": [
       {
@@ -3626,7 +3626,7 @@
   {
     "value": "Please select an action",
     "count": 1,
-    "mapKeyTo": "i18n.common.selectdecideonreleaseaction",
+    "mapKeyTo": "i18n.common.selectDecideOnReleaseAction",
     "mapValueTo": "Please select an action",
     "keys": [
       {
@@ -3638,7 +3638,7 @@
   {
     "value": "Please specify the discrepancy resolution.",
     "count": 1,
-    "mapKeyTo": "i18n.common.specifydiscrepancyresolution",
+    "mapKeyTo": "i18n.common.specifyDiscrepancyResolution",
     "mapValueTo": "Please specify the discrepancy resolution.",
     "keys": [
       {
@@ -3650,7 +3650,7 @@
   {
     "value": "Presentation of goods date",
     "count": 1,
-    "mapKeyTo": "i18n.common.presentationofgoodsdate",
+    "mapKeyTo": "i18n.common.presentationOfgoodsDate",
     "mapValueTo": "Presentation of goods date",
     "keys": [
       {
@@ -3662,7 +3662,7 @@
   {
     "value": "Presentation of goods time",
     "count": 1,
-    "mapKeyTo": "i18n.common.presentationofgoodstime",
+    "mapKeyTo": "i18n.common.presentationOfgoodsTime",
     "mapValueTo": "Presentation of goods time",
     "keys": [
       {
@@ -3674,7 +3674,7 @@
   {
     "value": "Previous document(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.previousdocuments",
+    "mapKeyTo": "i18n.common.previousDocuments",
     "mapValueTo": "Previous document(s)",
     "keys": [
       {
@@ -3710,7 +3710,7 @@
   {
     "value": "Proof date",
     "count": 1,
-    "mapKeyTo": "i18n.common.proofdate",
+    "mapKeyTo": "i18n.common.proofDate",
     "mapValueTo": "Proof date",
     "keys": [
       {
@@ -3734,7 +3734,7 @@
   {
     "value": "Read only",
     "count": 1,
-    "mapKeyTo": "i18n.common.readonly",
+    "mapKeyTo": "i18n.common.readOnly",
     "mapValueTo": "Read only",
     "keys": [
       {
@@ -3758,7 +3758,7 @@
   {
     "value": "Received enquiry requested",
     "count": 1,
-    "mapKeyTo": "i18n.common.receivedenquiryrequested",
+    "mapKeyTo": "i18n.common.receivedEnquiryRequested",
     "mapValueTo": "Received enquiry requested",
     "keys": [
       {
@@ -3770,7 +3770,7 @@
   {
     "value": "Reception date",
     "count": 1,
-    "mapKeyTo": "i18n.common.receptiondate",
+    "mapKeyTo": "i18n.common.receptionDate",
     "mapValueTo": "Reception date",
     "keys": [
       {
@@ -3782,7 +3782,7 @@
   {
     "value": "Recommendation Description",
     "count": 1,
-    "mapKeyTo": "i18n.common.recommendationdescription",
+    "mapKeyTo": "i18n.common.recommendationDescription",
     "mapValueTo": "Recommendation Description",
     "keys": [
       {
@@ -3806,7 +3806,7 @@
   {
     "value": "Recovery Acceptance",
     "count": 1,
-    "mapKeyTo": "i18n.common.recoveryacceptance",
+    "mapKeyTo": "i18n.common.recoveryAcceptance",
     "mapValueTo": "Recovery Acceptance",
     "keys": [
       {
@@ -3830,7 +3830,7 @@
   {
     "value": "Recovery notification date",
     "count": 1,
-    "mapKeyTo": "i18n.common.notificationdate",
+    "mapKeyTo": "i18n.common.notificationDate",
     "mapValueTo": "Recovery notification date",
     "keys": [
       {
@@ -3842,7 +3842,7 @@
   {
     "value": "Recovery notification text",
     "count": 1,
-    "mapKeyTo": "i18n.common.recovnotif",
+    "mapKeyTo": "i18n.common.recovNotif",
     "mapValueTo": "Recovery notification text",
     "keys": [
       {
@@ -3854,7 +3854,7 @@
   {
     "value": "Recovery status",
     "count": 1,
-    "mapKeyTo": "i18n.common.recoverystatus",
+    "mapKeyTo": "i18n.common.recoveryStatus",
     "mapValueTo": "Recovery status",
     "keys": [
       {
@@ -3866,7 +3866,7 @@
   {
     "value": "Recovery status date",
     "count": 1,
-    "mapKeyTo": "i18n.common.recoverystatusdate",
+    "mapKeyTo": "i18n.common.recoveryStatusDate",
     "mapValueTo": "Recovery status date",
     "keys": [
       {
@@ -3878,7 +3878,7 @@
   {
     "value": "Reference number: ",
     "count": 1,
-    "mapKeyTo": "i18n.common.referencenumber",
+    "mapKeyTo": "i18n.common.referenceNumber",
     "mapValueTo": "Reference number: ",
     "keys": [
       {
@@ -3890,7 +3890,7 @@
   {
     "value": "Refine Search",
     "count": 1,
-    "mapKeyTo": "i18n.common.refinesearch",
+    "mapKeyTo": "i18n.common.refineSearch",
     "mapValueTo": "Refine Search",
     "keys": [
       {
@@ -3902,7 +3902,7 @@
   {
     "value": "Refusal reason",
     "count": 1,
-    "mapKeyTo": "i18n.common.passagerefusalreasoncode",
+    "mapKeyTo": "i18n.common.passageRefusalReasonCode",
     "mapValueTo": "Refusal reason",
     "keys": [
       {
@@ -3914,7 +3914,7 @@
   {
     "value": "Refuse frontier-crossing",
     "count": 1,
-    "mapKeyTo": "i18n.common.refusefrontiercrossing",
+    "mapKeyTo": "i18n.common.refuseFrontierCrossing",
     "mapValueTo": "Refuse frontier-crossing",
     "keys": [
       {
@@ -3938,7 +3938,7 @@
   {
     "value": "Refuse invalidation",
     "count": 1,
-    "mapKeyTo": "i18n.common.refuseoption",
+    "mapKeyTo": "i18n.common.refuseOption",
     "mapValueTo": "Refuse invalidation",
     "keys": [
       {
@@ -3950,7 +3950,7 @@
   {
     "value": "Refuse invalidation request(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.refuseinv",
+    "mapKeyTo": "i18n.common.refuseInv",
     "mapValueTo": "Refuse invalidation request(s)",
     "keys": [
       {
@@ -3962,7 +3962,7 @@
   {
     "value": "Refuse release request",
     "count": 1,
-    "mapKeyTo": "i18n.common.refuseoption",
+    "mapKeyTo": "i18n.common.refuseOption",
     "mapValueTo": "Refuse release request",
     "keys": [
       {
@@ -3974,7 +3974,7 @@
   {
     "value": "Refused on",
     "count": 1,
-    "mapKeyTo": "i18n.common.refusedon",
+    "mapKeyTo": "i18n.common.refusedOn",
     "mapValueTo": "Refused on",
     "keys": [
       {
@@ -3986,7 +3986,7 @@
   {
     "value": "Register Control Results (IE017)",
     "count": 1,
-    "mapKeyTo": "i18n.common.registercontrolresult",
+    "mapKeyTo": "i18n.common.registerControlResult",
     "mapValueTo": "Register Control Results (IE017)",
     "keys": [
       {
@@ -3998,7 +3998,7 @@
   {
     "value": "Register Control Results (IE018)",
     "count": 1,
-    "mapKeyTo": "i18n.common.registercontrolresultdest",
+    "mapKeyTo": "i18n.common.registerControlResultDest",
     "mapValueTo": "Register Control Results (IE018)",
     "keys": [
       {
@@ -4010,7 +4010,7 @@
   {
     "value": "Register crossing frontier",
     "count": 1,
-    "mapKeyTo": "i18n.common.registercrossingfrontier",
+    "mapKeyTo": "i18n.common.registerCrossingFrontier",
     "mapValueTo": "Register crossing frontier",
     "keys": [
       {
@@ -4022,7 +4022,7 @@
   {
     "value": "REGISTER MOVEMENT CROSSING FRONTIER",
     "count": 1,
-    "mapKeyTo": "i18n.common.registermovcrossfrontier",
+    "mapKeyTo": "i18n.common.registerMovCrossFrontier",
     "mapValueTo": "REGISTER MOVEMENT CROSSING FRONTIER",
     "keys": [
       {
@@ -4034,7 +4034,7 @@
   {
     "value": "Register NCF",
     "count": 1,
-    "mapKeyTo": "i18n.common.crossingfrontier",
+    "mapKeyTo": "i18n.common.crossingFrontier",
     "mapValueTo": "Register NCF",
     "keys": [
       {
@@ -4046,7 +4046,7 @@
   {
     "value": "Register passage not confirmed",
     "count": 1,
-    "mapKeyTo": "i18n.common.registerpassagenotconfirmed",
+    "mapKeyTo": "i18n.common.registerPassageNotConfirmed",
     "mapValueTo": "Register passage not confirmed",
     "keys": [
       {
@@ -4058,7 +4058,7 @@
   {
     "value": "Register Satisfactory Control Results (IE017-A1)",
     "count": 1,
-    "mapKeyTo": "i18n.common.registersatisfactorycontrolresult",
+    "mapKeyTo": "i18n.common.registerSatisfactoryControlResult",
     "mapValueTo": "Register Satisfactory Control Results (IE017-A1)",
     "keys": [
       {
@@ -4070,7 +4070,7 @@
   {
     "value": "Register the frontier-crossing refusal",
     "count": 1,
-    "mapKeyTo": "i18n.common.refusefrontiercrossing",
+    "mapKeyTo": "i18n.common.refuseFrontierCrossing",
     "mapValueTo": "Register the frontier-crossing refusal",
     "keys": [
       {
@@ -4082,7 +4082,7 @@
   {
     "value": "Release a Movement for Transit",
     "count": 1,
-    "mapKeyTo": "i18n.common.modaltitle",
+    "mapKeyTo": "i18n.common.modalTitle",
     "mapValueTo": "Release a Movement for Transit",
     "keys": [
       {
@@ -4094,7 +4094,7 @@
   {
     "value": "Release date and time",
     "count": 1,
-    "mapKeyTo": "i18n.common.releasedateandtime",
+    "mapKeyTo": "i18n.common.releaseDateAndTime",
     "mapValueTo": "Release date and time",
     "keys": [
       {
@@ -4106,7 +4106,7 @@
   {
     "value": "Release indicator",
     "count": 1,
-    "mapKeyTo": "i18n.common.releaseindicator",
+    "mapKeyTo": "i18n.common.releaseIndicator",
     "mapValueTo": "Release indicator",
     "keys": [
       {
@@ -4118,7 +4118,7 @@
   {
     "value": "RELEASE MOVEMENT",
     "count": 1,
-    "mapKeyTo": "i18n.common.releasemovement",
+    "mapKeyTo": "i18n.common.releaseMovement",
     "mapValueTo": "RELEASE MOVEMENT",
     "keys": [
       {
@@ -4130,7 +4130,7 @@
   {
     "value": "Release request date and time",
     "count": 1,
-    "mapKeyTo": "i18n.common.releaserequestdateandtime",
+    "mapKeyTo": "i18n.common.releaseRequestDateAndTime",
     "mapValueTo": "Release request date and time",
     "keys": [
       {
@@ -4142,7 +4142,7 @@
   {
     "value": "Release requested",
     "count": 1,
-    "mapKeyTo": "i18n.common.releaserequested",
+    "mapKeyTo": "i18n.common.releaseRequested",
     "mapValueTo": "Release requested",
     "keys": [
       {
@@ -4178,7 +4178,7 @@
   {
     "value": "Request Enquiry",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestenquiry",
+    "mapKeyTo": "i18n.common.requestEnquiry",
     "mapValueTo": "Request Enquiry",
     "keys": [
       {
@@ -4190,7 +4190,7 @@
   {
     "value": "Request Enquiry (IE142)",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestenquiry",
+    "mapKeyTo": "i18n.common.requestEnquiry",
     "mapValueTo": "Request Enquiry (IE142)",
     "keys": [
       {
@@ -4202,7 +4202,7 @@
   {
     "value": "Request Enquiry Information (IE145)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendenquiryinformationrequest",
+    "mapKeyTo": "i18n.common.sendEnquiryInformationRequest",
     "mapValueTo": "Request Enquiry Information (IE145)",
     "keys": [
       {
@@ -4238,7 +4238,7 @@
   {
     "value": "Request for Invalidation (IE014)",
     "count": 1,
-    "mapKeyTo": "i18n.common.reqforinv",
+    "mapKeyTo": "i18n.common.reqForInv",
     "mapValueTo": "Request for Invalidation (IE014)",
     "keys": [
       {
@@ -4250,7 +4250,7 @@
   {
     "value": "Request Recovery (IE150)",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestrecovery",
+    "mapKeyTo": "i18n.common.requestRecovery",
     "mapValueTo": "Request Recovery (IE150)",
     "keys": [
       {
@@ -4262,7 +4262,7 @@
   {
     "value": "Request rejection reason code",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestrejectionreasoncode",
+    "mapKeyTo": "i18n.common.requestRejectionReasonCode",
     "mapValueTo": "Request rejection reason code",
     "keys": [
       {
@@ -4274,7 +4274,7 @@
   {
     "value": "Requested office",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestedoffice",
+    "mapKeyTo": "i18n.common.requestedOffice",
     "mapValueTo": "Requested office",
     "keys": [
       {
@@ -4286,7 +4286,7 @@
   {
     "value": "Requesting office",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestingoffice",
+    "mapKeyTo": "i18n.common.requestingOffice",
     "mapValueTo": "Requesting office",
     "keys": [
       {
@@ -4334,7 +4334,7 @@
   {
     "value": "Respond to Non-Arrived Movement (IE141)",
     "count": 1,
-    "mapKeyTo": "i18n.common.respondtorequestonnonarrivedmovement",
+    "mapKeyTo": "i18n.common.respondToRequestOnNonArrivedMovement",
     "mapValueTo": "Respond to Non-Arrived Movement (IE141)",
     "keys": [
       {
@@ -4358,7 +4358,7 @@
   {
     "value": "Revert to originally declared value",
     "count": 1,
-    "mapKeyTo": "i18n.common.reverttooriginal",
+    "mapKeyTo": "i18n.common.revertToOriginal",
     "mapValueTo": "Revert to originally declared value",
     "keys": [
       {
@@ -4382,7 +4382,7 @@
   {
     "value": "Review Unloading Remarks",
     "count": 1,
-    "mapKeyTo": "i18n.common.comparewithcurrentsituation",
+    "mapKeyTo": "i18n.common.compareWithCurrentSituation",
     "mapValueTo": "Review Unloading Remarks",
     "keys": [
       {
@@ -4394,7 +4394,7 @@
   {
     "value": "Risk Analysis Identification",
     "count": 1,
-    "mapKeyTo": "i18n.common.riskanalysisidentification",
+    "mapKeyTo": "i18n.common.riskAnalysisIdentification",
     "mapValueTo": "Risk Analysis Identification",
     "keys": [
       {
@@ -4406,7 +4406,7 @@
   {
     "value": "Risk code: ",
     "count": 1,
-    "mapKeyTo": "i18n.common.riskcode",
+    "mapKeyTo": "i18n.common.riskCode",
     "mapValueTo": "Risk code: ",
     "keys": [
       {
@@ -4418,7 +4418,7 @@
   {
     "value": "save changes",
     "count": 1,
-    "mapKeyTo": "i18n.common.savechanges",
+    "mapKeyTo": "i18n.common.saveChanges",
     "mapValueTo": "save changes",
     "keys": [
       {
@@ -4478,7 +4478,7 @@
   {
     "value": "Search results",
     "count": 1,
-    "mapKeyTo": "i18n.common.searchresult",
+    "mapKeyTo": "i18n.common.searchResult",
     "mapValueTo": "Search results",
     "keys": [
       {
@@ -4502,7 +4502,7 @@
   {
     "value": "Security indicator from export declaration",
     "count": 1,
-    "mapKeyTo": "i18n.common.securityindicatorfromexportdeclaration",
+    "mapKeyTo": "i18n.common.securityIndicatorFromExportDeclaration",
     "mapValueTo": "Security indicator from export declaration",
     "keys": [
       {
@@ -4514,7 +4514,7 @@
   {
     "value": "Select Transport Equipment",
     "count": 1,
-    "mapKeyTo": "i18n.common.selecttransportequipmenttitle",
+    "mapKeyTo": "i18n.common.selectTransportEquipmentTitle",
     "mapValueTo": "Select Transport Equipment",
     "keys": [
       {
@@ -4538,7 +4538,7 @@
   {
     "value": "Send Enquiry Information (IE144)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendenquiryinformation",
+    "mapKeyTo": "i18n.common.sendEnquiryInformation",
     "mapValueTo": "Send Enquiry Information (IE144)",
     "keys": [
       {
@@ -4562,7 +4562,7 @@
   {
     "value": "Send Enquiry Response (IE143)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendenquiryresponse",
+    "mapKeyTo": "i18n.common.sendEnquiryResponse",
     "mapValueTo": "Send Enquiry Response (IE143)",
     "keys": [
       {
@@ -4574,7 +4574,7 @@
   {
     "value": "Send Guarantee Check (IE200)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendguaranteecheck",
+    "mapKeyTo": "i18n.common.sendGuaranteeCheck",
     "mapValueTo": "Send Guarantee Check (IE200)",
     "keys": [
       {
@@ -4598,7 +4598,7 @@
   {
     "value": "Send Recovery Acceptance Notification (IE151)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendrecoveryacceptancenotification",
+    "mapKeyTo": "i18n.common.sendRecoveryAcceptanceNotification",
     "mapValueTo": "Send Recovery Acceptance Notification (IE151)",
     "keys": [
       {
@@ -4610,7 +4610,7 @@
   {
     "value": "Send Recovery Dispatch Notification (IE152)",
     "count": 1,
-    "mapKeyTo": "i18n.common.completerecovery",
+    "mapKeyTo": "i18n.common.completeRecovery",
     "mapValueTo": "Send Recovery Dispatch Notification (IE152)",
     "keys": [
       {
@@ -4622,7 +4622,7 @@
   {
     "value": "Send Recovery notification (IE035)",
     "count": 1,
-    "mapKeyTo": "i18n.common.startrecovery",
+    "mapKeyTo": "i18n.common.startRecovery",
     "mapValueTo": "Send Recovery notification (IE035)",
     "keys": [
       {
@@ -4634,7 +4634,7 @@
   {
     "value": "Send Status Request (IE094)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendstatusreq",
+    "mapKeyTo": "i18n.common.sendStatusReq",
     "mapValueTo": "Send Status Request (IE094)",
     "keys": [
       {
@@ -4646,7 +4646,7 @@
   {
     "value": "Sequence number",
     "count": 1,
-    "mapKeyTo": "i18n.common.sequencenumber",
+    "mapKeyTo": "i18n.common.sequenceNumber",
     "mapValueTo": "Sequence number",
     "keys": [
       {
@@ -4682,7 +4682,7 @@
   {
     "value": "Set to",
     "count": 1,
-    "mapKeyTo": "i18n.common.setto",
+    "mapKeyTo": "i18n.common.setTo",
     "mapValueTo": "Set to",
     "keys": [
       {
@@ -4694,7 +4694,7 @@
   {
     "value": "Simple procedure",
     "count": 1,
-    "mapKeyTo": "i18n.common.simplifiedprocedure",
+    "mapKeyTo": "i18n.common.simplifiedProcedure",
     "mapValueTo": "Simple procedure",
     "keys": [
       {
@@ -4706,7 +4706,7 @@
   {
     "value": "Simplified procedure",
     "count": 1,
-    "mapKeyTo": "i18n.common.simplifiedprocedure",
+    "mapKeyTo": "i18n.common.simplifiedProcedure",
     "mapValueTo": "Simplified procedure",
     "keys": [
       {
@@ -4730,7 +4730,7 @@
   {
     "value": "Specific circumstance indicator",
     "count": 1,
-    "mapKeyTo": "i18n.common.specificcircumstanceindicator",
+    "mapKeyTo": "i18n.common.specificCircumstanceIndicator",
     "mapValueTo": "Specific circumstance indicator",
     "keys": [
       {
@@ -4742,7 +4742,7 @@
   {
     "value": "SPS chart",
     "count": 1,
-    "mapKeyTo": "i18n.common.spschart",
+    "mapKeyTo": "i18n.common.spsChart",
     "mapValueTo": "SPS chart",
     "keys": [
       {
@@ -4754,7 +4754,7 @@
   {
     "value": "Start date and time",
     "count": 1,
-    "mapKeyTo": "i18n.common.startdateandtime",
+    "mapKeyTo": "i18n.common.startDateAndTime",
     "mapValueTo": "Start date and time",
     "keys": [
       {
@@ -4766,7 +4766,7 @@
   {
     "value": "Start enquiry",
     "count": 1,
-    "mapKeyTo": "i18n.common.startenquiryearlydecl",
+    "mapKeyTo": "i18n.common.startEnquiryEarlyDecl",
     "mapValueTo": "Start enquiry",
     "keys": [
       {
@@ -4778,7 +4778,7 @@
   {
     "value": "Start Enquiry Early",
     "count": 1,
-    "mapKeyTo": "i18n.common.startenquiryearly",
+    "mapKeyTo": "i18n.common.startEnquiryEarly",
     "mapValueTo": "Start Enquiry Early",
     "keys": [
       {
@@ -4790,7 +4790,7 @@
   {
     "value": "Start new control result",
     "count": 1,
-    "mapKeyTo": "i18n.common.startnewcontrolresultdep",
+    "mapKeyTo": "i18n.common.startNewControlResultDep",
     "mapValueTo": "Start new control result",
     "keys": [
       {
@@ -4802,7 +4802,7 @@
   {
     "value": "Start new control result (IE018)",
     "count": 1,
-    "mapKeyTo": "i18n.common.startnewcontrolresultdes",
+    "mapKeyTo": "i18n.common.startNewControlResultDes",
     "mapValueTo": "Start new control result (IE018)",
     "keys": [
       {
@@ -4814,7 +4814,7 @@
   {
     "value": "Start Unloading remarks registration",
     "count": 1,
-    "mapKeyTo": "i18n.common.startnewunloadingremarkdes",
+    "mapKeyTo": "i18n.common.startNewUnloadingRemarkDes",
     "mapValueTo": "Start Unloading remarks registration",
     "keys": [
       {
@@ -4826,7 +4826,7 @@
   {
     "value": "Status request",
     "count": 1,
-    "mapKeyTo": "i18n.common.statusreq",
+    "mapKeyTo": "i18n.common.statusReq",
     "mapValueTo": "Status request",
     "keys": [
       {
@@ -4850,7 +4850,7 @@
   {
     "value": "Step 1: General information",
     "count": 1,
-    "mapKeyTo": "i18n.common.rootlabel",
+    "mapKeyTo": "i18n.common.rootLabel",
     "mapValueTo": "Step 1: General information",
     "keys": [
       {
@@ -4862,7 +4862,7 @@
   {
     "value": "Step 2: General information",
     "count": 1,
-    "mapKeyTo": "i18n.common.rootlabel2",
+    "mapKeyTo": "i18n.common.rootLabel2",
     "mapValueTo": "Step 2: General information",
     "keys": [
       {
@@ -4874,7 +4874,7 @@
   {
     "value": "Step 3: General information",
     "count": 1,
-    "mapKeyTo": "i18n.common.rootlabel3",
+    "mapKeyTo": "i18n.common.rootLabel3",
     "mapValueTo": "Step 3: General information",
     "keys": [
       {
@@ -4898,7 +4898,7 @@
   {
     "value": "Stop movement",
     "count": 1,
-    "mapKeyTo": "i18n.common.stopmovement",
+    "mapKeyTo": "i18n.common.stopMovement",
     "mapValueTo": "Stop movement",
     "keys": [
       {
@@ -4910,7 +4910,7 @@
   {
     "value": "Submission date",
     "count": 1,
-    "mapKeyTo": "i18n.common.subdaterange",
+    "mapKeyTo": "i18n.common.subDateRange",
     "mapValueTo": "Submission date",
     "keys": [
       {
@@ -4922,7 +4922,7 @@
   {
     "value": "Submit (IE015)",
     "count": 1,
-    "mapKeyTo": "i18n.common.submitie015",
+    "mapKeyTo": "i18n.common.submitIE015",
     "mapValueTo": "Submit (IE015)",
     "keys": [
       {
@@ -4970,7 +4970,7 @@
   {
     "value": "Submit Recovery Acceptance Notification",
     "count": 1,
-    "mapKeyTo": "i18n.common.recoveryacceptancenotification",
+    "mapKeyTo": "i18n.common.recoveryAcceptanceNotification",
     "mapValueTo": "Submit Recovery Acceptance Notification",
     "keys": [
       {
@@ -5018,7 +5018,7 @@
   {
     "value": "Supplementary units",
     "count": 1,
-    "mapKeyTo": "i18n.common.supplementaryunits",
+    "mapKeyTo": "i18n.common.supplementaryUnits",
     "mapValueTo": "Supplementary units",
     "keys": [
       {
@@ -5030,7 +5030,7 @@
   {
     "value": "Supporting document(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.supportingdocuments",
+    "mapKeyTo": "i18n.common.supportingDocuments",
     "mapValueTo": "Supporting document(s)",
     "keys": [
       {
@@ -5042,7 +5042,7 @@
   {
     "value": "Take Control Decision",
     "count": 1,
-    "mapKeyTo": "i18n.common.takecontroldecision",
+    "mapKeyTo": "i18n.common.takeControlDecision",
     "mapValueTo": "Take Control Decision",
     "keys": [
       {
@@ -5054,7 +5054,7 @@
   {
     "value": "Template description",
     "count": 1,
-    "mapKeyTo": "i18n.common.templatedescription",
+    "mapKeyTo": "i18n.common.templateDescription",
     "mapValueTo": "Template description",
     "keys": [
       {
@@ -5066,7 +5066,7 @@
   {
     "value": "Template name",
     "count": 1,
-    "mapKeyTo": "i18n.common.templatename",
+    "mapKeyTo": "i18n.common.templateName",
     "mapValueTo": "Template name",
     "keys": [
       {
@@ -5102,7 +5102,7 @@
   {
     "value": "The form is incorrect",
     "count": 1,
-    "mapKeyTo": "i18n.common.formisincorrect",
+    "mapKeyTo": "i18n.common.formIsIncorrect",
     "mapValueTo": "The form is incorrect",
     "keys": [
       {
@@ -5114,7 +5114,7 @@
   {
     "value": "The MRN is incorrect",
     "count": 1,
-    "mapKeyTo": "i18n.common.mrnpattern",
+    "mapKeyTo": "i18n.common.mrnPattern",
     "mapValueTo": "The MRN is incorrect",
     "keys": [
       {
@@ -5126,7 +5126,7 @@
   {
     "value": "The MRN is not found",
     "count": 1,
-    "mapKeyTo": "i18n.common.mrnnotfound",
+    "mapKeyTo": "i18n.common.mrnNotFound",
     "mapValueTo": "The MRN is not found",
     "keys": [
       {
@@ -5150,7 +5150,7 @@
   {
     "value": "Timer Type",
     "count": 1,
-    "mapKeyTo": "i18n.common.timertype",
+    "mapKeyTo": "i18n.common.timerType",
     "mapValueTo": "Timer Type",
     "keys": [
       {
@@ -5174,7 +5174,7 @@
   {
     "value": "Total gross mass",
     "count": 1,
-    "mapKeyTo": "i18n.common.totalgrossmass",
+    "mapKeyTo": "i18n.common.totalGrossMass",
     "mapValueTo": "Total gross mass",
     "keys": [
       {
@@ -5186,7 +5186,7 @@
   {
     "value": "Total no. of packages",
     "count": 1,
-    "mapKeyTo": "i18n.common.numberofpackages",
+    "mapKeyTo": "i18n.common.numberOfPackages",
     "mapValueTo": "Total no. of packages",
     "keys": [
       {
@@ -5234,7 +5234,7 @@
   {
     "value": "Transit Declaration",
     "count": 1,
-    "mapKeyTo": "i18n.common.transitdeclaration",
+    "mapKeyTo": "i18n.common.transitDeclaration",
     "mapValueTo": "Transit Declaration",
     "keys": [
       {
@@ -5246,7 +5246,7 @@
   {
     "value": "Transit Information - General Information",
     "count": 1,
-    "mapKeyTo": "i18n.common.transitgeneralinformation",
+    "mapKeyTo": "i18n.common.transitGeneralInformation",
     "mapValueTo": "Transit Information - General Information",
     "keys": [
       {
@@ -5258,7 +5258,7 @@
   {
     "value": "Transit Information - Parties",
     "count": 1,
-    "mapKeyTo": "i18n.common.transitparties",
+    "mapKeyTo": "i18n.common.transitParties",
     "mapValueTo": "Transit Information - Parties",
     "keys": [
       {
@@ -5270,7 +5270,7 @@
   {
     "value": "Transport charges",
     "count": 1,
-    "mapKeyTo": "i18n.common.transportcharges",
+    "mapKeyTo": "i18n.common.transportCharges",
     "mapValueTo": "Transport charges",
     "keys": [
       {
@@ -5282,7 +5282,7 @@
   {
     "value": "Transport document(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.transportdocuments",
+    "mapKeyTo": "i18n.common.transportDocuments",
     "mapValueTo": "Transport document(s)",
     "keys": [
       {
@@ -5294,7 +5294,7 @@
   {
     "value": "Transport equipment(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.transportequipments",
+    "mapKeyTo": "i18n.common.transportEquipments",
     "mapValueTo": "Transport equipment(s)",
     "keys": [
       {
@@ -5306,7 +5306,7 @@
   {
     "value": "Transport Means",
     "count": 1,
-    "mapKeyTo": "i18n.common.transportmeans",
+    "mapKeyTo": "i18n.common.transportMeans",
     "mapValueTo": "Transport Means",
     "keys": [
       {
@@ -5318,7 +5318,7 @@
   {
     "value": "Type of identification number",
     "count": 1,
-    "mapKeyTo": "i18n.common.typeofidentificationnumber",
+    "mapKeyTo": "i18n.common.typeOfIdentificationNumber",
     "mapValueTo": "Type of identification number",
     "keys": [
       {
@@ -5330,7 +5330,7 @@
   {
     "value": "Type of package",
     "count": 1,
-    "mapKeyTo": "i18n.common.typeofpackage",
+    "mapKeyTo": "i18n.common.typeOfPackage",
     "mapValueTo": "Type of package",
     "keys": [
       {
@@ -5342,7 +5342,7 @@
   {
     "value": "Type performed control",
     "count": 1,
-    "mapKeyTo": "i18n.common.controltype",
+    "mapKeyTo": "i18n.common.controlType",
     "mapValueTo": "Type performed control",
     "keys": [
       {
@@ -5366,7 +5366,7 @@
   {
     "value": "Undecided",
     "count": 1,
-    "mapKeyTo": "i18n.common.undecided",
+    "mapKeyTo": "i18n.common.unDecided",
     "mapValueTo": "Undecided",
     "keys": [
       {
@@ -5378,7 +5378,7 @@
   {
     "value": "Unloading completion",
     "count": 1,
-    "mapKeyTo": "i18n.common.unloadingcompletion",
+    "mapKeyTo": "i18n.common.unloadingCompletion",
     "mapValueTo": "Unloading completion",
     "keys": [
       {
@@ -5390,7 +5390,7 @@
   {
     "value": "Unloading date",
     "count": 1,
-    "mapKeyTo": "i18n.common.unloadingdate",
+    "mapKeyTo": "i18n.common.unloadingDate",
     "mapValueTo": "Unloading date",
     "keys": [
       {
@@ -5402,7 +5402,7 @@
   {
     "value": "Unloading remark",
     "count": 1,
-    "mapKeyTo": "i18n.common.unloadingremark",
+    "mapKeyTo": "i18n.common.unloadingRemark",
     "mapValueTo": "Unloading remark",
     "keys": [
       {
@@ -5450,7 +5450,7 @@
   {
     "value": "Warning, binding itinerary present.",
     "count": 1,
-    "mapKeyTo": "i18n.common.warningbinding",
+    "mapKeyTo": "i18n.common.warningBinding",
     "mapValueTo": "Warning, binding itinerary present.",
     "keys": [
       {
@@ -5486,7 +5486,7 @@
   {
     "value": "Write-off date",
     "count": 1,
-    "mapKeyTo": "i18n.common.writeoffdate",
+    "mapKeyTo": "i18n.common.writeOffDate",
     "mapValueTo": "Write-off date",
     "keys": [
       {
@@ -5510,7 +5510,7 @@
   {
     "value": "{{count}} Selected office",
     "count": 1,
-    "mapKeyTo": "i18n.common.specificoffice",
+    "mapKeyTo": "i18n.common.specificOffice",
     "mapValueTo": "{{count}} Selected office",
     "keys": [
       {
@@ -5522,7 +5522,7 @@
   {
     "value": "{{count}} Selected offices",
     "count": 1,
-    "mapKeyTo": "i18n.common.specificoffices",
+    "mapKeyTo": "i18n.common.specificOffices",
     "mapValueTo": "{{count}} Selected offices",
     "keys": [
       {
@@ -5534,7 +5534,7 @@
   {
     "value": "{{startIndexMore1}} - {{endIndex}} of {{length}}",
     "count": 1,
-    "mapKeyTo": "i18n.common.longrange",
+    "mapKeyTo": "i18n.common.longRange",
     "mapValueTo": "{{startIndexMore1}} - {{endIndex}} of {{length}}",
     "keys": [
       {
@@ -6794,7 +6794,7 @@
   {
     "value": "Customs office of exit for transit(actual)",
     "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeOfExitForTransitActual",
+    "mapKeyTo": "statusRequest.customsOfficeOfExitForTransitActual",
     "mapValueTo": "Customs office of exit for transit(actual)",
     "keys": [
       {

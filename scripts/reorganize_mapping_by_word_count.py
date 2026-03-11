@@ -49,7 +49,7 @@ def reorganize_mapping(mapping_json_path: str, output_path: str = None):
                 original_key = keys[0].get("key", "")
                 # Use the last part of the key
                 key_parts = original_key.split(".")
-                last_part = key_parts[-1].lower()
+                last_part = key_parts[-1]
 
                 # Create new mapKeyTo
                 new_map_key_to = f"i18n.common.{last_part}"

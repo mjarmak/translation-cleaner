@@ -140,6 +140,10 @@ Improves the mapping file by moving keys with values below 6 words to `i18n.comm
 
 `python ./scripts/reorganize_mapping_by_word_count.py ./output/remap/en_mapping_sorted.json -o ./output/remap/en_mapping_reorganized.json`
 
+**sort**
+
+`python ./scripts/sort_mapping_by_value.py ./output/remap/en_mapping_reorganized.json`
+
 **Example transformations:**
 - `advanceSearch.labels.containerIndicator` (value: "Container Indicator" - 2 words) → `i18n.common.containerIndicator`
 - `form.labels.submit` (value: "Submit" - 1 word) → `i18n.common.submit`
