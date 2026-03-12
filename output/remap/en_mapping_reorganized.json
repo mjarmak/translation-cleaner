@@ -14,7 +14,7 @@
   {
     "value": " Sign Out",
     "count": 1,
-    "mapKeyTo": "i18n.common.label",
+    "mapKeyTo": "i18n.common.signOut",
     "mapValueTo": " Sign Out",
     "keys": [
       {
@@ -26,7 +26,7 @@
   {
     "value": "*Invalid MRN",
     "count": 1,
-    "mapKeyTo": "i18n.common.invalidMRN",
+    "mapKeyTo": "i18n.errors.invalidMRN",
     "mapValueTo": "*Invalid MRN",
     "keys": [
       {
@@ -38,7 +38,7 @@
   {
     "value": "*Invalid value or crs issue",
     "count": 1,
-    "mapKeyTo": "i18n.common.hasCrsIssue",
+    "mapKeyTo": "i18n.errors.hasCrsIssue",
     "mapValueTo": "*Invalid value or crs issue",
     "keys": [
       {
@@ -50,7 +50,7 @@
   {
     "value": "*Please select a valid value",
     "count": 1,
-    "mapKeyTo": "i18n.common.isWrongSelection",
+    "mapKeyTo": "i18n.errors.invalidSelect",
     "mapValueTo": "*Please select a valid value",
     "keys": [
       {
@@ -62,7 +62,7 @@
   {
     "value": "*Please select a value",
     "count": 1,
-    "mapKeyTo": "i18n.common.selectRequired",
+    "mapKeyTo": "i18n.errors.selectRequired",
     "mapValueTo": "*Please select a value",
     "keys": [
       {
@@ -98,7 +98,7 @@
   {
     "value": "Accessibility",
     "count": 1,
-    "mapKeyTo": "i18n.common.label",
+    "mapKeyTo": "i18n.common.accessibility",
     "mapValueTo": "Accessibility",
     "keys": [
       {
@@ -134,7 +134,7 @@
   {
     "value": "Active border transport mean(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.activeBorderTransportMeans",
+    "mapKeyTo": "i18n.common.activeBorderTransportMean(s)",
     "mapValueTo": "Active border transport mean(s)",
     "keys": [
       {
@@ -398,7 +398,7 @@
   {
     "value": "Additional information(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.additionalInformations",
+    "mapKeyTo": "i18n.common.additionalInformation(s)",
     "mapValueTo": "Additional information(s)",
     "keys": [
       {
@@ -410,7 +410,7 @@
   {
     "value": "Additional supply chain actor(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.additionalSupplyChainActors",
+    "mapKeyTo": "i18n.common.additionalSupplyChainActor(s)",
     "mapValueTo": "Additional supply chain actor(s)",
     "keys": [
       {
@@ -518,7 +518,7 @@
   {
     "value": "Approve invalidation request(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.approveInvalidationRequests",
+    "mapKeyTo": "i18n.common.approveInvalidationRequest(s)",
     "mapValueTo": "Approve invalidation request(s)",
     "keys": [
       {
@@ -638,7 +638,7 @@
   {
     "value": "Authorisation(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.authorisations",
+    "mapKeyTo": "i18n.common.authorisation(s)",
     "mapValueTo": "Authorisation(s)",
     "keys": [
       {
@@ -746,7 +746,7 @@
   {
     "value": "Changed from",
     "count": 1,
-    "mapKeyTo": "i18n.common.changedFrom",
+    "mapKeyTo": "i18n.discrepancies.changedFrom",
     "mapValueTo": "Changed from",
     "keys": [
       {
@@ -758,7 +758,7 @@
   {
     "value": "Cleared. Was",
     "count": 1,
-    "mapKeyTo": "i18n.common.clearedWas",
+    "mapKeyTo": "i18n.discrepancies.clearedWas",
     "mapValueTo": "Cleared. Was",
     "keys": [
       {
@@ -974,7 +974,7 @@
   {
     "value": "Confirm for {{numberOfSelectedRows}} element(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.confirmActionA1",
+    "mapKeyTo": "i18n.common.confirmForElements",
     "mapValueTo": "Confirm for {{numberOfSelectedRows}} element(s)",
     "keys": [
       {
@@ -1730,7 +1730,7 @@
   {
     "value": "Departure transport mean(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.departureTransportMeans",
+    "mapKeyTo": "i18n.common.departureTransportMean(s)",
     "mapValueTo": "Departure transport mean(s)",
     "keys": [
       {
@@ -1838,7 +1838,7 @@
   {
     "value": "Document(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.subTitle",
+    "mapKeyTo": "i18n.common.document(s)",
     "mapValueTo": "Document(s)",
     "keys": [
       {
@@ -1998,7 +1998,7 @@
   {
     "value": "Error(s) found.",
     "count": 1,
-    "mapKeyTo": "i18n.common.failure",
+    "mapKeyTo": "i18n.errors.errorsFound",
     "mapValueTo": "Error(s) found.",
     "keys": [
       {
@@ -2130,7 +2130,7 @@
   {
     "value": "Follow Us",
     "count": 1,
-    "mapKeyTo": "i18n.common.followus",
+    "mapKeyTo": "i18n.common.followUs",
     "mapValueTo": "Follow Us",
     "keys": [
       {
@@ -2262,7 +2262,7 @@
   {
     "value": "Has errors",
     "count": 1,
-    "mapKeyTo": "i18n.common.hasErrors",
+    "mapKeyTo": "i18n.discrepancies.hasErrors",
     "mapValueTo": "Has errors",
     "keys": [
       {
@@ -2298,7 +2298,7 @@
   {
     "value": "House Consignment :houseConsignmentNbr",
     "count": 1,
-    "mapKeyTo": "i18n.common.houseConsignmentWithNbr",
+    "mapKeyTo": "i18n.steps.houseConsignmentWithNbr",
     "mapValueTo": "House Consignment :houseConsignmentNbr",
     "keys": [
       {
@@ -2310,7 +2310,7 @@
   {
     "value": "House Consignment :houseConsignmentNbr - Parties",
     "count": 1,
-    "mapKeyTo": "i18n.common.houseConsignmentPartiesWithNbr",
+    "mapKeyTo": "i18n.steps.houseConsignmentPartiesWithNbr",
     "mapValueTo": "House Consignment :houseConsignmentNbr - Parties",
     "keys": [
       {
@@ -2322,7 +2322,7 @@
   {
     "value": "House Consignment{{hcNumber}}- Consignment Item(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.consignmentItemTableTitle",
+    "mapKeyTo": "i18n.steps.consignmentItemTableWithNbr",
     "mapValueTo": "House Consignment{{hcNumber}}- Consignment Item(s)",
     "keys": [
       {
@@ -2334,7 +2334,7 @@
   {
     "value": "House Consignment{{hcNumber}}- Consignment Item{{hciNumber}}",
     "count": 1,
-    "mapKeyTo": "i18n.common.consignmentItemTitle",
+    "mapKeyTo": "i18n.steps.consignmentItemWithNbr",
     "mapValueTo": "House Consignment{{hcNumber}}- Consignment Item{{hciNumber}}",
     "keys": [
       {
@@ -2346,7 +2346,7 @@
   {
     "value": "House Consignment{{number}}- General Information",
     "count": 1,
-    "mapKeyTo": "i18n.common.houseConsignmentInformationTitle",
+    "mapKeyTo": "i18n.steps.houseConsignmentInformationWithNbr",
     "mapValueTo": "House Consignment{{number}}- General Information",
     "keys": [
       {
@@ -2358,7 +2358,7 @@
   {
     "value": "House Consignment{{number}}- Parties",
     "count": 1,
-    "mapKeyTo": "i18n.common.houseConsignmentPartiesTitle",
+    "mapKeyTo": "i18n.common.houseConsignmentPartiesWithNbr",
     "mapValueTo": "House Consignment{{number}}- Parties",
     "keys": [
       {
@@ -2946,7 +2946,7 @@
   {
     "value": "NCTS",
     "count": 1,
-    "mapKeyTo": "i18n.common.short",
+    "mapKeyTo": "i18n.common.nctsShort",
     "mapValueTo": "NCTS",
     "keys": [
       {
@@ -2970,7 +2970,7 @@
   {
     "value": "NEW COMPUTERISED TRANSIT SYSTEM",
     "count": 1,
-    "mapKeyTo": "i18n.common.full",
+    "mapKeyTo": "i18n.common.nctsFull",
     "mapValueTo": "NEW COMPUTERISED TRANSIT SYSTEM",
     "keys": [
       {
@@ -3618,7 +3618,7 @@
   {
     "value": "Previous document(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.previousDocuments",
+    "mapKeyTo": "i18n.common.previousDocument(s)",
     "mapValueTo": "Previous document(s)",
     "keys": [
       {
@@ -3966,7 +3966,7 @@
   {
     "value": "Register NCF",
     "count": 1,
-    "mapKeyTo": "i18n.common.crossingFrontier",
+    "mapKeyTo": "i18n.common.registerNCF",
     "mapValueTo": "Register NCF",
     "keys": [
       {
@@ -4446,7 +4446,7 @@
   {
     "value": "Select Transport Equipment",
     "count": 1,
-    "mapKeyTo": "i18n.common.selectTransportEquipmentTitle",
+    "mapKeyTo": "i18n.common.selectTransportEquipment",
     "mapValueTo": "Select Transport Equipment",
     "keys": [
       {
@@ -4590,7 +4590,7 @@
   {
     "value": "Service of ...",
     "count": 1,
-    "mapKeyTo": "i18n.common.serviceof",
+    "mapKeyTo": "i18n.common.serviceOf",
     "mapValueTo": "Service of ...",
     "keys": [
       {
@@ -4614,7 +4614,7 @@
   {
     "value": "Set to",
     "count": 1,
-    "mapKeyTo": "i18n.common.setTo",
+    "mapKeyTo": "i18n.discrepancies.setTo",
     "mapValueTo": "Set to",
     "keys": [
       {
@@ -4786,7 +4786,7 @@
   {
     "value": "Step 1: General information",
     "count": 1,
-    "mapKeyTo": "i18n.common.step1GeneralInformation",
+    "mapKeyTo": "i18n.steps.step1GeneralInformation",
     "mapValueTo": "Step 1: General information",
     "keys": [
       {
@@ -4798,7 +4798,7 @@
   {
     "value": "Step 2: General information",
     "count": 1,
-    "mapKeyTo": "i18n.common.step2GeneralInformation",
+    "mapKeyTo": "i18n.steps.step2GeneralInformation",
     "mapValueTo": "Step 2: General information",
     "keys": [
       {
@@ -4810,7 +4810,7 @@
   {
     "value": "Step 3: General information",
     "count": 1,
-    "mapKeyTo": "i18n.common.step3GeneralInformation",
+    "mapKeyTo": "i18n.steps.step3GeneralInformation",
     "mapValueTo": "Step 3: General information",
     "keys": [
       {
@@ -4822,7 +4822,7 @@
   {
     "value": "Step 3: Item",
     "count": 1,
-    "mapKeyTo": "i18n.common.step3Item",
+    "mapKeyTo": "i18n.steps.step3Item",
     "mapValueTo": "Step 3: Item",
     "keys": [
       {
@@ -4966,7 +4966,7 @@
   {
     "value": "Supporting document(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.supportingDocuments",
+    "mapKeyTo": "i18n.common.supportingDocument(s)",
     "mapValueTo": "Supporting document(s)",
     "keys": [
       {
@@ -5210,7 +5210,7 @@
   {
     "value": "Transport document(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.transportDocuments",
+    "mapKeyTo": "i18n.common.transportDocument(s)",
     "mapValueTo": "Transport document(s)",
     "keys": [
       {
@@ -5222,7 +5222,7 @@
   {
     "value": "Transport equipment(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.transportEquipments",
+    "mapKeyTo": "i18n.common.transportEquipment(s)",
     "mapValueTo": "Transport equipment(s)",
     "keys": [
       {
@@ -5714,7 +5714,7 @@
   {
     "value": "Additional reference(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.additionalReferences",
+    "mapKeyTo": "i18n.common.additionalReference(s)",
     "mapValueTo": "Additional reference(s)",
     "keys": [
       {
@@ -6030,7 +6030,7 @@
   {
     "value": "Authorisation",
     "count": 1,
-    "mapKeyTo": "i18n.common.authorisationSub",
+    "mapKeyTo": "i18n.common.authorisation",
     "mapValueTo": "Authorisation",
     "keys": [
       {
@@ -6450,7 +6450,7 @@
   {
     "value": "Control result date",
     "count": 1,
-    "mapKeyTo": "i18n.common.lastControlResultDate",
+    "mapKeyTo": "i18n.common.controlResultDate",
     "mapValueTo": "Control result date",
     "keys": [
       {
@@ -6799,7 +6799,7 @@
     "value": "Customs office of transit(Actual)",
     "count": 1,
     "mapKeyTo": "i18n.common.customsOfficeOfTransitActual",
-    "mapValueTo": "Customs office of transit(Actual)",
+    "mapValueTo": "Customs office of transit (Actual)",
     "keys": [
       {
         "key": "i18n.common.customsOfficeOfTransitActual",
@@ -6858,7 +6858,7 @@
   {
     "value": "Date cannot be in the future",
     "count": 1,
-    "mapKeyTo": "i18n.common.pastDate",
+    "mapKeyTo": "i18n.errors.invalidPastDate",
     "mapValueTo": "Date cannot be in the future",
     "keys": [
       {
@@ -7482,7 +7482,7 @@
   {
     "value": "Expiration date and time",
     "count": 1,
-    "mapKeyTo": "i18n.common.expirationDate",
+    "mapKeyTo": "i18n.common.expirationDateAndTime",
     "mapValueTo": "Expiration date and time",
     "keys": [
       {
@@ -7938,7 +7938,7 @@
   {
     "value": "House Consignment :houseConsignmentNbr - General Information",
     "count": 1,
-    "mapKeyTo": "i18n.common.houseConsignmentGeneralInformationWithNbr",
+    "mapKeyTo": "i18n.steps.houseConsignmentGeneralInformationWithNbr",
     "mapValueTo": "House Consignment :houseConsignmentNbr - General Information",
     "keys": [
       {
@@ -8322,7 +8322,7 @@
   {
     "value": "Invalid latitude: must be between -90.00000 and 90.00000",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.errors.invalidLatitude",
+    "mapKeyTo": "i18n.errors.invalidLatitude",
     "mapValueTo": "Invalid latitude: must be between -90.00000 and 90.00000",
     "keys": [
       {
@@ -8334,7 +8334,7 @@
   {
     "value": "Invalid longitude: must be between -180.00000 and 180.00000",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.errors.invalidLongitude",
+    "mapKeyTo": "i18n.errors.invalidLongitude",
     "mapValueTo": "Invalid longitude: must be between -180.00000 and 180.00000",
     "keys": [
       {
@@ -8358,7 +8358,7 @@
   {
     "value": "Invalidation reason",
     "count": 1,
-    "mapKeyTo": "i18n.common.pleaseEnterReason",
+    "mapKeyTo": "i18n.common.invalidationReason",
     "mapValueTo": "Invalidation reason",
     "keys": [
       {
@@ -9866,7 +9866,7 @@
   {
     "value": "Please select the customs office(s) to whom you want to send the status request(s).",
     "count": 1,
-    "mapKeyTo": "statusRequest.statusReqCaption",
+    "mapKeyTo": "statusRequest.dialog.description",
     "mapValueTo": "Please select the customs office(s) to whom you want to send the status request(s).",
     "keys": [
       {
@@ -9950,7 +9950,7 @@
   {
     "value": "Previous Document",
     "count": 1,
-    "mapKeyTo": "i18n.common.previousDocumentSub",
+    "mapKeyTo": "i18n.common.previousDocument",
     "mapValueTo": "Previous Document",
     "keys": [
       {
@@ -10655,7 +10655,7 @@
     "keys": [
       {
         "key": "unloadingRemark.compareButtonTooltip",
-        "value": "Review the submitted Unloading Remarks and compare them to  the original declaration data received from Office of Departure."
+        "value": "Review the submitted Unloading Remarks and compare them to the original declaration data received from Office of Departure."
       }
     ]
   },
@@ -10890,7 +10890,7 @@
   {
     "value": "Step 1: Parties",
     "count": 1,
-    "mapKeyTo": "i18n.common.step1Parties",
+    "mapKeyTo": "i18n.steps.step1Parties",
     "mapValueTo": "Step 1: Parties",
     "keys": [
       {
@@ -10902,7 +10902,7 @@
   {
     "value": "Step 2: Parties",
     "count": 1,
-    "mapKeyTo": "i18n.common.step2Parties",
+    "mapKeyTo": "i18n.steps.step2Parties",
     "mapValueTo": "Step 2: Parties",
     "keys": [
       {
@@ -10914,7 +10914,7 @@
   {
     "value": "Step 3: Parties",
     "count": 1,
-    "mapKeyTo": "i18n.common.step3Parties",
+    "mapKeyTo": "i18n.steps.step3Parties",
     "mapValueTo": "Step 3: Parties",
     "keys": [
       {
