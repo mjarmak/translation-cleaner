@@ -6694,7 +6694,7 @@
   {
     "value": "Customs office of exit for transit(actual)",
     "count": 1,
-    "mapKeyTo": "statusRequest.customsOfficeOfExitForTransitActual",
+    "mapKeyTo": "i18n.common.customsOfficeOfExitForTransit(actual)",
     "mapValueTo": "Customs office of exit for transit (Actual)",
     "keys": [
       {
@@ -8526,7 +8526,7 @@
   {
     "value": "Login",
     "count": 1,
-    "mapKeyTo": "i18n.common.login",
+    "mapKeyTo": "i18n.login.login",
     "mapValueTo": "Login",
     "keys": [
       {
@@ -8938,7 +8938,7 @@
   {
     "value": "No drafts. Save a declaration as a draft and it will show up here.",
     "count": 1,
-    "mapKeyTo": "savedDrafts.noDrafts",
+    "mapKeyTo": "i18n.errors.noResults.noResults.drafts",
     "mapValueTo": "No drafts. Save a declaration as a draft and it will show up here.",
     "keys": [
       {
@@ -9010,7 +9010,7 @@
   {
     "value": "No Templates. Save a declaration as a template and it will show up here.",
     "count": 1,
-    "mapKeyTo": "savedTemplates.noTemplates",
+    "mapKeyTo": "i18n.errors.noResults.templates",
     "mapValueTo": "No Templates. Save a declaration as a template and it will show up here.",
     "keys": [
       {
@@ -12046,7 +12046,7 @@
   {
     "value": "Your session has expired. Please login again.",
     "count": 1,
-    "mapKeyTo": "sessionExpiredDialog.description",
+    "mapKeyTo": "i18n.login.sessionExpired",
     "mapValueTo": "Your session has expired. Please login again.",
     "keys": [
       {
