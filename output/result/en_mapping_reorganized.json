@@ -306,7 +306,7 @@
   {
     "value": "Add discrepancy resolution",
     "count": 1,
-    "mapKeyTo": "i18n.actions.add.discrepancyResolution",
+    "mapKeyTo": "i18n.actions.discrepancyResolution",
     "mapValueTo": "Add discrepancy resolution",
     "keys": [
       {
@@ -958,7 +958,7 @@
   {
     "value": "Confirm (IE140)",
     "count": 1,
-    "mapKeyTo": "i18n.common.confirmIE140",
+    "mapKeyTo": "i18n.actions.confirmIE140",
     "mapValueTo": "Confirm (IE140)",
     "keys": [
       {
@@ -1474,7 +1474,7 @@
   {
     "value": "Decide on Movement Crossing Frontier",
     "count": 1,
-    "mapKeyTo": "i18n.common.decideOnMovementCrossingFrontier",
+    "mapKeyTo": "i18n.forms.decideOnMovementCrossingFrontier",
     "mapValueTo": "Decide on Movement Crossing Frontier",
     "keys": [
       {
@@ -3814,7 +3814,7 @@
   {
     "value": "Refine Search",
     "count": 1,
-    "mapKeyTo": "i18n.common.refineSearch",
+    "mapKeyTo": "i18n.actions.refineSearch",
     "mapValueTo": "Refine Search",
     "keys": [
       {
@@ -3838,7 +3838,7 @@
   {
     "value": "Refuse frontier-crossing",
     "count": 1,
-    "mapKeyTo": "i18n.common.refuseFrontierCrossing",
+    "mapKeyTo": "i18n.actions.refuseFrontierCrossing",
     "mapValueTo": "Refuse frontier-crossing",
     "keys": [
       {
@@ -3850,7 +3850,7 @@
   {
     "value": "Refuse guarantee reference(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.refuseGuaranteeReferences",
+    "mapKeyTo": "i18n.actions.refuseGuaranteeReferences",
     "mapValueTo": "Refuse guarantee reference(s)",
     "keys": [
       {
@@ -3862,7 +3862,7 @@
   {
     "value": "Refuse invalidation",
     "count": 1,
-    "mapKeyTo": "i18n.common.refuseInvalidation",
+    "mapKeyTo": "i18n.actions.refuseInvalidation",
     "mapValueTo": "Refuse invalidation",
     "keys": [
       {
@@ -3874,7 +3874,7 @@
   {
     "value": "Refuse invalidation request(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.refuseInvalidationRequests",
+    "mapKeyTo": "i18n.actions.refuseInvalidationRequests",
     "mapValueTo": "Refuse invalidation request(s)",
     "keys": [
       {
@@ -3886,7 +3886,7 @@
   {
     "value": "Refuse release request",
     "count": 1,
-    "mapKeyTo": "i18n.common.refuseOption",
+    "mapKeyTo": "i18n.actions.refuseOption",
     "mapValueTo": "Refuse release request",
     "keys": [
       {
@@ -3934,7 +3934,7 @@
   {
     "value": "Register crossing frontier",
     "count": 1,
-    "mapKeyTo": "i18n.common.registerCrossingFrontier",
+    "mapKeyTo": "i18n.forms.registerCrossingFrontier",
     "mapValueTo": "Register crossing frontier",
     "keys": [
       {
@@ -3946,7 +3946,7 @@
   {
     "value": "REGISTER MOVEMENT CROSSING FRONTIER",
     "count": 1,
-    "mapKeyTo": "i18n.common.registerMovCrossFrontier",
+    "mapKeyTo": "i18n.actions.registerMovCrossFrontier",
     "mapValueTo": "REGISTER MOVEMENT CROSSING FRONTIER",
     "keys": [
       {
@@ -3958,7 +3958,7 @@
   {
     "value": "Register NCF",
     "count": 1,
-    "mapKeyTo": "i18n.common.registerNCF",
+    "mapKeyTo": "i18n.actions.registerNCF",
     "mapValueTo": "Register NCF",
     "keys": [
       {
@@ -4618,7 +4618,7 @@
   {
     "value": "Simplified procedure",
     "count": 2,
-    "mapKeyTo": "i18n.actions.simplifiedProcedure",
+    "mapKeyTo": "i18n.common.simplifiedProcedure",
     "mapValueTo": "Simplified procedure",
     "keys": [
       {
@@ -4818,7 +4818,7 @@
   {
     "value": "Stop movement",
     "count": 1,
-    "mapKeyTo": "i18n.common.stopMovement",
+    "mapKeyTo": "i18n.actions.stopMovement",
     "mapValueTo": "Stop movement",
     "keys": [
       {
@@ -5530,7 +5530,7 @@
   {
     "value": "<b>Unloading Remarks comparison</b>. This screen displays the unloading remarks submitted by the Trader at Destination. It highlights specific discrepancies — indicated by a 'Delta' icon — between the registered unloading data and the original declaration data received from Office of Departure.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.lables.unloadingRemarkCompareSub",
+    "mapKeyTo": "i18n.forms.unloadingRemarkCompareCaption",
     "mapValueTo": "<b>Unloading Remarks comparison</b>. This screen displays the unloading remarks submitted by the Trader at Destination. It highlights specific discrepancies — indicated by a 'Delta' icon — between the registered unloading data and the original declaration data received from Office of Departure.",
     "keys": [
       {
@@ -5554,7 +5554,7 @@
   {
     "value": "A mandatory/required element is missing in the received data, e.g. a required element is not present.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_13",
+    "mapKeyTo": "i18n.errors.codes.ERR_13",
     "mapValueTo": "A mandatory/required element is missing in the received data, e.g. a required element is not present.",
     "keys": [
       {
@@ -5638,7 +5638,7 @@
   {
     "value": "Add Binding Itinerary",
     "count": 1,
-    "mapKeyTo": "i18n.actions.add.bindingItinerary",
+    "mapKeyTo": "i18n.actions.bindingItinerary",
     "mapValueTo": "Add Binding Itinerary",
     "keys": [
       {
@@ -5770,7 +5770,7 @@
   {
     "value": "Agent in country of competent authority",
     "count": 1,
-    "mapKeyTo": "recoveryRequest.agentInCountryOfCompetentAuthority",
+    "mapKeyTo": "i18n.common.agentInCountryOfCompetentAuthority",
     "mapValueTo": "Agent in country of competent authority",
     "keys": [
       {
@@ -5818,7 +5818,7 @@
   {
     "value": "Amount to be covered must be provided to register this guarantee reference.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_10",
+    "mapKeyTo": "i18n.errors.codes.ERR_10",
     "mapValueTo": "Amount to be covered must be provided to register this guarantee reference.",
     "keys": [
       {
@@ -5830,7 +5830,7 @@
   {
     "value": "An element is not allowed to have a value because it is not allowed to be present according to the TMS message specification (including sequence of elements).",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_15",
+    "mapKeyTo": "i18n.errors.codes.ERR_15",
     "mapValueTo": "An element is not allowed to have a value because it is not allowed to be present according to the TMS message specification (including sequence of elements).",
     "keys": [
       {
@@ -5882,7 +5882,7 @@
   {
     "value": "Are you sure you want to cancel the transit declaration?",
     "count": 1,
-    "mapKeyTo": "invalidate.cancelCaption",
+    "mapKeyTo": "i18n.forms.declarationCancelCaption",
     "mapValueTo": "Are you sure you want to cancel the transit declaration?",
     "keys": [
       {
@@ -5906,7 +5906,7 @@
   {
     "value": "Are you sure you want to delete this house consignment?",
     "count": 1,
-    "mapKeyTo": "i18n.actions.delete..houseConsignmentConfirm",
+    "mapKeyTo": "i18n.actions.delete.houseConsignmentConfirm",
     "mapValueTo": "Are you sure you want to delete this house consignment?",
     "keys": [
       {
@@ -6350,7 +6350,7 @@
   {
     "value": "Contact details in country of competent authority",
     "count": 1,
-    "mapKeyTo": "recoveryRequest.contactDetailsInCountryOfCompetentAuthority",
+    "mapKeyTo": "i18n.common.contactDetailsInCountryOfCompetentAuthority",
     "mapValueTo": "Contact details in country of competent authority",
     "keys": [
       {
@@ -6538,11 +6538,11 @@
   {
     "value": "Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later.",
     "count": 1,
-    "mapKeyTo": "declarationOverview.validationTimeoutDialog.description",
+    "mapKeyTo": "i18n.submitting.validationTimeoutDialog",
     "mapValueTo": "Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later.",
     "keys": [
       {
-        "key": "declarationOverview.validationTimeoutDialog.description",
+        "key": "declarationOverview.validationTimeoutDialog",
         "value": "Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later."
       }
     ]
@@ -6706,7 +6706,7 @@
   {
     "value": "Customs office of guarantee must be provided to register this guarantee reference.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_11",
+    "mapKeyTo": "i18n.errors.codes.ERR_11",
     "mapValueTo": "Customs office of guarantee must be provided to register this guarantee reference.",
     "keys": [
       {
@@ -6890,7 +6890,7 @@
   {
     "value": "Declaration ID must be either an MRN or a numerical ID.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_07",
+    "mapKeyTo": "i18n.errors.codes.ERR_07",
     "mapValueTo": "Declaration ID must be either an MRN or a numerical ID.",
     "keys": [
       {
@@ -6962,7 +6962,7 @@
   {
     "value": "Departure transport means cannot be added after transition period expiry",
     "count": 1,
-    "mapKeyTo": "i18n.errors.UIERR_03",
+    "mapKeyTo": "i18n.errors.codes.UIERR_03",
     "mapValueTo": "Departure transport means cannot be added after transition period expiry",
     "keys": [
       {
@@ -7190,7 +7190,7 @@
   {
     "value": "Documentary: Select this only if all checks were strictly limited to documentary checks.",
     "count": 1,
-    "mapKeyTo": "controlResults.tooltipDoc",
+    "mapKeyTo": "i18n.tooltips.controlTypeDocumentary",
     "mapValueTo": "Documentary: Select this only if all checks were strictly limited to documentary checks.",
     "keys": [
       {
@@ -7622,7 +7622,7 @@
   {
     "value": "GMS ERR",
     "count": 1,
-    "mapKeyTo": "i18n.errors.GMS_ERR",
+    "mapKeyTo": "i18n.errors.codes.GMS_ERR",
     "mapValueTo": "GMS ERR",
     "keys": [
       {
@@ -7730,7 +7730,7 @@
   {
     "value": "Guarantee not found.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_08",
+    "mapKeyTo": "i18n.errors.codes.ERR_08",
     "mapValueTo": "Guarantee not found.",
     "keys": [
       {
@@ -7754,7 +7754,7 @@
   {
     "value": "Guarantee references must have status Pending.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_09",
+    "mapKeyTo": "i18n.errors.codes.ERR_09",
     "mapValueTo": "Guarantee references must have status Pending.",
     "keys": [
       {
@@ -8210,7 +8210,7 @@
   {
     "value": "Incorrect date.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.UIERR_04",
+    "mapKeyTo": "i18n.errors.codes.UIERR_04",
     "mapValueTo": "Incorrect date.",
     "keys": [
       {
@@ -8222,7 +8222,7 @@
   {
     "value": "Indicate the overall type used to control this declaration.",
     "count": 1,
-    "mapKeyTo": "controlResults.tooltipDesc",
+    "mapKeyTo": "i18n.tooltips.controlResultsTooltipCaption",
     "mapValueTo": "Indicate the overall type used to control this declaration.",
     "keys": [
       {
@@ -8486,7 +8486,7 @@
   {
     "value": "Link transport equipment to this consignment item by selecting it from the list below",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.lables.selectTransportEquipmentCaption",
+    "mapKeyTo": "i18n.forms.selectTransportEquipmentCaption",
     "mapValueTo": "Link transport equipment to this consignment item by selecting it from the list below",
     "keys": [
       {
@@ -8794,7 +8794,7 @@
   {
     "value": "N/A",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_90_MRN",
+    "mapKeyTo": "i18n.errors.codes.ERR_90_MRN",
     "mapValueTo": "N/A",
     "keys": [
       {
@@ -8806,7 +8806,7 @@
   {
     "value": "N/A",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_92",
+    "mapKeyTo": "i18n.errors.codes.ERR_92",
     "mapValueTo": "N/A",
     "keys": [
       {
@@ -8962,7 +8962,7 @@
   {
     "value": "No pending request found for specified IR or decision is already given for pending request.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.UIERR_01",
+    "mapKeyTo": "i18n.errors.codes.UIERR_01",
     "mapValueTo": "No pending request found for specified IR or decision is already given for pending request.",
     "keys": [
       {
@@ -9130,7 +9130,7 @@
   {
     "value": "Notification that the length of an element received is shorter than the minimum length specified.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_40",
+    "mapKeyTo": "i18n.errors.codes.ERR_40",
     "mapValueTo": "Notification that the length of an element received is shorter than the minimum length specified.",
     "keys": [
       {
@@ -9142,7 +9142,7 @@
   {
     "value": "Notification that the length of the element received exceeded the maximum length specified.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_39",
+    "mapKeyTo": "i18n.errors.codes.ERR_39",
     "mapValueTo": "Notification that the length of the element received exceeded the maximum length specified.",
     "keys": [
       {
@@ -9190,7 +9190,7 @@
   {
     "value": "Number of seals must match the number of seals in the list",
     "count": 1,
-    "mapKeyTo": "releaseMovement.errors.numberOfSealsMatchesSealListSize",
+    "mapKeyTo": "i18n.errors.numberOfSealsMatchesSealListSize",
     "mapValueTo": "Number of seals must match the number of seals in the list",
     "keys": [
       {
@@ -9286,7 +9286,7 @@
   {
     "value": "One (or more) character(s) used in a specific item is (are) not valid character(s).",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_53",
+    "mapKeyTo": "i18n.errors.codes.ERR_53",
     "mapValueTo": "One (or more) character(s) used in a specific item is (are) not valid character(s).",
     "keys": [
       {
@@ -9298,7 +9298,7 @@
   {
     "value": "Only required if holder of transit procedure is represented by a representative",
     "count": 1,
-    "mapKeyTo": "party.lables.representativeDescription",
+    "mapKeyTo": "i18n.tooltips.representativeDescription",
     "mapValueTo": "Only required if holder of transit procedure is represented by a representative",
     "keys": [
       {
@@ -9478,7 +9478,7 @@
   {
     "value": "Physical: Select this if at least one item underwent physical inspection (or any other type different from documentary checks).",
     "count": 1,
-    "mapKeyTo": "controlResults.tooltipPhys",
+    "mapKeyTo": "i18n.tooltips.controlTypePhysical",
     "mapValueTo": "Physical: Select this if at least one item underwent physical inspection (or any other type different from documentary checks).",
     "keys": [
       {
@@ -10310,7 +10310,7 @@
   {
     "value": "Register the stop of the movement",
     "count": 1,
-    "mapKeyTo": "tra.crossingFrontier.registerStopMovement",
+    "mapKeyTo": "i18n.forms.registerStopMovement",
     "mapValueTo": "Register the stop of the movement",
     "keys": [
       {
@@ -10778,7 +10778,7 @@
   {
     "value": "Send Request on Non-Arrived Movement (IE140)",
     "count": 1,
-    "mapKeyTo": "navDrawer.menu.requestOnNonArrivedMovement",
+    "mapKeyTo": "i18n.actions.requestOnNonArrivedMovementIE140",
     "mapValueTo": "Send Request on Non-Arrived Movement (IE140)",
     "keys": [
       {
@@ -10886,7 +10886,7 @@
   {
     "value": "Still validating the declaration - this is taking longer than expected - please wait",
     "count": 1,
-    "mapKeyTo": "declarationOverview.progressBar.validatingTakingLong",
+    "mapKeyTo": "i18n.submitting.validatingTakingLong",
     "mapValueTo": "Still validating the declaration - this is taking longer than expected - please wait",
     "keys": [
       {
@@ -11006,7 +11006,7 @@
   {
     "value": "The changes you made will be lost if you navigate away from this page. Are you sure you want to leave this page?",
     "count": 1,
-    "mapKeyTo": "confirmNavigation.message",
+    "mapKeyTo": "i18n.forms.navigationUnSavedChangesCaption",
     "mapValueTo": "The changes you made will be lost if you navigate away from this page. Are you sure you want to leave this page?",
     "keys": [
       {
@@ -11018,7 +11018,7 @@
   {
     "value": "The country of departure is not equal to the first country in the binding itinerary sequence.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_01",
+    "mapKeyTo": "i18n.errors.codes.ERR_01",
     "mapValueTo": "The country of departure is not equal to the first country in the binding itinerary sequence.",
     "keys": [
       {
@@ -11030,7 +11030,7 @@
   {
     "value": "The country of destination is not equal to the last country in the binding itinerary sequence.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_02",
+    "mapKeyTo": "i18n.errors.codes.ERR_02",
     "mapValueTo": "The country of destination is not equal to the last country in the binding itinerary sequence.",
     "keys": [
       {
@@ -11042,7 +11042,7 @@
   {
     "value": "The current status of the transit declaration is invalid for this operation.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_03",
+    "mapKeyTo": "i18n.errors.codes.ERR_03",
     "mapValueTo": "The current status of the transit declaration is invalid for this operation.",
     "keys": [
       {
@@ -11094,7 +11094,7 @@
   {
     "value": "The Invalidation request cannot be processed as current status is not in allowed state list.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.UIERR_02",
+    "mapKeyTo": "i18n.errors.codes.UIERR_02",
     "mapValueTo": "The Invalidation request cannot be processed as current status is not in allowed state list.",
     "keys": [
       {
@@ -11142,7 +11142,7 @@
   {
     "value": "The specified discrepancy resolution type is invalid.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_04",
+    "mapKeyTo": "i18n.errors.codes.ERR_04",
     "mapValueTo": "The specified discrepancy resolution type is invalid.",
     "keys": [
       {
@@ -11154,7 +11154,7 @@
   {
     "value": "The status of this MRN is not allowed",
     "count": 1,
-    "mapKeyTo": "des.registerArrivalNotification.errors.statusNotAllowed",
+    "mapKeyTo": "i18n.errors.rmnStatusNotAllowed",
     "mapValueTo": "The status of this MRN is not allowed",
     "keys": [
       {
@@ -11166,7 +11166,7 @@
   {
     "value": "The submitted control results are currently being validated. This may take a few moments.",
     "count": 1,
-    "mapKeyTo": "controlResults.progress.validating",
+    "mapKeyTo": "i18n.submitting.controlResultsValidating",
     "mapValueTo": "The submitted control results are currently being validated. This may take a few moments.",
     "keys": [
       {
@@ -11178,7 +11178,7 @@
   {
     "value": "The transit declaration could not be submitted because {{number}} errors were found. Kindly check, rectify and resubmit again. Errors will only be rectified after the resubmission of the transit declaration. ",
     "count": 1,
-    "mapKeyTo": "declarationOverview.errorDialog.message",
+    "mapKeyTo": "i18n.errors.validationErrorsFoundWithNbr",
     "mapValueTo": "The transit declaration could not be submitted because {{number}} errors were found. Kindly check, rectify and resubmit again. Errors will only be rectified after the resubmission of the transit declaration. ",
     "keys": [
       {
@@ -11226,7 +11226,7 @@
   {
     "value": "The value defining Code list CL027 indicator flag is invalid",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_27",
+    "mapKeyTo": "i18n.errors.codes.ERR_27",
     "mapValueTo": "The value defining Code list CL027 indicator flag is invalid",
     "keys": [
       {
@@ -11238,7 +11238,7 @@
   {
     "value": "The value of the element is numerically greater than or equal to the upper limit defined for this data item. For instance, if the maximum defined value is 100 then any value greater to that limit will be invalid (e.g. 100).",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_57",
+    "mapKeyTo": "i18n.errors.codes.ERR_57",
     "mapValueTo": "The value of the element is numerically greater than or equal to the upper limit defined for this data item. For instance, if the maximum defined value is 100 then any value greater to that limit will be invalid (e.g. 100).",
     "keys": [
       {
@@ -11250,7 +11250,7 @@
   {
     "value": "The value of the element is numerically greater than the upper limit defined for this data item. For instance, if the maximum defined value is 100 then any value greater to that limit will be invalid (e.g. 101).",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_55",
+    "mapKeyTo": "i18n.errors.codes.ERR_55",
     "mapValueTo": "The value of the element is numerically greater than the upper limit defined for this data item. For instance, if the maximum defined value is 100 then any value greater to that limit will be invalid (e.g. 101).",
     "keys": [
       {
@@ -11262,7 +11262,7 @@
   {
     "value": "The value of the element is numerically lower than or equal to the lowest limit defined for this data item. For instance, if the minimum defined value is 99, then any value equal or lower to that limit will be invalid (e.g. 99).",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_56",
+    "mapKeyTo": "i18n.errors.codes.ERR_56",
     "mapValueTo": "The value of the element is numerically lower than or equal to the lowest limit defined for this data item. For instance, if the minimum defined value is 99, then any value equal or lower to that limit will be invalid (e.g. 99).",
     "keys": [
       {
@@ -11274,7 +11274,7 @@
   {
     "value": "The value of the element is numerically lower than the lowest limit defined for this data item. For instance, if the minimum defined value is 99, then any value lower to that limit will be invalid (e.g. 98).",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_54",
+    "mapKeyTo": "i18n.errors.codes.ERR_54",
     "mapValueTo": "The value of the element is numerically lower than the lowest limit defined for this data item. For instance, if the minimum defined value is 99, then any value lower to that limit will be invalid (e.g. 98).",
     "keys": [
       {
@@ -11286,7 +11286,7 @@
   {
     "value": "The value of the specific data item is invalid according to the type of this element. For instance, MRN does not conform to the specifications given in the convention.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_50",
+    "mapKeyTo": "i18n.errors.codes.ERR_50",
     "mapValueTo": "The value of the specific data item is invalid according to the type of this element. For instance, MRN does not conform to the specifications given in the convention.",
     "keys": [
       {
@@ -11298,7 +11298,7 @@
   {
     "value": "The value of the specific data item is invalid with respect to the defined pattern for this specific type.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_51",
+    "mapKeyTo": "i18n.errors.codes.ERR_51",
     "mapValueTo": "The value of the specific data item is invalid with respect to the defined pattern for this specific type.",
     "keys": [
       {
@@ -11394,7 +11394,7 @@
   {
     "value": "This declaration contains pending invalidation requests",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_05",
+    "mapKeyTo": "i18n.errors.codes.ERR_05",
     "mapValueTo": "This declaration contains pending invalidation requests",
     "keys": [
       {
@@ -11406,7 +11406,7 @@
   {
     "value": "This declaration is not a normal procedure without an approved place",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_06",
+    "mapKeyTo": "i18n.errors.codes.ERR_06",
     "mapValueTo": "This declaration is not a normal procedure without an approved place",
     "keys": [
       {
@@ -11418,7 +11418,7 @@
   {
     "value": "This movement is not known. Would you like to send the IE114?",
     "count": 1,
-    "mapKeyTo": "tra.crossingFrontier.sendAnticipatedTransitRequest",
+    "mapKeyTo": "i18n.forms.sendAnticipatedTransitRequestICaptions",
     "mapValueTo": "This movement is not known. Would you like to send the IE114?",
     "keys": [
       {
@@ -11502,7 +11502,7 @@
   {
     "value": "Too many repetitions of a data group than the allowed.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_35",
+    "mapKeyTo": "i18n.errors.codes.ERR_35",
     "mapValueTo": "Too many repetitions of a data group than the allowed.",
     "keys": [
       {
@@ -11662,7 +11662,7 @@
   {
     "value": "Unclosed XML tags.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_52",
+    "mapKeyTo": "i18n.errors.codes.ERR_52",
     "mapValueTo": "Unclosed XML tags.",
     "keys": [
       {
@@ -11770,7 +11770,7 @@
   {
     "value": "unknown",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_14",
+    "mapKeyTo": "i18n.errors.codes.ERR_14",
     "mapValueTo": "unknown",
     "keys": [
       {
@@ -11782,7 +11782,7 @@
   {
     "value": "unknown",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_90_LRN",
+    "mapKeyTo": "i18n.errors.codes.ERR_90_LRN",
     "mapValueTo": "unknown",
     "keys": [
       {
@@ -11842,7 +11842,7 @@
   {
     "value": "Unspecified Error.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_18",
+    "mapKeyTo": "i18n.errors.codes.ERR_18",
     "mapValueTo": "Unspecified Error.",
     "keys": [
       {
@@ -11890,7 +11890,7 @@
   {
     "value": "Value of an element in a message is outside the predefined set of values or not part of the applicable technical code list (it is not facet-valid with respect to enumeration). This type of error is applicable to all elements with code values, so it is also applicable to those elements that identify a message type.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.ERR_12",
+    "mapKeyTo": "i18n.errors.codes.ERR_12",
     "mapValueTo": "Value of an element in a message is outside the predefined set of values or not part of the applicable technical code list (it is not facet-valid with respect to enumeration). This type of error is applicable to all elements with code values, so it is also applicable to those elements that identify a message type.",
     "keys": [
       {

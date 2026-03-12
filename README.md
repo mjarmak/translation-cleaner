@@ -169,15 +169,15 @@ Applies canonical mapping to rename keys by `mapKeyTo` and optionally rename val
 
 For **English**: Use `--mapValues` to replace both keys and values
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/en.flat.json ./output/remap/en_mapping_reorganized.json --out ./output/mapped/en.flat.mapped.json --mapValues`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/en.flat.json ./output/result/en_mapping_reorganized.json --out ./output/mapped/en.flat.mapped.json --mapValues`
 
 For **other languages**: Omit `--mapValues` to replace only keys and keep original language values
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/fr.flat.json ./output/remap/en_mapping_reorganized.json --out ./output/mapped/fr.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/fr.flat.json ./output/result/en_mapping_reorganized.json --out ./output/mapped/fr.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/nl.flat.json ./output/remap/en_mapping_reorganized.json --out ./output/mapped/nl.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/nl.flat.json ./output/result/en_mapping_reorganized.json --out ./output/mapped/nl.flat.mapped.json`
 
-`python ./scripts/apply_mapping_flat_json.py ./output/flat/de.flat.json ./output/remap/en_mapping_reorganized.json --out ./output/mapped/de.flat.mapped.json`
+`python ./scripts/apply_mapping_flat_json.py ./output/flat/de.flat.json ./output/result/en_mapping_reorganized.json --out ./output/mapped/de.flat.mapped.json`
 
 The `apply_mapping_flat_json.py` script does the following in one pass:
 1. **Copies** the input file to a new output file
@@ -190,29 +190,29 @@ Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, `.htm`, `.feature`
 
 ### Dry-Run mapping:
 
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_mapping_reorganized.json --dry-run`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/result/en_mapping_reorganized.json --dry-run`
 
 ### Actual mapping:
 
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/remap/en_mapping_reorganized.json`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/src ./output/result/en_mapping_reorganized.json`
 
 ### Mapping on tests:
 
 #### Playwright
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/remap/en_mapping_reorganized.json`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/result/en_mapping_reorganized.json`
 
 #### Cypress
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/remap/en_mapping_reorganized.json`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/result/en_mapping_reorganized.json`
 
 ### Mapping on tests with label prefix:
 
 To prepend prefixes to all keys being searched, use the `--prefix` option with comma-separated values:
 
 #### Playwright
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/remap/en_mapping_reorganized.json --prefix "label-,input-,mat-select-,textarea-"`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/result/en_mapping_reorganized.json --prefix "label-,input-,mat-select-,textarea-"`
 
 #### Cypress
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/remap/en_mapping_reorganized.json --prefix "label-,input-,mat-select-,textarea-"`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/result/en_mapping_reorganized.json --prefix "label-,input-,mat-select-,textarea-"`
 
 ## 5. find unused translation keys:
 **Files:** `MAPPING_JSON` + `PROJECT_SRC` → `UNUSED_MAPPED_KEYS_LIST`
@@ -266,10 +266,10 @@ Uppercase keys should have been copied back after the manual CSS updates in 1.3.
 - Unflatten all language files at once:
 
 `python ./scripts/unflatten_json.py
-./output/flat/en.mapped.mapped.json ./output/unflat/en.json
-./output/flat/fr.mapped.mapped.json ./output/unflat/fr.json
-./output/flat/nl.mapped.mapped.json ./output/unflat/nl.json
-./output/flat/de.mapped.mapped.json ./output/unflat/de.json
+./output/mapped/en.flat.mapped.json ./output/unflat/en.json
+./output/mapped/fr.flat.mapped.json ./output/unflat/fr.json
+./output/mapped/nl.flat.mapped.json ./output/unflat/nl.json
+./output/mapped/de.flat.mapped.json ./output/unflat/de.json
 `
 
 Or unflatten them individually:
