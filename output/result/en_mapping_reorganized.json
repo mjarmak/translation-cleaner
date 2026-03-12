@@ -110,7 +110,7 @@
   {
     "value": "Action menu button",
     "count": 1,
-    "mapKeyTo": "i18n.common.actionMenu",
+    "mapKeyTo": "i18n.common.actionMenuButton",
     "mapValueTo": "Action menu button",
     "keys": [
       {
@@ -218,7 +218,7 @@
   {
     "value": "Actual OoDes",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualCustomOfficeOfDestination",
+    "mapKeyTo": "i18n.common.actualCustomOfficeOfDestinationShort",
     "mapValueTo": "Actual OoDes",
     "keys": [
       {
@@ -230,7 +230,7 @@
   {
     "value": "Actual OoExtTra",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualCustomsOfficeOfExitTransit",
+    "mapKeyTo": "i18n.common.actualCustomsOfficeOfExitTransitShort",
     "mapValueTo": "Actual OoExtTra",
     "keys": [
       {
@@ -242,7 +242,7 @@
   {
     "value": "Actual OoTra",
     "count": 1,
-    "mapKeyTo": "i18n.common.actualCustomsOfficeOfTransit",
+    "mapKeyTo": "i18n.common.actualCustomsOfficeOfTransitShort",
     "mapValueTo": "Actual OoTra",
     "keys": [
       {
@@ -470,7 +470,7 @@
   {
     "value": "Amend Declaration (IE013)",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestForAmendment",
+    "mapKeyTo": "i18n.common.requestForAmendmentIE013",
     "mapValueTo": "Amend Declaration (IE013)",
     "keys": [
       {
@@ -626,7 +626,7 @@
   {
     "value": "assets/img/logo_customs_excise_en.png",
     "count": 1,
-    "mapKeyTo": "i18n.common.logo",
+    "mapKeyTo": "i18n.meta.logo",
     "mapValueTo": "assets/img/logo_customs_excise_en.png",
     "keys": [
       {
@@ -662,7 +662,7 @@
   {
     "value": "Belgian government logo",
     "count": 1,
-    "mapKeyTo": "i18n.common.alt",
+    "mapKeyTo": "i18n.meta.belgianGovernmentLogo",
     "mapValueTo": "Belgian government logo",
     "keys": [
       {
@@ -710,7 +710,7 @@
   {
     "value": "Cancel Enquiry",
     "count": 1,
-    "mapKeyTo": "i18n.common.heading",
+    "mapKeyTo": "i18n.common.cancelEnquiry",
     "mapValueTo": "Cancel Enquiry",
     "keys": [
       {
@@ -722,7 +722,7 @@
   {
     "value": "Cancel Open Enquiry (IE059)",
     "count": 1,
-    "mapKeyTo": "i18n.common.cancelEnquiry",
+    "mapKeyTo": "i18n.common.cancelEnquiryIE059",
     "mapValueTo": "Cancel Open Enquiry (IE059)",
     "keys": [
       {
@@ -902,7 +902,7 @@
   {
     "value": "Complete Recovery",
     "count": 1,
-    "mapKeyTo": "i18n.common.modalTitle",
+    "mapKeyTo": "i18n.common.CompleteRecovery",
     "mapValueTo": "Complete Recovery",
     "keys": [
       {
@@ -1023,7 +1023,7 @@
     "value": "Consignee id",
     "count": 1,
     "mapKeyTo": "i18n.common.consigneeId",
-    "mapValueTo": "Consignee id",
+    "mapValueTo": "Consignee ID",
     "keys": [
       {
         "key": "consult-consignment.labels.consigneeId",
@@ -1107,7 +1107,7 @@
     "value": "Consignor id",
     "count": 1,
     "mapKeyTo": "i18n.common.consignorId",
-    "mapValueTo": "Consignor id",
+    "mapValueTo": "Consignor ID",
     "keys": [
       {
         "key": "consult-consignment.labels.consignorId",
@@ -1166,7 +1166,7 @@
   {
     "value": "Continue control result",
     "count": 1,
-    "mapKeyTo": "i18n.common.continueControlResultDep",
+    "mapKeyTo": "i18n.common.continueControlResult",
     "mapValueTo": "Continue control result",
     "keys": [
       {
@@ -1178,7 +1178,7 @@
   {
     "value": "Continue control result (IE018)",
     "count": 1,
-    "mapKeyTo": "i18n.common.continueControlResultDes",
+    "mapKeyTo": "i18n.common.continueControlResultIE018",
     "mapValueTo": "Continue control result (IE018)",
     "keys": [
       {
@@ -1190,7 +1190,7 @@
   {
     "value": "Continue Unloading remarks registration",
     "count": 1,
-    "mapKeyTo": "i18n.common.continueUnloadingRemarkDes",
+    "mapKeyTo": "i18n.common.continueUnloadingRemarksRegistration",
     "mapValueTo": "Continue Unloading remarks registration",
     "keys": [
       {
@@ -1262,8 +1262,8 @@
   {
     "value": "CONTROL RESULTS",
     "count": 1,
-    "mapKeyTo": "i18n.common.control-results",
-    "mapValueTo": "CONTROL RESULTS",
+    "mapKeyTo": "i18n.common.controlResults",
+    "mapValueTo": "Control Results",
     "keys": [
       {
         "key": "menu.control-results",
@@ -1370,7 +1370,7 @@
   {
     "value": "Customs office of incident",
     "count": 1,
-    "mapKeyTo": "i18n.common.advancedSearchInc",
+    "mapKeyTo": "i18n.common.customsOfficeOfIncident",
     "mapValueTo": "Customs office of incident",
     "keys": [
       {
@@ -1382,7 +1382,7 @@
   {
     "value": "Customs Office of Recovery",
     "count": 1,
-    "mapKeyTo": "i18n.common.title",
+    "mapKeyTo": "i18n.common.CustomsOfficeOfRecovery",
     "mapValueTo": "Customs Office of Recovery",
     "keys": [
       {
@@ -1430,7 +1430,7 @@
   {
     "value": "Customs office of transit",
     "count": 1,
-    "mapKeyTo": "i18n.common.advancedSearchTra",
+    "mapKeyTo": "i18n.common.customsOfficeOfTransit",
     "mapValueTo": "Customs office of transit",
     "keys": [
       {
@@ -1478,7 +1478,7 @@
   {
     "value": "Decide on Movement Crossing Frontier",
     "count": 1,
-    "mapKeyTo": "i18n.common.title",
+    "mapKeyTo": "i18n.common.decideOnMovementCrossingFrontier",
     "mapValueTo": "Decide on Movement Crossing Frontier",
     "keys": [
       {
@@ -1610,7 +1610,7 @@
   {
     "value": "Declared OoDes",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredCustomOfficeOfDestination",
+    "mapKeyTo": "i18n.common.declaredCustomOfficeOfDestinationShort",
     "mapValueTo": "Declared OoDes",
     "keys": [
       {
@@ -1622,7 +1622,7 @@
   {
     "value": "Declared OoExtTra",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredCustomsOfficeOfExitTransit",
+    "mapKeyTo": "i18n.common.declaredCustomsOfficeOfExitTransitShort",
     "mapValueTo": "Declared OoExtTra",
     "keys": [
       {
@@ -1634,7 +1634,7 @@
   {
     "value": "Declared OoTra",
     "count": 1,
-    "mapKeyTo": "i18n.common.declaredCustomsOfficeOfTransit",
+    "mapKeyTo": "i18n.common.declaredCustomsOfficeOfTransitShort",
     "mapValueTo": "Declared OoTra",
     "keys": [
       {
@@ -2058,7 +2058,7 @@
   {
     "value": "Export declaration",
     "count": 1,
-    "mapKeyTo": "i18n.common.exportDec",
+    "mapKeyTo": "i18n.common.exportDeclaration",
     "mapValueTo": "Export declaration",
     "keys": [
       {
@@ -2226,7 +2226,7 @@
   {
     "value": "HANDLE CONTROL DECISION",
     "count": 1,
-    "mapKeyTo": "i18n.common.handle-control-decision",
+    "mapKeyTo": "i18n.common.handleControlDecision",
     "mapValueTo": "HANDLE CONTROL DECISION",
     "keys": [
       {
@@ -2238,7 +2238,7 @@
   {
     "value": "HANDLE CONTROL RESULT",
     "count": 1,
-    "mapKeyTo": "i18n.common.handle-control-result",
+    "mapKeyTo": "i18n.common.handleControlResult",
     "mapValueTo": "HANDLE CONTROL RESULT",
     "keys": [
       {
@@ -2370,7 +2370,7 @@
   {
     "value": "http://www.belgium.be/en",
     "count": 1,
-    "mapKeyTo": "i18n.common.url",
+    "mapKeyTo": "i18n.meta.url.belgium",
     "mapValueTo": "http://www.belgium.be/en",
     "keys": [
       {
@@ -2382,7 +2382,7 @@
   {
     "value": "https://finance.belgium.be/en/accessibility",
     "count": 1,
-    "mapKeyTo": "i18n.common.url",
+    "mapKeyTo": "i18n.meta.url.accessibility",
     "mapValueTo": "https://finance.belgium.be/en/accessibility",
     "keys": [
       {
@@ -2394,7 +2394,7 @@
   {
     "value": "https://finance.belgium.be/en/site/disclaimer",
     "count": 1,
-    "mapKeyTo": "i18n.common.url",
+    "mapKeyTo": "i18n.meta.url.disclaimer",
     "mapValueTo": "https://finance.belgium.be/en/site/disclaimer",
     "keys": [
       {
@@ -2406,7 +2406,7 @@
   {
     "value": "https://www.belgium.be/en/personal_data",
     "count": 1,
-    "mapKeyTo": "i18n.common.url",
+    "mapKeyTo": "i18n.meta.url.privacy",
     "mapValueTo": "https://www.belgium.be/en/personal_data",
     "keys": [
       {
@@ -2538,7 +2538,7 @@
   {
     "value": "Invalidate Declaration (IE009)",
     "count": 1,
-    "mapKeyTo": "i18n.common.reqForInvbyCO",
+    "mapKeyTo": "i18n.common.requestForInvalidationIE009",
     "mapValueTo": "Invalidate Declaration (IE009)",
     "keys": [
       {
@@ -2562,7 +2562,7 @@
   {
     "value": "Items per page",
     "count": 1,
-    "mapKeyTo": "i18n.common.size",
+    "mapKeyTo": "i18n.common.itemsPerPage",
     "mapValueTo": "Items per page",
     "keys": [
       {
@@ -2574,7 +2574,7 @@
   {
     "value": "kg",
     "count": 1,
-    "mapKeyTo": "i18n.common.weightUnit",
+    "mapKeyTo": "i18n.common.kg",
     "mapValueTo": "kg",
     "keys": [
       {
@@ -2658,7 +2658,7 @@
   {
     "value": "Load copy of consignment",
     "count": 1,
-    "mapKeyTo": "i18n.common.loadConsignment",
+    "mapKeyTo": "i18n.common.loadCopyOfConsignment",
     "mapValueTo": "Load copy of consignment",
     "keys": [
       {
@@ -2694,7 +2694,7 @@
   {
     "value": "Manage Invalidation request (IE009)",
     "count": 1,
-    "mapKeyTo": "i18n.common.manageReqForInv",
+    "mapKeyTo": "i18n.common.manageRequestForInvalidationIE009",
     "mapValueTo": "Manage Invalidation request (IE009)",
     "keys": [
       {
@@ -3030,7 +3030,7 @@
   {
     "value": "Next page",
     "count": 1,
-    "mapKeyTo": "i18n.common.next",
+    "mapKeyTo": "i18n.common.nextPage",
     "mapValueTo": "Next page",
     "keys": [
       {
@@ -3042,7 +3042,7 @@
   {
     "value": "No control decisions found.",
     "count": 1,
-    "mapKeyTo": "i18n.common.noResults",
+    "mapKeyTo": "i18n.errors.noResults.controlDecisions",
     "mapValueTo": "No control decisions found.",
     "keys": [
       {
@@ -3078,7 +3078,7 @@
   {
     "value": "No control result found.",
     "count": 1,
-    "mapKeyTo": "i18n.common.noResults",
+    "mapKeyTo": "i18n.errors.noResults.controlResults",
     "mapValueTo": "No control result found.",
     "keys": [
       {
@@ -3114,7 +3114,7 @@
   {
     "value": "No guarantees under registration found.",
     "count": 1,
-    "mapKeyTo": "i18n.common.noResults",
+    "mapKeyTo": "i18n.errors.noResults.guaranteesUnderRegistration",
     "mapValueTo": "No guarantees under registration found.",
     "keys": [
       {
@@ -3209,22 +3209,14 @@
   },
   {
     "value": "No results found",
-    "count": 1,
-    "mapKeyTo": "i18n.common.noResults",
-    "mapValueTo": "No results found",
+    "count": 2,
+    "mapKeyTo": "i18n.errors.noResults.general",
+    "mapValueTo": "No results found.",
     "keys": [
       {
         "key": "common.noResults",
         "value": "No results found"
-      }
-    ]
-  },
-  {
-    "value": "No results found.",
-    "count": 1,
-    "mapKeyTo": "i18n.common.noResults",
-    "mapValueTo": "No results found.",
-    "keys": [
+      },
       {
         "key": "requestOnNonArrivedMovement.table.noResults",
         "value": "No results found."
@@ -3630,7 +3622,7 @@
   {
     "value": "Previous page",
     "count": 1,
-    "mapKeyTo": "i18n.common.previous",
+    "mapKeyTo": "i18n.common.previousPage",
     "mapValueTo": "Previous page",
     "keys": [
       {
@@ -3762,7 +3754,7 @@
   {
     "value": "Recovery notification (IE035)",
     "count": 1,
-    "mapKeyTo": "i18n.common.title",
+    "mapKeyTo": "i18n.common.recoveryNotificationIE035",
     "mapValueTo": "Recovery notification (IE035)",
     "keys": [
       {
@@ -3774,7 +3766,7 @@
   {
     "value": "Recovery notification date",
     "count": 1,
-    "mapKeyTo": "i18n.common.notificationDate",
+    "mapKeyTo": "i18n.common.recoveryNotificationDate",
     "mapValueTo": "Recovery notification date",
     "keys": [
       {
@@ -3786,7 +3778,7 @@
   {
     "value": "Recovery notification text",
     "count": 1,
-    "mapKeyTo": "i18n.common.recovNotif",
+    "mapKeyTo": "i18n.common.recoveryNotificationText",
     "mapValueTo": "Recovery notification text",
     "keys": [
       {
@@ -3918,7 +3910,7 @@
   {
     "value": "Register Control Results (IE017)",
     "count": 1,
-    "mapKeyTo": "i18n.common.registerControlResult",
+    "mapKeyTo": "i18n.common.registerControlResultIE017",
     "mapValueTo": "Register Control Results (IE017)",
     "keys": [
       {
@@ -3930,7 +3922,7 @@
   {
     "value": "Register Control Results (IE018)",
     "count": 1,
-    "mapKeyTo": "i18n.common.registerControlResultDest",
+    "mapKeyTo": "i18n.common.registerControlResultIE018",
     "mapValueTo": "Register Control Results (IE018)",
     "keys": [
       {
@@ -4014,7 +4006,7 @@
   {
     "value": "Release a Movement for Transit",
     "count": 1,
-    "mapKeyTo": "i18n.common.modalTitle",
+    "mapKeyTo": "i18n.common.releaseMovementForTransit",
     "mapValueTo": "Release a Movement for Transit",
     "keys": [
       {
@@ -4122,7 +4114,7 @@
   {
     "value": "Request Enquiry (IE142)",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestEnquiry",
+    "mapKeyTo": "i18n.common.requestEnquiryIE142",
     "mapValueTo": "Request Enquiry (IE142)",
     "keys": [
       {
@@ -4134,7 +4126,7 @@
   {
     "value": "Request Enquiry Information (IE145)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendEnquiryInformationRequest",
+    "mapKeyTo": "i18n.common.sendEnquiryInformationRequestIE145",
     "mapValueTo": "Request Enquiry Information (IE145)",
     "keys": [
       {
@@ -4170,7 +4162,7 @@
   {
     "value": "Request for Invalidation (IE014)",
     "count": 1,
-    "mapKeyTo": "i18n.common.reqForInv",
+    "mapKeyTo": "i18n.common.requestForInvalidationIE014",
     "mapValueTo": "Request for Invalidation (IE014)",
     "keys": [
       {
@@ -4410,7 +4402,7 @@
   {
     "value": "Search results",
     "count": 1,
-    "mapKeyTo": "i18n.common.searchResult",
+    "mapKeyTo": "i18n.common.searchResults",
     "mapValueTo": "Search results",
     "keys": [
       {
@@ -4470,7 +4462,7 @@
   {
     "value": "Send Enquiry Information (IE144)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendEnquiryInformation",
+    "mapKeyTo": "i18n.common.sendEnquiryInformationIE144",
     "mapValueTo": "Send Enquiry Information (IE144)",
     "keys": [
       {
@@ -4482,7 +4474,7 @@
   {
     "value": "Send Enquiry Response",
     "count": 1,
-    "mapKeyTo": "i18n.common.heading",
+    "mapKeyTo": "i18n.common.sendEnquiryResponse",
     "mapValueTo": "Send Enquiry Response",
     "keys": [
       {
@@ -4494,7 +4486,7 @@
   {
     "value": "Send Enquiry Response (IE143)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendEnquiryResponse",
+    "mapKeyTo": "i18n.common.sendEnquiryResponseIE143",
     "mapValueTo": "Send Enquiry Response (IE143)",
     "keys": [
       {
@@ -4506,7 +4498,7 @@
   {
     "value": "Send Guarantee Check (IE200)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendGuaranteeCheck",
+    "mapKeyTo": "i18n.common.sendGuaranteeCheckIE200",
     "mapValueTo": "Send Guarantee Check (IE200)",
     "keys": [
       {
@@ -4530,7 +4522,7 @@
   {
     "value": "Send Recovery Acceptance Notification (IE151)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendRecoveryAcceptanceNotification",
+    "mapKeyTo": "i18n.common.sendRecoveryAcceptanceNotificationIE151",
     "mapValueTo": "Send Recovery Acceptance Notification (IE151)",
     "keys": [
       {
@@ -4542,7 +4534,7 @@
   {
     "value": "Send Recovery Dispatch Notification (IE152)",
     "count": 1,
-    "mapKeyTo": "i18n.common.completeRecovery",
+    "mapKeyTo": "i18n.common.completeRecoveryIE152",
     "mapValueTo": "Send Recovery Dispatch Notification (IE152)",
     "keys": [
       {
@@ -4554,7 +4546,7 @@
   {
     "value": "Send Recovery notification (IE035)",
     "count": 1,
-    "mapKeyTo": "i18n.common.startRecovery",
+    "mapKeyTo": "i18n.common.startRecoveryIE035",
     "mapValueTo": "Send Recovery notification (IE035)",
     "keys": [
       {
@@ -4566,7 +4558,7 @@
   {
     "value": "Send Status Request (IE094)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendStatusReq",
+    "mapKeyTo": "i18n.common.sendStatusRequestIE094",
     "mapValueTo": "Send Status Request (IE094)",
     "keys": [
       {
@@ -4722,7 +4714,7 @@
   {
     "value": "Start new control result",
     "count": 1,
-    "mapKeyTo": "i18n.common.startNewControlResultDep",
+    "mapKeyTo": "i18n.common.startNewControlResult",
     "mapValueTo": "Start new control result",
     "keys": [
       {
@@ -4734,7 +4726,7 @@
   {
     "value": "Start new control result (IE018)",
     "count": 1,
-    "mapKeyTo": "i18n.common.startNewControlResultDes",
+    "mapKeyTo": "i18n.common.startNewControlResultIE018",
     "mapValueTo": "Start new control result (IE018)",
     "keys": [
       {
@@ -4746,7 +4738,7 @@
   {
     "value": "Start Unloading remarks registration",
     "count": 1,
-    "mapKeyTo": "i18n.common.startNewUnloadingRemarkDes",
+    "mapKeyTo": "i18n.common.startUnloadingRemarksRegistration",
     "mapValueTo": "Start Unloading remarks registration",
     "keys": [
       {
@@ -4846,7 +4838,7 @@
   {
     "value": "Submission date",
     "count": 1,
-    "mapKeyTo": "i18n.common.subDateRange",
+    "mapKeyTo": "i18n.common.submissionDate",
     "mapValueTo": "Submission date",
     "keys": [
       {
@@ -5378,7 +5370,7 @@
   {
     "value": "Warning, binding itinerary present.",
     "count": 1,
-    "mapKeyTo": "i18n.common.warningBinding",
+    "mapKeyTo": "i18n.common.warningBindingItinerary",
     "mapValueTo": "Warning, binding itinerary present.",
     "keys": [
       {
@@ -5438,7 +5430,7 @@
   {
     "value": "{{count}} Selected office",
     "count": 1,
-    "mapKeyTo": "i18n.common.specificOffice",
+    "mapKeyTo": "i18n.common.specificOfficeCount",
     "mapValueTo": "{{count}} Selected office",
     "keys": [
       {
@@ -5450,7 +5442,7 @@
   {
     "value": "{{count}} Selected offices",
     "count": 1,
-    "mapKeyTo": "i18n.common.specificOffices",
+    "mapKeyTo": "i18n.common.specificOfficesCount",
     "mapValueTo": "{{count}} Selected offices",
     "keys": [
       {
@@ -5462,7 +5454,7 @@
   {
     "value": "{{startIndexMore1}} - {{endIndex}} of {{length}}",
     "count": 1,
-    "mapKeyTo": "i18n.common.longRange",
+    "mapKeyTo": "i18n.common.paginationWithNumber",
     "mapValueTo": "{{startIndexMore1}} - {{endIndex}} of {{length}}",
     "keys": [
       {
@@ -6614,7 +6606,7 @@
   {
     "value": "Customs office at border reference number",
     "count": 1,
-    "mapKeyTo": "registerControlResultDialog.customsOfficeAtBorderReferenceNumber",
+    "mapKeyTo": "i18n.common.customsOfficeAtBorderReferenceNumber",
     "mapValueTo": "Customs office at border reference number",
     "keys": [
       {
@@ -6746,7 +6738,7 @@
   {
     "value": "Customs Office of Incident registration",
     "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeOfIncident",
+    "mapKeyTo": "i18n.common.customsOfficeOfIncidentRegistration",
     "mapValueTo": "Customs Office of Incident registration",
     "keys": [
       {
@@ -6758,7 +6750,7 @@
   {
     "value": "Customs Office of Recovery at Departure",
     "count": 1,
-    "mapKeyTo": "completeRecovery.customsOfficeOfRecoveryAtDeparture.title",
+    "mapKeyTo": "i18n.common.customsOfficeOfRecoveryAtDeparture",
     "mapValueTo": "Customs Office of Recovery at Departure",
     "keys": [
       {
@@ -7878,7 +7870,7 @@
   {
     "value": "Holder of the transit procedure decision on proposed revisions",
     "count": 1,
-    "mapKeyTo": "registerControlResultDialog.controlActionTypes",
+    "mapKeyTo": "i18n.common.holderOfTransitProcedureDecisionOnProposedRevisions",
     "mapValueTo": "Holder of the transit procedure decision on proposed revisions",
     "keys": [
       {
@@ -7902,7 +7894,7 @@
   {
     "value": "Holder of transit procedure decision on proposed revision",
     "count": 1,
-    "mapKeyTo": "registerControlResultDialog.hotpDecision",
+    "mapKeyTo": "i18n.common.holderOfTransitProcedureDecisionOnProposedRevision",
     "mapValueTo": "Holder of transit procedure decision on proposed revision",
     "keys": [
       {
@@ -8942,7 +8934,7 @@
   {
     "value": "No data. Please refine your search.",
     "count": 1,
-    "mapKeyTo": "advanceSearch.labels.noData",
+    "mapKeyTo": "i18n.errors.noResults.advancedSearch",
     "mapValueTo": "No data. Please refine your search.",
     "keys": [
       {
@@ -8978,7 +8970,7 @@
   {
     "value": "No enquiry has been initiated for this transit declaration.",
     "count": 1,
-    "mapKeyTo": "enquiryAndRecovery.enquiry.noResults",
+    "mapKeyTo": "i18n.errors.noResults.enquiryOfTransitDeclaration",
     "mapValueTo": "No enquiry has been initiated for this transit declaration.",
     "keys": [
       {
@@ -9002,7 +8994,7 @@
   {
     "value": "No recovery has been initiated for this transit declaration.",
     "count": 1,
-    "mapKeyTo": "enquiryAndRecovery.recovery.noResults",
+    "mapKeyTo": "i18n.errors.noResults.recoveryOfTransitDeclaration",
     "mapValueTo": "No recovery has been initiated for this transit declaration.",
     "keys": [
       {
@@ -9830,7 +9822,7 @@
   {
     "value": "Please select a date range of maximum 60 days.",
     "count": 1,
-    "mapKeyTo": "advanceSearch.labels.maximumDateRangeError",
+    "mapKeyTo": "i18n.errors.maximumDateRangeError",
     "mapValueTo": "Please select a date range of maximum 60 days.",
     "keys": [
       {
@@ -10225,7 +10217,7 @@
   },
   {
     "value": "Reference Number",
-    "count": 2
+    "count": 2,
     "mapKeyTo": "i18n.common.referenceNumber",
     "mapValueTo": "Reference Number",
     "keys": [
@@ -11350,7 +11342,7 @@
   {
     "value": "There are 0 results returned based on the search criteria. Please refine your search below.",
     "count": 1,
-    "mapKeyTo": "advanceSearch.labels.noResult",
+    "mapKeyTo": "i18n.errors.noResults.advancedSearchPleaseRefine",
     "mapValueTo": "There are 0 results returned based on the search criteria. Please refine your search below.",
     "keys": [
       {
