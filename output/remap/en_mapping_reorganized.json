@@ -3,7 +3,7 @@
     "value": " Customs Offices",
     "count": 1,
     "mapKeyTo": "i18n.common.customsOffices",
-    "mapValueTo": " Customs Offices",
+    "mapValueTo": "Customs Offices",
     "keys": [
       {
         "key": "generalInfoForm.lables.customsOffices",
@@ -176,18 +176,6 @@
       {
         "key": "respondToRequestOnNonArrivedMovement.dialog.actualCountry",
         "value": "Actual country"
-      }
-    ]
-  },
-  {
-    "value": "Actual customs office of destination",
-    "count": 1,
-    "mapKeyTo": "i18n.common.actualCustomOfficeOfDestination",
-    "mapValueTo": "Actual customs office of destination",
-    "keys": [
-      {
-        "key": "generalInfoForm.lables.actualCustomOfficeOfDestination",
-        "value": "Actual customs office of destination"
       }
     ]
   },
@@ -518,7 +506,7 @@
   {
     "value": "Approve invalidation",
     "count": 1,
-    "mapKeyTo": "i18n.common.approveOption",
+    "mapKeyTo": "i18n.common.approveInvalidation",
     "mapValueTo": "Approve invalidation",
     "keys": [
       {
@@ -530,7 +518,7 @@
   {
     "value": "Approve invalidation request(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.approveInv",
+    "mapKeyTo": "i18n.common.approveInvalidationRequests",
     "mapValueTo": "Approve invalidation request(s)",
     "keys": [
       {
@@ -576,10 +564,10 @@
     ]
   },
   {
-    "value": "Arrival date and time (actual)",
+    "value": "Arrival date and time (Actual)",
     "count": 1,
     "mapKeyTo": "i18n.common.arrivalDateAndTimeActual",
-    "mapValueTo": "Arrival date and time (actual)",
+    "mapValueTo": "Arrival date and time (Actual)",
     "keys": [
       {
         "key": "generalInfoForm.lables.arrivalDateAndTimeActual",
@@ -1008,10 +996,10 @@
     ]
   },
   {
-    "value": "Consignee (actual)",
+    "value": "Consignee (Actual)",
     "count": 1,
     "mapKeyTo": "i18n.common.actualConsignee",
-    "mapValueTo": "Consignee (actual)",
+    "mapValueTo": "Consignee (Actual)",
     "keys": [
       {
         "key": "requestEnquiry.dialog.actualConsignee",
@@ -1316,18 +1304,6 @@
       {
         "key": "registerControlResultDialog.countryOfRoutingConsignment",
         "value": "Country of routing consignment"
-      }
-    ]
-  },
-  {
-    "value": "Country: ",
-    "count": 1,
-    "mapKeyTo": "i18n.common.country",
-    "mapValueTo": "Country: ",
-    "keys": [
-      {
-        "key": "tra.crossingFrontier.country",
-        "value": "Country: "
       }
     ]
   },
@@ -1921,22 +1897,14 @@
   },
   {
     "value": "Endorsement",
-    "count": 1,
+    "count": 2,
     "mapKeyTo": "i18n.common.endorsement",
     "mapValueTo": "Endorsement",
     "keys": [
       {
         "key": "app.endorsement",
         "value": "Endorsement"
-      }
-    ]
-  },
-  {
-    "value": "Endorsement :",
-    "count": 1,
-    "mapKeyTo": "i18n.common.endorsement",
-    "mapValueTo": "Endorsement :",
-    "keys": [
+      },
       {
         "key": "des.registerArrivalNotification.endorsement",
         "value": "Endorsement :"
@@ -2700,18 +2668,6 @@
     ]
   },
   {
-    "value": "Location :",
-    "count": 1,
-    "mapKeyTo": "i18n.common.location",
-    "mapValueTo": "Location :",
-    "keys": [
-      {
-        "key": "des.registerArrivalNotification.location",
-        "value": "Location :"
-      }
-    ]
-  },
-  {
     "value": "Location type",
     "count": 1,
     "mapKeyTo": "i18n.common.locationType",
@@ -2960,18 +2916,6 @@
       {
         "key": "incidentNotification.stopMovement",
         "value": "Movement stops"
-      }
-    ]
-  },
-  {
-    "value": "MRN: ",
-    "count": 1,
-    "mapKeyTo": "i18n.common.mrn",
-    "mapValueTo": "MRN: ",
-    "keys": [
-      {
-        "key": "tra.crossingFrontier.mrn",
-        "value": "MRN: "
       }
     ]
   },
@@ -3458,7 +3402,7 @@
   {
     "value": "Page not found",
     "count": 1,
-    "mapKeyTo": "i18n.common.header",
+    "mapKeyTo": "pageNotFound.header",
     "mapValueTo": "Page not found",
     "keys": [
       {
@@ -3746,7 +3690,7 @@
   {
     "value": "Reason for refusal",
     "count": 1,
-    "mapKeyTo": "i18n.common.label",
+    "mapKeyTo": "i18n.common.reasonForRefusal",
     "mapValueTo": "Reason for refusal",
     "keys": [
       {
@@ -3876,18 +3820,6 @@
     ]
   },
   {
-    "value": "Reference number: ",
-    "count": 1,
-    "mapKeyTo": "i18n.common.referenceNumber",
-    "mapValueTo": "Reference number: ",
-    "keys": [
-      {
-        "key": "tra.crossingFrontier.referenceNumber",
-        "value": "Reference number: "
-      }
-    ]
-  },
-  {
     "value": "Refine Search",
     "count": 1,
     "mapKeyTo": "i18n.common.refineSearch",
@@ -3926,7 +3858,7 @@
   {
     "value": "Refuse guarantee reference(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.title",
+    "mapKeyTo": "i18n.common.refuseGuaranteeReferences",
     "mapValueTo": "Refuse guarantee reference(s)",
     "keys": [
       {
@@ -3938,7 +3870,7 @@
   {
     "value": "Refuse invalidation",
     "count": 1,
-    "mapKeyTo": "i18n.common.refuseOption",
+    "mapKeyTo": "i18n.common.refuseInvalidation",
     "mapValueTo": "Refuse invalidation",
     "keys": [
       {
@@ -3950,7 +3882,7 @@
   {
     "value": "Refuse invalidation request(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.refuseInv",
+    "mapKeyTo": "i18n.common.refuseInvalidationRequests",
     "mapValueTo": "Refuse invalidation request(s)",
     "keys": [
       {
@@ -4407,7 +4339,7 @@
     "value": "Risk code: ",
     "count": 1,
     "mapKeyTo": "i18n.common.riskCode",
-    "mapValueTo": "Risk code: ",
+    "mapValueTo": "Risk code",
     "keys": [
       {
         "key": "tra.crossingFrontier.riskCode",
@@ -4837,20 +4769,24 @@
   },
   {
     "value": "Status: ",
-    "count": 1,
+    "count": 2,
     "mapKeyTo": "i18n.common.status",
     "mapValueTo": "Status: ",
     "keys": [
       {
         "key": "tra.crossingFrontier.status",
         "value": "Status: "
+      },
+      {
+        "key": "i18n.common.discrepancyStatus",
+        "value": "Status"
       }
     ]
   },
   {
     "value": "Step 1: General information",
     "count": 1,
-    "mapKeyTo": "i18n.common.rootLabel",
+    "mapKeyTo": "i18n.common.step1GeneralInformation",
     "mapValueTo": "Step 1: General information",
     "keys": [
       {
@@ -4862,7 +4798,7 @@
   {
     "value": "Step 2: General information",
     "count": 1,
-    "mapKeyTo": "i18n.common.rootLabel2",
+    "mapKeyTo": "i18n.common.step2GeneralInformation",
     "mapValueTo": "Step 2: General information",
     "keys": [
       {
@@ -4874,7 +4810,7 @@
   {
     "value": "Step 3: General information",
     "count": 1,
-    "mapKeyTo": "i18n.common.rootLabel3",
+    "mapKeyTo": "i18n.common.step3GeneralInformation",
     "mapValueTo": "Step 3: General information",
     "keys": [
       {
@@ -4886,7 +4822,7 @@
   {
     "value": "Step 3: Item",
     "count": 1,
-    "mapKeyTo": "i18n.common.title",
+    "mapKeyTo": "i18n.common.step3Item",
     "mapValueTo": "Step 3: Item",
     "keys": [
       {
@@ -4934,7 +4870,7 @@
   {
     "value": "Submit (IE143)",
     "count": 1,
-    "mapKeyTo": "i18n.common.submit",
+    "mapKeyTo": "i18n.common.submitIE143",
     "mapValueTo": "Submit (IE143)",
     "keys": [
       {
@@ -4946,7 +4882,7 @@
   {
     "value": "Submit (IE150)",
     "count": 1,
-    "mapKeyTo": "i18n.common.submit",
+    "mapKeyTo": "i18n.common.submitIE150",
     "mapValueTo": "Submit (IE150)",
     "keys": [
       {
@@ -4958,7 +4894,7 @@
   {
     "value": "Submit (IE151)",
     "count": 1,
-    "mapKeyTo": "i18n.common.submit",
+    "mapKeyTo": "i18n.common.submitIE151",
     "mapValueTo": "Submit (IE151)",
     "keys": [
       {
@@ -5090,7 +5026,7 @@
   {
     "value": "The email address is invalid",
     "count": 1,
-    "mapKeyTo": "i18n.common.email",
+    "mapKeyTo": "i18n.errors.invalidEmail",
     "mapValueTo": "The email address is invalid",
     "keys": [
       {
@@ -5204,15 +5140,7 @@
       {
         "key": "app.transhipment",
         "value": "Transhipment"
-      }
-    ]
-  },
-  {
-    "value": "Transhipment :",
-    "count": 1,
-    "mapKeyTo": "i18n.common.transhipment",
-    "mapValueTo": "Transhipment :",
-    "keys": [
+      },
       {
         "key": "des.registerArrivalNotification.transhipment",
         "value": "Transhipment :"
@@ -5222,7 +5150,7 @@
   {
     "value": "Transit",
     "count": 1,
-    "mapKeyTo": "i18n.common.tra",
+    "mapKeyTo": "i18n.common.transit",
     "mapValueTo": "Transit",
     "keys": [
       {
@@ -5546,7 +5474,7 @@
   {
     "value": "(a) Identification or reference number of Union or international documents or certificates produced in support of the declaration.Using the relevant Union codes, enter the details required by any specific rules applicable together with reference data of the documents produced in support of the declaration.(b) Identification or reference number of national documents or certificates produced in support of the declaration.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.referenceNumber",
+    "mapKeyTo": "i18n.tooltips.referenceNumber",
     "mapValueTo": "(a) Identification or reference number of Union or international documents or certificates produced in support of the declaration.Using the relevant Union codes, enter the details required by any specific rules applicable together with reference data of the documents produced in support of the declaration.(b) Identification or reference number of national documents or certificates produced in support of the declaration.",
     "keys": [
       {
@@ -5714,7 +5642,7 @@
   {
     "value": "Access code- The access code must be linked to the name of the contact person of the representative. Amount- Enter the amount of customs debt that can incur or has incurred in relation to the particular declaration, thus to be covered by the guarantee.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.guaranteeReference",
+    "mapKeyTo": "i18n.tooltips.guaranteeReference",
     "mapValueTo": "Access code- The access code must be linked to the name of the contact person of the representative. Amount- Enter the amount of customs debt that can incur or has incurred in relation to the particular declaration, thus to be covered by the guarantee.",
     "keys": [
       {
@@ -5786,7 +5714,7 @@
   {
     "value": "Additional reference(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.additional-references",
+    "mapKeyTo": "i18n.common.additionalReferences",
     "mapValueTo": "Additional reference(s)",
     "keys": [
       {
@@ -5810,7 +5738,7 @@
   {
     "value": "Additional supply chain actors can be indicated here in order to demonstrate that the entire supply chain was covered by economic operators that are holders of a valid AEOC or AEOF authorisation.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.additionalSupplyChainActor",
+    "mapKeyTo": "i18n.tooltips.additionalSupplyChainActor",
     "mapValueTo": "Additional supply chain actors can be indicated here in order to demonstrate that the entire supply chain was covered by economic operators that are holders of a valid AEOC or AEOF authorisation.",
     "keys": [
       {
@@ -5822,7 +5750,7 @@
   {
     "value": "Additional supply chain actors can be indicated here in order to demonstrate that the entire supply chain was covered by the economic operators holders of the AEO status. If this data class is used Role and Identification number shall be provided else this data element is optional.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.additionalSupplyChainActors",
+    "mapKeyTo": "i18n.tooltips.additionalSupplyChainActors",
     "mapValueTo": "Additional supply chain actors can be indicated here in order to demonstrate that the entire supply chain was covered by the economic operators holders of the AEO status. If this data class is used Role and Identification number shall be provided else this data element is optional.",
     "keys": [
       {
@@ -6270,7 +6198,7 @@
   {
     "value": "choose type A for a standard transit declaration, choose type D for pre lodge declaration (can be lodged maximum 30 days before the actual departure of the goods)",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.additionalDeclarationType",
+    "mapKeyTo": "i18n.tooltips.additionalDeclarationType",
     "mapValueTo": "choose type A for a standard transit declaration, choose type D for pre lodge declaration (can be lodged maximum 30 days before the actual departure of the goods)",
     "keys": [
       {
@@ -6402,7 +6330,7 @@
   {
     "value": "Consignment Item",
     "count": 1,
-    "mapKeyTo": "i18n.common.Item",
+    "mapKeyTo": "i18n.common.consignmentItem",
     "mapValueTo": "Consignment Item",
     "keys": [
       {
@@ -6414,7 +6342,7 @@
   {
     "value": "Consignment Item(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.rootLabelConsignmentItems",
+    "mapKeyTo": "i18n.common.consignmentItem(s)",
     "mapValueTo": "Consignment Item(s)",
     "keys": [
       {
@@ -6426,7 +6354,7 @@
   {
     "value": "Consignment Items",
     "count": 1,
-    "mapKeyTo": "i18n.common.consignmentItem",
+    "mapKeyTo": "i18n.common.consignmentItems",
     "mapValueTo": "Consignment Items",
     "keys": [
       {
@@ -6564,6 +6492,10 @@
       {
         "key": "i18n.common.country",
         "value": "Country"
+      },
+      {
+        "key": "tra.crossingFrontier.country",
+        "value": "Country: "
       }
     ]
   },
@@ -6658,7 +6590,7 @@
   {
     "value": "Customs office",
     "count": 1,
-    "mapKeyTo": "i18n.common.cusOffice",
+    "mapKeyTo": "i18n.common.customsOffice",
     "mapValueTo": "Customs office",
     "keys": [
       {
@@ -6706,7 +6638,7 @@
   {
     "value": "Customs office of destination",
     "count": 1,
-    "mapKeyTo": "i18n.common.customsdest",
+    "mapKeyTo": "i18n.common.customsOfficeOfDestination",
     "mapValueTo": "Customs office of destination",
     "keys": [
       {
@@ -6719,7 +6651,7 @@
     "value": "Customs office of destination (declared)",
     "count": 2,
     "mapKeyTo": "i18n.common.customsOfficeOfDestinationDeclared",
-    "mapValueTo": "Customs office of destination (declared)",
+    "mapValueTo": "Customs office of destination (Declared)",
     "keys": [
       {
         "key": "generalInfoForm.lables.customsOfficeOfDestination(declared)",
@@ -6737,22 +6669,18 @@
   },
   {
     "value": "Customs office of destination actual",
-    "count": 1,
-    "mapKeyTo": "i18n.common.customsOfficeDestActual",
-    "mapValueTo": "Customs office of destination actual",
+    "count": 4,
+    "mapKeyTo": "i18n.common.customsOfficeOfDestinationActual",
+    "mapValueTo": "Customs Office of Destination (Actual)",
     "keys": [
       {
         "key": "i18n.common.customsOfficeDestActual",
         "value": "Customs office of destination actual"
-      }
-    ]
-  },
-  {
-    "value": "Customs office of destination(actual)",
-    "count": 2,
-    "mapKeyTo": "i18n.common.customsOfficeOfDestinationActual",
-    "mapValueTo": "Customs office of destination (actual)",
-    "keys": [
+      },
+      {
+        "key": "generalInfoForm.lables.actualCustomOfficeOfDestination",
+        "value": "Actual customs office of destination"
+      },
       {
         "key": "i18n.common.customsOfficeOfDestinationActual",
         "value": "Customs office of destination(actual)"
@@ -6767,7 +6695,7 @@
     "value": "Customs office of enquiry at departure",
     "count": 1,
     "mapKeyTo": "i18n.common.customsOfficeOfEnquiryAtDeparture",
-    "mapValueTo": "Customs office of enquiry at departure",
+    "mapValueTo": "Customs Office of Enquiry at Departure",
     "keys": [
       {
         "key": "i18n.common.customsOfficeOfEnquiryAtDeparture",
@@ -6779,7 +6707,7 @@
     "value": "Customs office of exit for transit (declared)",
     "count": 2,
     "mapKeyTo": "i18n.common.customsOfficeOfExitForTransitDeclared",
-    "mapValueTo": "Customs office of exit for transit (declared)",
+    "mapValueTo": "Customs office of exit for transit (Declared)",
     "keys": [
       {
         "key": "generalInfoForm.lables.customsOfficeOfExitForTransitDeclared",
@@ -6795,7 +6723,7 @@
     "value": "Customs office of exit for transit(actual)",
     "count": 1,
     "mapKeyTo": "statusRequest.customsOfficeOfExitForTransitActual",
-    "mapValueTo": "Customs office of exit for transit(actual)",
+    "mapValueTo": "Customs office of exit for transit (Actual)",
     "keys": [
       {
         "key": "statusRequest.customsOfficeOfExitForTransitActual",
@@ -6852,10 +6780,10 @@
     ]
   },
   {
-    "value": "Customs office of transit (declared)",
+    "value": "Customs office of transit (Declared)",
     "count": 2,
     "mapKeyTo": "i18n.common.customsOfficeOfTransitDeclared",
-    "mapValueTo": "Customs office of transit (declared)",
+    "mapValueTo": "Customs office of transit (Declared)",
     "keys": [
       {
         "key": "generalInfoForm.lables.customsOfficeOfTransitDeclared",
@@ -6868,10 +6796,10 @@
     ]
   },
   {
-    "value": "Customs office of transit(actual)",
+    "value": "Customs office of transit(Actual)",
     "count": 1,
     "mapKeyTo": "i18n.common.customsOfficeOfTransitActual",
-    "mapValueTo": "Customs office of transit(actual)",
+    "mapValueTo": "Customs office of transit(Actual)",
     "keys": [
       {
         "key": "i18n.common.customsOfficeOfTransitActual",
@@ -6882,7 +6810,7 @@
   {
     "value": "Customs Registration Number used as alternative identifier for the transit declaration",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.lables.crnTooltip",
+    "mapKeyTo": "i18n.tooltips.crn",
     "mapValueTo": "Customs Registration Number used as alternative identifier for the transit declaration",
     "keys": [
       {
@@ -7002,7 +6930,7 @@
   {
     "value": "Declaration Information",
     "count": 1,
-    "mapKeyTo": "i18n.common.decInfo",
+    "mapKeyTo": "i18n.common.declarationInformation",
     "mapValueTo": "Declaration Information",
     "keys": [
       {
@@ -7014,7 +6942,7 @@
   {
     "value": "Declaration status",
     "count": 1,
-    "mapKeyTo": "i18n.common.decStatus",
+    "mapKeyTo": "i18n.common.declarationStatus",
     "mapValueTo": "Declaration status",
     "keys": [
       {
@@ -7110,7 +7038,7 @@
   {
     "value": "Discharge",
     "count": 1,
-    "mapKeyTo": "i18n.common.dischargeTitle",
+    "mapKeyTo": "i18n.common.discharge",
     "mapValueTo": "Discharge",
     "keys": [
       {
@@ -7314,7 +7242,7 @@
   {
     "value": "Drafts are deleted automatically after 1 month of inactivity",
     "count": 1,
-    "mapKeyTo": "savedDrafts.tooltip",
+    "mapKeyTo": "i18n.tooltips.savedDrafts",
     "mapValueTo": "Drafts are deleted automatically after 1 month of inactivity",
     "keys": [
       {
@@ -7418,7 +7346,7 @@
   {
     "value": "Enter the code for the intended customs office of entry into each contracting party to the transit convention other than the Union (hereafter referred to as 'non-Union common transit country') to be crossed and the customs office of entry by which the goods re-enter the customs territory of the Union after having crossed the territory of a non-Union common transit country, or, where the shipment is to cross a territory other than that of the Union or of a non-Union common transit country, the customs office of exit by which the transport leaves the Union and the customs office of entry by which it re-enters the Union.When the declaration includes ENS or ENS and EXS data (security data item contains 1 or 3) then arrival date and time are required to be filled in.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.customsOfficeOfTransitDeclared",
+    "mapKeyTo": "i18n.tooltips.customsOfficeOfTransitDeclared",
     "mapValueTo": "Enter the code for the intended customs office of entry into each contracting party to the transit convention other than the Union (hereafter referred to as 'non-Union common transit country') to be crossed and the customs office of entry by which the goods re-enter the customs territory of the Union after having crossed the territory of a non-Union common transit country, or, where the shipment is to cross a territory other than that of the Union or of a non-Union common transit country, the customs office of exit by which the transport leaves the Union and the customs office of entry by which it re-enters the Union.When the declaration includes ENS or ENS and EXS data (security data item contains 1 or 3) then arrival date and time are required to be filled in.",
     "keys": [
       {
@@ -7430,7 +7358,7 @@
   {
     "value": "Enter the details related to Goods declaration for exportation, this triggers scenarios export followed by transit with AES",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.previousDocument",
+    "mapKeyTo": "i18n.tooltips.previousDocument",
     "mapValueTo": "Enter the details related to Goods declaration for exportation, this triggers scenarios export followed by transit with AES",
     "keys": [
       {
@@ -7442,7 +7370,7 @@
   {
     "value": "Enter the details related to the writing-off of the goods declared in the declaration concerned, in relation with the export and import licences and certificates.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.supportingDocument",
+    "mapKeyTo": "i18n.tooltips.supportingDocument",
     "mapValueTo": "Enter the details related to the writing-off of the goods declared in the declaration concerned, in relation with the export and import licences and certificates.",
     "keys": [
       {
@@ -7454,7 +7382,7 @@
   {
     "value": "Enter the identity of the means of transport on which the goods are directly loaded at the time of export or transit formalities (or that of the vehicle propelling the others if there are several means of transport). If a tractor and trailer with different registration numbers are used, enter the registration numbers of both the tractor and the trailer together with the nationality of the tractor. Depending on the means of transport concerned, the following details concerning identity may be entered: Means of transport - Method of identification. 1) Sea and inland waterway transport - Name of vessel. 2) Air transport - Number and date of flight (where there is no flight number, enter the aircraft's registration number). 3) Road transport - Vehicle and/or trailer registration number. 4) Rail transport - Wagon number. This information shall take the form of the IMO ship identification number or the unique European Vessel Identification Number (ENI code) for transport by sea or inland waterways. For other modes of transport, the method of identification shall be identical to that provided for data requirements table columns B1, B2 and B3. Where goods are transported by way of a trailer and a tractor, enter registration numbers of both trailer and tractor. Where the registration number of the tractor is not known, enter the trailer registration number.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.identificationNumber",
+    "mapKeyTo": "i18n.tooltips.identificationNumber",
     "mapValueTo": "Enter the identity of the means of transport on which the goods are directly loaded at the time of export or transit formalities (or that of the vehicle propelling the others if there are several means of transport). If a tractor and trailer with different registration numbers are used, enter the registration numbers of both the tractor and the trailer together with the nationality of the tractor. Depending on the means of transport concerned, the following details concerning identity may be entered: Means of transport - Method of identification. 1) Sea and inland waterway transport - Name of vessel. 2) Air transport - Number and date of flight (where there is no flight number, enter the aircraft's registration number). 3) Road transport - Vehicle and/or trailer registration number. 4) Rail transport - Wagon number. This information shall take the form of the IMO ship identification number or the unique European Vessel Identification Number (ENI code) for transport by sea or inland waterways. For other modes of transport, the method of identification shall be identical to that provided for data requirements table columns B1, B2 and B3. Where goods are transported by way of a trailer and a tractor, enter registration numbers of both trailer and tractor. Where the registration number of the tractor is not known, enter the trailer registration number.",
     "keys": [
       {
@@ -7466,7 +7394,7 @@
   {
     "value": "Enter the location code where the goods are available which is mentioned in your authorsation authorised consignee or approved place.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.un/locode",
+    "mapKeyTo": "i18n.tooltips.un/locode",
     "mapValueTo": "Enter the location code where the goods are available which is mentioned in your authorsation authorised consignee or approved place.",
     "keys": [
       {
@@ -7478,7 +7406,7 @@
   {
     "value": "Enter the nationality of the means of transport (or that of the vehicle propelling the others if there are several means of transport) on which the goods are directly loaded at the time of export or transit formalities, in the form of the relevant Union code. If a tractor and trailer of different nationalities are used, enter the nationality of the tractor.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.nationality",
+    "mapKeyTo": "i18n.tooltips.nationality",
     "mapValueTo": "Enter the nationality of the means of transport (or that of the vehicle propelling the others if there are several means of transport) on which the goods are directly loaded at the time of export or transit formalities, in the form of the relevant Union code. If a tractor and trailer of different nationalities are used, enter the nationality of the tractor.",
     "keys": [
       {
@@ -7490,7 +7418,7 @@
   {
     "value": "Enter the net mass, expressed in kilograms, of the goods concerned by the relevant declaration goods item. The net mass is the mass of the goods without any packaging.Where a net mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg,— from 0,5 to 0,999: rounding up to the nearest kg.A net mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or 0,000654 for a package of 654 milligrams).",
     "count": 1,
-    "mapKeyTo": "houseConsignItem.tooltip.netMass",
+    "mapKeyTo": "i18n.tooltips.netMass",
     "mapValueTo": "Enter the net mass, expressed in kilograms, of the goods concerned by the relevant declaration goods item. The net mass is the mass of the goods without any packaging.Where a net mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg,— from 0,5 to 0,999: rounding up to the nearest kg.A net mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or 0,000654 for a package of 654 milligrams).",
     "keys": [
       {
@@ -7502,7 +7430,7 @@
   {
     "value": "Enter the sequential number of the item in the supporting document (e.g. certificate, licence, permit, entry document etc.), corresponding to the item in question.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.documentLineItemNumber",
+    "mapKeyTo": "i18n.tooltips.documentLineItemNumber",
     "mapValueTo": "Enter the sequential number of the item in the supporting document (e.g. certificate, licence, permit, entry document etc.), corresponding to the item in question.",
     "keys": [
       {
@@ -7710,7 +7638,7 @@
   {
     "value": "Give the reference for the temporary storage or the previous customs procedure or corresponding customs documents.",
     "count": 1,
-    "mapKeyTo": "houseConsignItem.tooltip.referenceNumber",
+    "mapKeyTo": "i18n.tooltips.previousDocumentReferenceNumber",
     "mapValueTo": "Give the reference for the temporary storage or the previous customs procedure or corresponding customs documents.",
     "keys": [
       {
@@ -8022,7 +7950,7 @@
   {
     "value": "House Consignment(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.rootLabelHouseConsignments",
+    "mapKeyTo": "i18n.common.houseConsignment(s)",
     "mapValueTo": "House Consignment(s)",
     "keys": [
       {
@@ -8058,7 +7986,7 @@
   {
     "value": "Identification of the journey of the means of transport, for example voyage number, the IATA flight number, trip number, if applicable. For air transport, in situations where the operator of the aircraft transports goods under code-sharing or similar contracting agreement with partners, the partners' flight numbers shall be used.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.conveyanceReferenceNumber",
+    "mapKeyTo": "i18n.tooltips.conveyanceReferenceNumber",
     "mapValueTo": "Identification of the journey of the means of transport, for example voyage number, the IATA flight number, trip number, if applicable. For air transport, in situations where the operator of the aircraft transports goods under code-sharing or similar contracting agreement with partners, the partners' flight numbers shall be used.",
     "keys": [
       {
@@ -8070,7 +7998,7 @@
   {
     "value": "Identification of the seaport, airport, freight terminal, rail station or other place at which the goods are loaded onto the means of transport being used for their carriage, including the country where it is located. Where available, coded information shall be provided for the identification of the location. In case there is no UN/LOCODE available for the location concerned, the country code shall be followed by the name of the place, with the maximum level of precision available.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.placeOfLoading",
+    "mapKeyTo": "i18n.tooltips.placeOfLoading",
     "mapValueTo": "Identification of the seaport, airport, freight terminal, rail station or other place at which the goods are loaded onto the means of transport being used for their carriage, including the country where it is located. Where available, coded information shall be provided for the identification of the location. In case there is no UN/LOCODE available for the location concerned, the country code shall be followed by the name of the place, with the maximum level of precision available.",
     "keys": [
       {
@@ -8082,7 +8010,7 @@
   {
     "value": "Identification of the seaport, airport, freight terminal, rail station or other place at which the goods are unloaded from the means of transport having been used to bring them into the customs territory of the Union, including the country where it is located. Where available, coded information shall be provided for the identification of the location.In case there is no UN/LOCODE available for the location concerned, the country code shall be followed by the name of the place, with the maximum level of precision available.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.placeOfUnloading",
+    "mapKeyTo": "i18n.tooltips.placeOfUnloading",
     "mapValueTo": "Identification of the seaport, airport, freight terminal, rail station or other place at which the goods are unloaded from the means of transport having been used to bring them into the customs territory of the Union, including the country where it is located. Where available, coded information shall be provided for the identification of the location.In case there is no UN/LOCODE available for the location concerned, the country code shall be followed by the name of the place, with the maximum level of precision available.",
     "keys": [
       {
@@ -8334,7 +8262,7 @@
   {
     "value": "Indicate whether the exit summary declaration relates to an express consignment.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.specificCircumstanceIndicator",
+    "mapKeyTo": "i18n.tooltips.specificCircumstanceIndicator",
     "mapValueTo": "Indicate whether the exit summary declaration relates to an express consignment.",
     "keys": [
       {
@@ -8370,7 +8298,7 @@
   {
     "value": "Information regarding the means of transport on which the goods are directly loaded at the time of transit formalities (or that of the vehicle propelling the others if there are several means of transport).",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.departureTransportMeans",
+    "mapKeyTo": "i18n.tooltips.departureTransportMeans",
     "mapValueTo": "Information regarding the means of transport on which the goods are directly loaded at the time of transit formalities (or that of the vehicle propelling the others if there are several means of transport).",
     "keys": [
       {
@@ -8454,7 +8382,7 @@
   {
     "value": "Invalidation Requests",
     "count": 1,
-    "mapKeyTo": "i18n.common.invalidation-requests",
+    "mapKeyTo": "i18n.common.invalidationRequests",
     "mapValueTo": "Invalidation Requests",
     "keys": [
       {
@@ -8562,7 +8490,7 @@
   {
     "value": "Limit data must be filled in in case of standard transit declaration (declaration type A) under simplified procedure (authorisation type C521)",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.limitDate",
+    "mapKeyTo": "i18n.tooltips.limitDate",
     "mapValueTo": "Limit data must be filled in in case of standard transit declaration (declaration type A) under simplified procedure (authorisation type C521)",
     "keys": [
       {
@@ -8597,13 +8525,17 @@
   },
   {
     "value": "Location",
-    "count": 1,
+    "count": 2,
     "mapKeyTo": "i18n.common.location",
     "mapValueTo": "Location",
     "keys": [
       {
         "key": "i18n.common.location",
         "value": "Location"
+      },
+      {
+        "key": "des.registerArrivalNotification.location",
+        "value": "Location :"
       }
     ]
   },
@@ -8682,7 +8614,7 @@
   {
     "value": "Marks (letters and/or numbers) which identify the container For modes of transport other than air, a container is a special box to carry freight, strengthened and stackable and allowing horizontal or vertical transfers.In the air mode, containers are special boxes to carry freight, strengthened and allowing horizontal or vertical transfers.In the context of this data element, the swap bodies and semi-trailers used for road and rail transport shall be considered as containers.If applicable, for containers covered by the standard ISO 6346, the identifier (prefix) allocated by the International Bureau of Containers and Intermodal Transport (BIC) shall also be provided in addition to the container identification number.For swap bodies and semi-trailers the ILU (Intermodal Loading Units) code as introduced by the European EN 13044 standard shall be used.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.transportEquipment",
+    "mapKeyTo": "i18n.tooltips.transportEquipment",
     "mapValueTo": "Marks (letters and/or numbers) which identify the container For modes of transport other than air, a container is a special box to carry freight, strengthened and stackable and allowing horizontal or vertical transfers.In the air mode, containers are special boxes to carry freight, strengthened and allowing horizontal or vertical transfers.In the context of this data element, the swap bodies and semi-trailers used for road and rail transport shall be considered as containers.If applicable, for containers covered by the standard ISO 6346, the identifier (prefix) allocated by the International Bureau of Containers and Intermodal Transport (BIC) shall also be provided in addition to the container identification number.For swap bodies and semi-trailers the ILU (Intermodal Loading Units) code as introduced by the European EN 13044 standard shall be used.",
     "keys": [
       {
@@ -8694,7 +8626,7 @@
   {
     "value": "Maximum date range of 2 months",
     "count": 1,
-    "mapKeyTo": "advanceSearch.labels.maximumDateRangeHint",
+    "mapKeyTo": "i18n.errors.maximumDateRangeHint",
     "mapValueTo": "Maximum date range of 2 months",
     "keys": [
       {
@@ -8718,7 +8650,7 @@
   {
     "value": "Maximum {{ noOfChars }} characters",
     "count": 1,
-    "mapKeyTo": "i18n.common.hintWithLength",
+    "mapKeyTo": "i18n.errors.hintWithLength",
     "mapValueTo": "Maximum {{ noOfChars }} characters",
     "keys": [
       {
@@ -8730,7 +8662,7 @@
   {
     "value": "Maximum {{ noOfDigits }} digits",
     "count": 1,
-    "mapKeyTo": "i18n.common.hintWithDigits",
+    "mapKeyTo": "i18n.errors.hintWithDigits",
     "mapValueTo": "Maximum {{ noOfDigits }} digits",
     "keys": [
       {
@@ -8742,7 +8674,7 @@
   {
     "value": "Maximum {{ noOfDigits }} digits with {{ noOfDecimal }} digits after decimal",
     "count": 1,
-    "mapKeyTo": "i18n.common.hintWithDecimal",
+    "mapKeyTo": "i18n.errors.hintWithDecimal",
     "mapValueTo": "Maximum {{ noOfDigits }} digits with {{ noOfDecimal }} digits after decimal",
     "keys": [
       {
@@ -8814,7 +8746,7 @@
   {
     "value": "Movement Under Resolution",
     "count": 1,
-    "mapKeyTo": "i18n.common.movement-under-resolution",
+    "mapKeyTo": "i18n.common.movementUnderResolution",
     "mapValueTo": "Movement Under Resolution",
     "keys": [
       {
@@ -8861,13 +8793,17 @@
   },
   {
     "value": "MRN",
-    "count": 1,
+    "count": 2,
     "mapKeyTo": "i18n.common.mrn",
     "mapValueTo": "MRN",
     "keys": [
       {
         "key": "i18n.common.mrn",
         "value": "MRN"
+      },
+      {
+        "key": "tra.crossingFrontier.mrn",
+        "value": "MRN: "
       }
     ]
   },
@@ -9294,7 +9230,7 @@
   {
     "value": "Number of the item contained in the declaration, the summary declaration, notification or proof of the customs status of Union goods, where there is more than one item of goods.",
     "count": 1,
-    "mapKeyTo": "houseConsignItem.tooltip.goodsItemNumber",
+    "mapKeyTo": "i18n.tooltips.goodsItemNumber",
     "mapValueTo": "Number of the item contained in the declaration, the summary declaration, notification or proof of the customs status of Union goods, where there is more than one item of goods.",
     "keys": [
       {
@@ -9474,7 +9410,7 @@
   {
     "value": "Party consigning goods as stipulated in the transport contract by the party ordering the transport. This element must be provided when different from the declarant.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.consignor",
+    "mapKeyTo": "i18n.tooltips.consignor",
     "mapValueTo": "Party consigning goods as stipulated in the transport contract by the party ordering the transport. This element must be provided when different from the declarant.",
     "keys": [
       {
@@ -9486,7 +9422,7 @@
   {
     "value": "Party to whom goods are actually consigned.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.consignee",
+    "mapKeyTo": "i18n.tooltips.consignee",
     "mapValueTo": "Party to whom goods are actually consigned.",
     "keys": [
       {
@@ -9666,7 +9602,7 @@
   {
     "value": "Please enter a valid latitude between -90.00000 and 90.00000",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.hints.latitude",
+    "mapKeyTo": "i18n.errors.invalidLatitude",
     "mapValueTo": "Please enter a valid latitude between -90.00000 and 90.00000",
     "keys": [
       {
@@ -9678,7 +9614,7 @@
   {
     "value": "Please enter a valid longitude between -180.00000 and 180.00000",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.hints.longitude",
+    "mapKeyTo": "i18n.errors.invalidLongitude",
     "mapValueTo": "Please enter a valid longitude between -180.00000 and 180.00000",
     "keys": [
       {
@@ -9726,7 +9662,7 @@
   {
     "value": "Please enter a valid tir carnet.",
     "count": 1,
-    "mapKeyTo": "controlResults.errorTirCarnet",
+    "mapKeyTo": "i18n.errors.errorTirCarnet",
     "mapValueTo": "Please enter a valid tir carnet.",
     "keys": [
       {
@@ -9738,7 +9674,7 @@
   {
     "value": "Please enter a value",
     "count": 1,
-    "mapKeyTo": "i18n.common.required",
+    "mapKeyTo": "i18n.errors.valueRequired",
     "mapValueTo": "Please enter a value",
     "keys": [
       {
@@ -9750,7 +9686,7 @@
   {
     "value": "Please enter a value greater than 0",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.errors.greaterThanZero",
+    "mapKeyTo": "i18n.errors.greaterThanZero",
     "mapValueTo": "Please enter a value greater than 0",
     "keys": [
       {
@@ -9786,7 +9722,7 @@
   {
     "value": "Please fill in the LRN in order to save as draft",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.disabledSave",
+    "mapKeyTo": "i18n.tooltips.disabledSave",
     "mapValueTo": "Please fill in the LRN in order to save as draft",
     "keys": [
       {
@@ -9798,7 +9734,7 @@
   {
     "value": "Please fill in the LRN in order to save as template",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.disabledSaveTemplate",
+    "mapKeyTo": "i18n.tooltips.disabledSaveTemplate",
     "mapValueTo": "Please fill in the LRN in order to save as template",
     "keys": [
       {
@@ -9882,7 +9818,7 @@
   {
     "value": "Please review and correct errors",
     "count": 1,
-    "mapKeyTo": "i18n.common.errorsPleaseReviewAndCorrect",
+    "mapKeyTo": "i18n.errors.errorsPleaseReviewAndCorrect",
     "mapValueTo": "Please review and correct errors",
     "keys": [
       {
@@ -9991,7 +9927,7 @@
     "value": "Presentation of the goods date and time (actual)",
     "count": 1,
     "mapKeyTo": "generalInfoForm.lables.presentationOfTheGoodsDateAndTimeActual",
-    "mapValueTo": "Presentation of the goods date and time (actual)",
+    "mapValueTo": "Presentation of the goods date and time (Actual)",
     "keys": [
       {
         "key": "generalInfoForm.lables.presentationOfTheGoodsDateAndTimeActual",
@@ -10003,7 +9939,7 @@
     "value": "Presentation of the goods date and time (declared)",
     "count": 1,
     "mapKeyTo": "generalInfoForm.lables.presentationOfTheGoodsDateAndTime",
-    "mapValueTo": "Presentation of the goods date and time (declared)",
+    "mapValueTo": "Presentation of the goods date and time (Declared)",
     "keys": [
       {
         "key": "generalInfoForm.lables.presentationOfTheGoodsDateAndTime",
@@ -10194,7 +10130,7 @@
   {
     "value": "Recovery Request",
     "count": 1,
-    "mapKeyTo": "i18n.common.recovery-request",
+    "mapKeyTo": "i18n.common.recoveryRequest",
     "mapValueTo": "Recovery Request",
     "keys": [
       {
@@ -10289,20 +10225,24 @@
   },
   {
     "value": "Reference Number",
-    "count": 1,
-    "mapKeyTo": "i18n.common.refNum",
+    "count": 2
+    "mapKeyTo": "i18n.common.referenceNumber",
     "mapValueTo": "Reference Number",
     "keys": [
       {
         "key": "i18n.common.refNum",
         "value": "Reference Number"
+      },
+      {
+        "key": "tra.crossingFrontier.referenceNumber",
+        "value": "Reference number: "
       }
     ]
   },
   {
     "value": "Reference number for any additional declarations made which is not covered by Supporting Document, transport document or additional information.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.additionalReference",
+    "mapKeyTo": "i18n.tooltips.additionalReference",
     "mapValueTo": "Reference number for any additional declarations made which is not covered by Supporting Document, transport document or additional information.",
     "keys": [
       {
@@ -10470,7 +10410,7 @@
   {
     "value": "Release a movement for transit could not be preformed because {{number}} errors were found. Kindly check, rectify and resubmit again. Errors will only be rectified after the resubmission of the form. ",
     "count": 1,
-    "mapKeyTo": "releaseMovement.errorDialog.message",
+    "mapKeyTo": "releaseMovement.errors.description",
     "mapValueTo": "Release a movement for transit could not be preformed because {{number}} errors were found. Kindly check, rectify and resubmit again. Errors will only be rectified after the resubmission of the form. ",
     "keys": [
       {
@@ -10506,7 +10446,7 @@
   {
     "value": "Release Requests",
     "count": 1,
-    "mapKeyTo": "i18n.common.release-requests",
+    "mapKeyTo": "i18n.common.releaseRequests",
     "mapValueTo": "Release Requests",
     "keys": [
       {
@@ -10554,7 +10494,7 @@
   {
     "value": "Request for invalidation",
     "count": 1,
-    "mapKeyTo": "i18n.common.invalidationRequest",
+    "mapKeyTo": "i18n.common.requestForInvalidation",
     "mapValueTo": "Request for invalidation",
     "keys": [
       {
@@ -10566,7 +10506,7 @@
   {
     "value": "Request On Non-arrived Movement",
     "count": 1,
-    "mapKeyTo": "i18n.common.request-on-non-arrived-movement",
+    "mapKeyTo": "i18n.common.requestOnNonArrivedMovement",
     "mapValueTo": "Request On Non-arrived Movement",
     "keys": [
       {
@@ -10614,7 +10554,7 @@
   {
     "value": "Requested Document(s)",
     "count": 1,
-    "mapKeyTo": "i18n.common.Requested Document(s)",
+    "mapKeyTo": "i18n.common.requestedDocument(s)",
     "mapValueTo": "Requested Document(s)",
     "keys": [
       {
@@ -10710,8 +10650,8 @@
   {
     "value": "Review the submitted Unloading Remarks and compare them to  the original declaration data received from Office of Departure.",
     "count": 1,
-    "mapKeyTo": "unloadingRemark.compareButtonTooltip",
-    "mapValueTo": "Review the submitted Unloading Remarks and compare them to  the original declaration data received from Office of Departure.",
+    "mapKeyTo": "i18n.tooltips.compareButton",
+    "mapValueTo": "Review the submitted Unloading Remarks and compare them to the original declaration data received from Office of Departure.",
     "keys": [
       {
         "key": "unloadingRemark.compareButtonTooltip",
@@ -10794,7 +10734,7 @@
   {
     "value": "Saved Drafts",
     "count": 1,
-    "mapKeyTo": "i18n.common.drafts",
+    "mapKeyTo": "i18n.common.saveDrafts",
     "mapValueTo": "Saved Drafts",
     "keys": [
       {
@@ -10830,7 +10770,7 @@
   {
     "value": "Select the actors that are involved and enter their information",
     "count": 1,
-    "mapKeyTo": "i18n.common.partiesSub",
+    "mapKeyTo": "i18n.forms.partiesCaption",
     "mapValueTo": "Select the actors that are involved and enter their information",
     "keys": [
       {
@@ -10842,7 +10782,7 @@
   {
     "value": "Select the sections that are applicable and enter the required information.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.lables.generalInfoSub",
+    "mapKeyTo": "i18n.forms.generalInfoCaption",
     "mapValueTo": "Select the sections that are applicable and enter the required information.",
     "keys": [
       {
@@ -10948,21 +10888,9 @@
     ]
   },
   {
-    "value": "Status",
-    "count": 1,
-    "mapKeyTo": "i18n.common.discrepancyStatus",
-    "mapValueTo": "Status",
-    "keys": [
-      {
-        "key": "i18n.common.discrepancyStatus",
-        "value": "Status"
-      }
-    ]
-  },
-  {
     "value": "Step 1: Parties",
     "count": 1,
-    "mapKeyTo": "i18n.common.rootLabelParties",
+    "mapKeyTo": "i18n.common.step1Parties",
     "mapValueTo": "Step 1: Parties",
     "keys": [
       {
@@ -10974,7 +10902,7 @@
   {
     "value": "Step 2: Parties",
     "count": 1,
-    "mapKeyTo": "i18n.common.rootLabelParties2",
+    "mapKeyTo": "i18n.common.step2Parties",
     "mapValueTo": "Step 2: Parties",
     "keys": [
       {
@@ -10986,7 +10914,7 @@
   {
     "value": "Step 3: Parties",
     "count": 1,
-    "mapKeyTo": "i18n.common.rootLabelParties3",
+    "mapKeyTo": "i18n.common.step3Parties",
     "mapValueTo": "Step 3: Parties",
     "keys": [
       {
@@ -11166,7 +11094,7 @@
   {
     "value": "The Customs Union and Statistics (CUS) number is the identifier assigned within the European Customs Inventory of Chemical Substances (ECICS) to mainly chemical substances and preparations.The declarant may provide this code on a voluntary basis where no measure laid down in Union legislation as published in TARIC exists for the goods concerned, i.e. where providing this code would represent a lesser burden than a full textual description of the product",
     "count": 1,
-    "mapKeyTo": "houseConsignItem.tooltip.cusCode",
+    "mapKeyTo": "i18n.tooltips.cusCode",
     "mapValueTo": "The Customs Union and Statistics (CUS) number is the identifier assigned within the European Customs Inventory of Chemical Substances (ECICS) to mainly chemical substances and preparations.The declarant may provide this code on a voluntary basis where no measure laid down in Union legislation as published in TARIC exists for the goods concerned, i.e. where providing this code would represent a lesser burden than a full textual description of the product",
     "keys": [
       {
@@ -11194,7 +11122,7 @@
   {
     "value": "The information shall be provided, if an authorised consignor lodges a declaration for which his authorisation requires the use of seals or a holder of the transit procedure is granted the use of seals of a special type.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.sealIdentifier",
+    "mapKeyTo": "i18n.tooltips.sealIdentifier",
     "mapValueTo": "The information shall be provided, if an authorised consignor lodges a declaration for which his authorisation requires the use of seals or a holder of the transit procedure is granted the use of seals of a special type.",
     "keys": [
       {
@@ -11218,7 +11146,7 @@
   {
     "value": "The local reference number (LRN) is used to uniquely identify the declaration. This means that it cannot have already been used in another declaration or by another declarant.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.lrnToolTip",
+    "mapKeyTo": "i18n.tooltips.lrnToolTip",
     "mapValueTo": "The local reference number (LRN) is used to uniquely identify the declaration. This means that it cannot have already been used in another declaration or by another declarant.",
     "keys": [
       {
@@ -11230,7 +11158,7 @@
   {
     "value": "The measurement units laid down in Union legislation, as published in TARIC shall be used. Additional qualifier can be used, where applicable.Enter the relevant writing-off measurement unit and qualifier.",
     "count": 1,
-    "mapKeyTo": "houseConsignItem.tooltip.measurementUnitAndQualifier",
+    "mapKeyTo": "i18n.tooltips.measurementUnitAndQualifier",
     "mapValueTo": "The measurement units laid down in Union legislation, as published in TARIC shall be used. Additional qualifier can be used, where applicable.Enter the relevant writing-off measurement unit and qualifier.",
     "keys": [
       {
@@ -11314,7 +11242,7 @@
   {
     "value": "The unique commercial reference number assigned by the person concerned to the consignment in question. It may take the form of WCO (ISO 15459) codes or equivalent. It provides access to underlying commercial data of interest to customs.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.referenceNumberUCR",
+    "mapKeyTo": "i18n.tooltips.referenceNumberUCR",
     "mapValueTo": "The unique commercial reference number assigned by the person concerned to the consignment in question. It may take the form of WCO (ISO 15459) codes or equivalent. It provides access to underlying commercial data of interest to customs.",
     "keys": [
       {
@@ -11326,7 +11254,7 @@
   {
     "value": "The United Nations Dangerous Goods identifier (UNDG) is the serial number assigned within the United Nations to substances and articles contained in a list of the dangerous goods most commonly carried.",
     "count": 1,
-    "mapKeyTo": "houseConsignItem.tooltip.dangerousGoods",
+    "mapKeyTo": "i18n.tooltips.dangerousGoods",
     "mapValueTo": "The United Nations Dangerous Goods identifier (UNDG) is the serial number assigned within the United Nations to substances and articles contained in a list of the dangerous goods most commonly carried.",
     "keys": [
       {
@@ -11446,7 +11374,7 @@
   {
     "value": "This customs office is used when the transit declaration is combined with exit summary declaration, and the transit movement doesn’t follow export procedure. Enter the code for the intended customs office where the transit movement leaves the safety and security area. Safety and Security Area = EU + CH and NO",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.customsOfficeOfExitForTransitDeclared",
+    "mapKeyTo": "i18n.tooltips.customsOfficeOfExitForTransitDeclared",
     "mapValueTo": "This customs office is used when the transit declaration is combined with exit summary declaration, and the transit movement doesn’t follow export procedure. Enter the code for the intended customs office where the transit movement leaves the safety and security area. Safety and Security Area = EU + CH and NO",
     "keys": [
       {
@@ -11458,7 +11386,7 @@
   {
     "value": "This data element includes the type and reference of the transport document.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.transportDocument",
+    "mapKeyTo": "i18n.tooltips.transportDocument",
     "mapValueTo": "This data element includes the type and reference of the transport document.",
     "keys": [
       {
@@ -11470,7 +11398,7 @@
   {
     "value": "This data element is used only in relation to the TIR Carnet. Enter the relevant Union code for the country where the TIR movement started and the TIR Carnet was dispatched.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.countryOfDispatch",
+    "mapKeyTo": "i18n.tooltips.countryOfDispatch",
     "mapValueTo": "This data element is used only in relation to the TIR Carnet. Enter the relevant Union code for the country where the TIR movement started and the TIR Carnet was dispatched.",
     "keys": [
       {
@@ -11482,7 +11410,7 @@
   {
     "value": "This data group can be used in relation to information for which Union legislation does not specify the field in which it is to be entered.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.additionalInformation",
+    "mapKeyTo": "i18n.tooltips.additionalInformation",
     "mapValueTo": "This data group can be used in relation to information for which Union legislation does not specify the field in which it is to be entered.",
     "keys": [
       {
@@ -11494,7 +11422,7 @@
   {
     "value": "This data item is to indicate if the transit declaration is used for safety and security purposes. Value 0 = not used for safety and security purposes, values 1, 2 and 3 indicates if declaration is lodged with ENS (Entry Summary declaration) or EXS (Exit summary delcaration) particulars or of a combination of the two",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.security",
+    "mapKeyTo": "i18n.tooltips.security",
     "mapValueTo": "This data item is to indicate if the transit declaration is used for safety and security purposes. Value 0 = not used for safety and security purposes, values 1, 2 and 3 indicates if declaration is lodged with ENS (Entry Summary declaration) or EXS (Exit summary delcaration) particulars or of a combination of the two",
     "keys": [
       {
@@ -11710,7 +11638,7 @@
   {
     "value": "Type C with qualifier U is allowed for standard declarations in simplified procedure and standard declaration under normal procedure with approved place. For declarations under normal procedure this datagroup does not need to be filled in.",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.locationOfGoods",
+    "mapKeyTo": "i18n.tooltips.locationOfGoods",
     "mapValueTo": "Type C with qualifier U is allowed for standard declarations in simplified procedure and standard declaration under normal procedure with approved place. For declarations under normal procedure this datagroup does not need to be filled in.",
     "keys": [
       {
@@ -11978,7 +11906,7 @@
   {
     "value": "Using the relevant Union code, enter the type of identification number. In the case of combined transport or where several means of transport are used, the active means of transport is the one which propels the whole combination. For example, in the case of a lorry on a sea-going vessel, the active means of transport is the ship. In the case of a tractor and trailer, the active means of transport is the tractor Depending on the means of transport concerned, the following details concerning identity shall be entered: Means of transport - Method of identification. Sea and inland waterway transport - Name of vessel. Air transport - Number and date of flight (where there is no flight number, enter the aircraft's registration number). Road transport - Vehicle and/or trailer registration number. Rail transport - Wagon number",
     "count": 1,
-    "mapKeyTo": "generalInfoForm.tooltips.activeIdentificationNumber",
+    "mapKeyTo": "i18n.tooltips.activeIdentificationNumber",
     "mapValueTo": "Using the relevant Union code, enter the type of identification number. In the case of combined transport or where several means of transport are used, the active means of transport is the one which propels the whole combination. For example, in the case of a lorry on a sea-going vessel, the active means of transport is the ship. In the case of a tractor and trailer, the active means of transport is the tractor Depending on the means of transport concerned, the following details concerning identity shall be entered: Means of transport - Method of identification. Sea and inland waterway transport - Name of vessel. Air transport - Number and date of flight (where there is no flight number, enter the aircraft's registration number). Road transport - Vehicle and/or trailer registration number. Rail transport - Wagon number",
     "keys": [
       {
@@ -12038,7 +11966,7 @@
   {
     "value": "View Recoveries",
     "count": 1,
-    "mapKeyTo": "i18n.common.recovery-requests",
+    "mapKeyTo": "i18n.common.viewRecoveries",
     "mapValueTo": "View Recoveries",
     "keys": [
       {
@@ -12110,7 +12038,7 @@
   {
     "value": "Where necessary, enter the quantity of the item in question, expressed in the unit laid down in Union legislation, as published in TARIC.",
     "count": 1,
-    "mapKeyTo": "houseConsignItem.tooltip.supplementaryUnits",
+    "mapKeyTo": "i18n.tooltips.supplementaryUnits",
     "mapValueTo": "Where necessary, enter the quantity of the item in question, expressed in the unit laid down in Union legislation, as published in TARIC.",
     "keys": [
       {
@@ -12170,7 +12098,7 @@
   {
     "value": "{{number}} errors found.",
     "count": 1,
-    "mapKeyTo": "i18n.common.errorsFoundWithNumber",
+    "mapKeyTo": "i18n.errors.errorsFoundWithNumber",
     "mapValueTo": "{{number}} errors found.",
     "keys": [
       {
@@ -12182,7 +12110,7 @@
   {
     "value": "{{number}} errors found. Kindly check, rectify and resubmit.",
     "count": 2,
-    "mapKeyTo": "i18n.common.errorsFoundWithNumberAndResubmit",
+    "mapKeyTo": "i18n.errors.errorsFoundWithNumberAndResubmit",
     "mapValueTo": "{{number}} errors found. Kindly check, rectify and resubmit.",
     "keys": [
       {
