@@ -930,8 +930,8 @@
   {
     "value": "comptetent authority of departure",
     "count": 1,
-    "mapKeyTo": "i18n.common.comptetentAuthorityOfDeparture",
-    "mapValueTo": "comptetent authority of departure",
+    "mapKeyTo": "i18n.common.competentAuthorityOfDeparture",
+    "mapValueTo": "Competent authority of departure",
     "keys": [
       {
         "key": "sendEnquiryResponse.dialog.receivedEnquiryRequested.comptetentAuthorityOfDeparture",
@@ -2782,7 +2782,7 @@
   {
     "value": "Maximum of {{maxCount}} items reached",
     "count": 1,
-    "mapKeyTo": "i18n.common.maxCountReached",
+    "mapKeyTo": "i18n.tooltips.maxCountReachedWithNbr",
     "mapValueTo": "Maximum of {{maxCount}} items reached",
     "keys": [
       {
@@ -4310,7 +4310,7 @@
   {
     "value": "Review Unloading Remarks",
     "count": 1,
-    "mapKeyTo": "i18n.common.compareWithCurrentSituation",
+    "mapKeyTo": "i18n.actions.reviewUnloadingRemarks",
     "mapValueTo": "Review Unloading Remarks",
     "keys": [
       {
@@ -4694,7 +4694,7 @@
   {
     "value": "Start enquiry",
     "count": 1,
-    "mapKeyTo": "i18n.actions.startEnquiryEarlyDecl",
+    "mapKeyTo": "i18n.actions.startEnquiry",
     "mapValueTo": "Start enquiry",
     "keys": [
       {
@@ -4754,7 +4754,7 @@
   {
     "value": "Status request",
     "count": 1,
-    "mapKeyTo": "i18n.common.statusReq",
+    "mapKeyTo": "i18n.actions.statusReq",
     "mapValueTo": "Status request",
     "keys": [
       {
