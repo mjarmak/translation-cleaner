@@ -474,7 +474,7 @@
   {
     "value": "Amend Declaration (IE013)",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestForAmendmentIE013",
+    "mapKeyTo": "i18n.actions.requestForAmendmentIE013",
     "mapValueTo": "Amend Declaration (IE013)",
     "keys": [
       {
@@ -726,7 +726,7 @@
   {
     "value": "Cancel Open Enquiry (IE059)",
     "count": 1,
-    "mapKeyTo": "i18n.common.cancelEnquiryIE059",
+    "mapKeyTo": "i18n.actions.cancelEnquiryIE059",
     "mapValueTo": "Cancel Open Enquiry (IE059)",
     "keys": [
       {
@@ -1182,7 +1182,7 @@
   {
     "value": "Continue control result (IE018)",
     "count": 1,
-    "mapKeyTo": "i18n.common.continueControlResultIE018",
+    "mapKeyTo": "i18n.actions.continueControlResultIE018",
     "mapValueTo": "Continue control result (IE018)",
     "keys": [
       {
@@ -1422,7 +1422,7 @@
   {
     "value": "Customs office of request (Destination)",
     "count": 1,
-    "mapKeyTo": "i18n.common.cusuomsOfficeOfRequest",
+    "mapKeyTo": "i18n.common.customsOfficeOfRequest",
     "mapValueTo": "Customs office of request (Destination)",
     "keys": [
       {
@@ -2518,7 +2518,7 @@
   {
     "value": "Invalidate (IE009)",
     "count": 1,
-    "mapKeyTo": "i18n.common.invalidateIE009",
+    "mapKeyTo": "i18n.actions.invalidateIE009",
     "mapValueTo": "Invalidate (IE009)",
     "keys": [
       {
@@ -2542,7 +2542,7 @@
   {
     "value": "Invalidate Declaration (IE009)",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestForInvalidationIE009",
+    "mapKeyTo": "i18n.actions.requestForInvalidationIE009",
     "mapValueTo": "Invalidate Declaration (IE009)",
     "keys": [
       {
@@ -2698,7 +2698,7 @@
   {
     "value": "Manage Invalidation request (IE009)",
     "count": 1,
-    "mapKeyTo": "i18n.common.manageRequestForInvalidationIE009",
+    "mapKeyTo": "i18n.actions.manageRequestForInvalidationIE009",
     "mapValueTo": "Manage Invalidation request (IE009)",
     "keys": [
       {
@@ -2866,7 +2866,7 @@
   {
     "value": "Motivation for not releasing transit",
     "count": 1,
-    "mapKeyTo": "i18n.common.noReleaseMotivationTitle",
+    "mapKeyTo": "i18n.forms.motivationForNotReleasingTransit",
     "mapValueTo": "Motivation for not releasing transit",
     "keys": [
       {
@@ -3758,7 +3758,7 @@
   {
     "value": "Recovery notification (IE035)",
     "count": 1,
-    "mapKeyTo": "i18n.common.recoveryNotificationIE035",
+    "mapKeyTo": "i18n.actions.recoveryNotificationIE035",
     "mapValueTo": "Recovery notification (IE035)",
     "keys": [
       {
@@ -3914,7 +3914,7 @@
   {
     "value": "Register Control Results (IE017)",
     "count": 1,
-    "mapKeyTo": "i18n.common.registerControlResultIE017",
+    "mapKeyTo": "i18n.actions.registerControlResultIE017",
     "mapValueTo": "Register Control Results (IE017)",
     "keys": [
       {
@@ -3926,7 +3926,7 @@
   {
     "value": "Register Control Results (IE018)",
     "count": 1,
-    "mapKeyTo": "i18n.common.registerControlResultIE018",
+    "mapKeyTo": "i18n.actions.registerControlResultIE018",
     "mapValueTo": "Register Control Results (IE018)",
     "keys": [
       {
@@ -3986,7 +3986,7 @@
   {
     "value": "Register Satisfactory Control Results (IE017-A1)",
     "count": 1,
-    "mapKeyTo": "i18n.common.registerSatisfactoryControlResultIE017",
+    "mapKeyTo": "i18n.actions.registerSatisfactoryControlResultIE017",
     "mapValueTo": "Register Satisfactory Control Results (IE017-A1)",
     "keys": [
       {
@@ -4118,7 +4118,7 @@
   {
     "value": "Request Enquiry (IE142)",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestEnquiryIE142",
+    "mapKeyTo": "i18n.actions.requestEnquiryIE142",
     "mapValueTo": "Request Enquiry (IE142)",
     "keys": [
       {
@@ -4130,7 +4130,7 @@
   {
     "value": "Request Enquiry Information (IE145)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendEnquiryInformationRequestIE145",
+    "mapKeyTo": "i18n.actions.sendEnquiryInformationRequestIE145",
     "mapValueTo": "Request Enquiry Information (IE145)",
     "keys": [
       {
@@ -4166,7 +4166,7 @@
   {
     "value": "Request for Invalidation (IE014)",
     "count": 1,
-    "mapKeyTo": "i18n.common.requestForInvalidationIE014",
+    "mapKeyTo": "i18n.actions.requestForInvalidationIE014",
     "mapValueTo": "Request for Invalidation (IE014)",
     "keys": [
       {
@@ -4262,7 +4262,7 @@
   {
     "value": "Respond to Non-Arrived Movement (IE141)",
     "count": 1,
-    "mapKeyTo": "i18n.common.respondToRequestOnNonArrivedMovement",
+    "mapKeyTo": "i18n.actions.respondToRequestOnNonArrivedMovementIE141",
     "mapValueTo": "Respond to Non-Arrived Movement (IE141)",
     "keys": [
       {
@@ -4466,7 +4466,7 @@
   {
     "value": "Send Enquiry Information (IE144)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendEnquiryInformationIE144",
+    "mapKeyTo": "i18n.actions.sendEnquiryInformationIE144",
     "mapValueTo": "Send Enquiry Information (IE144)",
     "keys": [
       {
@@ -4490,7 +4490,7 @@
   {
     "value": "Send Enquiry Response (IE143)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendEnquiryResponseIE143",
+    "mapKeyTo": "i18n.actions.sendEnquiryResponseIE143",
     "mapValueTo": "Send Enquiry Response (IE143)",
     "keys": [
       {
@@ -4502,7 +4502,7 @@
   {
     "value": "Send Guarantee Check (IE200)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendGuaranteeCheckIE200",
+    "mapKeyTo": "i18n.actions.sendGuaranteeCheckIE200",
     "mapValueTo": "Send Guarantee Check (IE200)",
     "keys": [
       {
@@ -4526,7 +4526,7 @@
   {
     "value": "Send Recovery Acceptance Notification (IE151)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendRecoveryAcceptanceNotificationIE151",
+    "mapKeyTo": "i18n.actions.sendRecoveryAcceptanceNotificationIE151",
     "mapValueTo": "Send Recovery Acceptance Notification (IE151)",
     "keys": [
       {
@@ -4538,7 +4538,7 @@
   {
     "value": "Send Recovery Dispatch Notification (IE152)",
     "count": 1,
-    "mapKeyTo": "i18n.common.completeRecoveryIE152",
+    "mapKeyTo": "i18n.actions.completeRecoveryIE152",
     "mapValueTo": "Send Recovery Dispatch Notification (IE152)",
     "keys": [
       {
@@ -4550,7 +4550,7 @@
   {
     "value": "Send Recovery notification (IE035)",
     "count": 1,
-    "mapKeyTo": "i18n.common.startRecoveryIE035",
+    "mapKeyTo": "i18n.actions.startRecoveryIE035",
     "mapValueTo": "Send Recovery notification (IE035)",
     "keys": [
       {
@@ -4562,7 +4562,7 @@
   {
     "value": "Send Status Request (IE094)",
     "count": 1,
-    "mapKeyTo": "i18n.common.sendStatusRequestIE094",
+    "mapKeyTo": "i18n.actions.sendStatusRequestIE094",
     "mapValueTo": "Send Status Request (IE094)",
     "keys": [
       {
@@ -4622,7 +4622,7 @@
   {
     "value": "Simple procedure",
     "count": 1,
-    "mapKeyTo": "i18n.common.simplifiedProcedure",
+    "mapKeyTo": "i18n.actions.simplifiedProcedure",
     "mapValueTo": "Simple procedure",
     "keys": [
       {
@@ -4634,7 +4634,7 @@
   {
     "value": "Simplified procedure",
     "count": 1,
-    "mapKeyTo": "i18n.common.simplifiedProcedure",
+    "mapKeyTo": "i18n.actions.simplifiedProcedure",
     "mapValueTo": "Simplified procedure",
     "keys": [
       {
@@ -4694,7 +4694,7 @@
   {
     "value": "Start enquiry",
     "count": 1,
-    "mapKeyTo": "i18n.common.startEnquiryEarlyDecl",
+    "mapKeyTo": "i18n.actions.startEnquiryEarlyDecl",
     "mapValueTo": "Start enquiry",
     "keys": [
       {
@@ -4706,7 +4706,7 @@
   {
     "value": "Start Enquiry Early",
     "count": 1,
-    "mapKeyTo": "i18n.common.startEnquiryEarly",
+    "mapKeyTo": "i18n.actions.startEnquiryEarly",
     "mapValueTo": "Start Enquiry Early",
     "keys": [
       {
@@ -4718,7 +4718,7 @@
   {
     "value": "Start new control result",
     "count": 1,
-    "mapKeyTo": "i18n.common.startNewControlResult",
+    "mapKeyTo": "i18n.actions.startNewControlResult",
     "mapValueTo": "Start new control result",
     "keys": [
       {
@@ -4730,7 +4730,7 @@
   {
     "value": "Start new control result (IE018)",
     "count": 1,
-    "mapKeyTo": "i18n.common.startNewControlResultIE018",
+    "mapKeyTo": "i18n.actions.startNewControlResultIE018",
     "mapValueTo": "Start new control result (IE018)",
     "keys": [
       {
@@ -4742,7 +4742,7 @@
   {
     "value": "Start Unloading remarks registration",
     "count": 1,
-    "mapKeyTo": "i18n.common.startUnloadingRemarksRegistration",
+    "mapKeyTo": "i18n.actions.startUnloadingRemarksRegistration",
     "mapValueTo": "Start Unloading remarks registration",
     "keys": [
       {
@@ -4767,7 +4767,7 @@
     "value": "Status: ",
     "count": 2,
     "mapKeyTo": "i18n.common.status",
-    "mapValueTo": "Status: ",
+    "mapValueTo": "Status",
     "keys": [
       {
         "key": "tra.crossingFrontier.status",
@@ -4854,7 +4854,7 @@
   {
     "value": "Submit (IE015)",
     "count": 1,
-    "mapKeyTo": "i18n.common.submitIE015",
+    "mapKeyTo": "i18n.actions.submitIE015",
     "mapValueTo": "Submit (IE015)",
     "keys": [
       {
@@ -4866,7 +4866,7 @@
   {
     "value": "Submit (IE143)",
     "count": 1,
-    "mapKeyTo": "i18n.common.submitIE143",
+    "mapKeyTo": "i18n.actions.submitIE143",
     "mapValueTo": "Submit (IE143)",
     "keys": [
       {
@@ -4878,7 +4878,7 @@
   {
     "value": "Submit (IE150)",
     "count": 1,
-    "mapKeyTo": "i18n.common.submitIE150",
+    "mapKeyTo": "i18n.actions.submitIE150",
     "mapValueTo": "Submit (IE150)",
     "keys": [
       {
@@ -4890,7 +4890,7 @@
   {
     "value": "Submit (IE151)",
     "count": 1,
-    "mapKeyTo": "i18n.common.submitIE151",
+    "mapKeyTo": "i18n.actions.submitIE151",
     "mapValueTo": "Submit (IE151)",
     "keys": [
       {
@@ -10298,7 +10298,7 @@
   {
     "value": "Register Arrival Notification (IE007)",
     "count": 1,
-    "mapKeyTo": "i18n.common.registerArrivalNotificationIE007",
+    "mapKeyTo": "i18n.actions.registerArrivalNotificationIE007",
     "mapValueTo": "Register Arrival Notification (IE007)",
     "keys": [
       {
@@ -10322,7 +10322,7 @@
   {
     "value": "Register Incident Notification (IE180)",
     "count": 1,
-    "mapKeyTo": "i18n.common.registerIncidentNotificationIE180",
+    "mapKeyTo": "i18n.actions.registerIncidentNotificationIE180",
     "mapValueTo": "Register Incident Notification (IE180)",
     "keys": [
       {
