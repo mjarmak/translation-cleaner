@@ -117,7 +117,7 @@ All other keys (including those in `i18n.common.*` and other `i18n.*` namespaces
 [//]: # ()
 [//]: # (`python ./scripts/canonical_map.py ./output/result/en.flat.filtered.json --duplicates-out ./output/remap/en_duplicates-case-sensitive.json --prefix i18n.common`)
 
-### 3.2. sort mapping by value:
+## 3.2. sort mapping by value:
 **Files:** `MAPPING_JSON` → Sorted `MAPPING_JSON`
 
 Sorts the mapping JSON file alphabetically by the `value` field (case-insensitive). This is useful for:
@@ -149,7 +149,7 @@ Improves the mapping file by moving keys with values below 6 words to `i18n.comm
 - `form.labels.submit` (value: "Submit" - 1 word) → `i18n.common.submit`
 - `helpText.invalidEmail` (value: "Please enter a valid email address" - 6 words, not moved)
 
-### 3.4 validate no duplicate mapKeyTo values and verify key existence
+## 3.4 validate no duplicate mapKeyTo values and verify key existence
 
 - After creating the duplicates JSON file, validate that there are no duplicate `mapKeyTo` values:
 
@@ -318,3 +318,52 @@ Or validate them individually:
 `python ./scripts/validate_flatten_unflatten.py ./files/nl.json ./output/unflat/nl.unflat.json --verbose`
 
 `python ./scripts/validate_flatten_unflatten.py ./files/de.json ./output/unflat/de.unflat.json --verbose`
+
+- ## Sort JSON by keys with capitals first:
+**Files:** `UNFLAT_JSON` → Sorted `UNFLAT_JSON`
+
+Sorts a JSON file by its keys with keys starting with capital letters appearing first, then alphabetically within each group. Useful for organizing translation files for better readability and maintaining consistent structure.
+
+**Sort and overwrite the file:**
+
+`python ./scripts/sort_json_keys_capitals_first.py ./output/unflat/en.json`
+
+**Save to a different file:**
+
+`python ./scripts/sort_json_keys_capitals_first.py ./output/unflat/en.json -o ./output/unflat/en.json.sorted`
+
+**Sort all language files:**
+
+`python ./scripts/sort_json_keys_capitals_first.py ./output/unflat/en.json`
+
+`python ./scripts/sort_json_keys_capitals_first.py ./output/unflat/fr.json`
+
+`python ./scripts/sort_json_keys_capitals_first.py ./output/unflat/nl.json`
+
+`python ./scripts/sort_json_keys_capitals_first.py ./output/unflat/de.json`
+
+**Sorting order:**
+1. Keys starting with capital letters (A-Z) - sorted alphabetically (case-insensitive)
+2. Keys starting with lowercase letters (a-z) - sorted alphabetically (case-insensitive)
+3. Other keys - sorted alphabetically
+
+The script recursively sorts keys in nested objects while preserving the complete JSON structure.
+
+- ## Validate remapped output:
+**Files:** `REMAPPED_JSON` + `MAPPING_JSON` → Validation Report
+
+Validates that all keys in a remapped JSON file exist in the mapping file's `mapKeyTo` values. This ensures that the remapping was applied correctly and no orphaned or invalid keys are present in the output.
+
+The validator checks:
+1. ✅ All keys in the remapped JSON file exist in the mapping's `mapKeyTo` values
+2. ✅ No orphaned keys that were not part of the original mapping
+
+**Validate remapped unflat JSON files:**
+
+`python ./scripts/validate_remapped_output.py ./output/unflat/en.json ./output/result/en_mapping_reorganized.json --verbose`
+
+`python ./scripts/validate_remapped_output.py ./output/unflat/fr.json ./output/result/en_mapping_reorganized.json --verbose`
+
+`python ./scripts/validate_remapped_output.py ./output/unflat/nl.json ./output/result/en_mapping_reorganized.json --verbose`
+
+`python ./scripts/validate_remapped_output.py ./output/unflat/de.json ./output/result/en_mapping_reorganized.json --verbose`
