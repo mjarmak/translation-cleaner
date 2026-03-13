@@ -438,7 +438,7 @@
   {
     "value": "All offices",
     "count": 1,
-    "mapKeyTo": "i18n.common.allOffices",
+    "mapKeyTo": "i18n.options.allOffices",
     "mapValueTo": "All offices",
     "keys": [
       {
@@ -2918,7 +2918,7 @@
   {
     "value": "My offices",
     "count": 1,
-    "mapKeyTo": "i18n.common.myOffices",
+    "mapKeyTo": "i18n.options.myOffices",
     "mapValueTo": "My offices",
     "keys": [
       {
@@ -5410,7 +5410,7 @@
   {
     "value": "{{count}} Selected office",
     "count": 1,
-    "mapKeyTo": "i18n.common.specificOfficeCount",
+    "mapKeyTo": "i18n.options.specificOffice",
     "mapValueTo": "{{count}} Selected office",
     "keys": [
       {
@@ -5422,7 +5422,7 @@
   {
     "value": "{{count}} Selected offices",
     "count": 1,
-    "mapKeyTo": "i18n.common.specificOfficesCount",
+    "mapKeyTo": "i18n.options.specificOffices",
     "mapValueTo": "{{count}} Selected offices",
     "keys": [
       {

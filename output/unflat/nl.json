@@ -124,7 +124,11 @@
       "RECOVERY_COMPLETED": "Herstel voltooid",
       "ALL": "Alles",
       "RECOVERY_RECOMMENDED": "Herstel aanbevolen",
-      "MOVEMENT_UNDER_RESOLUTION": "Beweging onder oplossing"
+      "MOVEMENT_UNDER_RESOLUTION": "Beweging onder oplossing",
+      "allOffices": "Alle kantoren",
+      "myOffices": "Mijn kantoren",
+      "specificOffice": "{{count}} geselecteerd kantoor",
+      "specificOffices": "{{count}} geselecteerde kantoren"
     },
     "errors": {
       "codes": {
@@ -553,10 +557,6 @@
       "signOut": " Sign Out",
       "customsOfficeOfTransit": "Douanekantoor van doorgang",
       "customsOfficeOfIncident": "Douanekantoor van incident",
-      "allOffices": "Alle kantoren",
-      "myOffices": "Mijn kantoren",
-      "specificOfficeCount": "{{count}} geselecteerd kantoor",
-      "specificOfficesCount": "{{count}} geselecteerde kantoren",
       "controlResults": "CONTROL RESULTS",
       "cumada": "CUMADA",
       "handleControlDecision": "HANDLE CONTROL DECISION",

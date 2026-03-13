@@ -124,7 +124,11 @@
       "RECOVERY_COMPLETED": "Récupération terminée",
       "ALL": "Tous",
       "RECOVERY_RECOMMENDED": "Récupération recommandée",
-      "MOVEMENT_UNDER_RESOLUTION": "Mouvement sous résolution"
+      "MOVEMENT_UNDER_RESOLUTION": "Mouvement sous résolution",
+      "allOffices": "Tous les bureaux",
+      "myOffices": "Mes bureaux",
+      "specificOffice": "{{count}} Bureau sélectionné",
+      "specificOffices": "{{count}} Bureaux sélectionnés"
     },
     "errors": {
       "codes": {
@@ -553,10 +557,6 @@
       "signOut": " Sign Out",
       "customsOfficeOfTransit": "Bureau de douane de passage",
       "customsOfficeOfIncident": "Bureau de douane de l'incident",
-      "allOffices": "Tous les bureaux",
-      "myOffices": "Mes bureaux",
-      "specificOfficeCount": "{{count}} Bureau sélectionné",
-      "specificOfficesCount": "{{count}} Bureaux sélectionnés",
       "controlResults": "CONTROL RESULTS",
       "cumada": "CUMADA",
       "handleControlDecision": "HANDLE CONTROL DECISION",

@@ -124,7 +124,11 @@
       "RECOVERY_COMPLETED": "Recovery completed",
       "ALL": "All",
       "RECOVERY_RECOMMENDED": "Recovery Recommended",
-      "MOVEMENT_UNDER_RESOLUTION": "Movement under resolution"
+      "MOVEMENT_UNDER_RESOLUTION": "Movement under resolution",
+      "allOffices": "All offices",
+      "myOffices": "My offices",
+      "specificOffice": "{{count}} Selected office",
+      "specificOffices": "{{count}} Selected offices"
     },
     "errors": {
       "codes": {
@@ -553,10 +557,6 @@
       "signOut": " Sign Out",
       "customsOfficeOfTransit": "Customs office of transit",
       "customsOfficeOfIncident": "Customs office of incident",
-      "allOffices": "All offices",
-      "myOffices": "My offices",
-      "specificOfficeCount": "{{count}} Selected office",
-      "specificOfficesCount": "{{count}} Selected offices",
       "controlResults": "Control Results",
       "cumada": "CUMADA",
       "handleControlDecision": "HANDLE CONTROL DECISION",

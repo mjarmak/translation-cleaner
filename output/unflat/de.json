@@ -124,7 +124,11 @@
       "RECOVERY_COMPLETED": "Wiederherstellung abgeschlossen",
       "ALL": "Alle",
       "RECOVERY_RECOMMENDED": "Wiederherstellung empfohlen",
-      "MOVEMENT_UNDER_RESOLUTION": "Bewegung unter Auflösung"
+      "MOVEMENT_UNDER_RESOLUTION": "Bewegung unter Auflösung",
+      "allOffices": "Alle Zollstellen",
+      "myOffices": "Meine Zollstellen",
+      "specificOffice": "{{count}} ausgewählte Zollstelle",
+      "specificOffices": "{{count}} ausgewählte Zollstellen"
     },
     "errors": {
       "codes": {
@@ -553,10 +557,6 @@
       "signOut": " Sign Out",
       "customsOfficeOfTransit": "Durchgangszollstelle",
       "customsOfficeOfIncident": "Zollamt des Vorfalls",
-      "allOffices": "Alle Zollstellen",
-      "myOffices": "Meine Zollstellen",
-      "specificOfficeCount": "{{count}} ausgewählte Zollstelle",
-      "specificOfficesCount": "{{count}} ausgewählte Zollstellen",
       "controlResults": "CONTROL RESULTS",
       "cumada": "CUMADA",
       "handleControlDecision": "HANDLE CONTROL DECISION",
