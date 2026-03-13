@@ -6546,11 +6546,11 @@
   {
     "value": "Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later.",
     "count": 1,
-    "mapKeyTo": "i18n.submitting.validationTimeoutDialog",
+    "mapKeyTo": "i18n.submitting.declarationValidationTimeoutDialog",
     "mapValueTo": "Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later.",
     "keys": [
       {
-        "key": "declarationOverview.validationTimeoutDialog",
+        "key": "declarationOverview.validationTimeoutDialog.description",
         "value": "Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later."
       }
     ]

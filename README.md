@@ -149,14 +149,25 @@ Improves the mapping file by moving keys with values below 6 words to `i18n.comm
 - `form.labels.submit` (value: "Submit" - 1 word) → `i18n.common.submit`
 - `helpText.invalidEmail` (value: "Please enter a valid email address" - 6 words, not moved)
 
-## 3.4 validate no duplicate mapKeyTo values
+### 3.4 validate no duplicate mapKeyTo values and verify key existence
 
 - After creating the duplicates JSON file, validate that there are no duplicate `mapKeyTo` values:
 
 `python ./scripts/validate_duplicates.py ./output/remap/en_mapping_reorganized.json`
-- Ensure that the mapping file contains all keys from the flat JSON file (no keys are missing):
 
-`python ./scripts/validate_mapping_coverage.py ./output/flat/en.flat.json ./output/remap/en_mapping_reorganized.json`
+- Ensure that the mapping file contains all keys from the flat JSON file AND that all keys in the mapping file actually exist in the flat JSON (no orphaned/invalid keys):
+
+`python ./scripts/validate_mapping_coverage.py ./output/flat/en.flat.json ./output/result/en_mapping_reorganized.json`
+
+The validator checks:
+1. ✅ All keys from the flat JSON file are covered in the mapping file
+2. ✅ All keys in the mapping file exist in the flat JSON file (no orphaned keys)
+3. ✅ No duplicate keys
+4. ✅ Bidirectional coverage validation
+
+Use `--verbose` to see detailed lists of any missing or invalid keys:
+
+`python ./scripts/validate_mapping_coverage.py ./output/flat/en.flat.json ./output/result/en_mapping_reorganized.json --verbose`
 
 **Note:** The `canonical_map.py` script automatically resolves duplicate `mapKeyTo` conflicts by appending hash suffixes (e.g., `mapKeyTo_hash123`), so this validation should pass if the script ran correctly.
 

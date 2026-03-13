@@ -77,7 +77,23 @@ def main():
     missing_in_mapping = flat_keys - mapping_keys
     extra_in_mapping = mapping_keys - flat_keys
 
-    if missing_in_mapping or extra_in_mapping:
+    # Validate that all keys in mapping actually exist in flat JSON
+    invalid_keys_in_mapping = []
+    for entry in mapping_data:
+        keys_array = entry.get("keys", [])
+        for key_entry in keys_array:
+            if isinstance(key_entry, dict) and "key" in key_entry:
+                key = key_entry["key"]
+                if key not in flat_keys:
+                    invalid_keys_in_mapping.append({
+                        "key": key,
+                        "value": entry.get("value", "N/A"),
+                        "mapKeyTo": entry.get("mapKeyTo", "N/A")
+                    })
+
+    validation_errors = bool(missing_in_mapping or extra_in_mapping or invalid_keys_in_mapping)
+
+    if validation_errors:
         log(f"\n❌ Validation FAILED: Key mismatch detected")
 
         if missing_in_mapping:
@@ -100,9 +116,24 @@ def main():
             else:
                 log(f"   Use --verbose to see the extra keys")
 
+        if invalid_keys_in_mapping:
+            log(f"\n❌ Invalid keys in mapping ({len(invalid_keys_in_mapping)} keys) - NOT FOUND in flat JSON:")
+            if args.verbose:
+                for invalid_entry in invalid_keys_in_mapping[:20]:
+                    log(f"   - Key: {invalid_entry['key']}")
+                    log(f"     Value: {invalid_entry['value']}")
+                    log(f"     MapsTo: {invalid_entry['mapKeyTo']}")
+                if len(invalid_keys_in_mapping) > 20:
+                    log(f"   ... and {len(invalid_keys_in_mapping) - 20} more")
+            else:
+                log(f"   Use --verbose to see the invalid keys")
+
         sys.exit(1)
     else:
-        log(f"✅ Validation PASSED: All {len(flat_keys)} keys are covered in the mapping")
+        log(f"✅ Validation PASSED:")
+        log(f"   • All {len(flat_keys)} keys from flat JSON are covered in the mapping")
+        log(f"   • All {len(mapping_keys)} keys in mapping exist in the flat JSON")
+        log(f"   • No orphaned or invalid keys detected")
         sys.exit(0)
 
 if __name__ == "__main__":

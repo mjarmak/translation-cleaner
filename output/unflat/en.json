@@ -993,6 +993,7 @@
     "submitting": {
       "controlResults": "Submitting control results...",
       "controlResultsValidating": "The submitted control results are currently being validated. This may take a few moments.",
+      "validationTimeoutDialog": "Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later.",
       "declaration": "Submitting the declaration...",
       "validatingTakingLong": "Still validating the declaration - this is taking longer than expected - please wait",
       "unloadingRemarks": "Submitting unloading remarks..."
@@ -1010,9 +1011,6 @@
     "unloadingRemarkBanner": "Non-conform unloading remarks have been received for this declaration. Ensure that the trader at destination’s findings are reviewed before submitting the control results."
   },
   "declarationOverview": {
-    "validationTimeoutDialog": {
-      "description": "Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later."
-    },
     "unforeseenProblem": {
       "title": "Validation request could not be processed"
     }
