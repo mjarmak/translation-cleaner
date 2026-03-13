@@ -910,7 +910,7 @@
   {
     "value": "Complete Recovery",
     "count": 1,
-    "mapKeyTo": "i18n.common.CompleteRecovery",
+    "mapKeyTo": "i18n.forms.completeRecovery",
     "mapValueTo": "Complete Recovery",
     "keys": [
       {
@@ -1378,7 +1378,7 @@
   {
     "value": "Customs Office of Recovery",
     "count": 1,
-    "mapKeyTo": "i18n.common.CustomsOfficeOfRecovery",
+    "mapKeyTo": "i18n.common.customsOfficeOfRecovery",
     "mapValueTo": "Customs Office of Recovery",
     "keys": [
       {
@@ -5662,7 +5662,7 @@
   {
     "value": "Additional Information",
     "count": 1,
-    "mapKeyTo": "i18n.common.additionalInformationSub",
+    "mapKeyTo": "i18n.common.additionalInformation",
     "mapValueTo": "Additional Information",
     "keys": [
       {
@@ -5674,7 +5674,7 @@
   {
     "value": "Additional Reference",
     "count": 1,
-    "mapKeyTo": "i18n.common.additionalReferenceSub",
+    "mapKeyTo": "i18n.common.additionalReference",
     "mapValueTo": "Additional Reference",
     "keys": [
       {
@@ -5865,14 +5865,22 @@
   },
   {
     "value": "Approved",
-    "count": 2,
+    "count": 1,
     "mapKeyTo": "i18n.status.APPROVED",
     "mapValueTo": "Approved",
     "keys": [
       {
         "key": "i18n.status.APPROVED",
         "value": "Approved"
-      },
+      }
+    ]
+  },
+  {
+    "value": "Approved",
+    "count": 1,
+    "mapKeyTo": "i18n.common.approved",
+    "mapValueTo": "Approved",
+    "keys": [
       {
         "key": "i18n.common.Approved",
         "value": "Approved"
@@ -7718,7 +7726,7 @@
   {
     "value": "Guarantee",
     "count": 1,
-    "mapKeyTo": "i18n.common.guaranteeSub",
+    "mapKeyTo": "i18n.common.guarantee",
     "mapValueTo": "Guarantee",
     "keys": [
       {
@@ -7742,7 +7750,7 @@
   {
     "value": "Guarantee Reference",
     "count": 1,
-    "mapKeyTo": "i18n.common.guaranteeReferenceSub",
+    "mapKeyTo": "i18n.common.guaranteeReference",
     "mapValueTo": "Guarantee Reference",
     "keys": [
       {
@@ -8998,7 +9006,7 @@
   {
     "value": "No risk",
     "count": 1,
-    "mapKeyTo": "i18n.common.NoRisk",
+    "mapKeyTo": "i18n.common.noRisk",
     "mapValueTo": "No risk",
     "keys": [
       {
@@ -9346,7 +9354,7 @@
   {
     "value": "Packaging",
     "count": 1,
-    "mapKeyTo": "i18n.common.packagingSub",
+    "mapKeyTo": "i18n.common.packaging",
     "mapValueTo": "Packaging",
     "keys": [
       {
@@ -10238,7 +10246,7 @@
   {
     "value": "Refused",
     "count": 1,
-    "mapKeyTo": "i18n.common.Refused",
+    "mapKeyTo": "i18n.common.refused",
     "mapValueTo": "Refused",
     "keys": [
       {
@@ -10958,7 +10966,7 @@
   {
     "value": "Supporting Document",
     "count": 1,
-    "mapKeyTo": "i18n.common.supportingDocumentSub",
+    "mapKeyTo": "i18n.common.supportingDocument",
     "mapValueTo": "Supporting Document",
     "keys": [
       {
@@ -11562,7 +11570,7 @@
   {
     "value": "Transport Document",
     "count": 1,
-    "mapKeyTo": "i18n.common.transportDocumentSub",
+    "mapKeyTo": "i18n.common.transportDocument",
     "mapValueTo": "Transport Document",
     "keys": [
       {
