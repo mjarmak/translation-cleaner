@@ -55,6 +55,8 @@
       "NO_DECISION": "No decision",
       "MOVEMENT_CONTINUED": "Movement continued",
       "description": {
+        "controlResult_2509": "No control performed",
+        "controlResult_2511": "Discrepancies - awaiting release request",
         "controlResult_2512": "Discrepancies - opposition from Holder of the Transit Procedure, decision pending on release movement",
         "controlResult_2513": "Discrepancies - opposition from Holder of the Transit Procedure, decided not to release movement",
         "controlResult_2514": "Discrepancies - no feedback from Holder of the Transit Procedure, decided not to release movement",
@@ -165,7 +167,7 @@
       },
       "valueRequired": "Please enter a value",
       "selectRequired": "Please select a value.",
-      "errorsFoundWithNumber": "{{number}} errors found.",
+      "errorsFoundWithNbr": "{{number}} errors found.",
       "errorsPleaseReviewAndCorrect": "Please review and correct errors",
       "invalidPastDate": "Date cannot be in the future",
       "invalidEmail": "The email address is invalid",
@@ -211,15 +213,21 @@
       },
       "validationErrorsFoundWithNbr": "The transit declaration could not be submitted because {{number}} errors were found. Kindly check, rectify and resubmit again. Errors will only be rectified after the resubmission of the transit declaration. ",
       "errorRectificationDescription": "Errors will only be rectified after the resubmission of the form.",
-      "errorsFoundWithNumberAndResubmit": "{{number}} errors found. Kindly check, rectify and resubmit.",
+      "errorsFoundWithNbrAndResubmit": "{{number}} errors found. Kindly check, rectify and resubmit.",
       "rmnStatusNotAllowed": "The status of this MRN is not allowed",
       "formIncorrect": "The form is incorrect",
       "mrnNotFound": "The MRN is not found",
+      "noCumadaValuesReceived": "No values received. Please check Cumada or the list used.",
+      "actionGeneralError": "There was an unexpected service error. We were unable to perform this action. Please try again.",
       "errorsFound": "Error(s) found.",
+      "errorForReasons": "We couldn't accept your request for the following reason(s):",
+      "invalidationRequestFailed": "We were not able to handle invalidation request ",
       "invalidateByCOCaption": "Please indicate the initiator of the request and enter a valid reason for invalidating the declaration.",
+      "releaseDateErrorsFoundWithNbr": "Release a movement for transit could not be preformed because {{number}} errors were found. Kindly check, rectify and resubmit again. Errors will only be rectified after the resubmission of the form. ",
       "numberOfSealsMatchesSealListSize": "Number of seals must match the number of seals in the list",
       "expectedArrivalDate": "Please enter an expected arrival date within the proposed arrival date range.",
-      "expectedControlDate": "Please enter an expected control date which is greater than the expected arrival date but not greater than the expect arrival date plus grace period of {{gracePeriod}} days."
+      "expectedControlDate": "Please enter an expected control date which is greater than the expected arrival date but not greater than the expect arrival date plus grace period of {{gracePeriod}} days.",
+      "startEnquiryEarlyInvalidState": "The transit declaration is not in the correct state to perform the action"
     },
     "common": {
       "unlocode": "UN/LOCODE",
@@ -547,10 +555,6 @@
       "myOffices": "My offices",
       "specificOfficeCount": "{{count}} Selected office",
       "specificOfficesCount": "{{count}} Selected offices",
-      "paginationWithNumber": "{{startIndexMore1}} - {{endIndex}} of {{length}}",
-      "nextPage": "Next page",
-      "previousPage": "Previous page",
-      "itemsPerPage": "Items per page",
       "controlResults": "Control Results",
       "cumada": "CUMADA",
       "handleControlDecision": "HANDLE CONTROL DECISION",
@@ -655,18 +659,21 @@
       "notificationDate": "Notification date",
       "dateTime": "Date & Time",
       "direction": "Direction",
+      "cancelEnquiryNotificationDateAndTime": "Cancel enquiry notification date and time",
       "competentCustomsOfficeAtDeparture": "Competent customs office at departure",
       "competentCustomsOfficeAtDestination": "Competent customs office at destination",
       "consigneeActual": "Consignee actual",
       "expired": "Expired",
       "holderOfTheTransitProcedure": "Holder of the transit procedure",
       "limitForResponseDate": "Limit for response date",
+      "limitForTheEnquiryResponseDate": "Limit for the enquiry response date",
       "messageType": "Message Type",
       "customsOfficeOfRecoveryRequested": "Customs office of recovery requested",
       "customsOfficeOfRecoveryRequesting": "Customs office of recovery requesting",
       "recoveryAcceptance": "Recovery Acceptance",
       "message": "Message",
       "competentAuthorityOfDeparture": "Competent authority of departure",
+      "customsOfficeOfRequestOrEconomicOperator": "Requested customs office / Economic operator",
       "enquiryStatus": "Enquiry status",
       "ie144Received": "IE144 received",
       "ie144Sent": "IE144 sent",
@@ -675,6 +682,7 @@
       "receptionDate": "Reception date",
       "discard": "Discard",
       "somethingWentWrong": "Something went wrong",
+      "pleaseRefreshPageAndTryAgain": ". Please refresh the page and try again",
       "timerType": "Timer Type",
       "user": "User",
       "filterOnMRN": "Filter on MRN",
@@ -763,9 +771,6 @@
       "spsChart": "SPS chart",
       "colorCode": "Color code",
       "result": "Result",
-      "2509": "No control performed",
-      "2511": "Discrepancies - awaiting release request",
-      "duplicateTemplate": "Duplicate template",
       "newTemplateDescription": "New template description",
       "newTemplateName": "New template name",
       "replace": "Replace",
@@ -894,8 +899,8 @@
       "decideOnMovementCrossingFrontier": "Decide on Movement Crossing Frontier",
       "bindingItineraryCaption": "Please introduce the binding itinerary in a chronological order, including all countries of routing of consignment starting from the country of departure until the country of destination.",
       "completeRecovery": "Complete Recovery",
-      "navigationUnSavedChangesCaption": "The changes you made will be lost if you navigate away from this page. Are you sure you want to leave this page?",
       "warnings": {
+        "unSavedChangesCaption": "The changes you made will be lost if you navigate away from this page. Are you sure you want to leave this page?",
         "satisfactoryWarning": {
           "controlResult": "By setting the control results as satisfactory, the previously indicated discrepancies will be deleted. Do you want to proceed with this actions?"
         },
@@ -903,10 +908,15 @@
           "controlResults": "Canceling the registration will permanently delete the control result an all associated date. Do you want to proceed?",
           "unloadingRemark": "Canceling the registration will permanently delete the unloading remarks and all associated data. Do you want to proceed?"
         },
+        "cancelCaption": "You are about to cancel this page without saving. Unsaved data will be lost. Do you really want to cancel without saving?",
+        "unableToSaveCaption": "We were not able to save your declaration as a draft. Please fill in the LRN first, in order to save the declaration.",
+        "concurrentModificationCaption": "Another change was made to this data while you were working. To ensure accuracy, the latest version will be reloaded.",
+        "firstCreateConsignment": "You must first create a consignment.",
         "conformWarning": {
           "unloadingRemark": "By indicating the Unloading is conform, the previously indicated discrepancies will be deleted. Do you want to proceed with this action?"
         }
       },
+      "controlResultUnloadingRemarkBanner": "Non-conform unloading remarks have been received for this declaration. Ensure that the trader at destination’s findings are reviewed before submitting the control results.",
       "reviewAndConfirmSubmission": "Review and confirm submission",
       "unsavedChanges": "Unsaved changes",
       "unableToSaveDialog": "Unable to save",
@@ -914,6 +924,7 @@
       "discrepancyResolutionCaption": "Please specify the discrepancy resolution.",
       "guaranteeReferencesRefusalCaption": "Please select a reason for refusing the guarantee reference(s). When refusing one guarantee reference, all other guarantee references of the same declaration will be refused.",
       "declarationCancelCaption": "Are you sure you want to cancel the transit declaration?",
+      "requestedByHOTP": "Requested by holder of transit procedure",
       "invalidateCaption": "Please enter a valid reason for invalidating the declaration.",
       "invalidateApproveCaption": "Please enter a valid reason for approving the invalidation request(s). The reason will be valid for all selected invalidation requests.",
       "invalidateRefuseCaption": "Please enter a valid reason for refusing the invalidation request(s). The reason will be valid for all selected invalidation requests.",
@@ -927,6 +938,8 @@
       "requestForDocumentsCaption": "Please specify the document(s) that you are requesting from the holder of transit procedure.",
       "requestOnNonArrivedMovementCaption": "Please confirm you want to send a ‘Request on Non-Arrived Movement’ to the Holder of the Transit Procedure",
       "respondToRequestOnNonArrivedMovementCaption": "Please provide the requested arrival information.",
+      "duplicateTemplate": "Duplicate template",
+      "templateAlreadyExistsOverride": "A file with the same name already exists in the tab Templates. Replacing it will overwrite its current content.",
       "startEnquiryEarlyCaption": "Please confirm you want to start enquiry",
       "manualDecisionForRecoveryCaption": "Please confirm that you want to manually start the recovery procedure.",
       "statusRequestCaption": "Please select the customs office(s) to whom you want to send the status request(s)."
@@ -952,8 +965,16 @@
       "consignmentGeneralInformation": "Consignment Information - General Information",
       "consignmentParties": "Consignment Information - Parties"
     },
-    "login": {
+    "navigation": {
       "login": "Login",
+      "pagination": {
+        "paginationWithNbr": "{{startIndexMore1}} - {{endIndex}} of {{length}}",
+        "nextPage": "Next page",
+        "previousPage": "Previous page",
+        "itemsPerPage": "Items per page"
+      },
+      "pageNotFound": "Page not found",
+      "pageNotFoundCaption": "The page you are looking for does not exist or has been moved.",
       "sessionExpired": "Your session has expired. Please login again."
     },
     "tooltips": {
@@ -1037,73 +1058,14 @@
       "unloadingRemarks": "Submitting unloading remarks..."
     }
   },
-  "controlResults": {
-    "unloadingRemarkBanner": "Non-conform unloading remarks have been received for this declaration. Ensure that the trader at destination’s findings are reviewed before submitting the control results."
-  },
   "declarationOverview": {
     "unforeseenProblem": {
       "title": "Validation request could not be processed"
     }
   },
-  "dialog": {
-    "cancelDialog": {
-      "message": "You are about to cancel this page without saving. Unsaved data will be lost. Do you really want to cancel without saving?"
-    },
-    "unableToSaveDialog": {
-      "message": "We were not able to save your declaration as a draft. Please fill in the LRN first, in order to save the declaration."
-    },
-    "concurrentModification": {
-      "message": "Another change was made to this data while you were working. To ensure accuracy, the latest version will be reloaded."
-    }
-  },
-  "enquiryAndRecovery": {
-    "enquiry": {
-      "body": {
-        "cancelEnquiryNotificationDateAndTime": "Cancel enquiry notification date and time",
-        "limitForTheEnquiryResponseDate": "Limit for the enquiry response date"
-      }
-    }
-  },
-  "enquiryRequests": {
-    "listHeader": {
-      "customsOfficeOfRequestOrEconomicOperator": "Requested customs office / Economic operator"
-    }
-  },
-  "error": {
-    "noValuesReceived": "No values received. Please check Cumada or the list used."
-  },
-  "errorMessage": {
-    "generalError": "There was an unexpected service error. We were unable to perform this action. Please try again."
-  },
-  "eventHistory": {
-    "error": {
-      "errorMessageForAReason": "We couldn't accept your request for the following reason(s):",
-      "outdated": "We were not able to handle invalidation request ",
-      "outdatedSuff": ". Please refresh the page and try again"
-    }
-  },
-  "invalidate": {
-    "hotp": "Requested by holder of transit procedure"
-  },
-  "pageNotFound": {
-    "header": "Page not found",
-    "section": "The page you are looking for does not exist or has been moved."
-  },
-  "registerControlResultDialog": {
-    "firstCreateConsignment": "You must first create a consignment."
-  },
   "releaseMovement": {
-    "errors": {
-      "description": "Release a movement for transit could not be preformed because {{number}} errors were found. Kindly check, rectify and resubmit again. Errors will only be rectified after the resubmission of the form. "
-    },
     "unforeseenProblem": {
       "title": "Release Movement could not be preformed"
     }
-  },
-  "saveAsTemplateDialog": {
-    "message": "A file with the same name already exists in the tab Templates. Replacing it will overwrite its current content."
-  },
-  "startEnquiryEarly": {
-    "errorMessage": "The transit declaration is not in the correct state to perform the action"
   }
 }

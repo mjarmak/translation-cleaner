@@ -1786,7 +1786,7 @@
   {
     "value": "Discrepancies - awaiting release request",
     "count": 1,
-    "mapKeyTo": "i18n.common.2511",
+    "mapKeyTo": "i18n.status.description.controlResult_2511",
     "mapValueTo": "Discrepancies - awaiting release request",
     "keys": [
       {
@@ -2558,7 +2558,7 @@
   {
     "value": "Items per page",
     "count": 1,
-    "mapKeyTo": "i18n.common.itemsPerPage",
+    "mapKeyTo": "i18n.navigation.pagination.itemsPerPage",
     "mapValueTo": "Items per page",
     "keys": [
       {
@@ -3026,7 +3026,7 @@
   {
     "value": "Next page",
     "count": 1,
-    "mapKeyTo": "i18n.common.nextPage",
+    "mapKeyTo": "i18n.navigation.pagination.nextPage",
     "mapValueTo": "Next page",
     "keys": [
       {
@@ -3062,7 +3062,7 @@
   {
     "value": "No control performed",
     "count": 1,
-    "mapKeyTo": "i18n.common.2509",
+    "mapKeyTo": "i18n.status.description.controlResult_2509",
     "mapValueTo": "No control performed",
     "keys": [
       {
@@ -3622,7 +3622,7 @@
   {
     "value": "Previous page",
     "count": 1,
-    "mapKeyTo": "i18n.common.previousPage",
+    "mapKeyTo": "i18n.navigation.pagination.previousPage",
     "mapValueTo": "Previous page",
     "keys": [
       {
@@ -5434,7 +5434,7 @@
   {
     "value": "{{startIndexMore1}} - {{endIndex}} of {{length}}",
     "count": 1,
-    "mapKeyTo": "i18n.common.paginationWithNumber",
+    "mapKeyTo": "i18n.navigation.pagination.paginationWithNbr",
     "mapValueTo": "{{startIndexMore1}} - {{endIndex}} of {{length}}",
     "keys": [
       {
@@ -5470,7 +5470,7 @@
   {
     "value": ". Please refresh the page and try again",
     "count": 1,
-    "mapKeyTo": "eventHistory.error.outdatedSuff",
+    "mapKeyTo": "i18n.common.pleaseRefreshPageAndTryAgain",
     "mapValueTo": ". Please refresh the page and try again",
     "keys": [
       {
@@ -9030,7 +9030,7 @@
   {
     "value": "No values received. Please check Cumada or the list used.",
     "count": 1,
-    "mapKeyTo": "error.noValuesReceived",
+    "mapKeyTo": "i18n.errors.noCumadaValuesReceived",
     "mapValueTo": "No values received. Please check Cumada or the list used.",
     "keys": [
       {
@@ -10378,7 +10378,7 @@
   {
     "value": "Release a movement for transit could not be preformed because {{number}} errors were found. Kindly check, rectify and resubmit again. Errors will only be rectified after the resubmission of the form. ",
     "count": 1,
-    "mapKeyTo": "releaseMovement.errors.description",
+    "mapKeyTo": "i18n.errors.releaseDateErrorsFoundWithNbr",
     "mapValueTo": "Release a movement for transit could not be preformed because {{number}} errors were found. Kindly check, rectify and resubmit again. Errors will only be rectified after the resubmission of the form. ",
     "keys": [
       {
@@ -10486,7 +10486,7 @@
   {
     "value": "Requested by holder of transit procedure",
     "count": 1,
-    "mapKeyTo": "invalidate.hotp",
+    "mapKeyTo": "i18n.forms.requestedByHOTP",
     "mapValueTo": "Requested by holder of transit procedure",
     "keys": [
       {
@@ -11014,7 +11014,7 @@
   {
     "value": "The changes you made will be lost if you navigate away from this page. Are you sure you want to leave this page?",
     "count": 1,
-    "mapKeyTo": "i18n.forms.navigationUnSavedChangesCaption",
+    "mapKeyTo": "i18n.forms.warnings.unSavedChangesCaption",
     "mapValueTo": "The changes you made will be lost if you navigate away from this page. Are you sure you want to leave this page?",
     "keys": [
       {
@@ -11330,7 +11330,7 @@
   {
     "value": "There was an unexpected service error. We were unable to perform this action. Please try again.",
     "count": 1,
-    "mapKeyTo": "errorMessage.generalError",
+    "mapKeyTo": "i18n.errors.actionGeneralError",
     "mapValueTo": "There was an unexpected service error. We were unable to perform this action. Please try again.",
     "keys": [
       {
@@ -11970,7 +11970,7 @@
   {
     "value": "We couldn't accept your request for the following reason(s):",
     "count": 1,
-    "mapKeyTo": "eventHistory.error.errorMessageForAReason",
+    "mapKeyTo": "i18n.errors.errorForReasons",
     "mapValueTo": "We couldn't accept your request for the following reason(s):",
     "keys": [
       {
@@ -11982,7 +11982,7 @@
   {
     "value": "We were not able to handle invalidation request ",
     "count": 1,
-    "mapKeyTo": "eventHistory.error.outdated",
+    "mapKeyTo": "i18n.errors.invalidationRequestFailed",
     "mapValueTo": "We were not able to handle invalidation request ",
     "keys": [
       {
@@ -12042,7 +12042,7 @@
   {
     "value": "You must first create a consignment.",
     "count": 1,
-    "mapKeyTo": "registerControlResultDialog.firstCreateConsignment",
+    "mapKeyTo": "i18n.forms.warnings.firstCreateConsignment",
     "mapValueTo": "You must first create a consignment.",
     "keys": [
       {
@@ -12066,7 +12066,7 @@
   {
     "value": "{{number}} errors found.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.errorsFoundWithNumber",
+    "mapKeyTo": "i18n.errors.errorsFoundWithNbr",
     "mapValueTo": "{{number}} errors found.",
     "keys": [
       {
@@ -12078,7 +12078,7 @@
   {
     "value": "{{number}} errors found. Kindly check, rectify and resubmit.",
     "count": 2,
-    "mapKeyTo": "i18n.errors.errorsFoundWithNumberAndResubmit",
+    "mapKeyTo": "i18n.errors.errorsFoundWithNbrAndResubmit",
     "mapValueTo": "{{number}} errors found. Kindly check, rectify and resubmit.",
     "keys": [
       {
