@@ -8374,7 +8374,7 @@
   {
     "value": "Item",
     "count": 1,
-    "mapKeyTo": "i18n.common.deleteHouseConsignmentItem",
+    "mapKeyTo": "i18n.common.item",
     "mapValueTo": "Item",
     "keys": [
       {
@@ -8946,7 +8946,7 @@
   {
     "value": "No drafts. Save a declaration as a draft and it will show up here.",
     "count": 1,
-    "mapKeyTo": "i18n.errors.noResults.noResults.drafts",
+    "mapKeyTo": "i18n.errors.noResults.drafts",
     "mapValueTo": "No drafts. Save a declaration as a draft and it will show up here.",
     "keys": [
       {

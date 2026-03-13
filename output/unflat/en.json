@@ -178,7 +178,9 @@
         "recoveryOfTransitDeclaration": "No recovery has been initiated for this transit declaration.",
         "guaranteesUnderRegistration": "No guarantees under registration found.",
         "invalidationRequests": "No invalidation requests found.",
-        "movementUnderResolution": "No movements under resolution found."
+        "movementUnderResolution": "No movements under resolution found.",
+        "drafts": "No drafts. Save a declaration as a draft and it will show up here.",
+        "templates": "No Templates. Save a declaration as a template and it will show up here."
       },
       "errorTirCarnet": "Please enter a valid tir carnet.",
       "validationErrorsFoundWithNbr": "The transit declaration could not be submitted because {{number}} errors were found. Kindly check, rectify and resubmit again. Errors will only be rectified after the resubmission of the transit declaration. ",
@@ -206,19 +208,19 @@
       "ok": "OK",
       "grn": "GRN",
       "viewEnquiries": "View Enquiries",
-      "additionalInformationSub": "Additional Information",
-      "additionalReferenceSub": "Additional Reference",
+      "additionalInformation": "Additional Information",
+      "additionalReference": "Additional Reference",
       "authorisation": "Authorisation",
       "container": "Container",
       "generalInformation": "General Information",
-      "guaranteeReferenceSub": "Guarantee Reference",
-      "guaranteeSub": "Guarantee",
-      "packagingSub": "Packaging",
+      "guaranteeReference": "Guarantee Reference",
+      "guarantee": "Guarantee",
+      "packaging": "Packaging",
       "previousDocument": "Previous Document",
-      "supportingDocumentSub": "Supporting Document",
-      "transportDocumentSub": "Transport Document",
+      "supportingDocument": "Supporting Document",
+      "transportDocument": "Transport Document",
       "guaranteesUnderRegistration": "Guarantees Under Registration",
-      "deleteHouseConsignmentItem": "Item",
+      "item": "Item",
       "saveDrafts": "Saved Drafts",
       "viewRecoveries": "View Recoveries",
       "home": "Home",
@@ -255,7 +257,7 @@
       "releaseAMovement": "Release a Movement",
       "view": "View",
       "clearAll": "Clear all",
-      "NoRisk": "No risk",
+      "noRisk": "No risk",
       "addCusOff": "Addressed customs office",
       "additionalSupplyChainActor": "Additional supply chain actor",
       "at": "at",
@@ -387,7 +389,8 @@
       "declarationAcceptanceDate": "Declaration acceptance date",
       "requestedCustomsOffice": "Requested customs office",
       "new": "New",
-      "Refused": "Refused",
+      "approved": "Approved",
+      "refused": "Refused",
       "category": "Category",
       "remark": "Remark",
       "requestForInvalidation": "Request for invalidation",
@@ -413,7 +416,6 @@
       "approve": "Approve",
       "invalidationReason": "Invalidation reason",
       "requestedOn": "Requested on",
-      "login": "Login",
       "controlResult": "Control Result",
       "unloadingRemarks": "Unloading Remarks",
       "recommendRecovery": "Manual Decision for Recovery",
@@ -462,6 +464,7 @@
       "departureTransportMean(s)": "Departure transport mean(s)",
       "involvedCountries": "Involved countries",
       "limitDate": "Limit date",
+      "simplifiedProcedure": "Simplified procedure",
       "presentationOfTheGoodsDateAndTime": "Presentation of the goods date and time (Declared)",
       "presentationOfTheGoodsDateAndTimeActual": "Presentation of the goods date and time (Actual)",
       "incidentFlag": "Incident flag",
@@ -573,12 +576,11 @@
       "notOk": "Not OK",
       "selected": "selected",
       "currentSituation": "Current situation",
-      "CustomsOfficeOfRecovery": "Customs Office of Recovery",
+      "customsOfficeOfRecovery": "Customs Office of Recovery",
       "customsOfficeOfRecoveryAtDeparture": "Customs Office of Recovery at Departure",
       "recoveryNotificationDate": "Recovery notification date",
       "amountClaimed": "Amount Claimed",
       "recoveryNotificationText": "Recovery notification text",
-      "CompleteRecovery": "Complete Recovery",
       "collectionDate": "Collection date",
       "consigneeId": "Consignee ID",
       "consigneeName": "Consignee name",
@@ -713,7 +715,6 @@
       "limitForEnquiryResponse": "Limit for the enquiry response",
       "requestEnquiry": "Request Enquiry",
       "document(s)": "Document(s)",
-      "confirmIE140": "Confirm (IE140)",
       "enquiryDeliveryDate": "Enquiry delivery date",
       "enquiryText": "Enquiry text",
       "ie142Sent": "Enquiry request (IE142) sent",
@@ -757,6 +758,7 @@
       "receivedEnquiryRequested": "Received enquiry requested",
       "noData": "No data",
       "noDataForFilter": "No data for filter",
+      "customsOfficeOfExitForTransit(actual)": "Customs office of exit for transit (Actual)",
       "communicationLanguageAtDestination": "Communication language at destination",
       "header": "Session expired",
       "revertToOriginal": "Revert to originally declared value",
@@ -769,22 +771,13 @@
       "noSeals": "No seals"
     },
     "actions": {
-      "add": {
-        "bindingItinerary": "Add Binding Itinerary",
-        "authorisation": "Add authorization",
-        "endorsement": "Add endorsement",
-        "seal": "Add seal",
-        "goodsItem": "Add goods item",
-        "discrepancyResolution": "Add discrepancy resolution",
-        "houseConsignment": "Add house consignment"
-      },
+      "bindingItinerary": "Add Binding Itinerary",
       "registerArrivalNotificationIE007": "Register Arrival Notification (IE007)",
       "registerIncidentNotificationIE180": "Register Incident Notification (IE180)",
       "registerNCF": "Register NCF",
       "refuseFrontierCrossing": "Refuse frontier-crossing",
       "stopMovement": "Stop movement",
       "submitIE015": "Submit (IE015)",
-      "simplifiedProcedure": "Simplified procedure",
       "delete": {
         "houseConsignmentConfirm": "Are you sure you want to delete this house consignment?",
         "consignmentItemConfirm": "Are you sure you want to delete this consignment item?",
@@ -817,6 +810,14 @@
       "refineSearch": "Refine Search",
       "recoveryNotificationIE035": "Recovery notification (IE035)",
       "registerSatisfactoryControlResultIE017": "Register Satisfactory Control Results (IE017-A1)",
+      "add": {
+        "authorisation": "Add authorization",
+        "endorsement": "Add endorsement",
+        "seal": "Add seal",
+        "goodsItem": "Add goods item",
+        "houseConsignment": "Add house consignment"
+      },
+      "discrepancyResolution": "Add discrepancy resolution",
       "refuseGuaranteeReferences": "Refuse guarantee reference(s)",
       "invalidateIE009": "Invalidate (IE009)",
       "refuseInvalidationRequests": "Refuse invalidation request(s)",
@@ -833,6 +834,7 @@
       "refuseOption": "Refuse release request",
       "requestForDocumentsIE060": "Request for Documents (IE060)",
       "requestForDocuments": "Request for documents",
+      "confirmIE140": "Confirm (IE140)",
       "respondToRequestOnNonArrivedMovementIE141": "Respond to Non-Arrived Movement (IE141)",
       "submitIE143": "Submit (IE143)",
       "startEnquiry": "Start enquiry",
@@ -865,6 +867,7 @@
       "sendAnticipatedTransitRequestICaptions": "This movement is not known. Would you like to send the IE114?",
       "decideOnMovementCrossingFrontier": "Decide on Movement Crossing Frontier",
       "bindingItineraryCaption": "Please introduce the binding itinerary in a chronological order, including all countries of routing of consignment starting from the country of departure until the country of destination.",
+      "completeRecovery": "Complete Recovery",
       "navigationUnSavedChangesCaption": "The changes you made will be lost if you navigate away from this page. Are you sure you want to leave this page?",
       "reviewAndConfirmSubmission": "Review and confirm submission",
       "unsavedChanges": "Unsaved changes",
@@ -891,8 +894,8 @@
       "statusRequestCaption": "Please select the customs office(s) to whom you want to send the status request(s)."
     },
     "steps": {
-      "step1Parties": "Step 1: Parties",
       "step2Parties": "Step 2: Parties",
+      "step1Parties": "Step 1: Parties",
       "step3Parties": "Step 3: Parties",
       "step1GeneralInformation": "Step 1: General information",
       "step2GeneralInformation": "Step 2: General information",
@@ -910,6 +913,10 @@
       "transitParties": "Transit Information - Parties",
       "consignmentGeneralInformation": "Consignment Information - General Information",
       "consignmentParties": "Consignment Information - Parties"
+    },
+    "login": {
+      "login": "Login",
+      "sessionExpired": "Your session has expired. Please login again."
     },
     "tooltips": {
       "crn": "Customs Registration Number used as alternative identifier for the transit declaration",
@@ -948,6 +955,9 @@
       "transportEquipment": "Marks (letters and/or numbers) which identify the container For modes of transport other than air, a container is a special box to carry freight, strengthened and stackable and allowing horizontal or vertical transfers.In the air mode, containers are special boxes to carry freight, strengthened and allowing horizontal or vertical transfers.In the context of this data element, the swap bodies and semi-trailers used for road and rail transport shall be considered as containers.If applicable, for containers covered by the standard ISO 6346, the identifier (prefix) allocated by the International Bureau of Containers and Intermodal Transport (BIC) shall also be provided in addition to the container identification number.For swap bodies and semi-trailers the ILU (Intermodal Loading Units) code as introduced by the European EN 13044 standard shall be used.",
       "un/locode": "Enter the location code where the goods are available which is mentioned in your authorsation authorised consignee or approved place.",
       "weight": "The gross mass is the weight of goods including packaging, but excluding the carrier's equipment for the declaration. Where a gross mass greater than 1 kg includes a fraction of a unit (kg), it may be rounded off in the following manner:— from 0,001 to 0,499: rounding down to the nearest kg, — from 0,5 to 0,999: rounding up to the nearest kg. A gross mass of less than 1 kg should be entered as '0,' followed by a number of decimals up to 6, discarding all '0' at the end of the quantity (e.g. 0,123 for a package of 123 grams, 0,00304 for a package of 3 grams and 40 milligrams or. 0,000654 for a package of 654 milligrams). Enter the gross mass, expressed in kilograms, of the goods concerned by the relevant item of goods. Where the declaration comprises several goods items, which concern goods that are packed together in such a way that it is impossible to determine the gross mass of the goods pertaining to any goods item, the total gross mass needs only to be entered on header level.",
+      "controlResultsTooltipCaption": "Indicate the overall type used to control this declaration.",
+      "controlTypePhysical": "Physical: Select this if at least one item underwent physical inspection (or any other type different from documentary checks).",
+      "controlTypeDocumentary": "Documentary: Select this only if all checks were strictly limited to documentary checks.",
       "cusCode": "The Customs Union and Statistics (CUS) number is the identifier assigned within the European Customs Inventory of Chemical Substances (ECICS) to mainly chemical substances and preparations.The declarant may provide this code on a voluntary basis where no measure laid down in Union legislation as published in TARIC exists for the goods concerned, i.e. where providing this code would represent a lesser burden than a full textual description of the product",
       "dangerousGoods": "The United Nations Dangerous Goods identifier (UNDG) is the serial number assigned within the United Nations to substances and articles contained in a list of the dangerous goods most commonly carried.",
       "goodsItemNumber": "Number of the item contained in the declaration, the summary declaration, notification or proof of the customs status of Union goods, where there is more than one item of goods.",
@@ -983,18 +993,12 @@
     "submitting": {
       "controlResults": "Submitting control results...",
       "controlResultsValidating": "The submitted control results are currently being validated. This may take a few moments.",
-      "validationTimeoutDialog": {
-        "description": "Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later."
-      },
       "declaration": "Submitting the declaration...",
       "validatingTakingLong": "Still validating the declaration - this is taking longer than expected - please wait",
       "unloadingRemarks": "Submitting unloading remarks..."
     }
   },
   "controlResults": {
-    "tooltipDesc": "Indicate the overall type used to control this declaration.",
-    "tooltipPhys": "Physical: Select this if at least one item underwent physical inspection (or any other type different from documentary checks).",
-    "tooltipDoc": "Documentary: Select this only if all checks were strictly limited to documentary checks.",
     "satisfactoryWarning": "By setting the control results as satisfactory, the previously indicated discrepancies will be deleted. Do you want to proceed with this actions?",
     "cancelWarning": "Canceling the registration will permanently delete the control result an all associated date. Do you want to proceed?",
     "errors": {
@@ -1006,6 +1010,9 @@
     "unloadingRemarkBanner": "Non-conform unloading remarks have been received for this declaration. Ensure that the trader at destination’s findings are reviewed before submitting the control results."
   },
   "declarationOverview": {
+    "validationTimeoutDialog": {
+      "description": "Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later."
+    },
     "unforeseenProblem": {
       "title": "Validation request could not be processed"
     }
@@ -1080,20 +1087,8 @@
   "saveAsTemplateDialog": {
     "message": "A file with the same name already exists in the tab Templates. Replacing it will overwrite its current content."
   },
-  "savedDrafts": {
-    "noDrafts": "No drafts. Save a declaration as a draft and it will show up here."
-  },
-  "savedTemplates": {
-    "noTemplates": "No Templates. Save a declaration as a template and it will show up here."
-  },
   "startEnquiryEarly": {
     "errorMessage": "The transit declaration is not in the correct state to perform the action"
-  },
-  "statusRequest": {
-    "customsOfficeOfExitForTransitActual": "Customs office of exit for transit (Actual)"
-  },
-  "sessionExpiredDialog": {
-    "description": "Your session has expired. Please login again."
   },
   "unloadingRemark": {
     "conformWarning": "By indicating the Unloading is conform, the previously indicated discrepancies will be deleted. Do you want to proceed with this action?",
