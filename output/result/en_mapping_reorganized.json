@@ -1702,7 +1702,7 @@
   {
     "value": "Departure",
     "count": 1,
-    "mapKeyTo": "i18n.common.dep",
+    "mapKeyTo": "i18n.common.departure",
     "mapValueTo": "Departure",
     "keys": [
       {

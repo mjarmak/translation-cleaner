@@ -220,10 +220,10 @@ Applies mapping to all `.ts`, `.js`, `.tsx`, `.jsx`, `.html`, `.htm`, `.feature`
 To prepend prefixes to all keys being searched, use the `--prefix` option with comma-separated values:
 
 #### Playwright
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/result/en_mapping_reorganized.json --prefix "label-,input-,mat-select-,textarea-"`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/tests ./output/result/en_mapping_reorganized.json --prefix label-,input-,mat-select-,textarea-`
 
 #### Cypress
-`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/result/en_mapping_reorganized.json --prefix "label-,input-,mat-select-,textarea-"`
+`python ./scripts/apply_mapping_project.py C:/Users/mjarmaka/Code/projects/gitlab/nctsp5-ui-dev/cypress ./output/result/en_mapping_reorganized.json --prefix label-,input-,mat-select-,textarea-`
 
 ## 5. find unused translation keys:
 **Files:** `MAPPING_JSON` + `PROJECT_SRC` → `UNUSED_MAPPED_KEYS_LIST`
@@ -354,9 +354,14 @@ The script recursively sorts keys in nested objects while preserving the complet
 
 Validates that all keys in a remapped JSON file exist in the mapping file's `mapKeyTo` values. This ensures that the remapping was applied correctly and no orphaned or invalid keys are present in the output.
 
+Supports both JSON object format (nested dictionaries) and JSON array format (lists of objects).
+
+**Ignored Keys:** Keys in the `i18n.*` namespace are automatically ignored during validation (e.g., `i18n`, `i18n.actions`, `i18n.common`, `i18n.discrepancies`, etc.).
+
 The validator checks:
-1. ✅ All keys in the remapped JSON file exist in the mapping's `mapKeyTo` values
+1. ✅ All non-i18n keys in the remapped JSON file exist in the mapping's `mapKeyTo` values
 2. ✅ No orphaned keys that were not part of the original mapping
+3. ✅ Works with both JSON objects and JSON arrays
 
 **Validate remapped unflat JSON files:**
 
