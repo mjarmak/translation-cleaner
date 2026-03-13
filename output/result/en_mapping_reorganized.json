@@ -7234,7 +7234,7 @@
   {
     "value": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
     "count": 3,
-    "mapKeyTo": "i18n.common.unforeseenProblemDescription",
+    "mapKeyTo": "i18n.errors.unforeseenProblemDescription",
     "mapValueTo": "Due to an unforeseen problem with the validation service your request could not be processed. Please try again later.",
     "keys": [
       {
@@ -10402,7 +10402,7 @@
   {
     "value": "Release Movement could not be preformed",
     "count": 1,
-    "mapKeyTo": "releaseMovement.unforeseenProblem.title",
+    "mapKeyTo": "i18n.errors.releaseMovementCouldNotBePreformed",
     "mapValueTo": "Release Movement could not be preformed",
     "keys": [
       {
@@ -11766,7 +11766,7 @@
   {
     "value": "Unforeseen problem",
     "count": 1,
-    "mapKeyTo": "i18n.common.unforeseenProblem",
+    "mapKeyTo": "i18n.errors.unforeseenProblem",
     "mapValueTo": "Unforeseen problem",
     "keys": [
       {
@@ -11886,7 +11886,7 @@
   {
     "value": "Validation request could not be processed",
     "count": 1,
-    "mapKeyTo": "declarationOverview.unforeseenProblem.title",
+    "mapKeyTo": "i18n.errors.validationCouldNotBeProcessed",
     "mapValueTo": "Validation request could not be processed",
     "keys": [
       {
