@@ -53,7 +53,17 @@
       "TO_DO": "To-do",
       "APPROVED": "Approved",
       "NO_DECISION": "No decision",
-      "MOVEMENT_CONTINUED": "Movement continued"
+      "MOVEMENT_CONTINUED": "Movement continued",
+      "description": {
+        "controlResult_2512": "Discrepancies - opposition from Holder of the Transit Procedure, decision pending on release movement",
+        "controlResult_2513": "Discrepancies - opposition from Holder of the Transit Procedure, decided not to release movement",
+        "controlResult_2514": "Discrepancies - no feedback from Holder of the Transit Procedure, decided not to release movement",
+        "controlResult_2515": "Discrepancies - no opposition from Holder of the Transit Procedure",
+        "controlResult_2516": "Discrepancies - opposition from Holder of the Transit Procedure, decided to continue movement",
+        "controlResult_2517": "Discrepancies - no feedback from Holder of the Transit Procedure, decided to continue movement",
+        "controlResult_2518": "Major discrepancies found, movement not released",
+        "controlResult_2519": "Simplified procedure - no control performed"
+      }
     },
     "options": {
       "timerExpired": "Timer Expired",
@@ -183,6 +193,22 @@
         "templates": "No Templates. Save a declaration as a template and it will show up here."
       },
       "errorTirCarnet": "Please enter a valid tir carnet.",
+      "failToDelete": {
+        "controlResult": "Failed to delete the control result",
+        "unloadingRemark": "Failed to delete the unloading remarks"
+      },
+      "failToLoad": {
+        "controlResult": "Failed to load the control result",
+        "unloadingRemark": "Failed to load the unloading remarks"
+      },
+      "failToSave": {
+        "controlResult": "Failed to save the control result",
+        "unloadingRemark": "Failed to save the unloading remarks"
+      },
+      "failToSubmit": {
+        "controlResult": "Failed to submit the control result",
+        "unloadingRemark": "Failed to submit the unloading remarks"
+      },
       "validationErrorsFoundWithNbr": "The transit declaration could not be submitted because {{number}} errors were found. Kindly check, rectify and resubmit again. Errors will only be rectified after the resubmission of the transit declaration. ",
       "errorRectificationDescription": "Errors will only be rectified after the resubmission of the form.",
       "errorsFoundWithNumberAndResubmit": "{{number}} errors found. Kindly check, rectify and resubmit.",
@@ -869,6 +895,18 @@
       "bindingItineraryCaption": "Please introduce the binding itinerary in a chronological order, including all countries of routing of consignment starting from the country of departure until the country of destination.",
       "completeRecovery": "Complete Recovery",
       "navigationUnSavedChangesCaption": "The changes you made will be lost if you navigate away from this page. Are you sure you want to leave this page?",
+      "warnings": {
+        "satisfactoryWarning": {
+          "controlResult": "By setting the control results as satisfactory, the previously indicated discrepancies will be deleted. Do you want to proceed with this actions?"
+        },
+        "cancel": {
+          "controlResults": "Canceling the registration will permanently delete the control result an all associated date. Do you want to proceed?",
+          "unloadingRemark": "Canceling the registration will permanently delete the unloading remarks and all associated data. Do you want to proceed?"
+        },
+        "conformWarning": {
+          "unloadingRemark": "By indicating the Unloading is conform, the previously indicated discrepancies will be deleted. Do you want to proceed with this action?"
+        }
+      },
       "reviewAndConfirmSubmission": "Review and confirm submission",
       "unsavedChanges": "Unsaved changes",
       "unableToSaveDialog": "Unable to save",
@@ -993,21 +1031,13 @@
     "submitting": {
       "controlResults": "Submitting control results...",
       "controlResultsValidating": "The submitted control results are currently being validated. This may take a few moments.",
-      "validationTimeoutDialog": "Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later.",
+      "declarationValidationTimeoutDialog": "Currently we are not able to submit the declaration. Your declaration is saved as draft. Please try again later.",
       "declaration": "Submitting the declaration...",
       "validatingTakingLong": "Still validating the declaration - this is taking longer than expected - please wait",
       "unloadingRemarks": "Submitting unloading remarks..."
     }
   },
   "controlResults": {
-    "satisfactoryWarning": "By setting the control results as satisfactory, the previously indicated discrepancies will be deleted. Do you want to proceed with this actions?",
-    "cancelWarning": "Canceling the registration will permanently delete the control result an all associated date. Do you want to proceed?",
-    "errors": {
-      "failToDeleteControlResult": "Failed to delete the control result",
-      "failToLoadControlResult": "Failed to load the control result",
-      "failToSaveControlResult": "Failed to save the control result",
-      "failToSubmitControlResult": "Failed to submit the control result"
-    },
     "unloadingRemarkBanner": "Non-conform unloading remarks have been received for this declaration. Ensure that the trader at destination’s findings are reviewed before submitting the control results."
   },
   "declarationOverview": {
@@ -1070,32 +1100,10 @@
       "title": "Release Movement could not be preformed"
     }
   },
-  "riskAndControlInformation": {
-    "resultDescription": {
-      "2512": "Discrepancies - opposition from Holder of the Transit Procedure, decision pending on release movement",
-      "2513": "Discrepancies - opposition from Holder of the Transit Procedure, decided not to release movement",
-      "2514": "Discrepancies - no feedback from Holder of the Transit Procedure, decided not to release movement",
-      "2515": "Discrepancies - no opposition from Holder of the Transit Procedure",
-      "2516": "Discrepancies - opposition from Holder of the Transit Procedure, decided to continue movement",
-      "2517": "Discrepancies - no feedback from Holder of the Transit Procedure, decided to continue movement",
-      "2518": "Major discrepancies found, movement not released",
-      "2519": "Simplified procedure - no control performed"
-    }
-  },
   "saveAsTemplateDialog": {
     "message": "A file with the same name already exists in the tab Templates. Replacing it will overwrite its current content."
   },
   "startEnquiryEarly": {
     "errorMessage": "The transit declaration is not in the correct state to perform the action"
-  },
-  "unloadingRemark": {
-    "conformWarning": "By indicating the Unloading is conform, the previously indicated discrepancies will be deleted. Do you want to proceed with this action?",
-    "cancelWarning": "Canceling the registration will permanently delete the unloading remarks and all associated data. Do you want to proceed?",
-    "errors": {
-      "failToDelete": "Failed to delete the unloading remarks",
-      "failToLoad": "Failed to load the unloading remarks",
-      "failToSave": "Failed to save the unloading remarks",
-      "failToSubmit": "Failed to submit the unloading remarks"
-    }
   }
 }
